@@ -27,13 +27,4 @@
   urldate      = {2020-12-31},
 }
 
-@Online{Anderson2020,
-  author       = {Kristi Anderson},
-  date         = {2020-01-17},
-  title        = {2019 Open Source Database Report},
-  url          = {https://dzone.com/articles/2019-open-source-database-report-top-databases-pub},
-  organization = {DZone},
-  urldate      = {2020-12-31},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}

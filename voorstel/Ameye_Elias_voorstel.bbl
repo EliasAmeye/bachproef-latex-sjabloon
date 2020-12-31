@@ -1,0 +1,180 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Anderson2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c61385083ce7fc6c2b5bb25ba59f3768}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Kristi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {DZone}%
+      }
+      \strng{namehash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \strng{fullhash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \strng{bibnamehash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \strng{authorbibnamehash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \strng{authornamehash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \strng{authorfullhash}{c61385083ce7fc6c2b5bb25ba59f3768}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{1}
+      \field{title}{2019 Open Source Database Report}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dzone.com/articles/2019-open-source-database-report-top-databases-pub
+      \endverb
+      \verb{url}
+      \verb https://dzone.com/articles/2019-open-source-database-report-top-databases-pub
+      \endverb
+    \endentry
+    \entry{BDQ}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0762104a78c2a0f89e17f010a0f6c656}{%
+           family={Bermingham},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EE}%
+      }
+      \list{organization}{1}{%
+        {Big Data Quarterly (BDQ)}%
+      }
+      \strng{namehash}{0762104a78c2a0f89e17f010a0f6c656}
+      \strng{fullhash}{0762104a78c2a0f89e17f010a0f6c656}
+      \strng{bibnamehash}{0762104a78c2a0f89e17f010a0f6c656}
+      \strng{authorbibnamehash}{0762104a78c2a0f89e17f010a0f6c656}
+      \strng{authornamehash}{0762104a78c2a0f89e17f010a0f6c656}
+      \strng{authorfullhash}{0762104a78c2a0f89e17f010a0f6c656}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{5}
+      \field{title}{Clustering for SQL Server High Availability}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dbta.com/BigDataQuarterly/Articles/Clustering-for-SQL-Server-High-Availability-131639.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.dbta.com/BigDataQuarterly/Articles/Clustering-for-SQL-Server-High-Availability-131639.aspx
+      \endverb
+    \endentry
+    \entry{IBM1}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {International Business Machines Corporation (IBM)}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{High availability for databases}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/support/knowledgecenter/SSANHD_7.6.1.2/com.ibm.mbs.doc/gp_highavail/c_ctr_ha_for_databases.html
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/support/knowledgecenter/SSANHD_7.6.1.2/com.ibm.mbs.doc/gp_highavail/c_ctr_ha_for_databases.html
+      \endverb
+    \endentry
+    \entry{PostgreSQL2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=399bd1ee587245ecac6f39beaa99886f}{%
+           family={PostgreSQL},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {PostgreSQL}%
+      }
+      \strng{namehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{fullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{bibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorbibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authornamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorfullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{31}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

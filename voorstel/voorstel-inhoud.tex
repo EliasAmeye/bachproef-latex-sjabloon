@@ -2,25 +2,29 @@
 
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
+Database high availability (HA) staat voor de garantie van het behouden van gegevens in geval er zich een defect of storing voordoet aan de databank (SQL) server. Een storing aan een databank (SQL) server kan te wijten zijn aan verschillende factoren. Het verlies van netwerkconnectie kan leiden tot het falen van een server, maar ook een defect in de software of hardware kan ernstige gevolgen hebben voor dataverlies. Ook omgevingsfactoren zoals temperatuur moeten ook in rekening genomen worden. En een menselijke vergissing kan altijd gebeuren. Investeren in high availability geeft meer zekerheid voor data en biedt verschillende mogelijkheden voor failover en systeembescherming \autocite{IBM1}. Met behulp van clusters kan er een actieve en één of meerdere standby instanties van de databank (SQL) server zijn. Deze standby instanties zullen dezelfde gegevens bevatten als de actieve server~\autocite{BDQ}. Wanneer dan op één locatie een server uitvalt, kan een standby instantie van de databank (SQL) server inspringen waardoor dataverlies en server downtime gereduceerd worden.
 
-Hier introduceer je werk. Je hoeft hier nog niet te technisch te gaan.
+Als proof-of-concept wordt er in dit onderzoek een PostgresSQL (pgSQL) cluster opgezet. PostgreSQL is een open-source, object-relationeel databank systeem~\autocite{PostgreSQL2020}. Bij Inuits, een Belgisch open-source bedrijf met verschillende vestigingen in Europa, merken ze een stijging in de vraag naar het PostgreSQL verhaal. Deze cluster wordt volledig geautomatiseerd en zal reproduceerbaar zijn, dit aan de hand van Puppet, een configuration management tool. Aan de hand van deze cluster zal dan getoond worden hoe database high availability (HA) in werking treedt.
 
-Je beschrijft zeker:
 
-\begin{itemize}
-  \item de probleemstelling en context
-  \item de motivatie en relevantie voor het onderzoek
-  \item de doelstelling en onderzoeksvraag/-vragen
-\end{itemize}
+%\begin{itemize}
+%  \item de probleemstelling en context
+%  \item de motivatie en relevantie voor het onderzoek
+%  \item de doelstelling en onderzoeksvraag/-vragen
+%\end{itemize}
 
 %---------- Stand van zaken ---------------------------------------------------
 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
+Over database high availability (HA) is er veel informatie te vinden. Een Google search naar "database high availability" levert in minder dan één seconde 733.000.000 resultaten op. Wanneer ik hier "open source" aan toevoeg, zijn er nog steeds 433.000.000 resultaten beschikbaar.
+Er zijn verschillende studies te vinden over high availability bij MySQL.
+De top drie open-source databanken van 2019 zijn, in volgorde van top 3, MySQL met 31.7\%, PostgreSQL met 13.4\% en MongoDB met 12.2\% \autocite{Anderson2020} van het totaal aantal open-source databank gebruikers.
+Er zijn ook heel veel fora die antwoorden bieden op vragen van personen omtrent database high availability (HA), open-source en SQL servers.
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
+%Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
 
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.
+%Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.~\autocite{Smits2011}
 
 % Voor literatuurverwijzingen zijn er twee belangrijke commando's:
 % \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
@@ -29,23 +33,33 @@ Verwijs bij elke introductie van een term of bewering over het domein naar de va
 %   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
 %   ...'')
 
-Je mag gerust gebruik maken van subsecties in dit onderdeel.
+%Je mag gerust gebruik maken van subsecties in dit onderdeel.
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
+In de eerste fase van het onderzoek zal er een vergelijkende studie gebeuren over de huidige, anno 2020, database high availability (HA) tooling. Deze verschillende tools/oplossingen zullen dan met elkaar vergeleken worden. In de tweede fase van het onderzoek wordt de focus gelegd op het opzetten van de PostgreSQL (pgSQL) cluster. Deze zal vooraf gegaan worden door een voorbereidende studie over PostgreSQL (pgSQL). Aan de hand hiervan zal er gewerkt worden aan het opbouwen van de PostgreSQL (pgSQL) cluster. Vooraleer dit geautomatiseerd wordt, zal de opbouw manueel verlopen. Wanneer deze manueel een succes is, zal er gewerkt worden aan de automatisatie van de PostgreSQL (pgSQL) cluster. De opbouw zal gebeuren via virtuele machines (VirtualBox) waarop Linux-distributies staan. In het onderzoek wordt Ubuntu gebruikt. Deze keuze kan wijzigen naargelang het verloop van het onderzoek. De opbouw zal telkens grondig gedocumenteerd worden. Alle commando's zullen overlopen worden. Hierna zal er een inleidende studie zijn over Puppet. Hierna zal er via Puppet gewerkt worden om deze PostgreSQL (pgSQL) cluster te reproduceren. Ook hier zal alles grondig gedocumenteerd worden.
+Na het opzetten van de PostgreSQL (pgSQL) cluster zullen er verschillende experimenten zijn die de high availability (HA) zullen testen.
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+
+
+
+%Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
+Uit het onderzoek zal duidelijk blijken dat database high availability (HA) tooling mogelijk is binnen een PostgreSQL (pgSQL) cluster. Wanneer de PostgreSQL server zal uitvallen, zal er een standby instantie van de PostgreSQL (pgSQL) het werk van de actieve server overnemen. Hierdoor zal er geen downtime of dataverlies zijn. De data zal beschikbaar blijven en blijft onverstoord.
 
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+De PostgreSQL (pgSQL) cluster zal ook geautomatiseerd en reproduceerbaar zijn. Hierdoor zal het opzetten van deze cluster in een nieuwe omgeving niet veel tijd en moeite kosten.
+
+%Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
+Uit het onderzoek zal blijken dat database high availability (HA) een blijvend topic is waar voldoende aandacht aan besteedt moet worden. In kleine bedrijven hoeft high availability (HA) geen al te grote prioriteit te hebben, maar naarmate een bedrijf groeit, zal high availability (HA) steeds belangrijker worden. Een storing of downtime van de databank (SQL) server kan grote gevolgen hebben voor bedrijven. Gevolgen zoals verlies van vertrouwen bij klanten, verlies van inkomen, verlies van informatie.
 
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+Uit dit onderzoek zal ook blijken dat PostgreSQL (pgSQL) een volwaardig alternatief is van MySQL bij het opzetten van clusters.
 
+%Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
