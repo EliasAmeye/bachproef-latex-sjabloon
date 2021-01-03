@@ -17,10 +17,23 @@ Als proof-of-concept wordt er in dit onderzoek een PostgresSQL (pgSQL) cluster o
 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
-Over database high availability (HA) is er veel informatie te vinden. Een Google search naar "database high availability" levert in minder dan één seconde 733.000.000 resultaten op. Wanneer ik hier "open source" aan toevoeg, zijn er nog steeds 433.000.000 resultaten beschikbaar.
-Er zijn verschillende studies te vinden over high availability bij MySQL.
+Over database high availability (HA) is er veel informatie te vinden. Een Google search naar "database high availability" levert in minder dan één seconde 733.000.000 resultaten op. Wanneer ik hier "open source" aan toevoeg, zijn er nog steeds 433.000.000 resultaten beschikbaar. Over database high availability zijn er dus veel artikels beschikbaar die nuttig kunnen zijn voor dit onderzoek. Er zijn ook heel veel fora die antwoorden bieden op vragen van personen omtrent database high availability (HA), open-source en SQL servers.
+
+
+Over high availability (HA) zijn er voldoende artikels, blogs... Eén artikel spreekt over high availability clustering en hoe dit kan aangepakt worden. Het bespreekt de cluster architectuur en wat de best practice is voor high availability binnen een cluster. De conclusie die hier getrokken wordt is dat het primaire doel van een high availability (HA) systeem is om te voorkomen en elimineren van alle single points of failure. Deze moeten beschikken over meerdere geteste actieplannen. Dit zodat ze in geval van storing, verstoring en defect in dienstverlening direct, gepast en onafhankelijk kunnen reageren. 
+Zorgvuldige planning + betrouwbare implementatiemethoden + stabiele softwareplatforms + degelijke hardware-infrastructuur + vlotte technische operaties + voorzichtige managementdoelstellingen + consistente databeveiliging + voorspelbare redundantiesystemen + robuuste back-upoplossingen + meerdere herstelopties = 100\% uptime \autocite{Singer2020}.
+In veel artikels zien we meer of mindere punten, maar het zijn wel vaak dezelfde die altijd terugkomen. In een ander artikel wordt een highly available (HA) infrastructuur gekenmerkt door: 1. Hardware redundantie; 2. Software en applicatie redundantie; 3. Gegevens redundantie; 4. Elimineren van storingspunten \autocite{Jevtic2018}.
+
+
+Er is een artikel die vier van de meest gebruikte database high availability (HA) tools/oplossingen oplijst en deze ook uitlegt. Deze vier zijn "PgPool-II", "PostgreSQL Automatic Failover (PAF)", "RepMgr [Replication Manager] ", en "Patroni" \autocite{Akhtar2020}. Dit artikel is zeker de moeite waard om door te nemen omdat in dit artikel eigenschappen van deze vier oplossingen vergeleken worden met elkaar. De website zelf biedt ook veel links aan naar gerelateerde artikels over PostgreSQL en high availability (HA). 
+MySQL zelf toont op hun website verschillende manieren van hoe zij high availability implementeren in een cluster \autocite{MySQL2021}. Deze info zal nuttig zijn voor in dit onderzoek. Via MySQL zal ik vergelijkingen kunnen maken en zal ik eventueel lijnen kunnen doortrekken naar PostgreSQL.
+
+
+
 De top drie open-source databanken van 2019 zijn, in volgorde van top 3, MySQL met 31.7\%, PostgreSQL met 13.4\% en MongoDB met 12.2\% \autocite{Anderson2020} van het totaal aantal open-source databank gebruikers.
-Er zijn ook heel veel fora die antwoorden bieden op vragen van personen omtrent database high availability (HA), open-source en SQL servers.
+
+
+Over het opzetten van een PostgreSQL (pgSQL) cluster zijn er ook veel artikels te vinden. In een bepaalde blog wordt er een high available (HA) PostgreSQL cluster \autocite{2019} opgezet aan de hand van Patroni op een Ubuntu Linux-distributie. Deze blog zal zeer interessant zijn voor dit onderzoek omdat er ook in getest wordt. Dit zal handig zijn om te kunnen vergelijken bij het opzetten en testen van de proof-of-concept .
 
 %Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
 
@@ -49,17 +62,21 @@ Na het opzetten van de PostgreSQL (pgSQL) cluster zullen er verschillende experi
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
-Uit het onderzoek zal duidelijk blijken dat database high availability (HA) tooling mogelijk is binnen een PostgreSQL (pgSQL) cluster. Wanneer de PostgreSQL server zal uitvallen, zal er een standby instantie van de PostgreSQL (pgSQL) het werk van de actieve server overnemen. Hierdoor zal er geen downtime of dataverlies zijn. De data zal beschikbaar blijven en blijft onverstoord.
+Uit het onderzoek zal duidelijk blijken dat database high availability (HA) tooling mogelijk is binnen een PostgreSQL (pgSQL) cluster. Dit zal gebeuren via virtuele machines. En Wanneer de virtuele machine met de PostgreSQL server op, uitval, zal er een standby instantie van de PostgreSQL (pgSQL) het werk van de actieve server overnemen. Hierdoor zal er geen downtime of dataverlies zijn. De data zal beschikbaar blijven en blijft onverstoord.
 
-De PostgreSQL (pgSQL) cluster zal ook geautomatiseerd en reproduceerbaar zijn. Hierdoor zal het opzetten van deze cluster in een nieuwe omgeving niet veel tijd en moeite kosten.
+Uit dit onderzoek zullen ook best practises blijken die geïmplementeerd kunnen worden om op die manier het risico op verlies van gegevens te verminderen. De kans om offline te zijn zullen lager liggen met een high available systeem.
+
+Via Puppet op een snelle, moeiteloze manier een high available (HA) PostgreSQL (pgSQL) cluster kunnen opzetten en configureren. Dit zal kunnen doordat de cluster geautomatiseerd en reproduceerbaar zal zijn.
+
 
 %Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
-Uit het onderzoek zal blijken dat database high availability (HA) een blijvend topic is waar voldoende aandacht aan besteedt moet worden. In kleine bedrijven hoeft high availability (HA) geen al te grote prioriteit te hebben, maar naarmate een bedrijf groeit, zal high availability (HA) steeds belangrijker worden. Een storing of downtime van de databank (SQL) server kan grote gevolgen hebben voor bedrijven. Gevolgen zoals verlies van vertrouwen bij klanten, verlies van inkomen, verlies van informatie.
+Uit het onderzoek zal blijken dat database high availability (HA) een blijvend topic is waar voldoende aandacht aan besteedt moet worden. In kleine bedrijven hoeft high availability (HA) geen al te grote prioriteit te hebben, maar naarmate een bedrijf groeit, zal high availability (HA) steeds belangrijker worden. Zonder de implementatie van een high available (HA) architectuur kan een storing of downtime van de databank (SQL) server  grote gevolgen hebben op een bedrijf/organisatie. Gevolgen zoals verlies van vertrouwen bij klanten, verlies van inkomen, verlies van informatie. Door middel van hardware-, software- en gegevensredundantie en het elimineren van mogelijke storingspunten gaan we high availability kunnen blijven garanderen.
+De kost en tijd die gïnvesteerd moet worden bij het onderhouden van een high available systeem zal lager liggen dan de kost en tijd die geïnvesteerd moet worden in geval van een downtime. 
 
-Uit dit onderzoek zal ook blijken dat PostgreSQL (pgSQL) een volwaardig alternatief is van MySQL bij het opzetten van clusters.
+Uit dit onderzoek zal ook blijken dat PostgreSQL (pgSQL) een volwaardig alternatief is van MySQL bij het opzetten van SQL clusters.
 
 %Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.

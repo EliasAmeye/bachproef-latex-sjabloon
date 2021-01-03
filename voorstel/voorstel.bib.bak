@@ -27,4 +27,47 @@
   urldate      = {2020-12-31},
 }
 
+@Online{Anderson2020,
+  author       = {Kristi Anderson},
+  date         = {2020-01-17},
+  title        = {2019 Open Source Database Report},
+  url          = {https://dzone.com/articles/2019-open-source-database-report-top-databases-pub},
+  organization = {DZone},
+  urldate      = {2020-12-31},
+}
+
+@Online{Akhtar2020,
+  author  = {Hamid Akhtar},
+  date    = {2020-08-10},
+  title   = {PostgreSQL High Availability: The Considerations and Candidates},
+  url     = {https://www.highgo.ca/2020/08/10/postgresql-high-availability-the-considerations-and-candidates/},
+  urldate = {2021-01-02},
+}
+
+@Online{MySQL2021,
+  author       = {MySQL},
+  date         = {2021},
+  title        = {MySQL Enterprise High Availability},
+  url          = {https://www.mysql.com/products/enterprise/high_availability.html},
+  organization = {MySQL},
+  urldate      = {2021-01-02},
+}
+
+@Online{2019,
+  date         = {2019-02-19},
+  title        = {How to Set Up a Highly Available PostgreSQL Cluster Using Patroni on Ubuntu 16.04},
+  url          = {https://www.alibabacloud.com/blog/how-to-set-up-a-highly-available-postgresql-cluster-using-patroni-on-ubuntu-16-04_594477},
+  organization = {Alibaba Cloud},
+  urldate      = {2021-01-02},
+}
+
+@Online{Singer2020,
+  author       = {David Singer},
+  date         = {2020-08-06},
+  title        = {What is High Availability? A Tutorial},
+  url          = {https://www.liquidweb.com/kb/what-is-high-availability-a-tutorial/},
+  organization = {Liquid Web},
+  urldate      = {2021-01-02},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

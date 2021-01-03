@@ -19,6 +19,44 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Akhtar2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6df1936734dcb76e75f8acb457f8cb9e}{%
+           family={Akhtar},
+           familyi={A\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \strng{fullhash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \strng{bibnamehash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \strng{authorbibnamehash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \strng{authornamehash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \strng{authorfullhash}{6df1936734dcb76e75f8acb457f8cb9e}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{8}
+      \field{title}{PostgreSQL High Availability: The Considerations and Candidates}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.highgo.ca/2020/08/10/postgresql-high-availability-the-considerations-and-candidates/
+      \endverb
+      \verb{url}
+      \verb https://www.highgo.ca/2020/08/10/postgresql-high-availability-the-considerations-and-candidates/
+      \endverb
+    \endentry
     \entry{Anderson2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c61385083ce7fc6c2b5bb25ba59f3768}{%
@@ -104,6 +142,31 @@
       \verb https://www.dbta.com/BigDataQuarterly/Articles/Clustering-for-SQL-Server-High-Availability-131639.aspx
       \endverb
     \endentry
+    \entry{2019}{online}{}
+      \list{organization}{1}{%
+        {Alibaba Cloud}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{2}
+      \field{title}{How to Set Up a Highly Available PostgreSQL Cluster Using Patroni on Ubuntu 16.04}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alibabacloud.com/blog/how-to-set-up-a-highly-available-postgresql-cluster-using-patroni-on-ubuntu-16-04_594477
+      \endverb
+      \verb{url}
+      \verb https://www.alibabacloud.com/blog/how-to-set-up-a-highly-available-postgresql-cluster-using-patroni-on-ubuntu-16-04_594477
+      \endverb
+    \endentry
     \entry{IBM1}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -140,6 +203,83 @@
       \verb https://www.ibm.com/support/knowledgecenter/SSANHD_7.6.1.2/com.ibm.mbs.doc/gp_highavail/c_ctr_ha_for_databases.html
       \endverb
     \endentry
+    \entry{Jevtic2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=335f94b893852511387e0081c02766e8}{%
+           family={Jevtic},
+           familyi={J\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {PhoenixNAP}%
+      }
+      \strng{namehash}{335f94b893852511387e0081c02766e8}
+      \strng{fullhash}{335f94b893852511387e0081c02766e8}
+      \strng{bibnamehash}{335f94b893852511387e0081c02766e8}
+      \strng{authorbibnamehash}{335f94b893852511387e0081c02766e8}
+      \strng{authornamehash}{335f94b893852511387e0081c02766e8}
+      \strng{authorfullhash}{335f94b893852511387e0081c02766e8}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{6}
+      \field{title}{What is High Availability Architecture? Why is it Important?}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://phoenixnap.com/blog/what-is-high-availability
+      \endverb
+      \verb{url}
+      \verb https://phoenixnap.com/blog/what-is-high-availability
+      \endverb
+    \endentry
+    \entry{MySQL2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {MySQL}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MySQL Enterprise High Availability}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mysql.com/products/enterprise/high_availability.html
+      \endverb
+      \verb{url}
+      \verb https://www.mysql.com/products/enterprise/high_availability.html
+      \endverb
+    \endentry
     \entry{PostgreSQL2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=399bd1ee587245ecac6f39beaa99886f}{%
@@ -172,6 +312,47 @@
       \endverb
       \verb{url}
       \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{Singer2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c5f32f30c77c86d9ede402b05aa26d7}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Liquid Web}%
+      }
+      \strng{namehash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \strng{fullhash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \strng{bibnamehash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \strng{authorbibnamehash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \strng{authornamehash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \strng{authorfullhash}{4c5f32f30c77c86d9ede402b05aa26d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{8}
+      \field{title}{What is High Availability? A Tutorial}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.liquidweb.com/kb/what-is-high-availability-a-tutorial/
+      \endverb
+      \verb{url}
+      \verb https://www.liquidweb.com/kb/what-is-high-availability-a-tutorial/
       \endverb
     \endentry
   \enddatalist
