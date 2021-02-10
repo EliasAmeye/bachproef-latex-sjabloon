@@ -2,7 +2,7 @@
 
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
-Database high availability (HA) staat voor de garantie van het behouden van gegevens in geval er zich een defect of storing voordoet aan de databank (SQL) server. Een storing aan een databank (SQL) server kan te wijten zijn aan verschillende factoren. Het verlies van netwerkconnectie kan leiden tot het falen van een server, maar ook een defect in de software of hardware kan ernstige gevolgen hebben voor dataverlies. Ook omgevingsfactoren zoals temperatuur moeten ook in rekening genomen worden. En een menselijke vergissing kan altijd gebeuren. Investeren in high availability geeft meer zekerheid voor data en biedt verschillende mogelijkheden voor failover en systeembescherming \autocite{IBM1}. Met behulp van clusters kan er een actieve en één of meerdere standby instanties van de databank (SQL) server zijn. Deze standby instanties zullen dezelfde gegevens bevatten als de actieve server~\autocite{BDQ}. Wanneer dan op één locatie een server uitvalt, kan een standby instantie van de databank (SQL) server inspringen waardoor dataverlies en server downtime gereduceerd worden.
+Database high availability (HA) staat voor de garantie van het behouden van gegevens in geval er zich een defect of storing voordoet aan de databank  server. Een storing aan een databank server kan te wijten zijn aan verschillende factoren. Voorbeelden hiervan zijn het verlies van netwerkconnectie en een defect in de software of hardware van de databankserver. Ook menselijke factoren en omgevingsfactoren moeten in rekening genomen worden. Voorbeelden hiervan zijn een menselijke vergissing en een wijziging in temperatuur. Investeren in high availability geeft meer zekerheid over de beschikbaarheid van data en biedt verschillende mogelijkheden voor failover en systeembescherming \autocite{IBM1}. Met behulp van clusters kan er één actieve en een of meerdere standby instanties van de databank server zijn. Een cluster is een groep van servers en computers die samenwerken met elkaar alsof het één systeem is. Deze standby instanties zullen, in het ideale geval, dezelfde gegevens bevatten als de actieve server~\autocite{BDQ}. Wanneer dan een actieve server faalt, kan een standby instantie inspringen waardoor dataverlies en server downtime gereduceerd worden.
 
 Als proof-of-concept wordt er in dit onderzoek een PostgresSQL (pgSQL) cluster opgezet. PostgreSQL is een open-source, object-relationeel databank systeem~\autocite{PostgreSQL2020}. Bij Inuits, een Belgisch open-source bedrijf met verschillende vestigingen in Europa, merken ze een stijging in de vraag naar het PostgreSQL verhaal. Deze cluster wordt volledig geautomatiseerd en zal reproduceerbaar zijn, dit aan de hand van Puppet, een configuration management tool. Aan de hand van deze cluster zal dan getoond worden hoe database high availability (HA) in werking treedt.
 
@@ -15,8 +15,8 @@ Als proof-of-concept wordt er in dit onderzoek een PostgresSQL (pgSQL) cluster o
 
 %---------- Stand van zaken ---------------------------------------------------
 
-\section{State-of-the-art}
-\label{sec:state-of-the-art}
+\section{State of the art}
+\label{sec:state of the art}
 Over database high availability (HA) is er veel informatie te vinden. Een Google search naar "database high availability" levert in minder dan één seconde 733.000.000 resultaten op. Wanneer ik hier "open source" aan toevoeg, zijn er nog steeds 433.000.000 resultaten beschikbaar. Over database high availability zijn er dus veel artikels beschikbaar die nuttig kunnen zijn voor dit onderzoek. Er zijn ook heel veel fora die antwoorden bieden op vragen van personen omtrent database high availability (HA), open-source en SQL servers.
 
 
@@ -51,7 +51,7 @@ Over het opzetten van een PostgreSQL (pgSQL) cluster zijn er ook veel artikels t
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
-In de eerste fase van het onderzoek zal er een vergelijkende studie gebeuren over de huidige, anno 2020, database high availability (HA) tooling. Deze verschillende tools/oplossingen zullen dan met elkaar vergeleken worden. In de tweede fase van het onderzoek wordt de focus gelegd op het opzetten van de PostgreSQL (pgSQL) cluster. Deze zal vooraf gegaan worden door een voorbereidende studie over PostgreSQL (pgSQL). Aan de hand hiervan zal er gewerkt worden aan het opbouwen van de PostgreSQL (pgSQL) cluster. Vooraleer dit geautomatiseerd wordt, zal de opbouw manueel verlopen. Wanneer deze manueel een succes is, zal er gewerkt worden aan de automatisatie van de PostgreSQL (pgSQL) cluster. De opbouw zal gebeuren via virtuele machines (VirtualBox) waarop Linux-distributies staan. In het onderzoek wordt Ubuntu gebruikt. Deze keuze kan wijzigen naargelang het verloop van het onderzoek. De opbouw zal telkens grondig gedocumenteerd worden. Alle commando's zullen overlopen worden. Hierna zal er een inleidende studie zijn over Puppet. Hierna zal er via Puppet gewerkt worden om deze PostgreSQL (pgSQL) cluster te reproduceren. Ook hier zal alles grondig gedocumenteerd worden.
+In de eerste fase van het onderzoek zal er een vergelijkende studie gebeuren over de huidige, anno 2020, database high availability (HA) tooling. Deze verschillende tools/oplossingen zullen dan met elkaar vergeleken worden. Hierbij wordt gekeken naar welke elementen er allemaal (meermaals) voorkomen. Hiervan komt er een lijst die gebruikt zal worden om te schiften tussen de verschillende oplossingen. Op deze manier zal er dan een oplossing gekozen worden.  In de tweede fase van het onderzoek wordt de focus gelegd op het opzetten van de PostgreSQL (pgSQL) cluster. Deze zal vooraf gegaan worden door een voorbereidende studie over PostgreSQL (pgSQL). Aan de hand hiervan zal er gewerkt worden aan het opbouwen van de PostgreSQL (pgSQL) cluster. Vooraleer dit geautomatiseerd wordt, zal de opbouw manueel verlopen. Wanneer deze manueel een succes is, zal er gewerkt worden aan de automatisatie van de PostgreSQL (pgSQL) cluster. De opbouw zal gebeuren via virtuele machines (VirtualBox) waarop Linux-distributies staan. In het onderzoek wordt Ubuntu gebruikt. Deze keuze kan wijzigen naargelang het verloop van het onderzoek. De opbouw zal telkens grondig gedocumenteerd worden. Alle commando's zullen overlopen worden. Hierna zal er een inleidende studie zijn over Puppet. Hierna zal er via Puppet gewerkt worden om deze PostgreSQL (pgSQL) cluster te reproduceren. Ook hier zal alles grondig gedocumenteerd worden.
 Na het opzetten van de PostgreSQL (pgSQL) cluster zullen er verschillende experimenten zijn die de high availability (HA) zullen testen.
 
 
@@ -62,11 +62,12 @@ Na het opzetten van de PostgreSQL (pgSQL) cluster zullen er verschillende experi
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
-Uit het onderzoek zal duidelijk blijken dat database high availability (HA) tooling mogelijk is binnen een PostgreSQL (pgSQL) cluster. Dit zal gebeuren via virtuele machines. En Wanneer de virtuele machine met de PostgreSQL server op, uitval, zal er een standby instantie van de PostgreSQL (pgSQL) het werk van de actieve server overnemen. Hierdoor zal er geen downtime of dataverlies zijn. De data zal beschikbaar blijven en blijft onverstoord.
+Uit het onderzoek zal duidelijk blijken dat verschillende database high availability (HA) tools mogelijk zijn binnen een PostgreSQL (pgSQL) cluster. De opbouw van deze cluster zal gebeuren aan de hand van virtuele machines. En wanneer de virtuele machine, waarop de PostgreSQL server staat, uitvalt, zal er een standby instantie van deze server het werk van de actieve, uitgevallen server overnemen. Hierdoor zal er geen downtime of dataverlies zijn. De data zal beschikbaar en onverstoord blijven.
 
-Uit dit onderzoek zullen ook best practises blijken die geïmplementeerd kunnen worden om op die manier het risico op verlies van gegevens te verminderen. De kans om offline te zijn zullen lager liggen met een high available systeem.
+Uit dit onderzoek zullen ook best practices volgen die gehanteerd kunnen worden om op die manier het risico op verlies van gegevens te verminderen. De kans om offline te zijn zal lager liggen met een high available systeem.
 
-Via Puppet op een snelle, moeiteloze manier een high available (HA) PostgreSQL (pgSQL) cluster kunnen opzetten en configureren. Dit zal kunnen doordat de cluster geautomatiseerd en reproduceerbaar zal zijn.
+Door gebruik te maken van Puppet zal de reproduceerbaarheid van de high available (HA) PostgreSQL (pgSQL) cluster zeer eenvoudig en snel zijn.
+%Via Puppet op een snelle, moeiteloze manier een high available (HA) PostgreSQL (pgSQL) cluster kunnen opzetten en configureren. Dit zal kunnen doordat de cluster geautomatiseerd en reproduceerbaar zal zijn.
 
 
 %Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
@@ -75,7 +76,7 @@ Via Puppet op een snelle, moeiteloze manier een high available (HA) PostgreSQL (
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
 Uit het onderzoek zal blijken dat database high availability (HA) een blijvend topic is waar voldoende aandacht aan besteedt moet worden. In kleine bedrijven hoeft high availability (HA) geen al te grote prioriteit te hebben, maar naarmate een bedrijf groeit, zal high availability (HA) steeds belangrijker worden. Zonder de implementatie van een high available (HA) architectuur kan een storing of downtime van de databank (SQL) server  grote gevolgen hebben op een bedrijf/organisatie. Gevolgen zoals verlies van vertrouwen bij klanten, verlies van inkomen, verlies van informatie. Door middel van hardware-, software- en gegevensredundantie en het elimineren van mogelijke storingspunten gaan we high availability kunnen blijven garanderen.
-De kost en tijd die gïnvesteerd moet worden bij het onderhouden van een high available systeem zal lager liggen dan de kost en tijd die geïnvesteerd moet worden in geval van een downtime. 
+De kost en tijd die gïnvesteerd moet worden in het onderhouden van een high available systeem zal lager liggen dan de kost en tijd die geïnvesteerd moet worden in geval van een downtime. 
 
 Uit dit onderzoek zal ook blijken dat PostgreSQL (pgSQL) een volwaardig alternatief is van MySQL bij het opzetten van SQL clusters.
 
