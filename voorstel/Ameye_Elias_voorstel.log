@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  12 FEB 2021 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  24 FEB 2021 21:53
 entering extended mode
 **./Ameye_Elias_voorstel.tex
 (Ameye_Elias_voorstel.tex
@@ -1044,8 +1044,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 ex.map}
 
 
-])
-<HOGENT_Logo_Pos_rgb.png, id=67, 3503.0875pt x 1975.38pt>
+]
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+)
+<HOGENT_Logo_Pos_rgb.png, id=65, 3503.0875pt x 1975.38pt>
 File: HOGENT_Logo_Pos_rgb.png Graphic file (type png)
 <use HOGENT_Logo_Pos_rgb.png>
 Package pdftex.def Info: HOGENT_Logo_Pos_rgb.png  used on input line 97.
@@ -1089,8 +1092,8 @@ Package logreq Info: Writing requests to 'Ameye_Elias_voorstel.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20981 strings out of 479696
- 365070 string characters out of 2867114
- 1346189 words of memory out of 3000000
+ 365067 string characters out of 2867114
+ 1345336 words of memory out of 3000000
  37427 multiletter control sequences out of 15000+200000
  464217 words of font info for 295 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1101,7 +1104,7 @@ Here is how much of TeX's memory you used:
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on Ameye_Elias_voorstel.pdf (3 pages, 172106 bytes).
+Output written on Ameye_Elias_voorstel.pdf (3 pages, 172697 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
