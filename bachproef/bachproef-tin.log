@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  23 MAR 2021 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  31 MAR 2021 00:37
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1608,7 +1608,7 @@ Underfull \vbox (badness 5133) has occurred while \output is active []
 (standvanzaken.tex [14]
 Hoofdstuk 2.
 
-Overfull \hbox (13.9115pt too wide) in paragraph at lines 20--22
+Overfull \hbox (13.9115pt too wide) in paragraph at lines 16--17
 \T1/ptm/m/n/12 (-20) vlak van be-trouw-baar-heid, ro-buust-heid van func-ties e
 n pres-ta-ties (https://www.postgresql.org/).
  []
@@ -1618,59 +1618,74 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15
 
-])
-(methodologie.tex [16]
+]
+Overfull \hbox (69.8243pt too wide) in paragraph at lines 24--25
+\T1/ptm/m/n/12 (-20) gres ste-vig ver-an-kerd is in de re-la-ti-o-nele da-ta-ba
+se we-reld (https://www.postgresql.org/docs/6.3/c0101.htm). 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+(methodologie.tex [19] [20
+
+]
 Hoofdstuk 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
-
-])
-(conclusie.tex [18]
+ [21])
+(conclusie.tex [22]
 Hoofdstuk 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [23
 
 ])
-[20]
+[24]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 
-LaTeX Warning: Citation 'IBM1' on page 21 undefined on input line 5.
+LaTeX Warning: Citation 'IBM1' on page 25 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'BDQ' on page 21 undefined on input line 5.
+LaTeX Warning: Citation 'BDQ' on page 25 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'Singer2020' on page 21 undefined on input line 25.
+LaTeX Warning: Citation 'Singer2020' on page 25 undefined on input line 25.
 
 
-LaTeX Warning: Citation 'Jevtic2018' on page 21 undefined on input line 26.
+LaTeX Warning: Citation 'Jevtic2018' on page 25 undefined on input line 26.
 
 
-LaTeX Warning: Citation 'Akhtar2020' on page 21 undefined on input line 27.
+LaTeX Warning: Citation 'Akhtar2020' on page 25 undefined on input line 27.
 
 
-LaTeX Warning: Citation 'Anderson2020' on page 21 undefined on input line 30.
+LaTeX Warning: Citation 'Anderson2020' on page 25 undefined on input line 30.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [25
 
 ]
 
-LaTeX Warning: Citation 'PostgreSQL2020' on page 22 undefined on input line 52.
+LaTeX Warning: Citation 'PostgreSQL2020' on page 26 undefined on input line 52.
 
 
-[22])
+[26])
 
 LaTeX Warning: Empty bibliography on input line 128.
 
-[23] (bachproef-tin.aux)
+[27] (bachproef-tin.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1684,22 +1699,22 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32108 strings out of 479696
- 599421 string characters out of 2867114
- 1556058 words of memory out of 3000000
+ 32115 strings out of 479696
+ 599476 string characters out of 2867114
+ 1556056 words of memory out of 3000000
  48388 multiletter control sequences out of 15000+200000
- 440565 words of font info for 160 fonts, out of 3000000 for 9000
+ 440695 words of font info for 162 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,12n,99p,1275b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,12n,99p,2076b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb>
 <C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.p
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on bachproef-tin.pdf (25 pages, 195397 bytes).
+Output written on bachproef-tin.pdf (29 pages, 205712 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  39042 words of extra memory for PDF output out of 42996 (max. 10000000)
 
