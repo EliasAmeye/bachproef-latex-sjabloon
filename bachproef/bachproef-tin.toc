@@ -3,6 +3,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Inleiding}{13}{chapter.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Inleiding}{13}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{14}{section.1.2}%
@@ -13,11 +15,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Stand van zaken}{15}{chapter.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{21}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Methodologie}{21}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusie}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusie}{23}{chapter.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{25}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Onderzoeksvoorstel}{25}{appendix.A}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Introductie}{25}{section.A.1}%
 \defcounter {refsection}{0}\relax 

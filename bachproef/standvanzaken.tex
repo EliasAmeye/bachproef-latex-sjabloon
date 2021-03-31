@@ -32,21 +32,23 @@ High Availability
 High Availability is het vermogen van een systeem om continu operationeel te blijven te zijn gedurende een wenselijk lange tijd. Men kan Availability meten ten opzicht van 100\% operationeel, als in, nooit uitvallen. Beschikbaarheid wordt vaak uitgedrukt als een percentage van uptime in een bepaald jaar op basis van de SLA's, Service Level Agreements (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean). Vaak duidt men deze norm aan als de Five 9's, namelijk 99,999\% beschikbaarheid (https://searchdatacenter.techtarget.com/definition/high-availability). High availability impliceert dat delen van een systeem volledig zijn getest en dat er voorzieningen zijn voor storingen/failures in de vorm van redundante componenten. Servers kunnen worden ingesteld om in geval van nood de verantwoordelijkheden over te dragen aan een externe server, in een back-up proces. Hier spreekt men dan van failover (https://www.techopedia.com/definition/1021/high-availability-ha).
 
 Belangrijke principes van High Availability zijn:
-1. Het elimineren van single point of failover: Toevoeging van redundantie zorgt er voor zodat het falen van een onderdeel in het systeem niet leidt tot het volledige falen van een geheel systeem.
-2. Betrouwbare cross-over: In een redundant systeem wordt het kruispunt zelf een single point of failover. Fouttolerante systemen moeten voorzien in een betrouwbaar crossover- of automatisch omschakelingsmechanisme om storingen te voorkomen.
+1. Het elimineren van single point of failure: Toevoeging van redundantie zorgt er voor zodat het falen van een onderdeel in het systeem niet leidt tot het volledige falen van een geheel systeem.
+2. Betrouwbare cross-over: In een redundant systeem wordt het kruispunt zelf een single point of failure. Fouttolerante systemen moeten voorzien in een betrouwbaar crossover- of automatisch omschakelingsmechanisme om storingen te voorkomen.
 3. Storingdetectie: Als bovenstaande principes proactief bewaakt worden, dan zal een gebruik misschien nooit een systeemstoring zien.
 Postgres biedt de bouwstenen om bovenstaande principes volledig uit te werken zodat er op deze manier High Availability verzekerd kan worden.
 
 % ### Dit kan ook nog bij Cluster en oplossingen gezet worden
 
-Bij het elimineren van single points of failover ondersteunt Postgres de volgende fysieke stand-by's:
+Bij het elimineren van single points of failure ondersteunt Postgres de volgende fysieke stand-by's:
 1. Cold Standby: Dit is een back-up server die beschikt over back-ups en alle nodige WAL-bestanden voor herstel. WAL is de afkorting voor Write Ahead Log. Het logt elke transactie die uitgevoerd wordt op een database voordat het wordt uitgevoerd. Een Cold Standby systeem is geen operationeel systeem, maar het kan wel beschikbaar worden gemaakt als dat nodig is. Voornamelijk worden dan backup servers en WAL bestanden gebruikt voor het maken van een nieuwe PostgreSQL node als onderdeel van disaster recovery.
 2. Warm Standby: Hierin draait Postgres in herstelmodus en ontvangt updates door gebruik te maken van gearchiveerde logbestanden of door gebruik te maken van log shipping replicatie van Postgres. Log shipping is een proces waarbij de back-up van transactielogbestanden op een primaire database wordt geautomatiseerd en vervolgens op een standby server wordt hersteld (https://docs.microsoft.com/en-us/sql/database-engine/log-shipping/about-log-shipping-sql-server?view=sql-server-ver15). In deze modus aanvaardt Postgres geen verbindingen en queries.
 3. Hot Standby: Ook bij Hot Standby draait Postgres in herstelmodus en ontvangt het updates door gebruik te maken van gearchiveerde logbestanden of door gebruik te maken van log shipping van Postgres. Het verschil met Warm Standby is dat in deze herstelmodus Postgres hier wel verbindingen ondersteunt en read-only queries.
 
-Bovenstaande voorbeelden zijn mogelijkheden die kunnen helpen bij het elimineren van single points of failover. Afhankelijk van het overeengekomen niveau van beschikbaarheid, kunnen gebruikers voor een van de bovenstaande kiezen.
+Bovenstaande voorbeelden zijn mogelijkheden die kunnen helpen bij het elimineren van single points of failure. Afhankelijk van het overeengekomen niveau van beschikbaarheid, kunnen gebruikers voor een van de bovenstaande kiezen.
 
-Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failover.
+In geval van een volledige uitval van een systeem is geografische redundantie algemeen zeer wenselijk. Op deze manier worden servers verdeeld over meerdere locaties verdeeld over de wereld. Als er dan, bijvoorbeeld, zich een natuurramp voordoet, kunnen standby servers van de andere kant van de wereld inspringen. Dit type van redundantie kan zeer duur uitdraaien, waarbij het een verstandige beslissing kan zijn om te kiezen voor een gehoste oplossing, waarbij de provider datacenters heeft over heel de wereld.
+
+Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failure.
 EDB Postgres Failover Manager kan ook gebruikt worden voor de detectie van storingen. Het bewaakt de server continu en zal storingen op verschillende niveaus detecteren. Het is ook capabel om om failover uit te voeren van de master node naar één van de replica nodes om het systeem beschikbaar te maken voor het accepteren van databaseverbindingen en queries. Wanneer EFM goed geconfigureerd is, kan het storingen detecteren en direct failover uitvoeren.
 
 Verlies van service kunnen we in twee categoriëen opdelen. Geplande uitval of downtime en ongeplande uitval of downtime.
@@ -60,13 +62,20 @@ Om terug te komen op de termen actief-actief en actief-passief zullen die vaker 
 
 % ### Raima link verder uitwerken
 
+Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure.
+(https://phoenixnap.com/blog/what-is-high-availability)
+
+
 Cluster en oplossingen
 
 Hier nog bepaalde oplossingen beschrijven die ik in mijn voorstel heb staan, zoals Patroni, pgpool, pg pool II,...
 
+
 Andere die ik ben tegengekomen in literatuurstudie al:
 Raima (RDM)
 EDB Postgres Failover Manager EMF
+
+Van elk zal ik dan kijken of ze open source zijn (normaal gezien zijn ze dit allemaal al, maar het kan geen kwaad om dit nog eens op te zoeken), welke focus ze leggen...
 
 Puppet
 
