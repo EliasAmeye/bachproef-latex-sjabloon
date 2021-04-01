@@ -31,6 +31,8 @@ High Availability
 
 High Availability is het vermogen van een systeem om continu operationeel te blijven te zijn gedurende een wenselijk lange tijd. Men kan Availability meten ten opzicht van 100\% operationeel, als in, nooit uitvallen. Beschikbaarheid wordt vaak uitgedrukt als een percentage van uptime in een bepaald jaar op basis van de SLA's, Service Level Agreements (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean). Vaak duidt men deze norm aan als de Five 9's, namelijk 99,999\% beschikbaarheid (https://searchdatacenter.techtarget.com/definition/high-availability). High availability impliceert dat delen van een systeem volledig zijn getest en dat er voorzieningen zijn voor storingen/failures in de vorm van redundante componenten. Servers kunnen worden ingesteld om in geval van nood de verantwoordelijkheden over te dragen aan een externe server, in een back-up proces. Hier spreekt men dan van failover (https://www.techopedia.com/definition/1021/high-availability-ha).
 
+% https://www.postgresql.org/docs/9.5/high-availability.html Deze link nog eens uitspitten
+
 Belangrijke principes van High Availability zijn:
 1. Het elimineren van single point of failure: Toevoeging van redundantie zorgt er voor zodat het falen van een onderdeel in het systeem niet leidt tot het volledige falen van een geheel systeem.
 2. Betrouwbare cross-over: In een redundant systeem wordt het kruispunt zelf een single point of failure. Fouttolerante systemen moeten voorzien in een betrouwbaar crossover- of automatisch omschakelingsmechanisme om storingen te voorkomen.
@@ -74,6 +76,25 @@ Hier nog bepaalde oplossingen beschrijven die ik in mijn voorstel heb staan, zoa
 Andere die ik ben tegengekomen in literatuurstudie al:
 Raima (RDM)
 EDB Postgres Failover Manager EMF
+
+Kort Lijstje met clustering oplossingen voor postgres:
+1. PgCluster
+2. pgpool-I
+3. Pgpool-II
+4. slony
+5. Bucardo
+6. Londiste
+7. Mammoth
+8. rubyrep
+9. pg\_shard
+10 pglogical
+11. Postgres-XL
+12. Citus
+
+(https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling)
+(https://wiki.postgresql.org/wiki/Clustering)
+
+
 
 Van elk zal ik dan kijken of ze open source zijn (normaal gezien zijn ze dit allemaal al, maar het kan geen kwaad om dit nog eens op te zoeken), welke focus ze leggen...
 
