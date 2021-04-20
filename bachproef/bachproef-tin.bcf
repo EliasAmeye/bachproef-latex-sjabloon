@@ -2818,14 +2818,13 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../voorstel/voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Pollefliet2011</bcf:citekey>
-    <bcf:citekey order="2">IBM1</bcf:citekey>
-    <bcf:citekey order="3">BDQ</bcf:citekey>
-    <bcf:citekey order="4">Singer2020</bcf:citekey>
-    <bcf:citekey order="5">Jevtic2018</bcf:citekey>
-    <bcf:citekey order="6">Akhtar2020</bcf:citekey>
-    <bcf:citekey order="7">Anderson2020</bcf:citekey>
-    <bcf:citekey order="8">PostgreSQL2020</bcf:citekey>
+    <bcf:citekey order="1">IBM1</bcf:citekey>
+    <bcf:citekey order="2">BDQ</bcf:citekey>
+    <bcf:citekey order="3">Singer2020</bcf:citekey>
+    <bcf:citekey order="4">Jevtic2018</bcf:citekey>
+    <bcf:citekey order="5">Akhtar2020</bcf:citekey>
+    <bcf:citekey order="6">Anderson2020</bcf:citekey>
+    <bcf:citekey order="7">PostgreSQL2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

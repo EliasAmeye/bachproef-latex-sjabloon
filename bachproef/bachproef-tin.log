@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  18 APR 2021 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  20 APR 2021 22:58
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1599,18 +1599,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Hoofdstuk 1.
-
-LaTeX Warning: Citation 'Pollefliet2011' on page 13 undefined on input line 8.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-1.
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [13])
-(standvanzaken.tex [14]
+[13]) (standvanzaken.tex [14]
 Hoofdstuk 2.
 ! You can't use `macro parameter character #' in horizontal mode.
 l.20 ...m (https://en.wikipedia.org/wiki/Database#
@@ -1963,9 +1952,6 @@ LaTeX Warning: Empty bibliography on input line 128.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                bachproef-tin
 (biblatex)                and rerun LaTeX afterwards.
@@ -1975,11 +1961,11 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32310 strings out of 479696
- 602911 string characters out of 2867114
- 1558323 words of memory out of 3000000
- 48506 multiletter control sequences out of 15000+200000
- 455974 words of font info for 213 fonts, out of 3000000 for 9000
+ 32278 strings out of 479696
+ 602413 string characters out of 2867114
+ 1558293 words of memory out of 3000000
+ 48482 multiletter control sequences out of 15000+200000
+ 455604 words of font info for 210 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,12n,99p,2079b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -1991,9 +1977,9 @@ avantgar/uagk8a.pfb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmb8a.pfb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (31 pages, 250063 bytes).
+Output written on bachproef-tin.pdf (31 pages, 251279 bytes).
 PDF statistics:
  298 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
- 52898 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 50850 words of extra memory for PDF output out of 51595 (max. 10000000)
 
