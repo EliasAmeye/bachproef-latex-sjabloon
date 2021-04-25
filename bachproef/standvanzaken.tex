@@ -178,7 +178,22 @@ Pgpool-II praat met de backend en de frontend protocollen van PostgreSQL, en leg
 
 \textbf{PostgreSQL Automatic Failover (PAF)}
 
+PostgreSQL Automatic Failover (PAF) is een nieuwe resource agent, speciaal voor PostgreSQL. Door Pacemaker en Corosync, is het voor PAF mogelijk om:
 
+1. Aan detectiestoring te doen van een PostgreSQL instance.
+
+2. de primary server te herstellen...
+
+3. of om aan failover te doen naar een standby server.
+
+4. Om de best (met de kleinste vertraging) beschikbaarste standby server te selecteren bij failover.
+
+5. Rollen te wisselen in de cluster tussen standby en primary nodes.
+
+
+De oorspronkelijke wens is om een duidelijke grens te houden tussen de Pacemaker administratie en de PostgreSQL administratie, om dingen eenvoudig, gedocumenteerd en toch krachtig te houden.
+
+Zodra een PostgreSQL cluster is opgebouwd met behulp van interne streaming replicatie, is PAF in staat om aan Pacemaker te laten zien wat de huidige status is van de PostgreSQL instantie op elke node: primary, standby, gestopt, etc. Mocht er dan een storing optreden op de primary node, dan zal Pacemaker standaard proberen deze te herstellen. Mocht de storing niet te herstellen zijn, dan zorgt PAF ervoor dat de standby servers de beste van hen kunnen kiezen (de dichtstbijzijnde bij de oude primary) en deze promoveren tot de nieuwe primary. Dit doet PAF dankzij Pacemaker. (https://clusterlabs.github.io/PAF/)
 
 
 
