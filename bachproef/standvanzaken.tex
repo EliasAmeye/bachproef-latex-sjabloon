@@ -106,99 +106,184 @@ Bovenstaande voorbeelden zijn mogelijkheden die kunnen helpen bij het elimineren
 In geval van een volledige uitval van een systeem is geografische redundantie algemeen zeer wenselijk. Op deze manier worden servers verdeeld over meerdere locaties verdeeld over de wereld. Bij downtime door een natuurramp bijvoorbeeld zijn standby servers op meerdere fysieke (ongetroffen) locaties beschikbaar om in te vallen. Dit type van redundantie kan zeer duur uitdraaien, waarbij het een verstandige beslissing kan zijn om te kiezen voor een gehoste oplossing, waarbij de provider datacenters heeft over heel de wereld.
 
 
+\textbf{Load Balancing}
+
+Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure.
+(https://phoenixnap.com/blog/what-is-high-availability)
+
+
 
 \section{\IfLanguageName{dutch}{Cluster oplossingen}{Cluster solutions}}
 \label{sec:Cluster solutions}
 % de tools die HA mogelijkheden naar een hoger niveau tillen
 
+\textbf{Cluster}
+
 Een cluster is een groepering van servers die met elkaar samenwerken om één geheel te vormen. Op deze manier kan een cluster High Availability mogelijk maken.(https://whatis.techtarget.com/definition/cluster)
 
-Patroni
 
 
-https://www.cybertec-postgresql.com/en/services/postgresql-replication/high-availability-patroni/
+Failover is het automatisch overschakelen naar een back-upsysteem. Wanneer een primair systeemonderdeel faalt, wordt failover ingeschakeld om de negatieve gevolgen te elimineren of te beperken. (https://avinetworks.com/glossary/failover/)
 
+Failback is het proces van het herstellen van operaties naar een primaire machine  nadat ze zijn verschoven geweest naar een secundaire machine wegens failover. (https://whatis.techtarget.com/definition/failback)
+
+
+\textbf{Patroni}
+
+%https://www.cybertec-postgresql.com/en/services/postgresql-replication/high-availability-patroni/
 
 Patroni is een open source cluster-technologie die zich bezighoudt met automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid.
 (https://www.cybertec-postgresql.com/en/patroni-setting-up-a-highly-available-postgresql-cluster/)
 
-
-PgPool
-
+Patroni biedt cloud-native netwerkfuncties en geavanceerde opties voor failback en failover. Een cloud-native netwerkfunctie is een software-implementatie van een netwerkfunctie, die wordt uitgevoerd in een linux-container, die traditioneel wordt uitgevoerd door een fysiek apparaat %(https://cdnf.io/what_is_cnf/).
 
 
-PgPool II
+https://buildmedia.readthedocs.org/media/pdf/patroni/latest/patroni.pdf
+https://blog.dbi-services.com/postgresql-high-availabilty-patroni-ectd-haproxy-keepalived/
 
 
-PgCluster
+\textbf{Pgpool-II}
 
+%https://www.pgpool.net/mediawiki/index.php/Main_Page
 
+Pgpool-II omschrijft zichzelf als een middleware die werkt tussen PostgreSQL servers en een PostgreSQL database client. Pgpool-II biedt de volgende features:
 
-Raima
+1. Connection Pooling
 
+Pgpool-II bewaart verbindingen naar de PostgreSQL servers, en hergebruikt ze wanneer een nieuwe verbinding met dezelfde eigenschappen zoals gebruikersnaam, database of protocol versie binnenkomt. Dit vermindert de overhead van verbindingen, en verbetert de totale doorvoer van het systeem.
 
-EDB
+2. Replication
 
+Pgpool-II kan meerdere PostgreSQL servers beheren. Door gebruik te maken van de replicatiefunctie kan een realtime backup worden gemaakt op 2 of meerdere fysieke schijven, zodat de dienst kan worden voortgezet zonder servers te stoppen in geval van een schijfstoring.
 
-Slony
+3. Load Balancing
 
+Als een database wordt gerepliceerd, zal het uitvoeren van een query op elke server hetzelfde resultaat opleveren. Pgpool-II maakt gebruik van de replicatie mogelijkheid om de belasting op elke PostgreSQL server te verminderen door queries over meerdere servers te verdelen, waardoor de totale throughput van het systeem verbetert. In het meest gunstige geval verbetert de prestatie evenredig met het aantal PostgreSQL servers. Load balance werkt het beste in een situatie waarin er veel gebruikers zijn die veel queries tegelijkertijd uitvoeren.
 
+4. Limiting Exceeding Connections
 
-Bucardo
+Er is een limiet op het maximum aantal gelijktijdige verbindingen met PostgreSQL, en verbindingen worden geweigerd na dit maximaum aantal verbindingen. Het instellen van een max aantal verbindingen verhoogt echter het verbruik van bronnen en beïnvloedt de systeemprestaties. pgpool-II heeft ook een limiet op het maximum aantal verbindingen, maar extra verbindingen worden dan in een wachtrij geplaatst..
 
+5. Watchdog
 
+Watchdog kan een robuust clustersysteem creëren en het single point of failure of split brain vermijden. Watchdog kan een lifecheck uitvoeren tegen andere Pgpool-II nodes, om een fout van Pgpool-II te detecteren. Als actieve Pgpool-II down gaat, kan dan een standby Pgpool-II gepromoveerd worden tot actief, en zal deze dan virtueel het IP overnemen.
 
-Londiste
+6. In Memory Query Cache
 
+In memory query cache maakt het mogelijk om een paar SELECT statements en zijn resultaat op te slaan. Als een identieke SELECT binnenkomt, retourneert Pgpool-II de waarde uit de cache. Omdat er geen SQL parsing of toegang tot PostgreSQL aan te pas komt, is het gebruik van in memory cache extreem snel. Aan de andere kant kan het in sommige gevallen langzamer zijn dan het normale pad, omdat het wat overhead toevoegt van het opslaan van cache gegevens.
 
-
-Mammoth
-
-
-
-Rubyrep
-
-
-
-pg\_shard
-
-
-
-pgLogical
+Pgpool-II praat met de backend en de frontend protocollen van PostgreSQL, en legt een verbinding tussen beide. Daarom denkt een database applicatie (frontend) dat Pgpool-II de eigenlijke PostgreSQL server is, en de server (backend) ziet Pgpool-II als een van zijn clients. Omdat Pgpool-II transparant is voor zowel de server als de client, kan een bestaande databasetoepassing met Pgpool-II worden gebruikt vrijwel zonder de broncode aan te passen. %(https://www.pgpool.net/mediawiki/index.php/Main_Page)
 
 
 
-Postgres-XL
-
-
-
-Citus
+\textbf{PostgreSQL Automatic Failover (PAF)}
 
 
 
 
 
+\textbf{RepMgr [Replication Manager]}
 
-Hier nog bepaalde oplossingen beschrijven die ik in mijn voorstel heb staan, zoals Patroni, pgpool, pg pool II,...
+%https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
+
+Repmgr is een open-source oplossing die zich bezighoudt met het beheren van replicatie en failover van servers in PostgreSQl clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover. (https://repmgr.org/)
 
 
-Andere die ik ben tegengekomen in literatuurstudie al:
-Raima (RDM)
-EDB Postgres Failover Manager EMF
+De features die repmgr 5 aanbiedt zijn:
 
-Kort Lijstje met clustering oplossingen voor postgres:
-1. PgCluster
-2. pgpool-I
-3. Pgpool-II
-4. slony
-5. Bucardo
-6. Londiste
-7. Mammoth
-8. rubyrep
-9. pg\_shard
-10 pglogical
-11. Postgres-XL
-12. Citus
+1. De implementatie als een PostgreSQL extentie.
+
+2. Replicatie cluster monitoring.
+
+3. Standby klonen aan de hand van pg\_basebackup of Barman
+
+pg\_basebackup: pg\_basebackup wordt gebruikt om basisbackups te maken van een draaiende PostgreSQL databank cluster. Deze back-ups worden gemaakt zonder de aanwezige cliënts, die in verbinding staan met de databank, te beïnvloeden. Deze back-ups kunnen gebruikt worden voor zowel point-in-time recovery, maar ook als een startpunt voor log shipping of streaming replicatie standby servers. Bij point-in-time recovery wordt verwezen naar herstel van dataveranderingen tot een bepaald punt in de tijd. %(https://dev.mysql.com/doc/mysql-backup-excerpt/8.0/en/point-in-time-recovery.html#:~:text=Point%2Din%2Dtime%20recovery%20refers,time%20the%20backup%20was%20made.)
+
+pg\_basebackup maakt een binaire kopie van de database cluster bestanden, terwijl het ervoor zorgt dat het systeem automatisch in en uit backup modus wordt gezet. Backups worden altijd gemaakt van de gehele databasecluster; het is niet mogelijk om een backup te maken van afzonderlijke databases of databaseobjecten. 
+
+De backup wordt gemaakt over een gewone PostgreSQL verbinding maakt gebruik van het replicatieprotocol. De server moet ook worden geconfigureerd om ten minste één sessie beschikbaar te laten voor de backup. (https://www.postgresql.org/docs/10/app-pgbasebackup.html)
+
+Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een open-source beheertool voor disaster recovery van PostgreSQL servers. Het is geschreven in Python. Barman laat toe om van op afstand van meerdere servers in bedrijfskritische omgevingen back-ups uit te voeren. Het helpt ook database beheerders tijdens een herstelfase. (https://www.pgbarman.org/about/)(https://www.pgbarman.org/)
+
+4. Standby server die kan worden gepromoveerd tot een primary server zonder herstart. Andere standby servers die verbinding kunnen maken met de nieuwe master zonder opnieuw gesynchroniseerd te worden.
+ .%https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
+
+5.Cascading Standby Support
+
+Standby servers die niet direct verbonden zijn met de master node worden niet beïnvloed tijdens failover van de primary naar een andere standby mode.
+
+
+6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor repliatiesleuven
+
+Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bestanden op te ruimen vanaf elke bestandssysteemlocatie. Ook in standby servers kan het gebruikt worden om bestanden die niet meer nodig zijn, te verwijderen uit de standby server.
+%(https://www.percona.com/blog/2019/07/10/wal-retention-and-clean-up-pg_archivecleanup/)
+
+7. Switchover ondersteuning voor rolswitching tussen primary en standby
+
+Hierin wordt een standby server geprovomeerd tot een primary server en zal deze primary server degraderen naar een standby server. Wanneer andere standby servers verbonden zijn met de degradatiekandidaat, kan repmgr deze instrueren om de nieuwe primary server te volgen en niet de oude, die net gedegradeerd is. (https://repmgr.org/docs/4.0/repmgr-standby-switchover.html)
+
+
+\textbf{PgCluster}
+
+
+
+\textbf{Raima}
+
+Databasereplicatie is het proces waarin we gegevens gaan kopiëren van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
+In de context van replicatie gebruikt men vaak ook de termen actief-actief en actief-passief. Raima Database Manager (RDM) ondersteunt beide technieken. Bij Raima wordt actieve replicatie gewoon replicatie genoemd en passieve replicatie spiegelen (mirroring). Spiegelen zal resulteren in identieke replica's zoals de originele database, terwijl replicatie zal resulteren in replica's die niet identiek zijn aan de originele database. Deze replica's zullen alle records bevatten die van de originele database zijn overgebracht, maar de fysieke organisatie van de records in de databasebestanden (of in het geheugen) kan verschillen.
+Om terug te komen op de termen actief-actief en actief-passief zullen die vaker verwijzen naar andere concepten dan dewelke we juist omschreven hebben (replicatie en spiegelen). Actieve-actieve replicatie betekent replicatie in twee richtingen van gegevens tussen twee databases die beide actief worden bijgewerkt. Actieve-passieve replicatie betekent replicatie in één richting van een actief bijgewerkte master node naar een slave node die niet wordt bijgewerkt, behalve door het replicatieproces. Hier verwijst men soms ook naar master-slave replicatie. In RDM is replicatie altijd actief-passief (https://raima.com/rdme-high-availability-database/).
+
+% ### Raima link verder uitwerken
+
+
+\textbf{EDB}
+
+Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failure.
+EDB Postgres Failover Manager kan ook gebruikt worden voor de detectie van storingen. Het bewaakt de server continu en zal storingen op verschillende niveaus detecteren. Het is ook capabel om om failover uit te voeren van de master node naar één van de replica nodes om het systeem beschikbaar te maken voor het accepteren van databaseverbindingen en queries. Wanneer EFM goed geconfigureerd is, kan het storingen detecteren en direct failover uitvoeren.
+
+Verlies van service kunnen we in twee categoriëen opdelen. Geplande uitval of downtime en ongeplande uitval of downtime.
+Geplande downtime is vaak het gevolg van onderhoudsactiviteiten. Dit kan zijn door een softwarepatches die een herstart van het systeem of van de database vereist. In het algemeen is deze uitval niet onverwachts en zal deze uitval geen grootschalige gevolgen hebben.
+Een ongeplande downtime is vaak het resultaat van een of andere fysieke gebeurtenis, zoals hardware- of softwarestoring, of een anomalie in de omgeving. Stroomuitval, defecte CPU- of RAM-componenten (of eventueel andere hardwarecomponenten), netwerkstoringen, inbreuken op de beveiliging, of diverse defecten in toepassingen, middleware en besturingssystemen resulteren bijvoorbeeld in ongeplande uitval.
+In geval van (on)geplande downtime kan EFM helpen om de downtime zoveel mogelijk te minimaliseren. Voor een geplande downtime kan een gebruiker bijvoorbeeld eerst alle standby nodes patchen en EFM gebruiken om over te schakelen voordat de master node gepatcht wordt. Bij een ongeplande downtime kan EFM ervoor zorgen dat de storingen gedetecteerd worden en failover uitvoeren naar de juiste standby node, om dan deze node de nieuwe master node te maken. EFM zal na dit proces er ook voor zorgen dat de oude master node niet terugkomt om een split-brain situatie te voorkomen. Split-brain duidt op de inconsistenties in beschikbaarheid en data. Hierdoor ontstaan er twee afzonderlijke datasets met overlap. (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean).
+
+
+\textbf{Slony}
+
+
+
+\textbf{Bucardo}
+
+
+
+\textbf{Londiste}
+
+
+
+\textbf{Mammoth}
+
+
+
+\textbf{Rubyrep}
+
+
+
+\textbf{pg\_shard}
+
+
+
+\textbf{pgLogical}
+
+
+
+\textbf{Postgres-XL}
+
+
+
+\textbf{Citus}
+
+https://www.citusdata.com/blog/2019/05/30/introducing-pg-auto-failover/
+
+
 
 % (https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling)
 % (https://wiki.postgresql.org/wiki/Clustering)
@@ -209,23 +294,6 @@ Van elk zal ik dan kijken of ze open source zijn (normaal gezien zijn ze dit all
 
 
 
-
-Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failure.
-EDB Postgres Failover Manager kan ook gebruikt worden voor de detectie van storingen. Het bewaakt de server continu en zal storingen op verschillende niveaus detecteren. Het is ook capabel om om failover uit te voeren van de master node naar één van de replica nodes om het systeem beschikbaar te maken voor het accepteren van databaseverbindingen en queries. Wanneer EFM goed geconfigureerd is, kan het storingen detecteren en direct failover uitvoeren.
-
-Verlies van service kunnen we in twee categoriëen opdelen. Geplande uitval of downtime en ongeplande uitval of downtime.
-Geplande downtime is vaak het gevolg van onderhoudsactiviteiten. Dit kan zijn door een softwarepatches die een herstart van het systeem of van de database vereist. In het algemeen is deze uitval niet onverwachts en zal deze uitval geen grootschalige gevolgen hebben.
-Een ongeplande downtime is vaak het resultaat van een of andere fysieke gebeurtenis, zoals hardware- of softwarestoring, of een anomalie in de omgeving. Stroomuitval, defecte CPU- of RAM-componenten (of eventueel andere hardwarecomponenten), netwerkstoringen, inbreuken op de beveiliging, of diverse defecten in toepassingen, middleware en besturingssystemen resulteren bijvoorbeeld in ongeplande uitval.
-In geval van (on)geplande downtime kan EFM helpen om de downtime zoveel mogelijk te minimaliseren. Voor een geplande downtime kan een gebruiker bijvoorbeeld eerst alle standby nodes patchen en EFM gebruiken om over te schakelen voordat de master node gepatcht wordt. Bij een ongeplande downtime kan EFM ervoor zorgen dat de storingen gedetecteerd worden en failover uitvoeren naar de juiste standby node, om dan deze node de nieuwe master node te maken. EFM zal na dit proces er ook voor zorgen dat de oude master node niet terugkomt om een split-brain situatie te voorkomen. Split-brain duidt op de inconsistenties in beschikbaarheid en data. Hierdoor ontstaan er twee afzonderlijke datasets met overlap. (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean).
-
-Databasereplicatie is het proces waarin we gegevens gaan kopiëren van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
-In de context van replicatie gebruikt men vaak ook de termen actief-actief en actief-passief. Raima Database Manager (RDM) ondersteunt beide technieken. Bij Raima wordt actieve replicatie gewoon replicatie genoemd en passieve replicatie spiegelen (mirroring). Spiegelen zal resulteren in identieke replica's zoals de originele database, terwijl replicatie zal resulteren in replica's die niet identiek zijn aan de originele database. Deze replica's zullen alle records bevatten die van de originele database zijn overgebracht, maar de fysieke organisatie van de records in de databasebestanden (of in het geheugen) kan verschillen.
-Om terug te komen op de termen actief-actief en actief-passief zullen die vaker verwijzen naar andere concepten dan dewelke we juist omschreven hebben (replicatie en spiegelen). Actieve-actieve replicatie betekent replicatie in twee richtingen van gegevens tussen twee databases die beide actief worden bijgewerkt. Actieve-passieve replicatie betekent replicatie in één richting van een actief bijgewerkte master node naar een slave node die niet wordt bijgewerkt, behalve door het replicatieproces. Hier verwijst men soms ook naar master-slave replicatie. In RDM is replicatie altijd actief-passief (https://raima.com/rdme-high-availability-database/).
-
-% ### Raima link verder uitwerken
-
-Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure.
-(https://phoenixnap.com/blog/what-is-high-availability)
 
 
 

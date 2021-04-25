@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  25 APR 2021 13:56
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  25 APR 2021 16:34
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1652,11 +1652,9 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 ) (samenvatting.tex
 [3] [4
 
-])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+]) [5] [6
 
- [5]
-[6] (bachproef-tin.toc
+] (bachproef-tin.toc
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
@@ -1666,9 +1664,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
-
-])
+ [7])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
@@ -1983,13 +1979,78 @@ n deze mo-dus aan-vaardt
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.116 ...{Cluster oplossingen}{Cluster solutions}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.116 ...{Cluster oplossingen}{Cluster solutions}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.116 ...{Cluster oplossingen}{Cluster solutions}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+
+Overfull \hbox (160.26582pt too wide) in paragraph at lines 122--123
+\T1/ptm/m/n/12 vor-men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity m
+o-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
+ []
+
+
+Overfull \hbox (146.49084pt too wide) in paragraph at lines 128--129
+\T1/ptm/m/n/12 zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine we-gen
+s failover. (https://whatis.techtarget.com/definition/failback) 
+ []
+
+
+Overfull \hbox (4.08913pt too wide) in paragraph at lines 138--139
+[]\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
+de op-ties voor fail-back en failover.
+ []
+
+[19]
+Overfull \hbox (110.00969pt too wide) in paragraph at lines 141--143
+[]\T1/ptm/m/n/12 https://buildmedia.readthedocs.org/media/pdf/patroni/latest/pa
+troni.pdf https://blog.dbi-services.com/postgresql-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 218--220
+[]\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
+ou-di-ger zijn om WAL-bestanden
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.125 ...{Cluster oplossingen}{Cluster solutions}}
+l.300 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2000,43 +2061,18 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.125 ...{Cluster oplossingen}{Cluster solutions}}
+l.300 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.125 ...{Cluster oplossingen}{Cluster solutions}}
+l.300 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
-! Undefined control sequence.
-\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
-                                                  [\ifBKM@open \ifnum \BKM@l...
-l.158 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \else.
-\H@old@sect ...name the#1\endcsname }\fi #7}\else 
-                                                  \def \@svsechd {#6{\hskip ...
-l.158 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
-                                                  \@xsect {#5}
-l.158 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-[20]) (methodologie.tex [21] [22
+[24]) (methodologie.tex [25] [26
 
 ]
 Hoofdstuk 3.
@@ -2083,11 +2119,9 @@ l.5 ...uageName{dutch}{Methodologie}{Methodology}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
+) (conclusie.tex [27] [28
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23])
-(conclusie.tex [24]
+]
 Hoofdstuk 4.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
@@ -2132,13 +2166,9 @@ l.5 \chapter{Conclusie}
                        
 I'm ignoring this; it doesn't match any \if.
 
+) [29] [30
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25
-
-])
-[26]
+]
 B"ylage A.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
@@ -2237,9 +2267,7 @@ I'm ignoring this; it doesn't match any \if.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
-
-]
+ [31]
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
@@ -2265,7 +2293,7 @@ l.49 \section{Methodologie}
                            
 I'm ignoring this; it doesn't match any \if.
 
-[28]
+[32]
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
@@ -2316,7 +2344,7 @@ l.76 \section{Verwachte conclusies}
                                    
 I'm ignoring this; it doesn't match any \if.
 
-) [29] [30
+) [33] [34
 
 ]
 ! Undefined control sequence.
@@ -2394,7 +2422,7 @@ Overfull \hbox (13.38055pt too wide) in paragraph at lines 128--128
 020, van []$https : / / www . postgresql .
  []
 
-[31]
+[35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (bachproef-tin.aux)
@@ -2413,4 +2441,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  68i,12n,64p,2069b,5266s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (35 pages).
+Output written on bachproef-tin.pdf (39 pages).
