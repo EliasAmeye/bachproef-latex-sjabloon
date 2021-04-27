@@ -1,7 +1,7 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}
 \label{ch:stand-van-zaken}
 
-Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. Hiermee zal worden gekeken naar de nadruk die gelegd wordt bij elke oplossing. Op deze manier kan gekeken worden naar welke elementen regelmatig terugkomen, en dus welke we kunnen gebruiken om verschillende oplossingen met elkaar te vergelijken.
+Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. Hiermee zal worden gekeken naar de nadruk die gelegd wordt bij elke oplossing. Op deze manier kan gekeken worden naar welke requirements regelmatig terugkomen, en dus welke we kunnen gebruiken om later in het onderzoek verschillende oplossingen met elkaar te vergelijken. Aan de hand van deze requirements kan geschift worden tussen de bestaande High Availability PostgreSQL cluster oplossingen om hier dan twee oplossingen uit te halen. 
 
 % Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
 % dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
@@ -19,7 +19,10 @@ Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oploss
 \subsection{\IfLanguageName{dutch}{Databank}{Databank}}
 \label{subsec:Databank}
 
-Wikipedia omschrijft een databank als een georganiseerde collectie van data, opgeslagen in en toegankelijk vanuit een computersysteem %(https://en.wikipedia.org/wiki/Database#:~:text=A\%20database\%20is\%20an\%20organized,formal\%20design\%20and\%20modeling\%20techniques.)
+Oracle omschrijft een databank als een georganiseerde verzameling van gestructureerde informatie, of gegevens, die meestal elektronisch in een computersysteem wordt opgeslagen. Een database wordt gewoonlijk beheerd door een databasebeheersysteem (DBMS). Samen worden de gegevens en het DBMS, samen met de toepassingen die ermee verbonden zijn, een databasesysteem genoemd, vaak afgekort tot gewoon database.
+%https://www.oracle.com/database/what-is-database/
+
+%Wikipedia omschrijft een databank als een georganiseerde collectie van data, opgeslagen in en toegankelijk vanuit een computersysteem %(https://en.wikipedia.org/wiki/Database#:~:text=A\%20database\%20is\%20an\%20organized,formal\%20design\%20and\%20modeling\%20techniques.)
 
 
 \subsection{\IfLanguageName{dutch}{Relationele Databank}{Relationele Databank}}
@@ -37,7 +40,9 @@ Een objectgeoriënteerde database (OODBMS) is een type databank die zich baseert
 \subsection{\IfLanguageName{dutch}{SQL}{SQL}}
 \label{subsec:SQL}
 
-SQL (structured query language) is de eigen taal specifiek ontwikkelt voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren.  %(https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB)
+SQL (structured query language) is de eigen taal specifiek ontwikkelt voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren. SQL wordt door bijna alle relationele databanken gebruikt. %(https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB)
+
+%https://www.oracle.com/database/what-is-database/
 
 
 \subsection{\IfLanguageName{dutch}{Object-relationele databank}{Object-relationele databank}}
@@ -168,7 +173,8 @@ Na het opzetten van de cluster, zal Patroni zich actief bezighouden met het moni
 
 %https://www.pgpool.net/mediawiki/index.php/Main_Page
 
-Pgpool-II omschrijft zichzelf als een middleware die werkt tussen PostgreSQL servers en een PostgreSQL database client. Pgpool-II biedt de volgende features:
+Pgpool-II omschrijft zichzelf als een middleware die werkt tussen PostgreSQL servers en een PostgreSQL database client. Het ondersteunt High Availability, geautomatiseerde load balancing, etc. Pgpool-II biedt ook logical replication. Logische replicatie, of logical replication stelt gebruikers in staat om een selectieve replica van bepaalde tabellen uit te voeren en deze uit te schrijven naar een standby node. Met logical replication kan een standby node replicatie ingeschakeld hebben van meerdere master nodes. Dit kan handig zijn in situaties waar je gegevens van verschillende PostgreSQL databases moet repliceren naar een enkele PostgreSQL server voor rapportage en data warehousing. Eén van de grootste voordelen van logische replication boven streaming replication is dat logical toelaat om veranderingen van een oudere versie van PostgreSQL naar een nieuwere versie te repliceren. Streaming replicatie werkt alleen als zowel de master als de standby van dezelfde versie zijn. Wat niet altijd ideaal is in grote opstellingen. %(https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical%20replication%20in%20PostgreSQL%20allows,is%20not%20open%20for%20writes.) 
+Pgpool-II biedt de volgende features:
 
 1. Connection Pooling
 
@@ -283,53 +289,8 @@ Een ongeplande downtime is vaak het resultaat van een of andere fysieke gebeurte
 In geval van (on)geplande downtime kan EFM helpen om de downtime zoveel mogelijk te minimaliseren. Voor een geplande downtime kan een gebruiker bijvoorbeeld eerst alle standby nodes patchen en EFM gebruiken om over te schakelen voordat de master node gepatcht wordt. Bij een ongeplande downtime kan EFM ervoor zorgen dat de storingen gedetecteerd worden en failover uitvoeren naar de juiste standby node, om dan deze node de nieuwe master node te maken. EFM zal na dit proces er ook voor zorgen dat de oude master node niet terugkomt om een split-brain situatie te voorkomen. Split-brain duidt op de inconsistenties in beschikbaarheid en data. Hierdoor ontstaan er twee afzonderlijke datasets met overlap. (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean).
 
 
-\textbf{Slony}
-
-
-
-\textbf{Bucardo}
-
-
-
-\textbf{Londiste}
-
-
-
-\textbf{Mammoth}
-
-
-
-\textbf{Rubyrep}
-
-
-
-\textbf{pg\_shard}
-
-
-
-\textbf{pgLogical}
-
-
-
-\textbf{Postgres-XL}
-
-
-
-\textbf{Citus}
-
-https://www.citusdata.com/blog/2019/05/30/introducing-pg-auto-failover/
-
-
-
 % (https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling)
 % (https://wiki.postgresql.org/wiki/Clustering)
-
-
-
-Van elk zal ik dan kijken of ze open source zijn (normaal gezien zijn ze dit allemaal al, maar het kan geen kwaad om dit nog eens op te zoeken), welke focus ze leggen...
-
-
-
 
 
 
