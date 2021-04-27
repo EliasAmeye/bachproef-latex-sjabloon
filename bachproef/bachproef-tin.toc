@@ -1,51 +1,83 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{13}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Inleiding}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{15}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{15}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{13}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{15}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{14}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Stand van zaken}{17}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}PosgreSQL}{17}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Stand van zaken}{15}{chapter.2}%
+\contentsline {subsection}{\numberline {2.1.1}Databank}{17}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}PosgreSQL}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.2}Relationele Databank}{17}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}High Availability}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1.3}Object-georiënteerde databank}{18}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Cluster oplossingen}{19}{section.2.3}%
+\contentsline {subsection}{\numberline {2.1.4}SQL}{18}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Puppet}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.1.5}Object-relationele databank}{18}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{27}{chapter.3}%
+\contentsline {subsection}{\numberline {2.1.6}PostgreSQL}{18}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Methodologie}{27}{chapter.3}%
+\contentsline {section}{\numberline {2.2}High Availability}{19}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{29}{chapter.4}%
+\contentsline {subsection}{\numberline {2.2.1}Load Balancing}{21}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusie}{29}{chapter.4}%
+\contentsline {section}{\numberline {2.3}Cluster oplossingen}{21}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{31}{appendix.A}%
+\contentsline {subsection}{\numberline {2.3.1}Cluster}{21}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Onderzoeksvoorstel}{31}{appendix.A}%
+\contentsline {subsection}{\numberline {2.3.2}Failover}{21}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{31}{section.A.1}%
+\contentsline {subsection}{\numberline {2.3.3}Failback}{21}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{32}{section.A.2}%
+\contentsline {subsection}{\numberline {2.3.4}Patroni}{22}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{32}{section.A.3}%
+\contentsline {subsection}{\numberline {2.3.5}Pgpool-II}{22}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{33}{section.A.4}%
+\contentsline {subsection}{\numberline {2.3.6}PostgreSQL Automatic Failover (PAF)}{24}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{33}{section.A.5}%
+\contentsline {subsection}{\numberline {2.3.7}RepMgr [Replication Manager]}{24}{subsection.2.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{35}{appendix*.6}%
+\contentsline {subsection}{\numberline {2.3.8}PgCluster}{26}{subsection.2.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.9}Raima}{26}{subsection.2.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.10}EDB}{26}{subsection.2.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Puppet}{27}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{29}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Schifting}{31}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}{31}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Oplossing 1}{31}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Oplossing 1}{33}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Oplossing 2}{35}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusie}{37}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{39}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{39}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State of the art}{40}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{40}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{41}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{41}{section.A.5}%
 \contentsfinish 

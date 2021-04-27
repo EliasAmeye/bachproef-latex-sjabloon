@@ -15,37 +15,43 @@ Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oploss
 \section{\IfLanguageName{dutch}{PosgreSQL}{PosgreSQL}}
 \label{sec:PosgreSQL}
 
-\textbf{Databank}
+
+\subsection{\IfLanguageName{dutch}{Databank}{Databank}}
+\label{subsec:Databank}
 
 Wikipedia omschrijft een databank als een georganiseerde collectie van data, opgeslagen in en toegankelijk vanuit een computersysteem %(https://en.wikipedia.org/wiki/Database#:~:text=A\%20database\%20is\%20an\%20organized,formal\%20design\%20and\%20modeling\%20techniques.)
 
 
-
-\textbf{Relationele databank}
+\subsection{\IfLanguageName{dutch}{Relationele Databank}{Relationele Databank}}
+\label{subsec:Relationele Databank}
 
 Een relationele databank is een type databank waarin gebruik wordt gemaakt van een structuur die het mogelijk maakt om gegevens te identificeren en te benaderen in relatie tot een ander deeltje data in diezelfde databank. Deze gegevens worden vaak georganiseerd in tabellen. Deze tabellen kunnen honderden, duizenden, miljoenen rijen en kolommen aan data hebben. Een kolom kent vaak ook een specifiek gegevenstype. Deze gegevenstypes kunnen getallen (integers), woorden (strings) of andere soorten bevatten. %(https://www.codecademy.com/articles/what-is-rdbms-sql#:~:text=A\%20relational\%20database\%20is\%20a,database\%20is\%20organized\%20into\%20tables.)
 
 
-
-\textbf{Object-georiënteerde databank}
+\subsection{\IfLanguageName{dutch}{Object-georiënteerde databank}{Object-georiënteerde databank}}
+\label{subsec:Object-georiënteerde databank}
 
 Een objectgeoriënteerde database (OODBMS) is een type databank die zich baseert op objectgeoriënteerd programmeren (OOP). De gegevens worden hier voorgesteld en opgeslagen in de vorm van objecten. OODBMS worden ook objectdatabases of objectgeoriënteerde databasemanagementsystemen genoemd %(https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An%20object%2Doriented%20database%20(OODBMS,object%2Doriented%20database%20management%20systems.) 
 
 
-\textbf{SQL}
+\subsection{\IfLanguageName{dutch}{SQL}{SQL}}
+\label{subsec:SQL}
 
 SQL (structured query language) is de eigen taal specifiek ontwikkelt voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren.  %(https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB)
 
 
-\textbf{Object-relationele databank}
+\subsection{\IfLanguageName{dutch}{Object-relationele databank}{Object-relationele databank}}
+\label{subsec:Object-relationele databank}
 
 Een object-relationele database (ORD / ORDBMS) is een samenstelling uit zowel een relationele database (RDB / RDBMS), als een object-georiënteerde database (OOD / OODBMS). Samen ondersteunt het de basiscomponenten van elk objectgeoriënteerd databasemodel in zijn schema's en gebruikte querytaal, zoals klassen, overerving en objecten. Het bevat aspecten en kenmerken van bovenstaande genoemde modellen. Zo wordt het relationele duidelijk in de manier van opslaan van gegevens. Deze worden opgeslagen in een traditionele database en worden dan met behulp van SQL query's gemanipuleerd en benaderd. Aan de andere kant is ook het objectgeoriënteerde gedeelte merkbaar, namelijk dat de database beschouwd wordt als een objectopslag. Kort gezegd is één van de voornaamste doelstellingen van een objecte-relationele database, het dichten van de kloof tussen relationele en objectgeoriënteerde modelleringstechnieken en conceptuele datamodelleringstechnieken zoals daar zijn het entiteit-relatiediagram (ERD) en object-relationeel mappen (ORM) (https://www.techopedia.com/definition/8714/object-relational-database-ord).
 %Hieronder bij klasses en overerving kan er al een foto bij ter verduidelijking.
 Klasses, Overerving, Types, Functies zijn kenmerken van de object-relationele database en zullen de basisconcepten vormen voor PostgreSQL. Een klasse is een verzameling van gegevenstypes die bij eenzelfde soort iets horen. Bijvoorbeeld een klasse CD kan als kenmerken hebben: Titel, zanger, Datum uitgave, aantal liedjes... . Overerving is wanneer een klasse bepaalde kenmerken overerft, krijgt van een superklasse. Bijvoorbeeld een klasse Olifant erft van de klasse Zoogdier kenmerken. Hierin is de klasse Olifant een specialisatie van de klasse Zoogdier. Een type is hierboven al eens genoemd geweest. Dit gaat over de verschillende soorten data die er zijn. Getallen, woorden, objecten zijn hier voorbeelden van. Functies zijn een reeks SQL-statements die een specifieke taak uitvoeren. Functies bevorderen de herbruikbaarheid van code.
 
 
+\subsection{\IfLanguageName{dutch}{PostgreSQL}{PostgreSQL}}
+\label{subsec:PostgreSQL}
 
-\textbf{PostgreSQL}
+% https://books.google.be/books?hl=en&lr=&id=Xj85DwAAQBAJ&oi=fnd&pg=PT7&dq=edb+postgres&ots=lQpSIYvp9i&sig=zv5WtrgnlNVxlyzzYFirRvkUf2o#v=onepage&q&f=false
 
 PostgreSQL is een open source systeem dat zich toelegt op het beheer van object-relationele databases. Het heeft meer dan 30 jaar actieve ontwikkeling en heeft een sterke reputatie op vlak van betrouwbaarheid, robuustheid van functies en prestaties (https://www.postgresql.org/). PostgreSQL biedt een uitgebreide set van functionaliteiten die een hoge mate van customisatie mogelijk maakt binnen het systeem. Dit gaat van data administratie, beveiliging, tot backup en herstel . PostgreSQL wordt regelmatig bijgewerkt door de PostgreSQL Global Development Group en bijdragers uit de community. Deze community ondersteunt zichzelf en zijn gebruikers door het aanbieden van online educatieve bronnen en communicatiekanalen, zoals daar zijn PostgreSQL wiki, online forums en officiële documentatie. Er zijn ook bedrijven die commerciële support bieden aan een prijs (https://nethosting.com/mysql-vs-postgresql-2019-showdown/). Volgens DB-Engines is PostgreSQL de vierde database die vandaag de dag het meest gebruikt wordt en de tweede meest gebruikte open source database, na MySQL (https://db-engines.com/en/ranking). DB-Engines verklaarde PostgreSQL in 2017, 2018 en 2020 het DBMS (Database management system) van het jaar (https://db-engines.com/en/system/PostgreSQL). PostgreSQL biedt veel mogelijkheden om ontwikkelaars te helpen bij het bouwen van applicaties, om beheerders te helpen bij het beschermen van data-integriteit en het bouwen van fouttolerante omgevingen. Het helpt ook bij het beheren van data, hoe groot of hoe klein de dataset ook is. PostgreSQL voldoet sinds september 2020 aan 170 van de 179 verplichte functies voor SQL:2016 Core conformiteit. Schaalbaarheid valt ook toe te schrijven aan PostgreSQL, dit zowel in de hoeveelheid data die het kan beheren, als in het aantal gelijktijdige gebruikers dat het kan accomoderen. Er zijn actieve PostgreSQL clusters in productie omgevingen die terabytes aan data beheren, en gespecialiseerde systemen die petabytes beheren (https://www.postgresql.org/about/).
 
@@ -74,7 +80,7 @@ Postgres speelt in op de bovenvernoemde vier basisconcepten van een object-relat
 \section{\IfLanguageName{dutch}{High Availability}{High Availability}}
 \label{sec:High Availability}
 
-Het doel van High Availability architectuur is ervoor te zorgen dat een server, website of applicatie verschillende vraagbelastingen en verschillende soorten storingen kan verdragen. En dit met de minst mogelijke downtime. Door gebruik te maken van best practices die zijn ontworpen om hoge beschikbaarheid te garanderen, helpt dit volgens ServersAustralia om in een organisatie maximale productiviteit en betrouwbaarheid te bereiken. (https://www.serversaustralia.com.au/resources/blog/what-is-high-availability-ha-and-do-i-need-it/#:~:text=The%20purpose%20of%20HA%20architecture,achieve%20maximum%20productivity%20and%20reliability.)
+Het doel van High Availability architectuur is ervoor te zorgen dat een server, website of applicatie verschillende vraagbelastingen en verschillende soorten storingen kan verdragen. En dit met de minst mogelijke downtime. Door gebruik te maken van best practices die zijn ontworpen om hoge beschikbaarheid te garanderen, helpt dit volgens ServersAustralia om in een organisatie maximale productiviteit en betrouwbaarheid te bereiken. %(https://www.serversaustralia.com.au/resources/blog/what-is-high-availability-ha-and-do-i-need-it/#:~:text=The%20purpose%20of%20HA%20architecture,achieve%20maximum%20productivity%20and%20reliability.)
 
 % niet elke situatie vereist high availability, wanneer is dit nodig dan?
 
@@ -110,8 +116,8 @@ Bovenstaande voorbeelden zijn mogelijkheden die kunnen helpen bij het elimineren
 
 In geval van een volledige uitval van een systeem is geografische redundantie algemeen zeer wenselijk. Op deze manier worden servers verdeeld over meerdere locaties verdeeld over de wereld. Bij downtime door een natuurramp bijvoorbeeld zijn standby servers op meerdere fysieke (ongetroffen) locaties beschikbaar om in te vallen. Dit type van redundantie kan zeer duur uitdraaien, waarbij het een verstandige beslissing kan zijn om te kiezen voor een gehoste oplossing, waarbij de provider datacenters heeft over heel de wereld.
 
-
-\textbf{Load Balancing}
+\subsection{\IfLanguageName{dutch}{Load Balancing}{Load Balancing}}
+\label{subsec:Load Balancing}
 
 Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure.
 (https://phoenixnap.com/blog/what-is-high-availability)
@@ -122,32 +128,43 @@ Load Balancing is ook een manier om High Availability te waarborgen. Het doel va
 \label{sec:Cluster solutions}
 % de tools die HA mogelijkheden naar een hoger niveau tillen
 
-\textbf{Cluster}
+\subsection{\IfLanguageName{dutch}{Cluster}{Cluster}}
+\label{subsec:Cluster}
 
 Een cluster is een groepering van servers die met elkaar samenwerken om één geheel te vormen. Op deze manier kan een cluster High Availability mogelijk maken.(https://whatis.techtarget.com/definition/cluster)
 
-
+\subsection{\IfLanguageName{dutch}{Failover}{Failover}}
+\label{subsec:Failover}
 
 Failover is het automatisch overschakelen naar een back-upsysteem. Wanneer een primair systeemonderdeel faalt, wordt failover ingeschakeld om de negatieve gevolgen te elimineren of te beperken. (https://avinetworks.com/glossary/failover/)
 
+\subsection{\IfLanguageName{dutch}{Failback}{Failback}}
+\label{subsec:Failback}
+
 Failback is het proces van het herstellen van operaties naar een primaire machine  nadat ze zijn verschoven geweest naar een secundaire machine wegens failover. (https://whatis.techtarget.com/definition/failback)
 
-
-\textbf{Patroni}
+\subsection{\IfLanguageName{dutch}{Patroni}{Patroni}}
+\label{subsec:Patroni}
 
 %https://www.cybertec-postgresql.com/en/services/postgresql-replication/high-availability-patroni/
 
-Patroni is een open source cluster-technologie die zich bezighoudt met automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid.
+Patroni is een open source cluster-technologie, geschreven in Python die zich bezighoudt met automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid.
 (https://www.cybertec-postgresql.com/en/patroni-setting-up-a-highly-available-postgresql-cluster/)
 
 Patroni biedt cloud-native netwerkfuncties en geavanceerde opties voor failback en failover. Een cloud-native netwerkfunctie is een software-implementatie van een netwerkfunctie, die wordt uitgevoerd in een linux-container, die traditioneel wordt uitgevoerd door een fysiek apparaat %(https://cdnf.io/what_is_cnf/).
 
+Als oplossing zorgt Patroni voor een end-to-end setup van High Available PostgreSQL clusters, inclusief streaming replicatie. Streaming replicatie biedt de mogelijkheid om continu WAL logs naar standby servers te sturen en deze toe te passen om de servers op deze manier up to date te houden. %(https://wiki.postgresql.org/wiki/Streaming_Replication#:~:text=Streaming%20Replication%20(SR)%20provides%20the,some%20out%20of%20date%20information) 
+Het biedt verschillende manieren waarop een standby node kan aangemaakt worden, en dient als sjabloon dat kan worden aangepast naar wat gewenst word.
 
-https://buildmedia.readthedocs.org/media/pdf/patroni/latest/patroni.pdf
-https://blog.dbi-services.com/postgresql-high-availabilty-patroni-ectd-haproxy-keepalived/
+Bij het aanmaken van een standby node maakt Patroni gebruik van pg\_basebackup en ondersteunt het ook methodes zoals Barman, pgBackRest en meer die gebruikt worden voor het aanmaken van standby nodes.
 
+Na het opzetten van de cluster, zal Patroni zich actief bezighouden met het monitoren. Patroni zal werken aan de hand van een leader lock. Deze wordt om de zoveel tijd vernieuwt, en wanneer de master node er niet in slaagt om deze te vernieuwen, zal Patroni een nieuwe node verkiezen tot master node. %(https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-3/#:~:text=Patroni%20ensures%20the%20end%2Dto,be%20customized%20to%20your%20needs.)
 
-\textbf{Pgpool-II}
+%https://buildmedia.readthedocs.org/media/pdf/patroni/latest/patroni.pdf
+%https://blog.dbi-services.com/postgresql-high-availabilty-patroni-ectd-haproxy-keepalived/
+
+\subsection{\IfLanguageName{dutch}{Pgpool-II}{Pgpool-II}}
+\label{subsec:Pgpool-II}
 
 %https://www.pgpool.net/mediawiki/index.php/Main_Page
 
@@ -180,8 +197,8 @@ In memory query cache maakt het mogelijk om een paar SELECT statements en zijn r
 Pgpool-II praat met de backend en de frontend protocollen van PostgreSQL, en legt een verbinding tussen beide. Daarom denkt een database applicatie (frontend) dat Pgpool-II de eigenlijke PostgreSQL server is, en de server (backend) ziet Pgpool-II als een van zijn clients. Omdat Pgpool-II transparant is voor zowel de server als de client, kan een bestaande databasetoepassing met Pgpool-II worden gebruikt vrijwel zonder de broncode aan te passen. %(https://www.pgpool.net/mediawiki/index.php/Main_Page)
 
 
-
-\textbf{PostgreSQL Automatic Failover (PAF)}
+\subsection{\IfLanguageName{dutch}{PostgreSQL Automatic Failover (PAF)}{PostgreSQL Automatic Failover (PAF)}}
+\label{subsec:PostgreSQL Automatic Failover (PAF)}
 
 PostgreSQL Automatic Failover (PAF) is een nieuwe resource agent, speciaal voor PostgreSQL. Door Pacemaker en Corosync, is het voor PAF mogelijk om:
 
@@ -200,14 +217,14 @@ De oorspronkelijke wens is om een duidelijke grens te houden tussen de Pacemaker
 
 Zodra een PostgreSQL cluster is opgebouwd met behulp van interne streaming replicatie, is PAF in staat om aan Pacemaker te laten zien wat de huidige status is van de PostgreSQL instantie op elke node: primary, standby, gestopt, etc. Mocht er dan een storing optreden op de primary node, dan zal Pacemaker standaard proberen deze te herstellen. Mocht de storing niet te herstellen zijn, dan zorgt PAF ervoor dat de standby servers de beste van hen kunnen kiezen (de dichtstbijzijnde bij de oude primary) en deze promoveren tot de nieuwe primary. Dit doet PAF dankzij Pacemaker. (https://clusterlabs.github.io/PAF/)
 
+Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan met PostgreSQL High Availability. PAF gebruikt IP adres failover in plaats van het herstarten van de standby om verbinding te maken met de nieuwe master tijdens een failover event. Dit blijkt voordelig te zijn in scenario's waarbij de gebruiker de standby nodes niet opnieuw wil opstarten. PAF heeft ook zeer weinig manuele tussenkomst nodig en beheert de algemene gezondheid van alle Postgres databankbronnen. Het enige geval waarin manuele tussenkomst een vereiste is, is dan in het geval van een tijdlijn data divergentie waarbij de gebruiker kan kiezen om pg\_rewind te gebruiken.(%https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-1/)
+Pg\_rewind is een tool die helpt bij het synchroniseren van een PostgreSQL cluster met een andere kopie van diezelfde cluster, met als enige verschil de tijd. Voorbeeld hierbij is een oude master node terug online brengen na failover als een standby node die de nieuwe master node volgt. (https://www.postgresql.org/docs/12/app-pgrewind.html)
 
-
-\textbf{RepMgr [Replication Manager]}
-
+\subsection{\IfLanguageName{dutch}{RepMgr [Replication Manager]}{RepMgr [Replication Manager]}}
+\label{subsec:RepMgr [Replication Manager]}
 %https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
 
 Repmgr is een open-source oplossing die zich bezighoudt met het beheren van replicatie en failover van servers in PostgreSQl clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover. (https://repmgr.org/)
-
 
 De features die repmgr 5 aanbiedt zijn:
 
@@ -232,7 +249,6 @@ Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een ope
 
 Standby servers die niet direct verbonden zijn met de master node worden niet beïnvloed tijdens failover van de primary naar een andere standby mode.
 
-
 6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor repliatiesleuven
 
 Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bestanden op te ruimen vanaf elke bestandssysteemlocatie. Ook in standby servers kan het gebruikt worden om bestanden die niet meer nodig zijn, te verwijderen uit de standby server.
@@ -243,11 +259,11 @@ Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bes
 Hierin wordt een standby server geprovomeerd tot een primary server en zal deze primary server degraderen naar een standby server. Wanneer andere standby servers verbonden zijn met de degradatiekandidaat, kan repmgr deze instrueren om de nieuwe primary server te volgen en niet de oude, die net gedegradeerd is. (https://repmgr.org/docs/4.0/repmgr-standby-switchover.html)
 
 
-\textbf{PgCluster}
+\subsection{\IfLanguageName{dutch}{PgCluster}{PgCluster}}
+\label{subsec:PgCluster}
 
-
-
-\textbf{Raima}
+\subsection{\IfLanguageName{dutch}{Raima}{Raima}}
+\label{subsec:Raima}
 
 Databasereplicatie is het proces waarin we gegevens gaan kopiëren van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
 In de context van replicatie gebruikt men vaak ook de termen actief-actief en actief-passief. Raima Database Manager (RDM) ondersteunt beide technieken. Bij Raima wordt actieve replicatie gewoon replicatie genoemd en passieve replicatie spiegelen (mirroring). Spiegelen zal resulteren in identieke replica's zoals de originele database, terwijl replicatie zal resulteren in replica's die niet identiek zijn aan de originele database. Deze replica's zullen alle records bevatten die van de originele database zijn overgebracht, maar de fysieke organisatie van de records in de databasebestanden (of in het geheugen) kan verschillen.
@@ -255,8 +271,8 @@ Om terug te komen op de termen actief-actief en actief-passief zullen die vaker 
 
 % ### Raima link verder uitwerken
 
-
-\textbf{EDB}
+\subsection{\IfLanguageName{dutch}{EDB}{EDB}}
+\label{subsec:EDB}
 
 Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failure.
 EDB Postgres Failover Manager kan ook gebruikt worden voor de detectie van storingen. Het bewaakt de server continu en zal storingen op verschillende niveaus detecteren. Het is ook capabel om om failover uit te voeren van de master node naar één van de replica nodes om het systeem beschikbaar te maken voor het accepteren van databaseverbindingen en queries. Wanneer EFM goed geconfigureerd is, kan het storingen detecteren en direct failover uitvoeren.
