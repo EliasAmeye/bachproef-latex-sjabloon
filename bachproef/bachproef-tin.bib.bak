@@ -1,28 +1,75 @@
 % Encoding: UTF-8
-@book{Knuth1998,
- author = {Knuth, Donald E.},
- title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
- year = {1998},
- publisher = {Addison Wesley Longman Publishing Co., Inc.},
- address = {Redwood City, CA, USA}
+
+@Online{Technopedia2021,
+  author = {Technopedia},
+  date   = {2021-04-28},
+  title  = {Object-Relational Database (ORD)},
+  url    = {https://www.techopedia.com/definition/8714/object-relational-database-ord},
 }
 
-@book{Pollefliet2011,
-  author = {Pollefliet, Leen},
-  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
-  year = {2011},
-  publisher = {Academia Press},
-  address = {Gent}
+@Online{Oracle,
+  author   = {Oracle},
+  title    = {Database defined},
+  url      = {https://www.oracle.com/database/what-is-database/},
+  language = {English},
 }
 
-@article{Creeger2009,
-  author = {Creeger, Mache},
-  journal = {Communications of the ACM},
-  number = {8},
-  pages = {50--56},
-  title = {{CTO Roundtable: Cloud Computing}},
-  volume = {52},
-  year = {2009}
+@Online{Oraclea,
+  author   = {Oracle},
+  title    = {What is Structured Query Language (SQL)?},
+  url      = {https://www.oracle.com/database/what-is-database/},
+  language = {English},
+}
+
+@Online{Wikipedia,
+  author   = {Wikipedia},
+  date     = {15 April 2021},
+  title    = {Database},
+  url      = {https://en.wikipedia.org/wiki/Database#:~:text=A\ database\ is\ an\ organized,formal\ design\ and\ modeling\ techniques},
+  language = {English},
+}
+
+@Article{Codecademy,
+  author   = {Codecademy},
+  title    = {What is a Relational Database Management System?},
+  subtitle = {Learn about RDBMS and the language used to access large datasets – SQL},
+  url      = {https://www.codecademy.com/articles/what-is-rdbms-sql#:~:text=A\ relational\ database\ is\ a,database\ is\ organized\ into\ tables},
+}
+
+@Online{CCorner2019,
+  author = {C#-Corner},
+  date   = {2019-09-06},
+  title  = {What Are Object-Oriented Databases And Their Advantages},
+  url    = {https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An object-oriented database (OODBMS,object-oriented database management systems},
+}
+
+@Online{Carchedi2020,
+  author = {Nick Carchedi},
+  date   = {2020-10-23},
+  title  = {What is SQL?},
+  url    = {https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB},
+}
+
+@Book{ReginaO.Obe2017,
+  author = {Regina O. Obe, Leo S. Hsu},
+  date   = {2017-10-10},
+  title  = {PostgreSQL: Up and Running: A Practical Guide to the Advanced Open Source Database},
+  pages  = {314},
+  url    = {https://books.google.be/books?id=Xj85DwAAQBAJ},
+}
+
+@Online{postgres,
+  author = {postgresql},
+  title  = {PostgreSQL: The World's Most Advanced Open Source Relational Database},
+  url    = {https://www.postgresql.org/},
+}
+
+@Online{Nethosting2019,
+  author   = {Nethosting},
+  date     = {2019-05-13},
+  title    = {MySQL vs. PostgreSQL: 2019 Showdown},
+  url      = {https://nethosting.com/mysql-vs-postgresql-2019-showdown/},
+  language = {English},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
