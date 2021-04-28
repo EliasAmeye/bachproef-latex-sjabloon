@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  28 APR 2021 22:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 APR 2021 22:57
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -21,15 +21,15 @@ Already applied: [0000/00/00] Make \] robust on input line 83.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@chapter=\count178
-\c@section=\count179
-\c@subsection=\count180
-\c@subsubsection=\count181
-\c@paragraph=\count182
-\c@subparagraph=\count183
-\c@figure=\count184
-\c@table=\count185
+\c@part=\count173
+\c@chapter=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
+\c@figure=\count180
+\c@table=\count181
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen138
@@ -47,9 +47,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count186
-\Gm@cntv=\count187
-\c@Gm@tempcnt=\count188
+\Gm@cnth=\count182
+\Gm@cntv=\count183
+\c@Gm@tempcnt=\count184
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -60,15 +60,16 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.
+cfg))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip50
 \enit@outerparindent=\dimen147
 \enit@toks=\toks17
 \enit@inbox=\box47
-\enit@count@id=\count189
-\enitdp@description=\count190
+\enit@count@id=\count185
+\enitdp@description=\count186
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -82,18 +83,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen155
 \cmidrulekern=\dimen156
 \defaultaddspace=\dimen157
-\@cmidla=\count191
-\@cmidlb=\count192
+\@cmidla=\count187
+\@cmidlb=\count188
 \@aboverulesep=\dimen158
 \@belowrulesep=\dimen159
-\@thisruleclass=\count193
-\@lastruleclass=\count194
+\@thisruleclass=\count189
+\@lastruleclass=\count190
 \@thisrulewidth=\dimen160
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip51
-\multirow@cntb=\count195
+\multirow@cntb=\count191
 \multirow@dima=\skip52
 \bigstrutjot=\dimen161
 )
@@ -113,40 +114,40 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 105.
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
 ) (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count196
+\c@r@tfl@t=\count192
 \rotFPtop=\skip53
 \rotFPbot=\skip54
 \rot@float@box=\box48
 \rot@mess@toks=\toks18
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count197
+\lst@mode=\count193
 \lst@gtempboxa=\box49
 \lst@token=\toks19
-\lst@length=\count198
+\lst@length=\count194
 \lst@currlwidth=\dimen164
-\lst@column=\count199
-\lst@pos=\count266
+\lst@column=\count195
+\lst@pos=\count196
 \lst@lostspace=\dimen165
 \lst@width=\dimen166
-\lst@newlines=\count267
-\lst@lineno=\count268
+\lst@newlines=\count197
+\lst@lineno=\count198
 \lst@maxwidth=\dimen167
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count269
-\lst@skipnumbers=\count270
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
 \lst@framebox=\box50
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -207,34 +208,40 @@ filtered.code.tex
 \pgf@yd=\dimen179
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count271
-\c@pgf@countb=\count272
-\c@pgf@countc=\count273
-\c@pgf@countd=\count274
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count275
+\pgf@sys@id@count=\count271
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
 File: pgf.cfg 2020/12/01 v3.1.7a (3.1.7a)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2020/12/01 v3.1.7a (3.1.7a)
+s-xetex.def
+File: pgfsys-xetex.def 2020/12/01 v3.1.7a (3.1.7a)
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/01 v3.1.7a (3.1.7a)
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/01 v3.1.7a (3.1.7a)
+)
+\pgfsys@objnum=\count272
 )))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfsyssoftpath@smallbuffer@items=\count276
-\pgfsyssoftpath@bigbuffer@items=\count277
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -246,9 +253,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -270,7 +276,7 @@ code.tex)
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen180
-\pgfmath@count=\count278
+\pgfmath@count=\count275
 \pgfmath@box=\box52
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
@@ -296,7 +302,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count279
+\c@pgfmathroundto@lastzeros=\count276
 ))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -336,7 +342,7 @@ File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count280
+\pgf@picture@serial@count=\count277
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -371,8 +377,8 @@ File: pgfcorearrows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@max=\dimen260
-\pgf@sys@shading@range@num=\count281
-\pgf@shadingcount=\count282
+\pgf@sys@shading@range@num=\count278
+\pgf@shadingcount=\count279
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -445,7 +451,7 @@ Package: tikz 2020/12/01 v3.1.7a (3.1.7a)
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@plot@mark@count=\count283
+\pgf@plot@mark@count=\count280
 \pgfplotmarksize=\dimen265
 )
 \tikz@lastx=\dimen266
@@ -460,19 +466,19 @@ File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count284
-\tikznumberofchildren=\count285
-\tikznumberofcurrentchild=\count286
-\tikz@fig@count=\count287
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfmatrixcurrentrow=\count288
-\pgfmatrixcurrentcolumn=\count289
-\pgf@matrix@numberofcolumns=\count290
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
 )
-\tikz@expandcount=\count291
+\tikz@expandcount=\count288
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -482,10 +488,18 @@ File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks32
 \inpenc@posthook=\toks33
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks34
@@ -515,13 +529,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count292
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count293
-\leftroot@=\count294
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count295
-\DOTSCASE@=\count296
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -530,15 +544,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen276
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count297
-\c@MaxMatrixCols=\count298
+\macc@depth=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip16
-\c@parentequation=\count299
-\dspbrk@lvl=\count300
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
 \tag@help=\toks36
-\row@=\count301
-\column@=\count302
-\maxfields@=\count303
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
 \andhelp@=\toks37
 \eqnshift@=\dimen277
 \alignsep@=\dimen278
@@ -598,18 +612,16 @@ LaTeX Info: Redefining \hbar on input line 50.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
 \MT@toks=\toks40
-\MT@count=\count304
+\MT@count=\count301
 LaTeX Info: Redefining \textls on input line 788.
 \MT@outer@kern=\dimen283
 LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count305
+\MT@listname@count=\count302
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
-tex.def
-File: microtype-pdftex.def 2020/12/07 v2.8 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip58
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xet
+ex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -620,15 +632,15 @@ Package: babel 2020/12/16 3.52 The Babel package
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/12/16 3.52 Babel common definitions
-\babel@savecnt=\count306
+\babel@savecnt=\count303
 \U@D=\dimen284
 \l@babelnohyphens=\language79
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def))
 \bbl@readstream=\read3
 )
-\bbl@dirlevel=\count307
-
+\bbl@dirlevel=\count304
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -667,7 +679,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 Package iflang Info: Naming convention for patterns: babel.
 ) (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
@@ -681,15 +693,15 @@ Package: titletoc 2019/10/16 v2.13 TOC entries
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
@@ -698,9 +710,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks43
 \thm@notefont=\toks44
 \thm@headpunct=\toks45
-\thm@preskip=\skip68
-\thm@postskip=\skip69
-\thm@headsep=\skip70
+\thm@preskip=\skip67
+\thm@postskip=\skip68
+\thm@headsep=\skip69
 \dth@everypar=\toks46
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
@@ -718,11 +730,13 @@ e.sty
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2020-12-07 L3 programming layer (loader) 
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count308
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count305
 \l__pdf_internal_box=\box65
+\g__pdf_backend_object_int=\count306
+\g__pdf_backend_annotation_int=\count307
 ))
 Package: xparse 2020-10-27 L3 Experimental document command parser
 
@@ -730,7 +744,7 @@ Package: xparse 2020-10-27 L3 Experimental document command parser
 e-generic.tex))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count309
+\etb@tempcnta=\count308
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
@@ -755,53 +769,53 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\c@abspage=\count310
+\c@abspage=\count309
 Package zref Info: New property: abspage on input line 66.
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip71
-\c@mdf@globalstyle@cnt=\count311
-\mdf@skipabove@length=\skip72
-\mdf@skipbelow@length=\skip73
-\mdf@leftmargin@length=\skip74
-\mdf@rightmargin@length=\skip75
-\mdf@innerleftmargin@length=\skip76
-\mdf@innerrightmargin@length=\skip77
-\mdf@innertopmargin@length=\skip78
-\mdf@innerbottommargin@length=\skip79
-\mdf@splittopskip@length=\skip80
-\mdf@splitbottomskip@length=\skip81
-\mdf@outermargin@length=\skip82
-\mdf@innermargin@length=\skip83
-\mdf@linewidth@length=\skip84
-\mdf@innerlinewidth@length=\skip85
-\mdf@middlelinewidth@length=\skip86
-\mdf@outerlinewidth@length=\skip87
-\mdf@roundcorner@length=\skip88
-\mdf@footenotedistance@length=\skip89
-\mdf@userdefinedwidth@length=\skip90
-\mdf@needspace@length=\skip91
-\mdf@frametitleaboveskip@length=\skip92
-\mdf@frametitlebelowskip@length=\skip93
-\mdf@frametitlerulewidth@length=\skip94
-\mdf@frametitleleftmargin@length=\skip95
-\mdf@frametitlerightmargin@length=\skip96
-\mdf@shadowsize@length=\skip97
-\mdf@extratopheight@length=\skip98
-\mdf@subtitleabovelinewidth@length=\skip99
-\mdf@subtitlebelowlinewidth@length=\skip100
-\mdf@subtitleaboveskip@length=\skip101
-\mdf@subtitlebelowskip@length=\skip102
-\mdf@subtitleinneraboveskip@length=\skip103
-\mdf@subtitleinnerbelowskip@length=\skip104
-\mdf@subsubtitleabovelinewidth@length=\skip105
-\mdf@subsubtitlebelowlinewidth@length=\skip106
-\mdf@subsubtitleaboveskip@length=\skip107
-\mdf@subsubtitlebelowskip@length=\skip108
-\mdf@subsubtitleinneraboveskip@length=\skip109
-\mdf@subsubtitleinnerbelowskip@length=\skip110
+\mdf@templength=\skip70
+\c@mdf@globalstyle@cnt=\count310
+\mdf@skipabove@length=\skip71
+\mdf@skipbelow@length=\skip72
+\mdf@leftmargin@length=\skip73
+\mdf@rightmargin@length=\skip74
+\mdf@innerleftmargin@length=\skip75
+\mdf@innerrightmargin@length=\skip76
+\mdf@innertopmargin@length=\skip77
+\mdf@innerbottommargin@length=\skip78
+\mdf@splittopskip@length=\skip79
+\mdf@splitbottomskip@length=\skip80
+\mdf@outermargin@length=\skip81
+\mdf@innermargin@length=\skip82
+\mdf@linewidth@length=\skip83
+\mdf@innerlinewidth@length=\skip84
+\mdf@middlelinewidth@length=\skip85
+\mdf@outerlinewidth@length=\skip86
+\mdf@roundcorner@length=\skip87
+\mdf@footenotedistance@length=\skip88
+\mdf@userdefinedwidth@length=\skip89
+\mdf@needspace@length=\skip90
+\mdf@frametitleaboveskip@length=\skip91
+\mdf@frametitlebelowskip@length=\skip92
+\mdf@frametitlerulewidth@length=\skip93
+\mdf@frametitleleftmargin@length=\skip94
+\mdf@frametitlerightmargin@length=\skip95
+\mdf@shadowsize@length=\skip96
+\mdf@extratopheight@length=\skip97
+\mdf@subtitleabovelinewidth@length=\skip98
+\mdf@subtitlebelowlinewidth@length=\skip99
+\mdf@subtitleaboveskip@length=\skip100
+\mdf@subtitlebelowskip@length=\skip101
+\mdf@subtitleinneraboveskip@length=\skip102
+\mdf@subtitleinnerbelowskip@length=\skip103
+\mdf@subsubtitleabovelinewidth@length=\skip104
+\mdf@subsubtitlebelowlinewidth@length=\skip105
+\mdf@subsubtitleaboveskip@length=\skip106
+\mdf@subsubtitlebelowskip@length=\skip107
+\mdf@subsubtitleinneraboveskip@length=\skip108
+\mdf@subsubtitleinnerbelowskip@length=\skip109
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
@@ -811,65 +825,65 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box68
 \mdf@splitbox@two=\box69
 \mdf@splitbox@save=\box70
-\mdfsplitboxwidth=\skip111
-\mdfsplitboxtotalwidth=\skip112
-\mdfsplitboxheight=\skip113
-\mdfsplitboxdepth=\skip114
-\mdfsplitboxtotalheight=\skip115
-\mdfframetitleboxwidth=\skip116
-\mdfframetitleboxtotalwidth=\skip117
-\mdfframetitleboxheight=\skip118
-\mdfframetitleboxdepth=\skip119
-\mdfframetitleboxtotalheight=\skip120
-\mdffootnoteboxwidth=\skip121
-\mdffootnoteboxtotalwidth=\skip122
-\mdffootnoteboxheight=\skip123
-\mdffootnoteboxdepth=\skip124
-\mdffootnoteboxtotalheight=\skip125
-\mdftotallinewidth=\skip126
-\mdfboundingboxwidth=\skip127
-\mdfboundingboxtotalwidth=\skip128
-\mdfboundingboxheight=\skip129
-\mdfboundingboxdepth=\skip130
-\mdfboundingboxtotalheight=\skip131
-\mdf@freevspace@length=\skip132
-\mdf@horizontalwidthofbox@length=\skip133
-\mdf@verticalmarginwhole@length=\skip134
-\mdf@horizontalspaceofbox=\skip135
-\mdfsubtitleheight=\skip136
-\mdfsubsubtitleheight=\skip137
-\c@mdfcountframes=\count312
+\mdfsplitboxwidth=\skip110
+\mdfsplitboxtotalwidth=\skip111
+\mdfsplitboxheight=\skip112
+\mdfsplitboxdepth=\skip113
+\mdfsplitboxtotalheight=\skip114
+\mdfframetitleboxwidth=\skip115
+\mdfframetitleboxtotalwidth=\skip116
+\mdfframetitleboxheight=\skip117
+\mdfframetitleboxdepth=\skip118
+\mdfframetitleboxtotalheight=\skip119
+\mdffootnoteboxwidth=\skip120
+\mdffootnoteboxtotalwidth=\skip121
+\mdffootnoteboxheight=\skip122
+\mdffootnoteboxdepth=\skip123
+\mdffootnoteboxtotalheight=\skip124
+\mdftotallinewidth=\skip125
+\mdfboundingboxwidth=\skip126
+\mdfboundingboxtotalwidth=\skip127
+\mdfboundingboxheight=\skip128
+\mdfboundingboxdepth=\skip129
+\mdfboundingboxtotalheight=\skip130
+\mdf@freevspace@length=\skip131
+\mdf@horizontalwidthofbox@length=\skip132
+\mdf@verticalmarginwhole@length=\skip133
+\mdf@horizontalspaceofbox=\skip134
+\mdfsubtitleheight=\skip135
+\mdfsubsubtitleheight=\skip136
+\c@mdfcountframes=\count311
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count313
-\c@mdf@env@i=\count314
-\c@mdf@env@ii=\count315
-\c@mdf@zref@counter=\count316
+\mdf@envdepth=\count312
+\c@mdf@env@i=\count313
+\c@mdf@env@ii=\count314
+\c@mdf@zref@counter=\count315
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\c@theoremT=\count317
-\c@corollaryT=\count318
-\c@definitionT=\count319
-\c@exerciseT=\count320
-\c@exampleT=\count321
+\c@theoremT=\count316
+\c@corollaryT=\count317
+\c@definitionT=\count318
+\c@exerciseT=\count319
+\c@exampleT=\count320
  (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count322
-\calc@Bcount=\count323
+\calc@Acount=\count321
+\calc@Bcount=\count322
 \calc@Adimen=\dimen286
 \calc@Bdimen=\dimen287
-\calc@Askip=\skip138
-\calc@Bskip=\skip139
+\calc@Askip=\skip137
+\calc@Bskip=\skip138
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count324
-\calc@Cskip=\skip140
+\calc@Ccount=\count323
+\calc@Cskip=\skip139
 )
-\esp=\skip141
-\ecart=\skip142
+\esp=\skip140
+\ecart=\skip141
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
@@ -885,18 +899,16 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen288
-\Hy@linkcounter=\count325
-\Hy@pagecounter=\count326
+\Hy@linkcounter=\count324
+\Hy@pagecounter=\count325
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count327
+\Hy@SavedSpaceFactor=\count326
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -904,7 +916,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count328
+\c@Hy@tempcnt=\count327
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -921,7 +933,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count329
+\Fld@menulength=\count328
 \Field@Width=\dimen290
 \Fld@charsize=\dimen291
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -933,21 +945,26 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-\Hy@abspage=\count330
-\c@Item=\count331
-\c@Hfootnote=\count332
+\Hy@abspage=\count329
+\c@Item=\count330
+\c@Hfootnote=\count331
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hxetex.
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
-with kernel methods
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 )
-\HyAnn@Count=\count333
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box71
+\c@Hy@AnnotLevel=\count332
+\HyField@AnnotCount=\count333
 \Fld@listcount=\count334
 \c@bookmark@seq@number=\count335
 
@@ -955,6 +972,11 @@ with kernel methods
 echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -962,7 +984,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip143
+\Hy@SectionHShift=\skip142
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 560.
 Package hyperref Info: Option `breaklinks' set `true' on input line 560.
@@ -971,8 +993,9 @@ Package hyperref Info: Option `bookmarksopen' set `false' on input line 560.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
+f
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count336
 ))
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
@@ -1027,14 +1050,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorder@0=\count377
 \blx@entrysetcounter=\count378
 \blx@biblioinstance=\count379
-\labelnumberwidth=\skip144
-\labelalphawidth=\skip145
-\biblabelsep=\skip146
-\bibitemsep=\skip147
-\bibnamesep=\skip148
-\bibinitsep=\skip149
-\bibparsep=\skip150
-\bibhang=\skip151
+\labelnumberwidth=\skip143
+\labelalphawidth=\skip144
+\biblabelsep=\skip145
+\bibitemsep=\skip146
+\bibnamesep=\skip147
+\bibinitsep=\skip148
+\bibparsep=\skip149
+\bibhang=\skip150
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
@@ -1135,20 +1158,25 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count460
 \c@pageref=\count461
 \c@savedpageref=\count462
-\shorthandwidth=\skip152
-\shortjournalwidth=\skip153
-\shortserieswidth=\skip154
-\shorttitlewidth=\skip155
-\shortauthorwidth=\skip156
-\shorteditorwidth=\skip157
-\locallabelnumberwidth=\skip158
-\locallabelalphawidth=\skip159
-\localshorthandwidth=\skip160
-\localshortjournalwidth=\skip161
-\localshortserieswidth=\skip162
-\localshorttitlewidth=\skip163
-\localshortauthorwidth=\skip164
-\localshorteditorwidth=\skip165
+\shorthandwidth=\skip151
+\shortjournalwidth=\skip152
+\shortserieswidth=\skip153
+\shorttitlewidth=\skip154
+\shortauthorwidth=\skip155
+\shorteditorwidth=\skip156
+\locallabelnumberwidth=\skip157
+\locallabelalphawidth=\skip158
+\localshorthandwidth=\skip159
+\localshortjournalwidth=\skip160
+\localshortserieswidth=\skip161
+\localshorttitlewidth=\skip162
+\localshortauthorwidth=\skip163
+\localshorteditorwidth=\skip164
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.de
+f)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1268,9 +1296,9 @@ Package: hogent-thesis-titlepage 2019/01/09 Titelpagina bachelorproef HOGENT
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip166
-\thanksmargin=\skip167
-\droptitle=\skip168
+\thanksmarkwidth=\skip165
+\thanksmargin=\skip166
+\droptitle=\skip167
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1294,6 +1322,14 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+4.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -1301,8 +1337,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
-*geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1336,41 +1373,13 @@ LaTeX Font Info:    ... okay on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count480
-\scratchdimen=\dimen292
-\scratchbox=\box71
-\nofMPsegments=\count481
-\nofMParguments=\count482
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count483
-\MPscratchDim=\dimen293
-\MPnumerator=\count484
-\makeMPintoPDFobject=\count485
-\everyMPtoPDFconversion=\toks49
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
-\c@lstlisting=\count486
+\c@lstlisting=\count480
 LaTeX Info: Redefining \microtypecontext on input line 44.
-Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 44.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
@@ -1386,7 +1395,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count487
+\c@section@level=\count481
 )
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
@@ -1440,7 +1449,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 x
 File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 ))))
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `bachproef-tin.bcf'.
@@ -1483,17 +1493,18 @@ Package biblatex Info: Reference segment=0 on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img//HOGENT_Logo_Pos_rgb.png, id=6, 3503.0875pt x 1975.38pt>
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type png)
-<use img//HOGENT_Logo_Pos_rgb.png>
-Package pdftex.def Info: img//HOGENT_Logo_Pos_rgb.png  used on input line 54.
-(pdftex.def)             Requested size: 71.13188pt x 40.08864pt.
-[1
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-pr
+int.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) [1
 
 
 
-{C:/Users/elias/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./img//HOGENT_L
-ogo_Pos_rgb.png>] [2
+] [2
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1528,20 +1539,10 @@ ogo_Pos_rgb.png>] [2
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54 \inserttitlepage
-                      [1
+ [1
 
 
-] (voorwoord.texpdfTeX warning (ext4): destination with the same identifier (na
-me{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 \chapter
-            *{\IfLanguageName{dutch}{Woord vooraf}{Preface}} [2
+] (voorwoord.tex [2
 
 
 ]
@@ -1573,6 +1574,12 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
+Overfull \hbox (21.15076pt too wide) in paragraph at lines 82--82
+ []|| [][]\T1/pag/db/n/12 Hoe be-ant-woor-den de ver-schil-lende op-los-sin-gen
+ aan de bo-ven-staande
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
@@ -1604,48 +1611,86 @@ Hoofdstuk 2.
 [17
 
 ]
-Overfull \hbox (13.9115pt too wide) in paragraph at lines 61--62
-\T1/ptm/m/n/12 (-20) vlak van be-trouw-baar-heid, ro-buust-heid van func-ties e
-n pres-ta-ties (https://www.postgresql.org/).
+Overfull \hbox (6.27164pt too wide) in paragraph at lines 62--63
+\T1/ptm/m/n/12 PostgreSQL is een open source sys-teem dat zich toe-legt op het 
+be-heer van object-relationele
  []
 
 
-Underfull \vbox (badness 1968) has occurred while \output is active []
+Overfull \hbox (22.61635pt too wide) in paragraph at lines 62--63
+\T1/ptm/m/n/12 vlak van be-trouw-baar-heid, ro-buust-heid van func-ties en pres
+-ta-ties (https://www.postgresql.org/).
+ []
+
+
+Underfull \vbox (badness 1365) has occurred while \output is active []
 
  [18]
+Overfull \hbox (11.55219pt too wide) in paragraph at lines 64--65
+\T1/ptm/m/n/12 an-kerd is in de re-la-ti-o-nele da-ta-base we-reld (https://www
+.postgresql.org/docs/6.3/c0101.htm). 
+ []
+
+
+Overfull \hbox (21.76347pt too wide) in paragraph at lines 98--99
+\T1/ptm/m/n/12 (https://www.enterprisedb.com/blog/what-does-database-high-avail
+ability-really-mean). Vaak
+ []
+
+
+Overfull \hbox (201.9304pt too wide) in paragraph at lines 98--99
+\T1/ptm/m/n/12 duidt men deze norm aan als de Five 9's, na-me-lijk 99,999% be-s
+chik-baar-heid (https://searchdatacenter.techtarget.com/definition/high-
+ []
+
 [19]
+Overfull \hbox (0.66899pt too wide) in paragraph at lines 117--118
+\T1/ptm/m/n/12 shipping/about-log-shipping-sql-server?view=sql-server-ver15). I
+n deze mo-dus aan-vaardt
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 135.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 136.
 
 [21]
-Overfull \hbox (133.81169pt too wide) in paragraph at lines 152--153
-\T1/ptm/m/n/12 (-20) men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity
- mo-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
+Overfull \hbox (160.26582pt too wide) in paragraph at lines 152--153
+\T1/ptm/m/n/12 vor-men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity m
+o-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
  []
 
 
-Overfull \hbox (135.39409pt too wide) in paragraph at lines 162--163
-\T1/ptm/m/n/12 (-20) zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine 
-we-gens failover. (https://whatis.techtarget.com/definition/failback) 
+Overfull \hbox (146.49084pt too wide) in paragraph at lines 162--163
+\T1/ptm/m/n/12 zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine we-gen
+s failover. (https://whatis.techtarget.com/definition/failback) 
  []
 
-[22]
+
+Overfull \hbox (4.08913pt too wide) in paragraph at lines 172--173
+[]\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
+de op-ties voor fail-back en failover.
+ []
+
+[22] [23]
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [24]
-Underfull \vbox (badness 6995) has occurred while \output is active []
+Underfull \vbox (badness 1424) has occurred while \output is active []
 
  [25]
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 273--275
+[]\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
+ou-di-ger zijn om WAL-bestanden
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27]) (methodologie.tex [28] [29] [30
+[27] [28]) (methodologie.tex [29] [30
 
 ]
 Hoofdstuk 3.
@@ -1661,7 +1706,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33
 
 ]
-Overfull \vbox (33.28784pt too high) has occurred while \output is active []
+Overfull \vbox (36.78955pt too high) has occurred while \output is active []
 
 
 [34]
@@ -1709,9 +1754,15 @@ LaTeX Warning: Citation 'PostgreSQL2020' on page 42 undefined on input line 52.
 
 [42])
 
-LaTeX Warning: Empty bibliography on input line 130.
+LaTeX Warning: Citation 'Creeger2009' on page 43 undefined on input line 132.
 
-[43] (bachproef-tin.aux)
+
+LaTeX Warning: Citation 'Creeger2009' on page 43 undefined on input line 133.
+
+
+LaTeX Warning: Empty bibliography on input line 134.
+
+[43] [44] (bachproef-tin.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1725,22 +1776,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32283 strings out of 479696
- 601913 string characters out of 2867114
- 1560290 words of memory out of 3000000
- 48462 multiletter control sequences out of 15000+200000
- 449845 words of font info for 184 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 94i,12n,99p,2079b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb>
-<C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.p
-fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
-fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
-fb>
-Output written on bachproef-tin.pdf (45 pages, 259695 bytes).
-PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 47514 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 34494 strings out of 412094
+ 615900 string characters out of 2847025
+ 1609441 words of memory out of 3000000
+ 53583 multiletter control sequences out of 15000+200000
+ 431213 words of font info for 44 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 94i,12n,99p,2069b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on bachproef-tin.pdf (46 pages).
