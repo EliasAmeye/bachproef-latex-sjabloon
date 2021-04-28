@@ -127,11 +127,24 @@ In geval van een volledige uitval van een systeem is geografische redundantie al
 Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure.
 (https://phoenixnap.com/blog/what-is-high-availability)
 
+\subsection{\IfLanguageName{dutch}{Schaalbaarheid}{Schaalbaarheid}}
+\label{subsec:Schaalbaarheid}
+
+Schaalbaarheid is de eigenschap van een systeem om te kunnen voldoen aan een groeiend aantal eisen door bronnen toe te voegen. De redenen voor een groei kunnen tijdelijk zijn, bijvoorbeeld wanneer een bedrijf net een nieuw product op de markt brengt, of wanneer er een substantiële groei is in het aantal klanten of personeel. Er zijn twee manieren om aan schalen te doen. Horizontaal en verticaal. %https://severalnines.com/database-blog/scaling-postgresql-large-amounts-data
+
+\subsubsection{\IfLanguageName{dutch}{Horizontaal schalen}{Horizontaal schalen}}
+\label{subsubsec:Horizontaal schalen}
+Horizontaal schalen richt zich op het toevoegen van nodes in een systeem of cluster. Hierin is het handig om meer slave nodes toe te voegen aan de cluster. Dit zal ons helpen om lees- en schrijfprestaties te verbeteren, doordat het meer gebalanceerd kan gebeuren. Hierbij is een load balancer nodig, die dit verkeer zal regelen. Eén load balancer zal niet voldoende zijn om single point of failure preventief te voorkomen. Beter hier is dan twee of meerdere load balancers toevoegen. Op deze manier kunnen we High Availability blijven garanderen.
+%https://severalnines.com/database-blog/scaling-postgresql-large-amounts-data
+
+\subsubsection{\IfLanguageName{dutch}{Verticaal schalen}{Verticaal schalen}}
+\label{subsubsec:Verticaal schalen}
+Verticaal schalen is het toevoegen van hardware resources aan bestaande nodes. Deze resources kunnen gaan over RAM-geheugen, schijfgeheugen, CPU.
+%https://severalnines.com/database-blog/scaling-postgresql-large-amounts-data
 
 
 \section{\IfLanguageName{dutch}{Cluster oplossingen}{Cluster solutions}}
 \label{sec:Cluster solutions}
-% de tools die HA mogelijkheden naar een hoger niveau tillen
 
 \subsection{\IfLanguageName{dutch}{Cluster}{Cluster}}
 \label{subsec:Cluster}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  27 APR 2021 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.30)  28 APR 2021 21:54
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1617,26 +1617,26 @@ Underfull \vbox (badness 1968) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (133.81169pt too wide) in paragraph at lines 139--140
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 135.
+
+[21]
+Overfull \hbox (133.81169pt too wide) in paragraph at lines 152--153
 \T1/ptm/m/n/12 (-20) men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity
  mo-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
  []
 
 
-Overfull \hbox (135.39409pt too wide) in paragraph at lines 149--150
+Overfull \hbox (135.39409pt too wide) in paragraph at lines 162--163
 \T1/ptm/m/n/12 (-20) zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine 
 we-gens failover. (https://whatis.techtarget.com/definition/failback) 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1424) has occurred while \output is active []
 
  [23]
-Underfull \vbox (badness 6995) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 Underfull \vbox (badness 6995) has occurred while \output is active []
@@ -1645,62 +1645,73 @@ Underfull \vbox (badness 6995) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27]) (methodologie.tex [28]
+[27]) (methodologie.tex [28] [29] [30
+
+]
 Hoofdstuk 3.
-) (Schifting.tex [29
+) (Schifting.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [30
-
-]
+ [31]
+[32]
 Hoofdstuk 4.
-) (Oplossing1.tex [31] [32
+) (Oplossing1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33
 
 ]
+Overfull \vbox (33.28784pt too high) has occurred while \output is active []
+
+
+[34]
 Hoofdstuk 5.
-) (Oplossing2.tex [33] [34
+) (Oplossing2.tex [35
+
+] [36
 
 ]
 Hoofdstuk 6.
-) (conclusie.tex [35] [36
+) (conclusie.tex [37] [38
 
 ]
 Hoofdstuk 7.
-) [37] [38
+) [39] [40
 
 ]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 
-LaTeX Warning: Citation 'IBM1' on page 39 undefined on input line 5.
+LaTeX Warning: Citation 'IBM1' on page 41 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'BDQ' on page 39 undefined on input line 5.
+LaTeX Warning: Citation 'BDQ' on page 41 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'Singer2020' on page 39 undefined on input line 25.
+LaTeX Warning: Citation 'Singer2020' on page 41 undefined on input line 25.
 
 
-LaTeX Warning: Citation 'Jevtic2018' on page 39 undefined on input line 26.
+LaTeX Warning: Citation 'Jevtic2018' on page 41 undefined on input line 26.
 
 
-LaTeX Warning: Citation 'Akhtar2020' on page 39 undefined on input line 27.
+LaTeX Warning: Citation 'Akhtar2020' on page 41 undefined on input line 27.
 
 
-LaTeX Warning: Citation 'Anderson2020' on page 39 undefined on input line 30.
+LaTeX Warning: Citation 'Anderson2020' on page 41 undefined on input line 30.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [41]
 
-LaTeX Warning: Citation 'PostgreSQL2020' on page 40 undefined on input line 52.
+LaTeX Warning: Citation 'PostgreSQL2020' on page 42 undefined on input line 52.
 
 
-[40])
+[42])
 
 LaTeX Warning: Empty bibliography on input line 130.
 
-[41] (bachproef-tin.aux)
+[43] (bachproef-tin.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1714,22 +1725,22 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32239 strings out of 479696
- 601285 string characters out of 2867114
- 1559530 words of memory out of 3000000
- 48443 multiletter control sequences out of 15000+200000
- 444725 words of font info for 175 fonts, out of 3000000 for 9000
+ 32283 strings out of 479696
+ 601913 string characters out of 2867114
+ 1560261 words of memory out of 3000000
+ 48462 multiletter control sequences out of 15000+200000
+ 449845 words of font info for 184 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,99p,2079b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,12n,99p,2079b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb>
 <C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.p
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/elias/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on bachproef-tin.pdf (43 pages, 252992 bytes).
+Output written on bachproef-tin.pdf (45 pages, 259684 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 41338 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 549 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 47514 words of extra memory for PDF output out of 51595 (max. 10000000)
 
