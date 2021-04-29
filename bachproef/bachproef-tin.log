@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  29 APR 2021 16:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  29 APR 2021 17:38
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1697,22 +1697,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Hoofdstuk 3.
-) (Schifting.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-[32]
-Hoofdstuk 4.
-) (Oplossing1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33
+) (Schifting.tex [31] [32
 
 ]
-Overfull \vbox (36.78955pt too high) has occurred while \output is active []
-
-
-[34]
+Hoofdstuk 4.
+[33]) (Oplossing1.tex [34]
 Hoofdstuk 5.
 ) (Oplossing2.tex [35
 
@@ -1774,8 +1763,8 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  34494 strings out of 412094
- 615900 string characters out of 2847025
- 1609441 words of memory out of 3000000
+ 615903 string characters out of 2847025
+ 1609423 words of memory out of 3000000
  53583 multiletter control sequences out of 15000+200000
  431213 words of font info for 44 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191

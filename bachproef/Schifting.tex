@@ -8,24 +8,35 @@
 
 \section{\IfLanguageName{dutch}{Requirements}{Requirements}}
 \label{sec:Requirements}
+Om te kunnen bepalen welke requirements er nodig zijn,
 
-\subsection{\IfLanguageName{dutch}{Functional Requirements}{Functional Requirements}}
-\label{subsec:Functional Requirements}
+Elk van deze High Available PostgreSQL cluster oplossingen zal worden afgetoetst aan de requirements om ze op deze manier te evalueren. In samenspraak met Ruben Demey zijn er drie functionele requirements. Bij elke oplossing worden de requirements afgetoetst en krijgen ze een score van 1 (slecht) tot 5 (uitstekend).
+
+\subsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
+\label{subsec:Functionele Requirements}
+Een functionele requirement beschrijft hoe het systeem moet werken en wat het moet kunnen.
 
 \subsubsection{\IfLanguageName{dutch}{Redundancy}{Redundancy}}
 \label{subsubsec:Redundancy}
+Om High Availability te bereiken moeten clusters aan bepaalde eisen voldoen. Het moet over redundantie beschikken om single points of failure te vermijden. 
+
 
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
+Het opzetten van failover (replicatie) biedt de nodige redundantie om High Availability mogelijk te maken door ervoor te zorgen dat standby nodes beschikbaar zijn als de master of primary node ooit uitvalt. 
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
+Monitoring is belangrijk omdat het op deze manier actief storingen kan opmerken en opsporen.
 
-\subsection{\IfLanguageName{dutch}{Non-functional Requirements}{Non-functional Requirements}}
-\label{subsec:Non-functional Requirements}
+
+\subsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
+\label{subsec:Niet-functionele Requirements}
+Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat dan meer over voorkeuren.
 
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
+Open source verwijst naar software die publiekelijk toegankelijk is.
 
 % gemakkelijke interface
 
