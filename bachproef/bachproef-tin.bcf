@@ -2825,8 +2825,6 @@
     <bcf:citekey order="5">Akhtar2020</bcf:citekey>
     <bcf:citekey order="6">Anderson2020</bcf:citekey>
     <bcf:citekey order="7">PostgreSQL2020</bcf:citekey>
-    <bcf:citekey order="8">Creeger2009</bcf:citekey>
-    <bcf:citekey order="9">Creeger2009</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
