@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 16:28
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 16:59
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1696,11 +1696,15 @@ Overfull \hbox (21.15076pt too wide) in paragraph at lines 92--92
  aan de bo-ven-staande
  []
 
-[9])
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
- [10] (bachproef-tin.lof)
+
+[10] (bachproef-tin.lof)
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
@@ -1713,8 +1717,8 @@ Overfull \hbox (21.15076pt too wide) in paragraph at lines 92--92
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
- (inleiding.tex
-[13] [14
+ (inleiding.tex [13]
+[14
 
 ]
 Hoofdstuk 1.
@@ -2827,7 +2831,7 @@ I'm ignoring this; it doesn't match any \if.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.120 ...lossing 4: Replication Manager (RepMgr)}}
+l.130 ...lossing 4: Replication Manager (RepMgr)}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2838,21 +2842,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.120 ...lossing 4: Replication Manager (RepMgr)}}
+l.130 ...lossing 4: Replication Manager (RepMgr)}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.120 ...lossing 4: Replication Manager (RepMgr)}}
+l.130 ...lossing 4: Replication Manager (RepMgr)}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+l.141 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2863,21 +2867,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+l.141 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+l.141 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+l.144 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2888,21 +2892,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+l.144 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+l.144 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+l.148 ...h}{Resultatenanalyse}{Resultatenanalyse}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2913,14 +2917,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+l.148 ...h}{Resultatenanalyse}{Resultatenanalyse}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+l.148 ...h}{Resultatenanalyse}{Resultatenanalyse}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -3338,7 +3342,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  34689 strings out of 414613
  620765 string characters out of 2906988
- 1550517 words of memory out of 3000000
+ 1550591 words of memory out of 3000000
  51244 multiletter control sequences out of 15000+200000
  571187 words of font info for 66 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
