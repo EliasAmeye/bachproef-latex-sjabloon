@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 15:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 16:28
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2792,117 +2792,139 @@ l.86 ...ing 2: Pgpool-II}{Oplossing 2: Pgpool-II}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
-! Undefined control sequence.
-\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
-                                                  [\ifBKM@open \ifnum \BKM@l...
-l.97 ...g 3: PostgreSQL Automatic Failover (PAF)}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \else.
-\H@old@sect ...name the#1\endcsname }\fi #7}\else 
-                                                  \def \@svsechd {#6{\hskip ...
-l.97 ...g 3: PostgreSQL Automatic Failover (PAF)}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
-                                                  \@xsect {#5}
-l.97 ...g 3: PostgreSQL Automatic Failover (PAF)}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Undefined control sequence.
-\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
-                                                  [\ifBKM@open \ifnum \BKM@l...
-l.108 ...lossing 4: Replication Manager (RepMgr)}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \else.
-\H@old@sect ...name the#1\endcsname }\fi #7}\else 
-                                                  \def \@svsechd {#6{\hskip ...
-l.108 ...lossing 4: Replication Manager (RepMgr)}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
-                                                  \@xsect {#5}
-l.108 ...lossing 4: Replication Manager (RepMgr)}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Undefined control sequence.
-\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
-                                                  [\ifBKM@open \ifnum \BKM@l...
-l.119 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \else.
-\H@old@sect ...name the#1\endcsname }\fi #7}\else 
-                                                  \def \@svsechd {#6{\hskip ...
-l.119 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
-                                                  \@xsect {#5}
-l.119 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Undefined control sequence.
-\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
-                                                  [\ifBKM@open \ifnum \BKM@l...
-l.122 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \else.
-\H@old@sect ...name the#1\endcsname }\fi #7}\else 
-                                                  \def \@svsechd {#6{\hskip ...
-l.122 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-! Extra \fi.
-\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
-                                                  \@xsect {#5}
-l.122 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
-                                                  
-I'm ignoring this; it doesn't match any \if.
-
-) (Oplossing1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (14.5pt): 
 Make it at least 27.808pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[35] [36]
+[35]
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.109 ... 3: PostgreSQL Automatic Failover (PAF)}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.109 ... 3: PostgreSQL Automatic Failover (PAF)}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.109 ... 3: PostgreSQL Automatic Failover (PAF)}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.120 ...lossing 4: Replication Manager (RepMgr)}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.120 ...lossing 4: Replication Manager (RepMgr)}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.120 ...lossing 4: Replication Manager (RepMgr)}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.131 ...ageName{dutch}{Oplossing 5}{Oplossing 5}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.134 ...ageName{dutch}{Oplossing 6}{Oplossing 6}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
+                                                  [\ifBKM@open \ifnum \BKM@l...
+l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \else.
+\H@old@sect ...name the#1\endcsname }\fi #7}\else 
+                                                  \def \@svsechd {#6{\hskip ...
+l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
+                                                  \@xsect {#5}
+l.138 ...h}{Resultatenanalyse}{Resultatenanalyse}}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+) (Oplossing1.tex [36]
 Hoofdstuk 5.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
@@ -3314,10 +3336,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34687 strings out of 414613
- 620736 string characters out of 2906988
+ 34689 strings out of 414613
+ 620765 string characters out of 2906988
  1550517 words of memory out of 3000000
- 51242 multiletter control sequences out of 15000+200000
+ 51244 multiletter control sequences out of 15000+200000
  571187 words of font info for 66 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,12n,64p,2069b,5266s stack positions out of 5000i,500n,10000p,200000b,50000s

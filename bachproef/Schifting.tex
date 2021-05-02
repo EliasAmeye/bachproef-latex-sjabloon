@@ -79,7 +79,7 @@ Er zijn verschillende soorten tools beschikbaar voor de drie opgestelde function
 \label{subsubsec:Niet-functionele Requirements}
 Patroni is ontwikkeld door Zalando en is volledig open source. De volledige source code is online te vinden op github.com en wordt nog steeds geupdate. Dit is ook een belangrijke vereiste waaraan de oplossing moet doen. Er worden  nog steeds releases gedaan. De laatste release was, tijdens dit schrijven, op 22 februari 2021.
 
-Aangezien dat Patroni volledig open source is en dat het een tool is die volledig up-to-date gehouden wordt, krijgt Patroni voor niet-functionele requirements een 5/5.
+Aangezien Patroni volledig open source is en het een oplossing is die volledig up-to-date gehouden wordt, krijgt Patroni voor niet-functionele requirements een 5/5.
 
 
 
@@ -89,10 +89,22 @@ Aangezien dat Patroni volledig open source is en dat het een tool is die volledi
 \subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
 \label{subsubsec:Functionele Requirements}
 
+Pgpool-II beschikt over een tool, genaamd Watchdog, dat een subproces is van Pgpool-II dat dient om High Availability toe te voegen. Watchdog wordt gebruikt om single point of failure op te lossen door meerdere Pgpool-II nodes te coördineren. Het coördineert meerdere Pgpool-II nodes door informatie met elkaar uit te wisselen.
+
+Watchdog kan ook remote de gezondheid controleren van de node waarop het is geïnstalleerd door de verbinding met upstream nodes te monitoren. Als de monitoring faalt, behandelt watchdog dit als het falen van een lokale Pgpool-II node en zal het de nodige acties ondernemen.
+
+Pgpool-II kan meerdere nodes beheren en hierin replicatie opzetten om High Availability te verkrijgen.
+
+Pgpool-II voorziet ook automatische failover.
+
+Pgpool-II heeft aan de hand van Watchdog en Replication manieren om aan de vooropgesteld functionele requirements te voldoen. Het aantal beschkbare tools lijken wel wat minder aanwezig te zijn. Pgpool-II krijgt hierdoor een 10/15.
 
 \subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
 \label{subsubsec:Niet-functionele Requirements}
 
+Pgpool-II is een open source project. De source code wordt onderhouden door een git-repository.
+De laatste release van pgpool-II was op 26 november 2020. Hieruit kunnen we ook zeggen dat Pgpool-II nog een geldige, bruikbare oplossing.
+Aan de hand hiervan krijgt Pgpool-II een 5/5 voor niet-functionele requirements.
 
 \subsection{\IfLanguageName{dutch}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}}
 \label{subsec:Oplossing 3: PostgreSQL Automatic Failover (PAF)}
@@ -121,3 +133,9 @@ Aangezien dat Patroni volledig open source is en dat het een tool is die volledi
 
 \subsection{\IfLanguageName{dutch}{Oplossing 6}{Oplossing 6}}
 \label{subsec:Oplossing 6}
+
+
+\section{\IfLanguageName{dutch}{Resultatenanalyse}{Resultatenanalyse}}
+\label{sec:Resultatenanalyse}
+
+% Hierin zeggen hoeveel punten elke oplossing heeft enz
