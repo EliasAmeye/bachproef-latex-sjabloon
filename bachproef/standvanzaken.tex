@@ -66,23 +66,6 @@ Postgres speelt in op de bovenvernoemde vier basisconcepten van een object-relat
 
 
 
-
-
-
-%Hoe lost PostgreSQL bepaalde problemen op
-
-
-
-
-%Een object-relationele database (ORD / ORDBMS) is eigenlijk een samenstelling uit zowel een relationele database (RDB / RDBMS), als een object-georiënteerde database (OOD / OODBMS). Samen ondersteunt het de basiscomponenten van elk objectgeoriënteerd databasemodel in zijn schema's en gebruikte querytaal, zoals klassen, overerving een objecten. Het bevat aspecten en kenmerken van bovenstaande genoemde modellen. Zo zien we het relationele in de manier van het opslaan van gegevens. Deze worden opgeslagen in een traditionele database en worden dan met behulp van query's, zoals SQL, gemanipuleerd en benaderd. Aan de andere kant zien we ook het objectgeoriënteerde gedeelte, namelijk dat de database beschouwd wordt als een objectopslag. Kort gezegd is één van de voornaamste doelstellingen van een objecte-relationele database, het dichten van de kloof tussen relationele en objectgeoriënteerde modelleringstechnieken en conceptuele datamodelleringstechnieken zoals daar zijn het entiteit-relatiediagram (ERD) en object-relationeel mappen (ORM) (https://www.techopedia.com/definition/8714/object-relational-database-ord).
-%Postgres wil hierop inspelen door het inbouwen van volgende vier basisconcepten die ervoor zorgen dat gebruikers het systeem gemakkelijk kunnen uitbreiden:
-
-%Klasses, Overerving, Types, Functies
-
-%Deze vier kenmerken, naast nog andere functies maken van Postgres een object-relationele database. Bovenstaande vermelde kenmerken zouden doen blijken dat Postgres voornamelijk een object-georiënteerde database is, maar de ondersteuning van de traditionele relationele databases, toont ons duidelijk dat, ondanks de object-georiënteerde kenmerken, Postgres stevig verankerd is in de relationele database wereld (https://www.postgresql.org/docs/6.3/c0101.htm).
-
-
-
 \section{\IfLanguageName{dutch}{High Availability}{High Availability}}
 \label{sec:High Availability}
 
@@ -283,8 +266,6 @@ Hierin wordt een standby server geprovomeerd tot een primary server en zal deze 
 Databasereplicatie is het proces waarin we gegevens gaan kopiëren van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
 In de context van replicatie gebruikt men vaak ook de termen actief-actief en actief-passief. Raima Database Manager (RDM) ondersteunt beide technieken. Bij Raima wordt actieve replicatie gewoon replicatie genoemd en passieve replicatie spiegelen (mirroring). Spiegelen zal resulteren in identieke replica's zoals de originele database, terwijl replicatie zal resulteren in replica's die niet identiek zijn aan de originele database. Deze replica's zullen alle records bevatten die van de originele database zijn overgebracht, maar de fysieke organisatie van de records in de databasebestanden (of in het geheugen) kan verschillen.
 Om terug te komen op de termen actief-actief en actief-passief zullen die vaker verwijzen naar andere concepten dan dewelke we juist omschreven hebben (replicatie en spiegelen). Actieve-actieve replicatie betekent replicatie in twee richtingen van gegevens tussen twee databases die beide actief worden bijgewerkt. Actieve-passieve replicatie betekent replicatie in één richting van een actief bijgewerkte master node naar een slave node die niet wordt bijgewerkt, behalve door het replicatieproces. Hier verwijst men soms ook naar master-slave replicatie. In RDM is replicatie altijd actief-passief (https://raima.com/rdme-high-availability-database/).
-
-% ### Raima link verder uitwerken
 
 \subsection{\IfLanguageName{dutch}{EDB}{EDB}}
 \label{subsec:EDB}

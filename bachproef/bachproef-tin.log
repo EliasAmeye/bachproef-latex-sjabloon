@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 17:16
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  2 MAY 2021 17:46
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2112,7 +2112,7 @@ Overfull \hbox (11.55219pt too wide) in paragraph at lines 64--65
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.86 ...ch}{High Availability}{High Availability}}
+l.69 ...ch}{High Availability}{High Availability}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2123,31 +2123,31 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.86 ...ch}{High Availability}{High Availability}}
+l.69 ...ch}{High Availability}{High Availability}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.86 ...ch}{High Availability}{High Availability}}
+l.69 ...ch}{High Availability}{High Availability}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 
-Overfull \hbox (21.76347pt too wide) in paragraph at lines 96--97
+Overfull \hbox (21.76347pt too wide) in paragraph at lines 79--80
 \T1/ptm/m/n/12 (https://www.enterprisedb.com/blog/what-does-database-high-avail
 ability-really-mean). Vaak
  []
 
 
-Overfull \hbox (201.9304pt too wide) in paragraph at lines 96--97
+Overfull \hbox (201.9304pt too wide) in paragraph at lines 79--80
 \T1/ptm/m/n/12 duidt men deze norm aan als de Five 9's, na-me-lijk 99,999% be-s
 chik-baar-heid (https://searchdatacenter.techtarget.com/definition/high-
  []
 
 [19]
-Overfull \hbox (0.66899pt too wide) in paragraph at lines 113--114
+Overfull \hbox (0.66899pt too wide) in paragraph at lines 96--97
 \T1/ptm/m/n/12 shipping/about-log-shipping-sql-server?view=sql-server-ver15). I
 n deze mo-dus aan-vaardt
  []
@@ -2159,7 +2159,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.121 ...e{dutch}{Load Balancing}{Load Balancing}}
+l.104 ...e{dutch}{Load Balancing}{Load Balancing}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2170,21 +2170,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.121 ...e{dutch}{Load Balancing}{Load Balancing}}
+l.104 ...e{dutch}{Load Balancing}{Load Balancing}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.121 ...e{dutch}{Load Balancing}{Load Balancing}}
+l.104 ...e{dutch}{Load Balancing}{Load Balancing}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.127 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
+l.110 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2195,24 +2195,24 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.127 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
+l.110 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.127 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
+l.110 ...e{dutch}{Schaalbaarheid}{Schaalbaarheid}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 132.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 115.
 [21]
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.142 ...{Cluster oplossingen}{Cluster solutions}}
+l.125 ...{Cluster oplossingen}{Cluster solutions}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2223,21 +2223,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.142 ...{Cluster oplossingen}{Cluster solutions}}
+l.125 ...{Cluster oplossingen}{Cluster solutions}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.142 ...{Cluster oplossingen}{Cluster solutions}}
+l.125 ...{Cluster oplossingen}{Cluster solutions}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.145 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
+l.128 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2248,19 +2248,19 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.145 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
+l.128 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.145 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
+l.128 ...\IfLanguageName{dutch}{Cluster}{Cluster}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 
-Overfull \hbox (160.26582pt too wide) in paragraph at lines 148--149
+Overfull \hbox (160.26582pt too wide) in paragraph at lines 131--132
 \T1/ptm/m/n/12 vor-men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity m
 o-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
  []
@@ -2268,7 +2268,7 @@ o-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster)
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.150 ...fLanguageName{dutch}{Failover}{Failover}}
+l.133 ...fLanguageName{dutch}{Failover}{Failover}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2279,21 +2279,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.150 ...fLanguageName{dutch}{Failover}{Failover}}
+l.133 ...fLanguageName{dutch}{Failover}{Failover}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.150 ...fLanguageName{dutch}{Failover}{Failover}}
+l.133 ...fLanguageName{dutch}{Failover}{Failover}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.155 ...fLanguageName{dutch}{Failback}{Failback}}
+l.138 ...fLanguageName{dutch}{Failback}{Failback}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2304,19 +2304,19 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.155 ...fLanguageName{dutch}{Failback}{Failback}}
+l.138 ...fLanguageName{dutch}{Failback}{Failback}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.155 ...fLanguageName{dutch}{Failback}{Failback}}
+l.138 ...fLanguageName{dutch}{Failback}{Failback}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 
-Overfull \hbox (146.49084pt too wide) in paragraph at lines 158--159
+Overfull \hbox (146.49084pt too wide) in paragraph at lines 141--142
 \T1/ptm/m/n/12 zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine we-gen
 s failover. (https://whatis.techtarget.com/definition/failback) 
  []
@@ -2324,7 +2324,7 @@ s failover. (https://whatis.techtarget.com/definition/failback)
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.160 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
+l.143 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2335,19 +2335,19 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.160 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
+l.143 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.160 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
+l.143 ...\IfLanguageName{dutch}{Patroni}{Patroni}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 
-Overfull \hbox (4.08913pt too wide) in paragraph at lines 168--169
+Overfull \hbox (4.08913pt too wide) in paragraph at lines 151--152
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
  []
@@ -2356,7 +2356,7 @@ de op-ties voor fail-back en failover.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.180 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
+l.163 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2367,14 +2367,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.180 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
+l.163 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.180 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
+l.163 ...anguageName{dutch}{Pgpool-II}{Pgpool-II}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2382,7 +2382,7 @@ I'm ignoring this; it doesn't match any \if.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.215 ...F)}{PostgreSQL Automatic Failover (PAF)}}
+l.198 ...F)}{PostgreSQL Automatic Failover (PAF)}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2393,14 +2393,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.215 ...F)}{PostgreSQL Automatic Failover (PAF)}}
+l.198 ...F)}{PostgreSQL Automatic Failover (PAF)}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.215 ...F)}{PostgreSQL Automatic Failover (PAF)}}
+l.198 ...F)}{PostgreSQL Automatic Failover (PAF)}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2411,7 +2411,7 @@ Underfull \vbox (badness 1424) has occurred while \output is active []
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.238 ... Manager]}{RepMgr [Replication Manager]}}
+l.221 ... Manager]}{RepMgr [Replication Manager]}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2422,14 +2422,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.238 ... Manager]}{RepMgr [Replication Manager]}}
+l.221 ... Manager]}{RepMgr [Replication Manager]}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.238 ... Manager]}{RepMgr [Replication Manager]}}
+l.221 ... Manager]}{RepMgr [Replication Manager]}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2437,7 +2437,7 @@ I'm ignoring this; it doesn't match any \if.
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
  [25]
-Overfull \hbox (12.04591pt too wide) in paragraph at lines 269--271
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 252--254
 []\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
 ou-di-ger zijn om WAL-bestanden
  []
@@ -2445,7 +2445,7 @@ ou-di-ger zijn om WAL-bestanden
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.277 ...anguageName{dutch}{PgCluster}{PgCluster}}
+l.260 ...anguageName{dutch}{PgCluster}{PgCluster}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2456,21 +2456,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.277 ...anguageName{dutch}{PgCluster}{PgCluster}}
+l.260 ...anguageName{dutch}{PgCluster}{PgCluster}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.277 ...anguageName{dutch}{PgCluster}{PgCluster}}
+l.260 ...anguageName{dutch}{PgCluster}{PgCluster}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.280 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
+l.263 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2481,14 +2481,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.280 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
+l.263 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.280 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
+l.263 ...ion{\IfLanguageName{dutch}{Raima}{Raima}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2499,7 +2499,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.289 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
+l.270 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2510,14 +2510,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.289 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
+l.270 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.289 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
+l.270 ...section{\IfLanguageName{dutch}{EDB}{EDB}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2525,7 +2525,7 @@ I'm ignoring this; it doesn't match any \if.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.306 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
+l.287 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2536,14 +2536,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.306 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
+l.287 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.306 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
+l.287 ...n{\IfLanguageName{dutch}{Puppet}{Puppet}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
@@ -2716,6 +2716,12 @@ I'm ignoring this; it doesn't match any \if.
 l.33 ...uirements}{Niet-functionele Requirements}}
                                                   
 I'm ignoring this; it doesn't match any \if.
+
+
+Overfull \hbox (0.1644pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/12 een ge-bruikt mag wor-den zon-der no-dige li-cen-tie. (https://o
+pensource.com/resources/what-
+ []
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
