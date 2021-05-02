@@ -104,7 +104,7 @@ Pgpool-II heeft aan de hand van Watchdog en Replication manieren om aan de vooro
 
 Pgpool-II is een open source project. De source code wordt onderhouden door een git-repository.
 De laatste release van pgpool-II was op 26 november 2020. Hieruit kunnen we ook zeggen dat Pgpool-II nog een geldige, bruikbare oplossing.
-Aan de hand hiervan krijgt Pgpool-II een 5/5 voor niet-functionele requirements.
+Aan de hand hiervan krijgt Pgpool-II een 4/5 voor niet-functionele requirements.
 
 \subsection{\IfLanguageName{dutch}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}}
 \label{subsec:Oplossing 3: PostgreSQL Automatic Failover (PAF)}
@@ -124,7 +124,7 @@ PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker me
 
 Ook PostgreSQL Automatic Failover (PAF) is open source.
 De laatste release was op 10 maart 2020. Hieruit kunnen we concluderen dat ook deze oplossing nog up-to-date is en bruikbaar voor dit onderzoek.
-Op basis hiervan heeft PostgreSQL Automatic Failover (PAF) ook een 5/5 voor niet-functionele requirements.
+Op basis hiervan heeft PostgreSQL Automatic Failover (PAF) ook een 4/5 voor niet-functionele requirements.
 
 
 \subsection{\IfLanguageName{dutch}{Oplossing 4: Replication Manager (RepMgr)}{Oplossing 4: Replication Manager (RepMgr)}}
@@ -132,10 +132,20 @@ Op basis hiervan heeft PostgreSQL Automatic Failover (PAF) ook een 5/5 voor niet
 
 \subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
 \label{subsubsec:Functionele Requirements}
+Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
+Voorbeelden van tools zijn repmgr en repmgrd.
+Replication Manager (RepMgr) biedt ook de tools om primary en standby nodes op te zetten, en om in geval van faalscenario automatische failover te doen.
 
+de functionaliteiten van Replication Manager (RepMgr) sluiten voldoende aan op de vooropgestelde functionele requirements en krijgt hiervoor een 12/15.
 
 \subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
 \label{subsubsec:Niet-functionele Requirements}
+Replication Manager (RepMgr) is open source, ontwikkeld door 2ndQuadrant.
+De laatste release was op 22 oktober 2020.
+
+Replication Manager (RepMgr) krijgt hierdoor een score van 4/5 voor niet-functionele requirments.
+
+%4/5 want laatste release in 2020
 
 
 \subsection{\IfLanguageName{dutch}{Oplossing 5}{Oplossing 5}}
