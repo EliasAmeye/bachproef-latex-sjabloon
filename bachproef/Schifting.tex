@@ -38,11 +38,18 @@ Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat
 \label{subsubsec:Open source}
 Open source verwijst naar software die publiekelijk toegankelijk is, waarvan de source code gewijzigd kan worden.
 
+\subsubsection{\IfLanguageName{Anno 2020-2021}{Anno 2020-2021}{Anno 2020-2021}}
+\label{subsubsecAnno 2020-2021}
+Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de tool futureproof kan zijn en zeker nog jaren kan meegaan.
+
+
 % gemakkelijke interface
 
 
-\section{\IfLanguageName{dutch}{Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}{Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}}
+\section{\IfLanguageName{dutch}{Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}{Hoe beantwoorden de verschillende oplossingen aan de requirements}}
 \label{sec:Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}
+
+In dit gedeelte worden de verschillende oplossingen vergeleken aan de hand van de vooropgestelde requirements. Wanneer een oplossing een zeer brede implementatie heeft van een requirement zal deze aan de hand van een puntensysteem een 5/5 krijgen. Wanneer er niet voldoende implementatie aanwezig is voor deze oplossing, zal dit een 1/5 zijn. De functionele requirements zullen zwaarder doorwegen dan de niet-functionele requirements. Hierbij zal het totaal aantal punten op 20 staan, waarbij de functionele requirements 75\% van de totaalscore bevatten. Dit staat gelijk aan 15/20. De niet-functionele requirements staan dus maar op 25\%, wat gelijk staat aan 5/20 van de totaalscore. Hierbij kan er een goed beeld gevormd worden welke oplossing er functioneler is. Belangrijke niet-functionele requirement is dat de oplossing up-to-date moet zijn, anno 2020-2021. Als de oplossing hier niet aan voldoet, dan zal deze niet doorkomen, of gebruikt worden als proof of concept.
 
 % https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-3/#:~:text=Patroni%20ensures%20the%20end%2Dto,be%20customized%20to%20your%20needs.
 
@@ -53,18 +60,61 @@ Open source verwijst naar software die publiekelijk toegankelijk is, waarvan de 
 
 
 
-
 \subsection{\IfLanguageName{dutch}{Oplossing 1: Patroni}{Oplossing 1: Patroni}}
 \label{subsec: Oplossing 1: Patroni}
+
+
+\subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
+\label{subsubsec:Functionele Requirements}
+
+Voor replicatie opties bestaan er verschillende tools zoals barman, Wal-E, die zullen helpen om nodes toe te voegen aan de cluster. Er kan ook gekozen worden van waar sommige nodes hun data zullen halen.
+
+Patroni heeft een automatische failover-functie. Hierbij wordt automatisch gekeken welke node de te vervangen node zal vervangen. Na failover zal ook automatisch de gefaalde node terug in de cluster komen.
+
+Patroni heeft ook een tool genaamd, ETCD waarmee de gezondheid van een PostgreSQL cluster, status van knooppunten en andere informatie van de cluster wordt bijgehouden. Tools die hiervoor ook gebruikt worden zijn Consul en Zookeeper.
+
+Er zijn verschillende soorten tools beschikbaar voor de drie opgestelde functionele requirements. Aan de hand hiervan krijgt Patroni een 12/15.
+
+\subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
+\label{subsubsec:Niet-functionele Requirements}
+Patroni is ontwikkeld door Zalando en is volledig open source. De volledige source code is online te vinden op github.com en wordt nog steeds geupdate. Dit is ook een belangrijke vereiste waaraan de oplossing moet doen. Er worden  nog steeds releases gedaan. De laatste release was, tijdens dit schrijven, op 22 februari 2021.
+
+Aangezien dat Patroni volledig open source is en dat het een tool is die volledig up-to-date gehouden wordt, krijgt Patroni voor niet-functionele requirements een 5/5.
+
+
 
 \subsection{\IfLanguageName{dutch}{Oplossing 2: Pgpool-II}{Oplossing 2: Pgpool-II}}
 \label{subsec: Oplossing 2: Pgpool-II}
 
+\subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
+\label{subsubsec:Functionele Requirements}
+
+
+\subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
+\label{subsubsec:Niet-functionele Requirements}
+
+
 \subsection{\IfLanguageName{dutch}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}}
 \label{subsec:Oplossing 3: PostgreSQL Automatic Failover (PAF)}
 
+\subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
+\label{subsubsec:Functionele Requirements}
+
+
+\subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
+\label{subsubsec:Niet-functionele Requirements}
+
+
 \subsection{\IfLanguageName{dutch}{Oplossing 4: Replication Manager (RepMgr)}{Oplossing 4: Replication Manager (RepMgr)}}
 \label{subsec:Oplossing 4: Replication Manager (RepMgr)}
+
+\subsubsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
+\label{subsubsec:Functionele Requirements}
+
+
+\subsubsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
+\label{subsubsec:Niet-functionele Requirements}
+
 
 \subsection{\IfLanguageName{dutch}{Oplossing 5}{Oplossing 5}}
 \label{subsec:Oplossing 5}

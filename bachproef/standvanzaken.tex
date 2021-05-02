@@ -93,8 +93,6 @@ Het doel van High Availability architectuur is ervoor te zorgen dat een server, 
 % Waarom is dit nodig?
 % Wat zijn de mogelijkheden om hieraan te voldoen? en Hoe implementeert postgres deze oplossingen
 
-% Kijken in hoeverre postgres High Availability
-
 High Availability is het vermogen van een systeem om continu operationeel te blijven te zijn gedurende een wenselijk lange tijd. Men kan Availability meten ten opzicht van 100\% operationeel, als in, nooit uitvallen. Beschikbaarheid wordt vaak uitgedrukt als een percentage van uptime in een bepaald jaar op basis van de SLA's, Service Level Agreements (https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean). Vaak duidt men deze norm aan als de Five 9's, namelijk 99,999\% beschikbaarheid (https://searchdatacenter.techtarget.com/definition/high-availability). High availability impliceert dat delen van een systeem volledig zijn getest en dat er voorzieningen zijn voor storingen/failures in de vorm van redundante componenten. Servers kunnen worden ingesteld om in geval van nood de verantwoordelijkheden over te dragen aan een externe server, in een back-up proces. Hier spreekt men dan van failover (https://www.techopedia.com/definition/1021/high-availability-ha).
 
 % https://www.postgresql.org/docs/9.5/high-availability.html Deze link nog eens uitspitten
@@ -107,8 +105,6 @@ Belangrijke principes van High Availability zijn:
 
 3. \textbf{Storingdetectie}: Als bovenstaande principes proactief bewaakt worden, dan zal een gebruik misschien nooit een systeemstoring zien.
 Postgres biedt de bouwstenen om bovenstaande principes volledig uit te werken zodat er op deze manier High Availability verzekerd kan worden.
-
-% ### Dit kan ook nog bij Cluster en oplossingen gezet worden
 
 Bij het elimineren van single points of failure ondersteunt Postgres de volgende fysieke stand-by's:
 
@@ -268,7 +264,7 @@ Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een ope
 
 Standby servers die niet direct verbonden zijn met de master node worden niet beïnvloed tijdens failover van de primary naar een andere standby mode.
 
-6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor repliatiesleuven
+6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven
 
 Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bestanden op te ruimen vanaf elke bestandssysteemlocatie. Ook in standby servers kan het gebruikt worden om bestanden die niet meer nodig zijn, te verwijderen uit de standby server.
 %(https://www.percona.com/blog/2019/07/10/wal-retention-and-clean-up-pg_archivecleanup/)
