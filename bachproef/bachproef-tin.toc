@@ -3,6 +3,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Inleiding}{15}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{15}{section.1.2}%
@@ -12,6 +14,8 @@
 \contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{15}{section.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{17}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Stand van zaken}{17}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}PosgreSQL}{17}{section.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -63,7 +67,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{31}{chapter.3}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Methodologie}{31}{chapter.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Schifting}{33}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Schifting}{33}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Requirements}{33}{section.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -81,13 +89,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Hoe beantwoorden de verschillende oplossingen aan de bovenstaande schifting}{34}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Oplossing 1}{34}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Oplossing 1: Patroni}{34}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Oplossing 2}{34}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Oplossing 2: Pgpool-II}{34}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Oplossing 3}{34}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Oplossing 3: PostgreSQL Automatic Failover (PAF)}{34}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Oplossing 4}{34}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.4}Oplossing 4: Replication Manager (RepMgr)}{34}{subsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.5}Oplossing 5}{34}{subsection.4.2.5}%
 \defcounter {refsection}{0}\relax 
@@ -95,11 +103,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Oplossing 1}{35}{chapter.5}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Oplossing 1}{35}{chapter.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Oplossing 2}{37}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Oplossing 2}{37}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusie}{39}{chapter.7}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusie}{39}{chapter.7}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Onderzoeksvoorstel}{41}{appendix.A}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Introductie}{41}{section.A.1}%
 \defcounter {refsection}{0}\relax 
@@ -110,4 +126,6 @@
 \contentsline {section}{\numberline {A.4}Verwachte resultaten}{43}{section.A.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.5}Verwachte conclusies}{43}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{45}{appendix*.12}%
 \contentsfinish 
