@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  5 MAY 2021 23:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  6 MAY 2021 16:45
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1477,9 +1477,34 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `bachproef-tin.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'bachproef-tin.bbl' not found.
+Package biblatex Info: ... file 'bachproef-tin.bbl' found.
+ (bachproef-tin.bbl
+! Illegal parameter number in definition of \NewValue.
+<to be read again> 
+                   -
+l.446       }
+             
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-No file bachproef-tin.bbl.
+! Illegal parameter number in definition of \abx@name@author.
+<to be read again> 
+                   -
+l.471     \endentry
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Australia2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 44.
 Package biblatex Info: Reference segment=0 on input line 44.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1635,77 +1660,70 @@ Hoofdstuk 2.
 [17
 
 ]
-Overfull \hbox (6.27164pt too wide) in paragraph at lines 62--63
+! Illegal parameter number in definition of \abx@name@author.
+<to be read again> 
+                   -
+l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \blx@thedata.
+<to be read again> 
+                   -
+l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \namepartfamily.
+<to be read again> 
+                   -
+l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+\namepartfamily ->C##
+                     -Corner
+l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[18]
+Overfull \hbox (6.27164pt too wide) in paragraph at lines 58--60
 \T1/ptm/m/n/12 PostgreSQL is een open source sys-teem dat zich toe-legt op het 
 be-heer van object-relationele
  []
 
-
-Overfull \hbox (22.61635pt too wide) in paragraph at lines 62--63
-\T1/ptm/m/n/12 vlak van be-trouw-baar-heid, ro-buust-heid van func-ties en pres
--ta-ties (https://www.postgresql.org/).
- []
-
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [18]
-Overfull \hbox (11.55219pt too wide) in paragraph at lines 64--65
-\T1/ptm/m/n/12 an-kerd is in de re-la-ti-o-nele da-ta-base we-reld (https://www
-.postgresql.org/docs/6.3/c0101.htm). 
- []
-
-
-Overfull \hbox (21.76347pt too wide) in paragraph at lines 79--80
-\T1/ptm/m/n/12 (https://www.enterprisedb.com/blog/what-does-database-high-avail
-ability-really-mean). Vaak
- []
-
-
-Overfull \hbox (201.9304pt too wide) in paragraph at lines 79--80
-\T1/ptm/m/n/12 duidt men deze norm aan als de Five 9's, na-me-lijk 99,999% be-s
-chik-baar-heid (https://searchdatacenter.techtarget.com/definition/high-
- []
-
 [19]
-Overfull \hbox (0.66899pt too wide) in paragraph at lines 96--97
-\T1/ptm/m/n/12 shipping/about-log-shipping-sql-server?view=sql-server-ver15). I
-n deze mo-dus aan-vaardt
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 115.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 111.
 
 [21]
-Overfull \hbox (160.26582pt too wide) in paragraph at lines 131--132
-\T1/ptm/m/n/12 vor-men. Op deze ma-nier kan een clus-ter High Avai-la-bi-lity m
-o-ge-lijk ma-ken.(https://whatis.techtarget.com/definition/cluster) 
- []
-
-
-Overfull \hbox (146.49084pt too wide) in paragraph at lines 141--142
-\T1/ptm/m/n/12 zijn ver-scho-ven ge-weest naar een se-cun-daire ma-chine we-gen
-s failover. (https://whatis.techtarget.com/definition/failback) 
- []
-
-
-Overfull \hbox (4.08913pt too wide) in paragraph at lines 151--152
+Overfull \hbox (4.08913pt too wide) in paragraph at lines 144--145
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
  []
 
 [22] [23]
-Underfull \vbox (badness 1424) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
  [25]
-Overfull \hbox (12.04591pt too wide) in paragraph at lines 252--254
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 245--247
 []\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
 ou-di-ger zijn om WAL-bestanden
  []
@@ -1714,15 +1732,15 @@ ou-di-ger zijn om WAL-bestanden
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27] [28]) (methodologie.tex [29] [30
-
-]
+[27]) (methodologie.tex [28]
 Hoofdstuk 3.
-) (Schifting.tex [31] [32
+) (Schifting.tex [29
+
+] [30
 
 ]
 Hoofdstuk 4.
-[33]
+[31]
 Overfull \hbox (0.1644pt too wide) in paragraph at lines 39--40
 \T1/ptm/m/n/12 een ge-bruikt mag wor-den zon-der no-dige li-cen-tie. (https://o
 pensource.com/resources/what-
@@ -1731,22 +1749,22 @@ pensource.com/resources/what-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [32]
 
 Package Fancyhdr Warning: \headheight is too small (14.5pt): 
 Make it at least 27.808pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[35] [36]) (Oplossing1.tex [37] [38
+[33] [34]) (Oplossing1.tex [35] [36
 
 ]
 Hoofdstuk 5.
-) (Oplossing2.tex [39] [40
+) (Oplossing2.tex [37] [38
 
 ]
 Hoofdstuk 6.
-) (POC.tex [41] [42
+) (POC.tex [39] [40
 
 ]
 Hoofdstuk 7.
@@ -1839,7 +1857,7 @@ you left one out. Proceed, with fingers crossed.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [41]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2129,68 +2147,183 @@ Overfull \hbox (33.68407pt too wide) in paragraph at lines 129--147
  :
  []
 
-) (conclusie.tex [44]
+) (conclusie.tex [42]
 Hoofdstuk 8.
-) [45
+) [43
 
-] [46
+] [44
 
 ]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
-
-LaTeX Warning: Citation 'IBM1' on page 47 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'BDQ' on page 47 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'Singer2020' on page 47 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'Jevtic2018' on page 47 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Akhtar2020' on page 47 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Anderson2020' on page 47 undefined on input line 30.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [45]
+[46]) [47] [48
 
-LaTeX Warning: Citation 'PostgreSQL2020' on page 48 undefined on input line 52.
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-[48])
+Overfull \hbox (3.21408pt too wide) in paragraph at lines 132--132
+[][]\T1/ptm/m/n/12 Augustine, J. (2019, juli 10). \T1/ptm/m/it/12 Post-greSQL W
+AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
+12 .
+ []
 
-LaTeX Warning: Empty bibliography on input line 132.
+Missing character: There is no “ in font ptmri8t!
+Missing character: There is no ” in font ptmri8t!
 
-[49] (bachproef-tin.aux)
+Overfull \hbox (5.6765pt too wide) in paragraph at lines 132--132
+\T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
+ = &utm _ matchtype =
+ []
 
-LaTeX Warning: There were undefined references.
 
+Overfull \hbox (81.4837pt too wide) in paragraph at lines 132--132
+\T1/ptm/m/n/12 1001208 & gclid = Cj0KCQjwse -[] DBhC7ARIsAI8YcWJOxNwWfRDfjloPnA
+cswV6QsafwgHI0hqa -[]
+ []
+
+[49]
+! Illegal parameter number in definition of \abx@name@author.
+<to be read again> 
+                   -
+l.132 \printbibliography[heading=bibintoc]
+                                          
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \blx@thedata.
+<to be read again> 
+                   -
+l.132 \printbibliography[heading=bibintoc]
+                                          
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \namepartfamily.
+<to be read again> 
+                   -
+l.132 \printbibliography[heading=bibintoc]
+                                          
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+\namepartfamily ->C##
+                     -Corner
+l.132 \printbibliography[heading=bibintoc]
+                                          
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no – in font ptmr8t!
+
+Overfull \hbox (7.05502pt too wide) in paragraph at lines 132--132
+\T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
+ / searchdatacenter . techtarget .
+ []
+
+[50]
+Overfull \hbox (13.38055pt too wide) in paragraph at lines 132--132
+[][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
+020, van []$https : / / www . postgresql .
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no – in font ptmri8t!
+Missing character: There is no – in font ptmri8t!
+
+Overfull \hbox (8.49089pt too wide) in paragraph at lines 132--132
+\T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
+w . techopedia . com / de^^\nition /
+ []
+
+[51]
+Overfull \hbox (13.39217pt too wide) in paragraph at lines 132--132
+[][]\T1/ptm/m/n/12 Technopedia. (2021b, april 28). \T1/ptm/m/it/12 Object-Relat
+ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
+ []
+
+[52] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34649 strings out of 412094
- 618763 string characters out of 2847025
- 1611115 words of memory out of 3000000
- 53705 multiletter control sequences out of 15000+200000
- 440567 words of font info for 68 fonts, out of 3000000 for 9000
+ 34862 strings out of 412094
+ 624529 string characters out of 2847025
+ 1619615 words of memory out of 3000000
+ 53915 multiletter control sequences out of 15000+200000
+ 442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,99p,2069b,4740s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,12n,99p,1355b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (51 pages).
+Output written on bachproef-tin.pdf (54 pages).
