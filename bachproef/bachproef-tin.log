@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  7 MAY 2021 00:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  7 MAY 2021 00:32
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1482,7 +1482,7 @@ Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 ! Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    -
-l.446       }
+l.491       }
              
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1491,7 +1491,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
-l.471     \endentry
+l.516     \endentry
                    
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1623,7 +1623,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \hbox (21.15076pt too wide) in paragraph at lines 86--86
+Overfull \hbox (21.15076pt too wide) in paragraph at lines 88--88
  []|| [][]\T1/pag/db/n/12 Hoe be-ant-woor-den de ver-schil-lende op-los-sin-gen
  aan de bo-ven-staande
  []
@@ -1741,14 +1741,9 @@ Hoofdstuk 3.
 ]
 Hoofdstuk 4.
 [31]
-Overfull \hbox (11.94826pt too wide) in paragraph at lines 55--56
-\T1/ptm/m/n/12 gens de MoSCoW-techniek (https://ieeexplore.ieee.org/abstract/do
-cument/8342602). Hierin
- []
-
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  58.
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+ (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1757,8 +1752,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
  58.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+ (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
@@ -2179,6 +2173,32 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+Overfull \hbox (286.95874pt too wide) in paragraph at lines 132--132
+[][]\T1/ptm/m/n/12 Ahmad, K. S., Ah-mad, N., Tahir, H. & Khan, S. (2017). Fuzzy
+$[]\OML/ztmcm/m/it/12 oSCoW \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 AfuzzybasedM
+oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
 Overfull \hbox (3.21408pt too wide) in paragraph at lines 132--132
 [][]\T1/ptm/m/n/12 Augustine, J. (2019, juli 10). \T1/ptm/m/it/12 Post-greSQL W
 AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
@@ -2187,7 +2207,7 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-
+[49]
 Overfull \hbox (5.6765pt too wide) in paragraph at lines 132--132
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
@@ -2199,7 +2219,6 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 132--132
 cswV6QsafwgHI0hqa -[]
  []
 
-[49]
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
@@ -2306,15 +2325,19 @@ ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34891 strings out of 412094
- 624977 string characters out of 2847025
- 1619122 words of memory out of 3000000
- 53944 multiletter control sequences out of 15000+200000
+ 34894 strings out of 412094
+ 625077 string characters out of 2847025
+ 1620222 words of memory out of 3000000
+ 53947 multiletter control sequences out of 15000+200000
  442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1355b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s

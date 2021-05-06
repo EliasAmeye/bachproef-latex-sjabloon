@@ -1,22 +1,22 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'bachproef-tin.blg'
-[128] biber-MSWIN64:330> INFO - === 
-[155] Biber.pm:415> INFO - Reading 'bachproef-tin.bcf'
-[321] Biber.pm:952> INFO - Found 49 citekeys in bib section 0
-[345] Biber.pm:4334> INFO - Processing section 0
-[365] Biber.pm:4523> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[394] bibtex.pm:1682> INFO - LaTeX decoding ...
-[491] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[699] Biber.pm:4523> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
-[729] bibtex.pm:1682> INFO - LaTeX decoding ...
-[771] bibtex.pm:1494> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[772] Utils.pm:395> WARN - Duplicate entry key: 'MySQL2021' in file '../voorstel/voorstel.bib', skipping ...
-[772] Utils.pm:395> WARN - Duplicate entry key: 'Jevtic2018' in file '../voorstel/voorstel.bib', skipping ...
-[798] Utils.pm:395> WARN - I didn't find a database entry for 'Australia2017' (section 0)
-[892] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[892] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[892] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[892] Biber.pm:4168> INFO - No sort tailoring available for locale 'nl-NL'
-[961] bbl.pm:651> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
-[991] bbl.pm:754> INFO - Output to bachproef-tin.bbl
-[991] Biber.pm:128> INFO - WARNINGS: 3
+[120] biber-MSWIN64:330> INFO - === 
+[145] Biber.pm:415> INFO - Reading 'bachproef-tin.bcf'
+[305] Biber.pm:952> INFO - Found 50 citekeys in bib section 0
+[327] Biber.pm:4334> INFO - Processing section 0
+[346] Biber.pm:4523> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[374] bibtex.pm:1682> INFO - LaTeX decoding ...
+[484] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[686] Biber.pm:4523> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
+[742] bibtex.pm:1682> INFO - LaTeX decoding ...
+[774] bibtex.pm:1494> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[775] Utils.pm:395> WARN - Duplicate entry key: 'MySQL2021' in file '../voorstel/voorstel.bib', skipping ...
+[775] Utils.pm:395> WARN - Duplicate entry key: 'Jevtic2018' in file '../voorstel/voorstel.bib', skipping ...
+[801] Utils.pm:395> WARN - I didn't find a database entry for 'Australia2017' (section 0)
+[891] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[891] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[891] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[891] Biber.pm:4168> INFO - No sort tailoring available for locale 'nl-NL'
+[954] bbl.pm:651> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
+[984] bbl.pm:754> INFO - Output to bachproef-tin.bbl
+[984] Biber.pm:128> INFO - WARNINGS: 3

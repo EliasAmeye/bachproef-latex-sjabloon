@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Ahmad2017}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e16cb850d438e64131361dd12f47dc7c}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Khadija\bibnamedelima Sania},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35ce1eec885927306aa790ed8874e07c}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Nazia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4bff669c447d499f68f4a1c7ad354c3}{%
+           family={Tahir},
+           familyi={T\bibinitperiod},
+           given={Hina},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9db21729222c502f8db45f037577779b}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Shaista},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7773eb99c35b1e51b86c8e8c3f385acf}
+      \strng{fullhash}{549053ef379d417afc16e82623d7bc8d}
+      \strng{bibnamehash}{549053ef379d417afc16e82623d7bc8d}
+      \strng{authorbibnamehash}{549053ef379d417afc16e82623d7bc8d}
+      \strng{authornamehash}{7773eb99c35b1e51b86c8e8c3f385acf}
+      \strng{authorfullhash}{549053ef379d417afc16e82623d7bc8d}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 International Conference on Intelligent Computing, Instrumentation and Control Technologies (ICICICT)}
+      \field{title}{Fuzzy_MoSCoW: A fuzzy based MoSCoW method for the prioritization of software requirements}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
     \entry{Akhtar2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6df1936734dcb76e75f8acb457f8cb9e}{%
