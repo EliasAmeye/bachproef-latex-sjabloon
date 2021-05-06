@@ -11,6 +11,8 @@
 Om te kunnen bepalen welke requirements er nodig zijn,
 
 Elk van deze High Available PostgreSQL cluster oplossingen zal worden afgetoetst aan de requirements om ze op deze manier te evalueren. In samenspraak met Ruben Demey zijn er drie functionele requirements. Bij elke oplossing worden de requirements afgetoetst en krijgen ze een score van 1 (slecht) tot 5 (uitstekend).
+% Aan de hand van MosCOW mss wel
+
 
 \subsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
 \label{subsec:Functionele Requirements}
@@ -36,12 +38,43 @@ Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat
 
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
-Open source verwijst naar source code die publiekelijk toegankelijk is en die door iedereen gebruikt mag worden zonder nodige licentie. (https://opensource.com/resources/what-open-source)
+Open source verwijst naar source code die publiekelijk toegankelijk is en die door iedereen gebruikt mag worden zonder nodige licentie~\autocite{2021c}. %(https://opensource.com/resources/what-open-source)
 
-\subsubsection{\IfLanguageName{Anno 2020-2021}{Anno 2020-2021}{Anno 2020-2021}}
-\label{subsubsecAnno 2020-2021}
+\subsubsection{\IfLanguageName{dutch}{Anno 2020-2021}{Anno 2020-2021}}
+\label{subsubsec:Anno 2020-2021}
 Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de tool futureproof kan zijn en zeker nog jaren kan meegaan.
 
+\subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
+\label{subsubsec:Grafische interface}
+Een gemakkelijk te gebruiken interface is zeker een meerwaarde bij het monitoren en beheren van een cluster. Als er geen specialist aanwezig is, kan de grafische interface soms voor wat extra duidelijkheid zorgen.
+
+
+\section{\IfLanguageName{dutch}{Indelen requirements volgens MoSCoW-techniek}{Indelen requirements volgens MoSCoW-techniek}}
+\label{sec:Indelen requirements volgens MoSCoW-techniek}
+
+Na het opstellen van de verschillende requirements kunnen we deze nog eens indelen volgens de MoSCoW-techniek (https://ieeexplore.ieee.org/abstract/document/8342602). Hierin worden de requirements geprioritiseerd. Hierin zijn de 'Must have'-requirements verplicht aanwezig. De 'Should have'-requirements zijn geen verplichting, maar zijn het liefst wel aanwezig in de keuze van een oplossing. De 'Could have'-requirements zijn volledig optioneel en zijn dus niet geheel relevant bij het kiezen van de oplossing. Het 'Wont have' aspect laten we hier achterwege, omdat dit geen invloed zal hebben op de keuze van een oplossing.
+
+\begin{description}%[font=$\bullet$\scshape\bfseries]
+    \item[$\bullet$ Must have] 
+        \begin{description}
+            \item
+            \item[$\cdot$] Ondersteuning van redundancy
+            \item[$\cdot$] Ondersteuning van failover
+            \item[$\cdot$] Ondersteuning van monitoring
+        \end{description}
+    \item[$\bullet$ Should have]
+            \begin{description}
+        \item
+        \item[$\cdot$] Ondersteuning in 2020-2021
+        \item[$\cdot$] Open source
+    \end{description}
+    \item[$\bullet$ Could have]
+                \begin{description}
+        \item
+        \item[$\cdot$] Eenvoudig te gebruiken interface
+
+    \end{description}
+\end{description}
 
 % gemakkelijke interface
 

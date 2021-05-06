@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  6 MAY 2021 16:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  7 MAY 2021 00:24
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1623,7 +1623,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \hbox (21.15076pt too wide) in paragraph at lines 84--84
+Overfull \hbox (21.15076pt too wide) in paragraph at lines 86--86
  []|| [][]\T1/pag/db/n/12 Hoe be-ant-woor-den de ver-schil-lende op-los-sin-gen
  aan de bo-ven-staande
  []
@@ -1741,15 +1741,58 @@ Hoofdstuk 3.
 ]
 Hoofdstuk 4.
 [31]
-Overfull \hbox (0.1644pt too wide) in paragraph at lines 39--40
-\T1/ptm/m/n/12 een ge-bruikt mag wor-den zon-der no-dige li-cen-tie. (https://o
-pensource.com/resources/what-
+Overfull \hbox (11.94826pt too wide) in paragraph at lines 55--56
+\T1/ptm/m/n/12 gens de MoSCoW-techniek (https://ieeexplore.ieee.org/abstract/do
+cument/8342602). Hierin
  []
 
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 58.
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 58.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 58.
 
- [32]
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 58.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+8.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+
+[32]
 
 Package Fancyhdr Warning: \headheight is too small (14.5pt): 
 Make it at least 27.808pt.
@@ -1764,66 +1807,24 @@ Hoofdstuk 5.
 
 ]
 Hoofdstuk 6.
-) (POC.tex [39] [40
+) (conclusie.tex [39] [40
 
 ]
 Hoofdstuk 7.
+) (POC.tex [41] [42
+
+]
+Hoofdstuk 8.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 file_
+l.47 file_
           size: 10485760 # 10MB
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 45.
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 45.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 45.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 45.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-5.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-
 ! You can't use `macro parameter character #' in math mode.
-l.45 file_size: 10485760 #
+l.47 file_size: 10485760 #
                            10MB
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1833,7 +1834,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.46 
+l.48 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1841,7 +1842,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.49 connect_
+l.51 connect_
              address: 172.28.33.11:8008
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1849,7 +1850,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.50 
+l.52 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1857,17 +1858,17 @@ you left one out. Proceed, with fingers crossed.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [43]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 loop_
+l.59 loop_
           wait: 10
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! You can't use `macro parameter character #' in math mode.
-l.59 maximum_lag_on_failover: 1048576 #
+l.61 maximum_lag_on_failover: 1048576 #
                                         1MB
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1875,7 +1876,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.68 #
+l.70 #
       checkpoint_segments: 10
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1883,7 +1884,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.70 #
+l.72 #
       data_directory: '/var/lib/postgresql/patroni'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1891,7 +1892,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.74 #
+l.76 #
       external_pid_file: '/var/run/postgresql/postgresql-main.pid'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1899,7 +1900,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.75 #
+l.77 #
       hba_file: '/var/lib/postgresql/patroni/pg_hba.conf'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1907,7 +1908,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.77 #
+l.79 #
       ident_file: '/var/lib/postgresql/patroni/pg_ident.conf'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1915,15 +1916,15 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.99 #
-      ssl: on
+l.101 #
+       ssl: on
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.100 #
+l.102 #
        ssl_cert_file: '/etc/ssl/certs/ssl-cert-snakeoil.pem'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1931,7 +1932,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.101 #
+l.103 #
        ssl_key_file: '/etc/ssl/private/ssl-cert-snakeoil.key'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1941,13 +1942,13 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.107 
+l.109 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (100.3143pt too wide) in paragraph at lines 54--107
+Overfull \hbox (100.3143pt too wide) in paragraph at lines 56--109
 []\T1/ptm/m/n/12 bootstrap: dcs: ttl: 30 loop$[]\OML/ztmcm/m/it/12 ait \OT1/ztm
 cm/m/n/12 : 10\OML/ztmcm/m/it/12 retry[]imeout \OT1/ztmcm/m/n/12 : 10\OML/ztmcm
 /m/it/12 maximum[]ag[]n[]ailover \OT1/ztmcm/m/n/12 : 10485761\OML/ztmcm/m/it/12
@@ -1955,7 +1956,7 @@ cm/m/n/12 : 10\OML/ztmcm/m/it/12 retry[]imeout \OT1/ztmcm/m/n/12 : 10\OML/ztmcm
  []
 
 
-Overfull \hbox (40.90172pt too wide) in paragraph at lines 54--107
+Overfull \hbox (40.90172pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 on[]autovacuum \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]
 checkpoint[]ompletion[]arget \OT1/ztmcm/m/n/12 : 0\OML/ztmcm/m/it/12 :\OT1/ztmc
 m/m/n/12 6\OML/ztmcm/m/it/12 checkpoint[]egments \OT1/ztmcm/m/n/12 : 10\OML/ztm
@@ -1963,35 +1964,35 @@ cm/m/it/12 checkpoint[]arning \OT1/ztmcm/m/n/12 :
  []
 
 
-Overfull \hbox (36.91953pt too wide) in paragraph at lines 54--107
+Overfull \hbox (36.91953pt too wide) in paragraph at lines 56--109
 \OT1/ztmcm/m/n/12 300\OML/ztmcm/m/it/12 data[]irectory \OT1/ztmcm/m/n/12 :[] \O
 ML/ztmcm/m/it/12 =var=lib=postgresql=patroni[]datestyle \OT1/ztmcm/m/n/12 :[] \
 OML/ztmcm/m/it/12 iso; mdy[]default[]ext[]earch[]onfig \OT1/ztmcm/m/n/12 :[]
  []
 
 
-Overfull \hbox (59.2435pt too wide) in paragraph at lines 54--107
+Overfull \hbox (59.2435pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 pg[]atalog:english[]effective[]ache[]ize \OT1/ztmcm/m/n/12 :
 [] 128\OML/ztmcm/m/it/12 MB[]external[]id[]ile \OT1/ztmcm/m/n/12 :[] \OML/ztmcm
 /m/it/12 =var=run=postgresql=postgresql \OMS/ztmcm/m/n/12 ^^@
  []
 
 
-Overfull \hbox (4.31789pt too wide) in paragraph at lines 54--107
+Overfull \hbox (4.31789pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 main:pid[]hba[]ile \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 
 =var=lib=postgresql=patroni=pg[]ba:conf[]hot[]tandby \OT1/ztmcm/m/n/12 :[] \OML
 /ztmcm/m/it/12 on[]ident[]ile \OT1/ztmcm/m/n/12 :[]
  []
 
 
-Overfull \hbox (10.92885pt too wide) in paragraph at lines 54--107
+Overfull \hbox (10.92885pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 =var=lib=postgresql=patroni=pg[]dent:conf[]include[]f[]xists
  \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 repmgr[]ib:conf[]lc[]essages \OT1/ztm
 cm/m/n/12 :[]
  []
 
 
-Overfull \hbox (10.15436pt too wide) in paragraph at lines 54--107
+Overfull \hbox (10.15436pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 C[]listen[]ddresses \OT1/ztmcm/m/n/12 :[] \OMS/ztmcm/m/n/12 
 ^^C[]\OML/ztmcm/m/it/12 log[]utovacuum[]in[]uration \OT1/ztmcm/m/n/12 : 0\OML/z
 tmcm/m/it/12 log[]heckpoints \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]loggi
@@ -1999,7 +2000,7 @@ ng[]ollector \OT1/ztmcm/m/n/12 :[]
  []
 
 
-Overfull \hbox (12.17418pt too wide) in paragraph at lines 54--107
+Overfull \hbox (12.17418pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 on[]log[]in[]essages \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 
 INFOlog[]ilename \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 postgresql:log[]log[]
 onnections \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]log[]irectory \OT1/ztmc
@@ -2007,7 +2008,7 @@ m/m/n/12 :[]
  []
 
 
-Overfull \hbox (75.15807pt too wide) in paragraph at lines 54--107
+Overfull \hbox (75.15807pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 =var=log=postgresql[]log[]isconnections \OT1/ztmcm/m/n/12 :[
 ] \OML/ztmcm/m/it/12 on[]log[]ine[]refix \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/
 12 log[]ock[]aits \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]log[]in[]uration
@@ -2015,7 +2016,7 @@ Overfull \hbox (75.15807pt too wide) in paragraph at lines 54--107
  []
 
 
-Overfull \hbox (49.29213pt too wide) in paragraph at lines 54--107
+Overfull \hbox (49.29213pt too wide) in paragraph at lines 56--109
 \OT1/ztmcm/m/n/12 5\OML/ztmcm/m/it/12 port \OT1/ztmcm/m/n/12 : 5432\OML/ztmcm/m
 /it/12 shared[]uffers \OT1/ztmcm/m/n/12 :[] 128\OML/ztmcm/m/it/12 MB[]shared[]r
 eload[]ibraries \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 pg[]tat[]tatements[]ss
@@ -2023,7 +2024,7 @@ l \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 onssl[]ert[]ile \OT1/ztmcm/m/n/12 :[]
  []
 
 
-Overfull \hbox (144.07344pt too wide) in paragraph at lines 54--107
+Overfull \hbox (144.07344pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 =etc=ssl=certs=ssl \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 
 cert \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 snakeoil:pem[]ssl[]ey[]ile \OT1/z
 tmcm/m/n/12 :[] \OML/ztmcm/m/it/12 =etc=ssl=private=ssl \OMS/ztmcm/m/n/12 ^^@ \
@@ -2032,7 +2033,7 @@ nix[]ocket[]irectories \OT1/ztmcm/m/n/12 :[]
  []
 
 
-Overfull \hbox (30.01955pt too wide) in paragraph at lines 54--107
+Overfull \hbox (30.01955pt too wide) in paragraph at lines 56--109
 \OML/ztmcm/m/it/12 =var=run=postgresql[]wal[]uffers \OT1/ztmcm/m/n/12 :[] 8\OML
 /ztmcm/m/it/12 MB[]wal[]eep[]egments \OT1/ztmcm/m/n/12 :[] 200[]\OML/ztmcm/m/it
 /12 wal[]evel \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 replica[]work[]em \OT1/z
@@ -2042,7 +2043,7 @@ tmcm/m/n/12 :[]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.112 pg_
+l.114 pg_
          hba:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2050,13 +2051,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.121 
+l.123 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (73.3981pt too wide) in paragraph at lines 112--121
+Overfull \hbox (73.3981pt too wide) in paragraph at lines 114--123
 []\T1/ptm/m/n/12 pg$[]\OML/ztmcm/m/it/12 ba \OT1/ztmcm/m/n/12 : \OMS/ztmcm/m/n/
 12 ^^@\OML/ztmcm/m/it/12 hostreplicationreplicator\OT1/ztmcm/m/n/12 127\OML/ztm
 cm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmc
@@ -2069,7 +2070,7 @@ plicationreplicator\OT1/ztmcm/m/n/12 172\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 2
  []
 
 
-Overfull \hbox (84.98499pt too wide) in paragraph at lines 112--121
+Overfull \hbox (84.98499pt too wide) in paragraph at lines 114--123
 \OML/ztmcm/m/it/12 hostallpostgres\OT1/ztmcm/m/n/12 172\OML/ztmcm/m/it/12 :\OT1
 /ztmcm/m/n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT
 1/ztmcm/m/n/12 12\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12 32\OML/ztmcm/m/it/12 tru
@@ -2086,13 +2087,13 @@ T1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 md\OT1/ztmcm/m/n/12 5 \OMS/ztmcm/m/n/12 ^^@
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131 connect_
+l.133 connect_
               address: 172.28.33.11:5432
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! You can't use `macro parameter character #' in math mode.
-l.134 #
+l.136 #
            create_replica_methods: [] # supports: pg_basebackup, WAL-E, pgBa...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2100,7 +2101,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.134 #    create_replica_methods: [] #
+l.136 #    create_replica_methods: [] #
                                         supports: pg_basebackup, WAL-E, pgBa...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2108,7 +2109,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.143 #
+l.145 #
            custom_conf: '/etc/postgresql/9.6/main/postgresql.custom.conf'
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2118,13 +2119,13 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.147 
+l.149 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (19.81645pt too wide) in paragraph at lines 129--147
+Overfull \hbox (19.81645pt too wide) in paragraph at lines 131--149
 []\T1/ptm/m/n/12 postgresql: lis-ten: 127.0.0.1,172.28.33.11:5432 connect$[]\OM
 L/ztmcm/m/it/12 ddress \OT1/ztmcm/m/n/12 : 172\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/
 n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT1/ztmcm/m
@@ -2132,7 +2133,7 @@ n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT1/ztmcm/m
  []
 
 
-Overfull \hbox (26.50348pt too wide) in paragraph at lines 129--147
+Overfull \hbox (26.50348pt too wide) in paragraph at lines 131--149
 \OML/ztmcm/m/it/12 pg[]asebackup; WAL \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 
 E; pgBackRest; Barmanuse[]nix[]ocket \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 tru
 eauthentication \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 replication \OT1/ztmcm/m
@@ -2140,25 +2141,21 @@ eauthentication \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 replication \OT1/ztmcm/m
  []
 
 
-Overfull \hbox (33.68407pt too wide) in paragraph at lines 129--147
+Overfull \hbox (33.68407pt too wide) in paragraph at lines 131--149
 \OML/ztmcm/m/it/12 secretpasswordcustom[]onf \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m
 /it/12 =etc=postgresql=\OT1/ztmcm/m/n/12 9\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12
  6\OML/ztmcm/m/it/12 =main=postgresql:custom:conf[]parameters \OT1/ztmcm/m/n/12
  :
  []
 
-) (conclusie.tex [42]
-Hoofdstuk 8.
-) [43
-
-] [44
-
-]
+) [44]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [45
+
+]
 [46]) [47] [48
 
 ]
@@ -2293,13 +2290,13 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
-
+[51]
 Overfull \hbox (8.49089pt too wide) in paragraph at lines 132--132
 \T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
 w . techopedia . com / de^^\nition /
  []
 
-[51]
+
 Overfull \hbox (13.39217pt too wide) in paragraph at lines 132--132
 [][]\T1/ptm/m/n/12 Technopedia. (2021b, april 28). \T1/ptm/m/it/12 Object-Relat
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
@@ -2309,19 +2306,15 @@ ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34862 strings out of 412094
- 624529 string characters out of 2847025
- 1619615 words of memory out of 3000000
- 53915 multiletter control sequences out of 15000+200000
+ 34891 strings out of 412094
+ 624977 string characters out of 2847025
+ 1619122 words of memory out of 3000000
+ 53944 multiletter control sequences out of 15000+200000
  442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1355b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s

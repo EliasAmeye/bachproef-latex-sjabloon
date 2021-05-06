@@ -434,4 +434,14 @@
   urldate      = {2021-03-23},
 }
 
+@Online{2021c,
+  author       = {opensource.com},
+  date         = {2021},
+  title        = {What is open source?},
+  url          = {https://opensource.com/resources/what-open-source},
+  language     = {English},
+  organization = {Red Hat Inc},
+  urldate      = {2021-04-29},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

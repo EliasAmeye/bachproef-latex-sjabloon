@@ -425,4 +425,21 @@
   urldate      = {2021-03-23},
 }
 
+@Online{Ruby,
+  author       = {Ruby},
+  title        = {About Ruby},
+  url          = {https://www.ruby-lang.org/en/about/},
+  language     = {English},
+  organization = {Ruby},
+  urldate      = {2021-03-23},
+}
+
+@Online{2021c,
+  author       = {opensource.com},
+  date         = {2021},
+  title        = {What is open source?},
+  url          = {https://opensource.com/resources/what-open-source},
+  organization = {Red Hat Inc},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
