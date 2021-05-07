@@ -89,53 +89,59 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Oplossing 1: Patroni}{33}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionele Requirements}{33}{section*.14}%
+\contentsline {subsubsection}{Must have}{33}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Niet-functionele Requirements}{33}{section*.15}%
+\contentsline {subsubsection}{Should have}{34}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Could have}{34}{section*.16}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Oplossing 2: Pgpool-II}{34}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionele Requirements}{34}{section*.16}%
+\contentsline {subsubsection}{Must have}{34}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Niet-functionele Requirements}{34}{section*.17}%
+\contentsline {subsubsection}{Should have}{35}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Oplossing 3: PostgreSQL Automatic Failover (PAF)}{34}{subsection.4.3.3}%
+\contentsline {subsubsection}{Could have}{35}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionele Requirements}{34}{section*.18}%
+\contentsline {subsection}{\numberline {4.3.3}Oplossing 3: PostgreSQL Automatic Failover (PAF)}{35}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Niet-functionele Requirements}{35}{section*.19}%
+\contentsline {subsubsection}{Must have}{35}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Oplossing 4: Replication Manager (RepMgr)}{35}{subsection.4.3.4}%
+\contentsline {subsubsection}{Should have}{35}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionele Requirements}{35}{section*.20}%
+\contentsline {subsubsection}{Could have}{36}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Niet-functionele Requirements}{35}{section*.21}%
+\contentsline {subsection}{\numberline {4.3.4}Oplossing 4: Replication Manager (RepMgr)}{36}{subsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Oplossing 5}{35}{subsection.4.3.5}%
+\contentsline {subsubsection}{Must have}{36}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Oplossing 6}{35}{subsection.4.3.6}%
+\contentsline {subsubsection}{Should have}{36}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Resultatenanalyse}{35}{section.4.4}%
+\contentsline {subsubsection}{Could have}{36}{section*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Oplossing 1: Patroni}{37}{chapter.5}%
+\contentsline {section}{\numberline {4.4}Resultatenanalyse}{37}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Oplossing 2}{39}{chapter.6}%
+\contentsline {subsection}{\numberline {4.4.1}Resultaten requirements}{37}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusie}{41}{chapter.7}%
+\contentsline {chapter}{\numberline {5}Oplossing 1: Patroni}{39}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Proof of Concept}{43}{chapter.8}%
+\contentsline {chapter}{\numberline {6}Oplossing 2}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{45}{appendix.A}%
+\contentsline {chapter}{\numberline {7}Conclusie}{43}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{45}{section.A.1}%
+\contentsline {chapter}{\numberline {8}Proof of Concept}{45}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{46}{section.A.2}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{46}{section.A.3}%
+\contentsline {section}{\numberline {A.1}Introductie}{47}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{47}{section.A.4}%
+\contentsline {section}{\numberline {A.2}State of the art}{48}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{47}{section.A.5}%
+\contentsline {section}{\numberline {A.3}Methodologie}{48}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{49}{appendix*.22}%
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{49}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{49}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{51}{appendix*.26}%
 \contentsfinish 

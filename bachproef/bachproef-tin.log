@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  7 MAY 2021 00:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  8 MAY 2021 00:04
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1312,25 +1312,31 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (bachproef-tin.aux
 
-LaTeX Warning: Label `subsubsec:Functionele Requirements' multiply defined.
+LaTeX Warning: Label `subsubsec:Must have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Niet-functionele Requirements' multiply defined
-.
+LaTeX Warning: Label `subsubsec:Should have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Functionele Requirements' multiply defined.
+LaTeX Warning: Label `subsubsec:Could have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Niet-functionele Requirements' multiply defined
-.
+LaTeX Warning: Label `subsubsec:Must have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Functionele Requirements' multiply defined.
+LaTeX Warning: Label `subsubsec:Should have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Niet-functionele Requirements' multiply defined
-.
+LaTeX Warning: Label `subsubsec:Could have' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Must have' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Should have' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Could have' multiply defined.
 
 )
 \openout1 = `bachproef-tin.aux'.
@@ -1741,6 +1747,22 @@ Hoofdstuk 3.
 ]
 Hoofdstuk 4.
 [31]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  58.
  (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
@@ -1793,364 +1815,99 @@ Make it at least 27.808pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[33] [34]) (Oplossing1.tex [35] [36
+[33]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-]
-Hoofdstuk 5.
-) (Oplossing2.tex [37] [38
+Overfull \hbox (99.24855pt too wide) in paragraph at lines 134--135
+\T1/ptm/m/n/12 dere soor-ten van failover con-fi-gu-ra-ties aan zo-als failover
+_requires_consensus of failover_when_quorum_exists. 
+ []
 
-]
-Hoofdstuk 6.
-) (conclusie.tex [39] [40
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-]
-Hoofdstuk 7.
-) (POC.tex [41] [42
+Underfull \vbox (badness 1117) has occurred while \output is active []
 
-]
-Hoofdstuk 8.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 file_
-          size: 10485760 # 10MB
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ [34]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-! You can't use `macro parameter character #' in math mode.
-l.47 file_size: 10485760 #
-                           10MB
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Overfull \hbox (0.24852pt too wide) in paragraph at lines 148--149
+\T1/ptm/m/n/12 Op eer-ste zicht is er niet di-rect een al-om-ge-kende gra-fi-sc
+he in-ter-face aan-we-zig voor Pgpool-
+ []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.51 connect_
-             address: 172.28.33.11:8008
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.52 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+[35]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 loop_
-          wait: 10
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `macro parameter character #' in math mode.
-l.61 maximum_lag_on_failover: 1048576 #
-                                        1MB
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.70 #
-      checkpoint_segments: 10
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.72 #
-      data_directory: '/var/lib/postgresql/patroni'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.76 #
-      external_pid_file: '/var/run/postgresql/postgresql-main.pid'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.77 #
-      hba_file: '/var/lib/postgresql/patroni/pg_hba.conf'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.79 #
-      ident_file: '/var/lib/postgresql/patroni/pg_ident.conf'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.101 #
-       ssl: on
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.102 #
-       ssl_cert_file: '/etc/ssl/certs/ssl-cert-snakeoil.pem'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.103 #
-       ssl_key_file: '/etc/ssl/private/ssl-cert-snakeoil.key'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.109 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (100.3143pt too wide) in paragraph at lines 56--109
-[]\T1/ptm/m/n/12 bootstrap: dcs: ttl: 30 loop$[]\OML/ztmcm/m/it/12 ait \OT1/ztm
-cm/m/n/12 : 10\OML/ztmcm/m/it/12 retry[]imeout \OT1/ztmcm/m/n/12 : 10\OML/ztmcm
-/m/it/12 maximum[]ag[]n[]ailover \OT1/ztmcm/m/n/12 : 10485761\OML/ztmcm/m/it/12
- MBmaster[]tart[]imeout \OT1/ztmcm/m/n/12 :
+ [36]
+Underfull \hbox (badness 5939) in paragraph at lines 221--221
+[]\T1/ptm/m/n/12 PostgreSQL Au-
  []
 
 
-Overfull \hbox (40.90172pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 on[]autovacuum \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]
-checkpoint[]ompletion[]arget \OT1/ztmcm/m/n/12 : 0\OML/ztmcm/m/it/12 :\OT1/ztmc
-m/m/n/12 6\OML/ztmcm/m/it/12 checkpoint[]egments \OT1/ztmcm/m/n/12 : 10\OML/ztm
-cm/m/it/12 checkpoint[]arning \OT1/ztmcm/m/n/12 :
+Underfull \hbox (badness 6141) in paragraph at lines 221--221
+\T1/ptm/m/n/12 to-ma-tic Failover
  []
 
 
-Overfull \hbox (36.91953pt too wide) in paragraph at lines 56--109
-\OT1/ztmcm/m/n/12 300\OML/ztmcm/m/it/12 data[]irectory \OT1/ztmcm/m/n/12 :[] \O
-ML/ztmcm/m/it/12 =var=lib=postgresql=patroni[]datestyle \OT1/ztmcm/m/n/12 :[] \
-OML/ztmcm/m/it/12 iso; mdy[]default[]ext[]earch[]onfig \OT1/ztmcm/m/n/12 :[]
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]\T1/ptm/m/n/12 Replication Ma-
  []
 
 
-Overfull \hbox (59.2435pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 pg[]atalog:english[]effective[]ache[]ize \OT1/ztmcm/m/n/12 :
-[] 128\OML/ztmcm/m/it/12 MB[]external[]id[]ile \OT1/ztmcm/m/n/12 :[] \OML/ztmcm
-/m/it/12 =var=run=postgresql=postgresql \OMS/ztmcm/m/n/12 ^^@
- []
+! LaTeX Error: \caption outside float.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \caption
+              [Tabel test]{uitgebreide beschrijving}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Overfull \hbox (4.31789pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 main:pid[]hba[]ile \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 
-=var=lib=postgresql=patroni=pg[]ba:conf[]hot[]tandby \OT1/ztmcm/m/n/12 :[] \OML
-/ztmcm/m/it/12 on[]ident[]ile \OT1/ztmcm/m/n/12 :[]
- []
+) (Oplossing1.tex [37] [38
 
+]
+Hoofdstuk 5.
+) (Oplossing2.tex [39] [40
 
-Overfull \hbox (10.92885pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 =var=lib=postgresql=patroni=pg[]dent:conf[]include[]f[]xists
- \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 repmgr[]ib:conf[]lc[]essages \OT1/ztm
-cm/m/n/12 :[]
- []
+]
+Hoofdstuk 6.
+) (conclusie.tex [41] [42
 
+]
+Hoofdstuk 7.
+) (POC.tex [43] [44
 
-Overfull \hbox (10.15436pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 C[]listen[]ddresses \OT1/ztmcm/m/n/12 :[] \OMS/ztmcm/m/n/12 
-^^C[]\OML/ztmcm/m/it/12 log[]utovacuum[]in[]uration \OT1/ztmcm/m/n/12 : 0\OML/z
-tmcm/m/it/12 log[]heckpoints \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]loggi
-ng[]ollector \OT1/ztmcm/m/n/12 :[]
- []
+]
+Hoofdstuk 8.
+) [45] [46
 
-
-Overfull \hbox (12.17418pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 on[]log[]in[]essages \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 
-INFOlog[]ilename \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 postgresql:log[]log[]
-onnections \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]log[]irectory \OT1/ztmc
-m/m/n/12 :[]
- []
-
-
-Overfull \hbox (75.15807pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 =var=log=postgresql[]log[]isconnections \OT1/ztmcm/m/n/12 :[
-] \OML/ztmcm/m/it/12 on[]log[]ine[]refix \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/
-12 log[]ock[]aits \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 on[]log[]in[]uration
-[]tatement \OT1/ztmcm/m/n/12 :
- []
-
-
-Overfull \hbox (49.29213pt too wide) in paragraph at lines 56--109
-\OT1/ztmcm/m/n/12 5\OML/ztmcm/m/it/12 port \OT1/ztmcm/m/n/12 : 5432\OML/ztmcm/m
-/it/12 shared[]uffers \OT1/ztmcm/m/n/12 :[] 128\OML/ztmcm/m/it/12 MB[]shared[]r
-eload[]ibraries \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 pg[]tat[]tatements[]ss
-l \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 onssl[]ert[]ile \OT1/ztmcm/m/n/12 :[]
- []
-
-
-Overfull \hbox (144.07344pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 =etc=ssl=certs=ssl \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 
-cert \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 snakeoil:pem[]ssl[]ey[]ile \OT1/z
-tmcm/m/n/12 :[] \OML/ztmcm/m/it/12 =etc=ssl=private=ssl \OMS/ztmcm/m/n/12 ^^@ \
-OML/ztmcm/m/it/12 cert \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 snakeoil:key[]u
-nix[]ocket[]irectories \OT1/ztmcm/m/n/12 :[]
- []
-
-
-Overfull \hbox (30.01955pt too wide) in paragraph at lines 56--109
-\OML/ztmcm/m/it/12 =var=run=postgresql[]wal[]uffers \OT1/ztmcm/m/n/12 :[] 8\OML
-/ztmcm/m/it/12 MB[]wal[]eep[]egments \OT1/ztmcm/m/n/12 :[] 200[]\OML/ztmcm/m/it
-/12 wal[]evel \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m/it/12 replica[]work[]em \OT1/z
-tmcm/m/n/12 :[]
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.114 pg_
-         hba:
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.123 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (73.3981pt too wide) in paragraph at lines 114--123
-[]\T1/ptm/m/n/12 pg$[]\OML/ztmcm/m/it/12 ba \OT1/ztmcm/m/n/12 : \OMS/ztmcm/m/n/
-12 ^^@\OML/ztmcm/m/it/12 hostreplicationreplicator\OT1/ztmcm/m/n/12 127\OML/ztm
-cm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmc
-m/m/it/12 :\OT1/ztmcm/m/n/12 1\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12 32\OML/ztmc
-m/m/it/12 md\OT1/ztmcm/m/n/12 5 \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 hostre
-plicationreplicator\OT1/ztmcm/m/n/12 172\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 2
-8\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 
-11\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 md\OT1/ztmcm/m/n/12
- 5 \OMS/ztmcm/m/n/12 ^^@
- []
-
-
-Overfull \hbox (84.98499pt too wide) in paragraph at lines 114--123
-\OML/ztmcm/m/it/12 hostallpostgres\OT1/ztmcm/m/n/12 172\OML/ztmcm/m/it/12 :\OT1
-/ztmcm/m/n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT
-1/ztmcm/m/n/12 12\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12 32\OML/ztmcm/m/it/12 tru
-st \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 hostallpostgres\OT1/ztmcm/m/n/12 17
-2\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 
-33\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 13\OML/ztmcm/m/it/12 =\OT1/ztmcm/m/n/12
- 32\OML/ztmcm/m/it/12 trust \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 hostallall
-\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\
-OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 =\O
-T1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 md\OT1/ztmcm/m/n/12 5 \OMS/ztmcm/m/n/12 ^^@
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.133 connect_
-              address: 172.28.33.11:5432
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `macro parameter character #' in math mode.
-l.136 #
-           create_replica_methods: [] # supports: pg_basebackup, WAL-E, pgBa...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.136 #    create_replica_methods: [] #
-                                        supports: pg_basebackup, WAL-E, pgBa...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.145 #
-           custom_conf: '/etc/postgresql/9.6/main/postgresql.custom.conf'
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (19.81645pt too wide) in paragraph at lines 131--149
-[]\T1/ptm/m/n/12 postgresql: lis-ten: 127.0.0.1,172.28.33.11:5432 connect$[]\OM
-L/ztmcm/m/it/12 ddress \OT1/ztmcm/m/n/12 : 172\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/
-n/12 28\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 33\OML/ztmcm/m/it/12 :\OT1/ztmcm/m
-/n/12 11 : 5432\OML/ztmcm/m/it/12 data[]ir \OT1/ztmcm/m/n/12 :
- []
-
-
-Overfull \hbox (26.50348pt too wide) in paragraph at lines 131--149
-\OML/ztmcm/m/it/12 pg[]asebackup; WAL \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 
-E; pgBackRest; Barmanuse[]nix[]ocket \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 tru
-eauthentication \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 replication \OT1/ztmcm/m
-/n/12 :
- []
-
-
-Overfull \hbox (33.68407pt too wide) in paragraph at lines 131--149
-\OML/ztmcm/m/it/12 secretpasswordcustom[]onf \OT1/ztmcm/m/n/12 :[] \OML/ztmcm/m
-/it/12 =etc=postgresql=\OT1/ztmcm/m/n/12 9\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12
- 6\OML/ztmcm/m/it/12 =main=postgresql:custom:conf[]parameters \OT1/ztmcm/m/n/12
- :
- []
-
-) [44]
+]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45
-
-]
-[46]) [47] [48
+ [47]
+[48]) [49] [50
 
 ]
 ! Missing $ inserted.
@@ -2207,7 +1964,7 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[49]
+[51]
 Overfull \hbox (5.6765pt too wide) in paragraph at lines 132--132
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
@@ -2263,7 +2020,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 132--132
  / searchdatacenter . techtarget .
  []
 
-[50]
+[52]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 132--132
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2309,7 +2066,7 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
-[51]
+[53]
 Overfull \hbox (8.49089pt too wide) in paragraph at lines 132--132
 \T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
 w . techopedia . com / de^^\nition /
@@ -2321,25 +2078,21 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 132--132
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[52] (bachproef-tin.aux)
+[54] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34894 strings out of 412094
- 625077 string characters out of 2847025
- 1620222 words of memory out of 3000000
- 53947 multiletter control sequences out of 15000+200000
+ 34895 strings out of 412094
+ 625076 string characters out of 2847025
+ 1620209 words of memory out of 3000000
+ 53948 multiletter control sequences out of 15000+200000
  442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1355b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (54 pages).
+Output written on bachproef-tin.pdf (56 pages).
