@@ -127,9 +127,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Redundantie/Replicatie}{39}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Failover}{39}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Failover}{40}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Monitoring}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Monitoring}{40}{section.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Oplossing 2: PostgreSQL Automatic Failover (PAF)}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
