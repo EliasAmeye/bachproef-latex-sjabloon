@@ -5,13 +5,7 @@
 \chapter{Oplossing 1: Patroni}
 \label{ch:Oplossing 1: Patroni}
 
-In dit hoofdstuk worden nog eens alle punten uit de functionele requirements uitgebreid overlopen.
-
-NOG AANVULLEN!!!
-
-%Nog eens volledige uitleg en alle punten en tools zeer grondig doorlopen en vergelijken met oplossing 2
-
-
+In dit hoofdstuk worden nog eens voor Patroni alle punten uit de functionele requirements overlopen. Hier zullen al meer specifieke commando's en tools benoemd worden die gebruikt kunnen worden voor de opstelling van de proof of concept.
 
 %https://patroni.readthedocs.io/en/latest/
 \section{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
@@ -28,11 +22,17 @@ PostgreSQL synchrone replicatie is ook mogelijk bij Patroni. Synchrone replicati
 \section{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{sec:Failover}
 
+Patroni clusters kennen een automatische failover wanneer de primary node (onverwachts) niet beschikbaar is. De failover opties kunnen zeer geavanceerd aangepast worden naar de wensen van de cluster. Wanneer, na failover, een primary node terug online komt, kan deze aan de hand van pg\_rewind terug toegevoegd worden aan de cluster als standby node. Patroni werkt aan de hand van endpoints. Dit kunnen switchover of failover endpoints zijn. Een failover endpoint laat toe om een manuele failover uit te voeren wanneer er in de cluster geen 'gezonde' nodes meer aanwezig zijn. Deze endpoint wordt gebruikt door patronictl failover.
+Aan de hand van dynamische configuratie instellingen, opgeslagen in het Distributed Configuration Store (DCS), die geldig zijn voor alle nodes, worden parameters zoals ttl, maximum\_lag\_on\_failover, retry\_timeout, etc. ingesteld. Bij ttl wordt dan de tijd ingesteld die nodig is om de leader lock in te nemen als standby node. Normaal bevat de primary node altijd deze lock, maar als er iets misloopt en de primary node door één of andere reden deze lock misloopt, kan een standby node deze leader lock overpakken en op deze manier zichzelf promoten tot primary node en zo failover initiëren. Patroni kan bijvoorbeeld worden verteld om nooit een standby node te promoten die meer dan een configureerbare hoeveelheid log achterloopt op de primary node.
+
+
+
 \section{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{sec:Monitoring}
 
+Patroni kent een zeer uitgebreide REST API die gebruikt kan worden om de cluster en zijn nodes te monitoren en voor applicaties om te selecteren met welke PostgreSQL instantie verbinding moet worden gemaakt. Aan de hand van Consul kan je monitoring aanzetten in de cluster. Dit moet dan wel op elke node aangezet worden.
 
-
+Hier nog iets schrijven over PGWatch als monitoring methode.
 
 %\subsection{\IfLanguageName{dutch}{Databank}{Databank}}
 %\label{subsec:Databank}
