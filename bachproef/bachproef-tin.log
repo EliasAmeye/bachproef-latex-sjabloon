@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  8 MAY 2021 16:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  8 MAY 2021 16:38
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1338,6 +1338,15 @@ LaTeX Warning: Label `subsubsec:Should have' multiply defined.
 
 LaTeX Warning: Label `subsubsec:Could have' multiply defined.
 
+
+LaTeX Warning: Label `sec:Redundantie/Replicatie' multiply defined.
+
+
+LaTeX Warning: Label `sec:Failover' multiply defined.
+
+
+LaTeX Warning: Label `sec:Monitoring' multiply defined.
+
 )
 \openout1 = `bachproef-tin.aux'.
 
@@ -1637,14 +1646,14 @@ Overfull \hbox (21.15076pt too wide) in paragraph at lines 88--88
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
 [10] (bachproef-tin.lof)
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
@@ -2230,10 +2239,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34901 strings out of 412094
- 625183 string characters out of 2847025
+ 34904 strings out of 412094
+ 625201 string characters out of 2847025
  1620449 words of memory out of 3000000
- 53954 multiletter control sequences out of 15000+200000
+ 53957 multiletter control sequences out of 15000+200000
  442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s

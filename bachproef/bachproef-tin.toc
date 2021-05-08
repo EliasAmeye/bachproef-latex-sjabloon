@@ -133,6 +133,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Oplossing 2: PostgreSQL Automatic Failover (PAF)}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Redundantie/Replicatie}{41}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Failover}{41}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Monitoring}{41}{section.6.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusie}{43}{chapter.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Proof of Concept}{45}{chapter.8}%
