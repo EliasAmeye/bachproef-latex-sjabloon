@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  8 MAY 2021 15:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  8 MAY 2021 15:46
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1642,13 +1642,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout6 = `bachproef-tin.toc'.
 
 
-[9] [10
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (bachproef-tin.lof)
+ [9]
+[10] (bachproef-tin.lof)
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
  [11
+
 
 ] [12
 
@@ -2226,10 +2228,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34895 strings out of 412094
- 625107 string characters out of 2847025
- 1620249 words of memory out of 3000000
- 53948 multiletter control sequences out of 15000+200000
+ 34901 strings out of 412094
+ 625183 string characters out of 2847025
+ 1620449 words of memory out of 3000000
+ 53954 multiletter control sequences out of 15000+200000
  442279 words of font info for 69 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s

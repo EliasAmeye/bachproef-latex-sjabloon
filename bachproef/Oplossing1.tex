@@ -3,7 +3,34 @@
 %%=============================================================================
 
 \chapter{Oplossing 1: Patroni}
-
 \label{ch:Oplossing 1: Patroni}
 
+In dit hoofdstuk worden nog eens alle punten uit de functionele requirements uitgebreid overlopen.
+
+NOG AANVULLEN!!!
+
 %Nog eens volledige uitleg en alle punten en tools zeer grondig doorlopen en vergelijken met oplossing 2
+
+\section{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
+\label{sec:Redundantie/Replicatie}
+
+Voor het kopiëren van bestanden of databases, of replicatie genaamd maakt Patroni gebruikt van streaming replicatie. Standaard maakt Patroni gebruik van asynchrone replicatie. Hierbij worden gegevens eerst geschreven naar een primaire opslagarray en committeert dan de te repliceren gegevens naar het geheugen. Vervolgens worden deze gegevens in real-time of met geplande tussenpozen naar de replicatiedoelen gekopieerd.
+Wanneer gewerkt wordt met asynchrone replicatie, kan de cluster het zich permitteren om een aantal gecommitteerde transacties te verliezen, om High Availability te garanderen. Wanneer de primary node faalt, en Patroni een standby node regelt, zullen alle transacties die niet naar de standby node zijn gerepliceerd, verloren gaan.
+
+% https://patroni.readthedocs.io/en/latest/replication_modes.html
+
+
+\section{\IfLanguageName{dutch}{Failover}{Failover}}
+\label{sec:Failover}
+
+\section{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
+\label{sec:Monitoring}
+
+
+
+
+%\subsection{\IfLanguageName{dutch}{Databank}{Databank}}
+%\label{subsec:Databank}
+
+
+
