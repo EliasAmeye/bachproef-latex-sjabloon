@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  9 MAY 2021 12:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7300 64-bit) (preloaded format=xelatex 2020.2.18)  9 MAY 2021 12:49
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -3408,7 +3408,7 @@ I'm ignoring this; it doesn't match any \if.
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.9 ...dantie/Replicatie}{Redundantie/Replicatie}}
+l.12 ...antie/Replicatie}{Redundantie/Replicatie}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3419,21 +3419,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.9 ...dantie/Replicatie}{Redundantie/Replicatie}}
+l.12 ...antie/Replicatie}{Redundantie/Replicatie}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.9 ...dantie/Replicatie}{Redundantie/Replicatie}}
+l.12 ...antie/Replicatie}{Redundantie/Replicatie}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.12 ...IfLanguageName{dutch}{Failover}{Failover}}
+l.15 ...IfLanguageName{dutch}{Failover}{Failover}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3444,21 +3444,21 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.12 ...IfLanguageName{dutch}{Failover}{Failover}}
+l.15 ...IfLanguageName{dutch}{Failover}{Failover}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.12 ...IfLanguageName{dutch}{Failover}{Failover}}
+l.15 ...IfLanguageName{dutch}{Failover}{Failover}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Undefined control sequence.
 \\bookmark ...{pdf:out \ifBKM@DvipdfmxOutlineOpen 
                                                   [\ifBKM@open \ifnum \BKM@l...
-l.15 ...nguageName{dutch}{Monitoring}{Monitoring}}
+l.20 ...nguageName{dutch}{Monitoring}{Monitoring}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3469,14 +3469,14 @@ and I'll forget about whatever was undefined.
 ! Extra \else.
 \H@old@sect ...name the#1\endcsname }\fi #7}\else 
                                                   \def \@svsechd {#6{\hskip ...
-l.15 ...nguageName{dutch}{Monitoring}{Monitoring}}
+l.20 ...nguageName{dutch}{Monitoring}{Monitoring}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
 ! Extra \fi.
 \H@old@sect ...sname the#1\endcsname }\fi #7}}\fi 
                                                   \@xsect {#5}
-l.15 ...nguageName{dutch}{Monitoring}{Monitoring}}
+l.20 ...nguageName{dutch}{Monitoring}{Monitoring}}
                                                   
 I'm ignoring this; it doesn't match any \if.
 
