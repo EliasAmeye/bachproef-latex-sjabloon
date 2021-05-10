@@ -3,8 +3,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Inleiding}{15}{chapter.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{15}{section.1.2}%
@@ -14,8 +12,6 @@
 \contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{15}{section.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{17}{chapter.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Stand van zaken}{17}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}PosgreSQL}{17}{section.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -67,11 +63,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{29}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Methodologie}{29}{chapter.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Schifting}{31}{chapter.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Schifting}{31}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Requirements}{31}{section.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -133,8 +125,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Oplossing 1: Patroni}{39}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Oplossing 1: Patroni}{39}{chapter.5}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Redundantie/Replicatie}{39}{section.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Failover}{40}{section.5.2}%
@@ -142,8 +132,6 @@
 \contentsline {section}{\numberline {5.3}Monitoring}{40}{section.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Oplossing 2: PostgreSQL Automatic Failover (PAF)}{41}{chapter.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Oplossing 2: PostgreSQL Automatic Failover (PAF)}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Redundantie/Replicatie}{41}{section.6.1}%
 \defcounter {refsection}{0}\relax 
@@ -153,15 +141,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusie}{43}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusie}{43}{chapter.7}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Proof of Concept}{45}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Proof of Concept}{45}{chapter.8}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Onderzoeksvoorstel}{47}{appendix.A}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Introductie}{47}{section.A.1}%
 \defcounter {refsection}{0}\relax 
