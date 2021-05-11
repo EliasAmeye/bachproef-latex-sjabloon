@@ -92,12 +92,60 @@ Tijdens de configuratie van de cluster zal pgServer '172.16.0.11' als ip adres h
 
 Als eerste stap moeten de juiste packages geïnstalleerd worden op pgServer. Hier gaat het over Consul, pgBouncer en HAProxy.
 
-Hierna zullen we voor Consul een service toevoegen die bij het opstarten van de server wordt uitgevoerd. In deze service 
-
+Hierna zullen we voor Consul een service toevoegen die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul server. Deze ziet er als volgt uit.
 
 \begin{lstlisting}
+    {
+        "advertise_addr": "172.16.0.11",
+        "bind_addr": "172.16.0.11",
+        "bootstrap": false,
+        "bootstrap_expect": 1,
+        "server": true,
+        "client_addr": "0.0.0.0",
+        "node_name": "pgServer",
+        "datacenter": "dc1",
+        "data_dir": "/var/consul/server",
+        "domain": "consul",
+        "encrypt": "/q/vkVS+My2nl8Zk/8csuQ==",
+        "log_level": "INFO",
+        "enable_syslog": true,
+        "rejoin_after_leave": true,
+        "ui_dir": "/var/consul/ui",
+        "leave_on_terminate": false,
+        "skip_leave_on_interrupt": false
+    }
     
  \end{lstlisting}
+
+Bij het installeren van de HAProxy wordt doorverwezen naar een configuratiefile waarin de verschillende opties worden meegegeven.
+
+\begin{lstlisting}
+global
+    maxconn 100
+
+defaults
+    log global
+    mode tcp
+    retries 2
+    timeout client 30m
+    timeout connect 4s
+    timeout server 30m
+    timeout check 5s
+
+listen stats
+    mode http
+    bind *:7000
+    stats enable
+    stats uri /
+
+listen postgres
+    bind *:5000
+    option httpchk
+    http-check expect status 200
+    default-server inter 3s fall 3 rise 2 on-marked-down shutdown-sessions
+    server postgresql_pgNode1_172.0.16.22 172.16.0.22:5432 maxconn 100 check port 8008
+    server postgresql_pgNode2_172.0.16.33 172.16.0.33:5432 maxconn 100 check port 8008
+\end{lstlisting}
 
 
 \section{\IfLanguageName{dutch}{pgNode1}{pgNode1}}
@@ -107,8 +155,22 @@ Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres he
 
 Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Consul Agent, Patroni en PostgreSQL uiteraard.
 
+Dan
+
+Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
+
 \begin{lstlisting}
-    
+    {
+        "server": false,
+        "datacenter": "dc1",
+        "data_dir": "/var/consul/client",
+        "ui_dir": "/var/consul/ui",
+        "encrypt": "/q/vkVS+My2nl8Zk/8csuQ==", 
+        "log_level": "INFO",
+        "enable_syslog": true,
+        "start_join": ["172.16.0.11"],
+        "bind_addr": "172.16.0.22"
+    }  
 \end{lstlisting}
 
 
@@ -116,9 +178,24 @@ Idem als bij pgServer is de eerste stap het installeren van de juiste packages. 
 \label{sec:pgNode2}
 Tijdens de configuratie van de cluster zal pgNode2 '172.16.0.33' als ip adres hebben.
 
+Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Consul Agent, Patroni en PostgreSQL uiteraard.
+
+Dan 
+
+Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
 \begin{lstlisting}
-    
+    {
+        "server": false,
+        "datacenter": "dc1",
+        "data_dir": "/var/consul/client",
+        "ui_dir": "/var/consul/ui",
+        "encrypt": "/q/vkVS+My2nl8Zk/8csuQ==", 
+        "log_level": "INFO",
+        "enable_syslog": true,
+        "start_join": ["172.16.0.11"],
+        "bind_addr": "172.16.0.33"
+    }
 \end{lstlisting}
 
 

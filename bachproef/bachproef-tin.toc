@@ -155,23 +155,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}pgServer}{47}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}pgNode1}{47}{section.8.4}%
+\contentsline {section}{\numberline {8.4}pgNode1}{48}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}pgNode2}{47}{section.8.5}%
+\contentsline {section}{\numberline {8.5}pgNode2}{49}{section.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Testing functionele requirements}{47}{section.8.6}%
+\contentsline {section}{\numberline {8.6}Testing functionele requirements}{49}{section.8.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{49}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{51}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{49}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Introductie}{51}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{50}{section.A.2}%
+\contentsline {section}{\numberline {A.2}State of the art}{52}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Methodologie}{52}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{51}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{53}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{51}{section.A.5}%
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{53}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{53}{appendix*.26}%
+\contentsline {chapter}{Bibliografie}{55}{appendix*.26}%
 \contentsfinish 
