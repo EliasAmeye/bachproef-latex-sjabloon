@@ -151,27 +151,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.2.2}VirtualBox}{46}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}Python3-pip}{47}{subsection.8.2.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}pgServer}{47}{section.8.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}pgNode1}{48}{section.8.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.5}pgNode2}{51}{section.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Testing functionele requirements}{52}{section.8.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{55}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{53}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introductie}{55}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{53}{section.A.1}%
+\contentsline {section}{\numberline {A.2}State of the art}{56}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{54}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{56}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{54}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{57}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{55}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{57}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{55}{section.A.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{57}{appendix*.26}%
+\contentsline {chapter}{Bibliografie}{59}{appendix*.26}%
 \contentsfinish 

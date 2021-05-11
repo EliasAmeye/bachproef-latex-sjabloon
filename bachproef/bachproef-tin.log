@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 00:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 00:21
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2083,7 +2083,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-Underfull \vbox (badness 4013) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47]
 [48]
@@ -2095,26 +2095,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50]
 [51]
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 ! LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.363 \caption
+l.387 \caption
               [Tabel 6: Ip-adressen Cluster]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [52]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
+
+ []
+
+) [53] [54
+
+]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53
-
-]
-[54]) [55] [56
+ [55]
+[56]) [57] [58
 
 ]
 ! Missing $ inserted.
@@ -2171,7 +2192,7 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[57]
+[59]
 Overfull \hbox (5.6765pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
@@ -2221,7 +2242,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no – in font ptmr8t!
-[58]
+[60]
 Overfull \hbox (7.05502pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
  / searchdatacenter . techtarget .
@@ -2272,7 +2293,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
-[59]
+[61]
 Missing character: There is no – in font ptmri8t!
 
 Overfull \hbox (8.49089pt too wide) in paragraph at lines 148--148
@@ -2286,7 +2307,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 148--148
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[60] (bachproef-tin.aux)
+[62] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2295,12 +2316,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35215 strings out of 412094
- 629407 string characters out of 2847025
- 1656093 words of memory out of 3000000
- 54259 multiletter control sequences out of 15000+200000
+ 35241 strings out of 412094
+ 629799 string characters out of 2847025
+ 1661990 words of memory out of 3000000
+ 54285 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,99p,1437b,5303s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,12n,99p,1437b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (62 pages).
+Output written on bachproef-tin.pdf (64 pages).
