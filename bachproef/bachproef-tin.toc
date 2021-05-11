@@ -157,21 +157,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}pgNode1}{48}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}pgNode2}{49}{section.8.5}%
+\contentsline {section}{\numberline {8.5}pgNode2}{51}{section.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Testing functionele requirements}{49}{section.8.6}%
+\contentsline {section}{\numberline {8.6}Testing functionele requirements}{52}{section.8.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{51}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{53}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{51}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Introductie}{53}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{52}{section.A.2}%
+\contentsline {section}{\numberline {A.2}State of the art}{54}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{52}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Methodologie}{54}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{53}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{55}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{53}{section.A.5}%
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{55}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{55}{appendix*.26}%
+\contentsline {chapter}{Bibliografie}{57}{appendix*.26}%
 \contentsfinish 

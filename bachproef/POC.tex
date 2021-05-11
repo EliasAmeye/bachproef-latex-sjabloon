@@ -155,7 +155,118 @@ Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres he
 
 Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Consul Agent, Patroni en PostgreSQL uiteraard.
 
-Dan
+Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind, maximum\_lag\_on\_failover, etc.:
+
+\begin{lstlisting}
+scope: PatroniCluster
+namespace: /nsPatroniCluster
+name: pgNode1
+
+log:
+    level: INFO
+    dir: /var/log/patroni
+    file_size: 10485760 #staat gelijk aan ongeveer 10MB
+
+restapi:
+    listen: 172.16.0.22:8008
+    connect_address: 172.16.0.22:8008
+
+consul:
+    host: 172.16.0.11:8500
+
+bootstrap:
+    dcs:
+        ttl: 30
+        loop_wait: 10
+        retry_timeout: 10
+        maximum_lag_on_failover: 1048576 #staat gelijk aan ongeveer 1MB
+        master_start_timeout: 300
+        postgresql:
+            use_pg_rewind: true
+            parameters:
+                archive_command: 'exit 0'
+                archive_mode: 'on'
+                autovacuum: 'on'
+                checkpoint_completion_target: 0.6
+                checkpoint_warning: 300
+                datestyle: 'iso, mdy'
+                default_text_search_config: 'pg_catalog.english'
+                effective_cache_size: '128MB'
+                hot_standby: 'on'
+                include_if_exists: 'repmgr_lib.conf'
+                lc_messages: 'C'
+                listen_addresses: '*'
+                log_autovacuum_min_duration: 0
+                log_checkpoints: 'on'
+                logging_collector: 'on'
+                log_min_messages: INFO
+                log_filename: 'postgresql.log'
+                log_connections: 'on'
+                log_directory: '/var/log/postgresql'
+                log_disconnections: 'on'
+                log_line_prefix: '%t [%p]: [%l-1] user=%u,db=%d,app=%a '
+                log_lock_waits: 'on'
+                log_min_duration_statement: 0
+                log_temp_files: 0
+                maintenance_work_mem: '128MB'
+                max_connections: 101
+                max_wal_senders: 5
+                port: 5432
+                shared_buffers: '128MB'
+                shared_preload_libraries: 'pg_stat_statements'
+                unix_socket_directories: '/var/run/postgresql'
+                wal_buffers: '8MB'
+                wal_keep_segments: '200'
+                wal_level: 'replica'
+                work_mem: '128MB'
+
+    initdb:
+    - encoding: UTF8
+    - data-checksums
+
+    pg_hba:
+    - host replication replicator 127.0.0.1/32 md5
+    - host replication replicator 172.16.0.22/0 md5
+    - host replication replicator 172.16.0.33/0 md5
+    - host all postgres 172.16.0.11/32 trust
+    - host all postgres 172.16.0.22/32 trust
+    - host all postgres 172.16.0.33/32 trust
+    - host all all 0.0.0.0/0 md5
+    - local all all peer
+    
+    users:
+        admin:
+            password: admin
+            options:
+                - createrole
+                - createdb
+
+postgresql:
+    listen: 127.0.0.1,172.16.0.22:5432
+    connect_address: 172.16.0.22:5432
+    data_dir: /var/lib/postgresql/patroni
+    pgpass: /tmp/pgpass
+    use_unix_socket: true
+    authentication:
+        replication:
+            username: replication
+            password: replication
+        superuser:
+            username: postgres
+            password: postgres
+        parameters:
+            unix_socket_directories: '/var/run/postgresql'
+            wal_compression: on
+
+tags:
+    nofailover: false
+    noloadbalance: false
+    clonefrom: false
+    nosync: false
+
+watchdog:
+    mode: off
+\end{lstlisting}
 
 Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
@@ -180,7 +291,43 @@ Tijdens de configuratie van de cluster zal pgNode2 '172.16.0.33' als ip adres he
 
 Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Consul Agent, Patroni en PostgreSQL uiteraard.
 
-Dan 
+Bij het configureren van Patroni zal verwezen worden naar pgNode2Patroni.yml waarin de configuratie te vinden is. Dit bestand is zeer gelijkend aan wat er bij pgNode1 staat, maar kent toch een paar kleine wijzigingen, maar enkel in ip-adressen:
+
+\begin{lstlisting}
+restapi:
+    listen: 172.16.0.33:8008
+    connect_address: 172.16.0.33:8008
+
+consul:
+    host: 172.16.0.11:8500
+\end{lstlisting}
+
+\begin{lstlisting}
+    postgresql:
+    listen: 127.0.0.1,172.16.0.22:5432
+    connect_address: 172.16.0.22:5432
+    data_dir: /var/lib/postgresql/patroni
+    pgpass: /tmp/pgpass
+    use_unix_socket: true
+    authentication:
+    replication:
+    username: replication
+    password: replication
+    superuser:
+    username: postgres
+    password: postgres
+    parameters:
+    unix_socket_directories: '/var/run/postgresql'
+    wal_compression: on
+\end{lstlisting}
+
+
+\begin{lstlisting}
+    
+\end{lstlisting}
+
+
+
 
 Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
@@ -220,32 +367,3 @@ Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstart
 \section{\IfLanguageName{dutch}{Testing functionele requirements}{Testing functionele requirements}}
 \label{sec:Testing functionele requirements}
 
-3. PostgreSQL setup file doorlopen om opzet van POC te tonen
-
-4. Eventueel ook services tonen
-
-5. Consul config tonen
-
-6. Hoe failover testen
-
-7. Monitoring tonen
-
-10. Replicatie tonen
-
-
-Stappen doorlopen met code snippets
-
-Via welke manier ik het ga opzetten en aan welke testen ik wil voldoen.
-
-1a. 2 nodes die we pg01 en pg02 gaan noemen, ip adressen toewijzen
-
-Deze hebben beide postgres, patroni, consul
-ip adres toewijzen
-
-1b. 3de node, pg03, voor Consul, HAProxy, pgBouncer
-
-
-2. Opzetten Yaml files voor configuratie Patroni
-
-
-(Puppet kijken naar tijd)
