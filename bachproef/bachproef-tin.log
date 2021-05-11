@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 00:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 00:39
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2101,7 +2101,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \newline
+l.373 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2114,7 +2114,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.387 \caption
+l.389 \caption
               [Tabel 6: Ip-adressen Cluster]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2123,7 +2123,7 @@ If that doesn't work, type  X <return>  to quit.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52]
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
 
  []
 
@@ -2316,10 +2316,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35241 strings out of 412094
- 629799 string characters out of 2847025
- 1661990 words of memory out of 3000000
- 54285 multiletter control sequences out of 15000+200000
+ 35240 strings out of 412094
+ 629779 string characters out of 2847025
+ 1661921 words of memory out of 3000000
+ 54284 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s
