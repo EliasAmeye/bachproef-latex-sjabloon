@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  10 MAY 2021 22:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  11 MAY 2021 23:09
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1729,7 +1729,19 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \caption
+             [Tabel 6: Ip-adressen Cluster]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
 
  []
 
@@ -2054,25 +2066,50 @@ Hoofdstuk 7.
 
 ]
 Hoofdstuk 8.
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+[45]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+7.
+ (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
-[46]
+ [46]
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \caption
+              [Tabel 6: Ip-adressen Cluster]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[47]) [48]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [49
 
 ]
-[48]) [49] [50
+[50]) [51] [52
 
 ]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2080,7 +2117,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2089,7 +2126,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (286.95874pt too wide) in paragraph at lines 145--145
+Overfull \hbox (286.95874pt too wide) in paragraph at lines 148--148
 [][]\T1/ptm/m/n/12 Ahmad, K. S., Ah-mad, N., Tahir, H. & Khan, S. (2017). Fuzzy
 $[]\OML/ztmcm/m/it/12 oSCoW \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 AfuzzybasedM
 oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
@@ -2098,7 +2135,7 @@ oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2106,7 +2143,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2115,7 +2152,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (3.21408pt too wide) in paragraph at lines 145--145
+Overfull \hbox (3.21408pt too wide) in paragraph at lines 148--148
 [][]\T1/ptm/m/n/12 Augustine, J. (2019, juli 10). \T1/ptm/m/it/12 Post-greSQL W
 AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 12 .
@@ -2123,14 +2160,14 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[51]
-Overfull \hbox (5.6765pt too wide) in paragraph at lines 145--145
+[53]
+Overfull \hbox (5.6765pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
  []
 
 
-Overfull \hbox (81.4837pt too wide) in paragraph at lines 145--145
+Overfull \hbox (81.4837pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 1001208 & gclid = Cj0KCQjwse -[] DBhC7ARIsAI8YcWJOxNwWfRDfjloPnA
 cswV6QsafwgHI0hqa -[]
  []
@@ -2138,7 +2175,7 @@ cswV6QsafwgHI0hqa -[]
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2147,7 +2184,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \blx@thedata.
 <to be read again> 
                    -
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2156,7 +2193,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \namepartfamily.
 <to be read again> 
                    -
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2165,7 +2202,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in horizontal mode.
 \namepartfamily ->C##
                      -Corner
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2173,14 +2210,14 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no – in font ptmr8t!
-
-Overfull \hbox (7.05502pt too wide) in paragraph at lines 145--145
+[54]
+Overfull \hbox (7.05502pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
  / searchdatacenter . techtarget .
  []
 
-[52]
-Overfull \hbox (13.38055pt too wide) in paragraph at lines 145--145
+
+Overfull \hbox (13.38055pt too wide) in paragraph at lines 148--148
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
  []
@@ -2188,7 +2225,7 @@ Overfull \hbox (13.38055pt too wide) in paragraph at lines 145--145
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2196,7 +2233,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2207,7 +2244,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2215,7 +2252,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \printbibliography[heading=bibintoc]
+l.148 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2224,20 +2261,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
+[55]
 Missing character: There is no – in font ptmri8t!
-[53]
-Overfull \hbox (8.49089pt too wide) in paragraph at lines 145--145
+
+Overfull \hbox (8.49089pt too wide) in paragraph at lines 148--148
 \T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
 w . techopedia . com / de^^\nition /
  []
 
 
-Overfull \hbox (13.39217pt too wide) in paragraph at lines 145--145
+Overfull \hbox (13.39217pt too wide) in paragraph at lines 148--148
 [][]\T1/ptm/m/n/12 Technopedia. (2021b, april 28). \T1/ptm/m/it/12 Object-Relat
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[54] (bachproef-tin.aux)
+[56] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2246,12 +2284,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34904 strings out of 412094
- 625201 string characters out of 2847025
- 1620449 words of memory out of 3000000
- 53957 multiletter control sequences out of 15000+200000
- 442279 words of font info for 69 fonts, out of 3000000 for 9000
+ 35081 strings out of 412094
+ 627466 string characters out of 2847025
+ 1651096 words of memory out of 3000000
+ 54125 multiletter control sequences out of 15000+200000
+ 442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5291s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (56 pages).
+Output written on bachproef-tin.pdf (58 pages).

@@ -3,20 +3,145 @@
 %%=============================================================================
 
 \chapter{Proof of Concept}
-
 \label{ch:Proof of Concept}
 
-1. Omgeving uitleggen
+In dit hoofdstuk wordt de opbouw van de Patroni cluster uitgelegd. Hierin zal worden gekeken hoe de cluster aan de functionele requirements, namelijk redundantie/replicatie, failover en monitoring voldoet.
 
-1b. Prerequisites
+\section{\IfLanguageName{dutch}{Omgeving}{Environment}}
+\label{sec:Omgeving}
+De opzet van deze proof of concept zal gebeuren in een lokale Linux-omgeving, namelijk Ubuntu 21.04.
+De cluster zal bestaan uit drie virtuele machines die zullen draaien op Ubuntu Xenial 16.04. De eerste virtuele machine (pgServer) is een servernode waarop Consul zal draaien, samen met pgBouncer en een HAProxy. De andere twee virtuele machines (pgNode1 en pgNode2) zullen PostgreSQL, Patroni en een Consul Agent draaien.
 
-vagrant
-python3-pip
-virtualbox
+De cluster zal dus zo geconfigueerd worden dat er één primary node is met een standby node die asynchrone streaming replicatie verricht.
+
+\section{\IfLanguageName{dutch}{Prerequisites}{Prerequisites}}
+\label{sec:Prerequisites}
+
+\subsection{\IfLanguageName{dutch}{Vagrant}{Vagrant}}
+\label{subsec:Vagrant}
+Bij de opzet van cluster zal gebruik worden gemaakt van Vagrant. Vagrant is een tool voor het bouwen en beheren van virtuele machine-omgevingen~\autocite{Kalow2020}.
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+    language=Java,
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=flexible,
+    basicstyle={\small\ttfamily},
+    numbers=none,
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\color{mauve},
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=3
+}
+
+In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een file meegegeven die zal worden uitgevoerd in de server. Deze file bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
+
+\begin{lstlisting}
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+    config.vm.box = "ubuntu/xenial64"
+    config.vm.provider "virtualbox" do |v|
+        v.customize ["modifyvm", :id, "--memory", 1024]
+        v.gui = true
+    end
+
+    config.vm.define :pgServer do |pgServer_config|
+        pgServer_config.vm.hostname = 'pgServer'
+        pgServer_config.vm.network :private_network, ip: "172.16.0.11"
+        pgServer_config.vm.provision :shell, :path => "postgresql-cluster-setup.sh"
+    end
+    config.vm.define :pgNode1, primary: true do |pgNode1_config|
+        pgNode1_config.vm.hostname = 'pgNode1'
+        pgNode1_config.vm.network :private_network, ip: "172.16.0.22"
+        pgNode1_config.vm.provision :shell, :path => "postgresql-cluster-setup.sh"
+    end
+    config.vm.define :pgNode2 do |pgNode2_config|
+        pgNode2_config.vm.hostname = 'pgNode2'
+        pgNode2_config.vm.network :private_network, ip: "172.16.0.33"
+        pgNode2_config.vm.provision :shell, :path => "postgresql-cluster-setup.sh"
+    end
+end
+\end{lstlisting}
 
 
-2. Vagrant file uitleggen
-- Hoeveel servers (adhv van VirtualBox)
+\subsection{\IfLanguageName{dutch}{VirtualBox}{VirtualBox}}
+\label{subsec:VirtualBox}
+In deze proof of concept zal gebruik gemaakt worden van virtuele machines via VirtualBox.
+
+\subsection{\IfLanguageName{dutch}{Python3-pip}{Python3-pip}}
+\label{subsec:Python3-pip}
+
+% niet meer recent tegengekomen
+
+
+\section{\IfLanguageName{dutch}{pgServer}{pgServer}}
+\label{sec:pgServer}
+Tijdens de configuratie van de cluster zal pgServer '172.16.0.11' als ip adres hebben.
+
+Als eerste stap moeten de juiste packages geïnstalleerd worden op pgServer. Hier gaat het over Consul, pgBouncer en HAProxy.
+
+Hierna zullen we voor Consul een service toevoegen die bij het opstarten van de server wordt uitgevoerd. In deze service 
+
+
+\begin{lstlisting}
+    
+ \end{lstlisting}
+
+
+\section{\IfLanguageName{dutch}{pgNode1}{pgNode1}}
+\label{sec:pgNode1}
+Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres hebben.
+
+
+Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Consul Agent, Patroni en PostgreSQL uiteraard.
+
+\begin{lstlisting}
+    
+\end{lstlisting}
+
+
+\section{\IfLanguageName{dutch}{pgNode2}{pgNode2}}
+\label{sec:pgNode2}
+Tijdens de configuratie van de cluster zal pgNode2 '172.16.0.33' als ip adres hebben.
+
+
+\begin{lstlisting}
+    
+\end{lstlisting}
+
+
+\begin{tabular}{ |p{6cm}||p{6cm}|  }
+    \hline
+    \multicolumn{2}{|c|}{Ip-adressen} \\
+    \hline
+    pgServer & 172.16.0.11 \\
+    \hline
+    pgNode1 & 172.16.0.22 \\
+    \hline
+    pgNode2 & 172.16.0.33 \\
+    \hline
+\end{tabular}
+
+
+
+\caption[Tabel 6: Ip-adressen Cluster]
+
+
+
+\section{\IfLanguageName{dutch}{Testing functionele requirements}{Testing functionele requirements}}
+\label{sec:Testing functionele requirements}
 
 3. PostgreSQL setup file doorlopen om opzet van POC te tonen
 
@@ -44,15 +169,6 @@ ip adres toewijzen
 
 
 2. Opzetten Yaml files voor configuratie Patroni
-
-
-
-
-
-Dan in bijlage waarschijnlijk elk bestand zetten met code in?
-of linken naar 
-
-
 
 
 (Puppet kijken naar tijd)

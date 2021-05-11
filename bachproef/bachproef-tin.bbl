@@ -832,6 +832,48 @@
       \verb https://phoenixnap.com/blog/what-is-high-availability
       \endverb
     \endentry
+    \entry{Kalow2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=474f7982a92d70902a34d05602f2f84d}{%
+           family={Kalow},
+           familyi={K\bibinitperiod},
+           given={Bryce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {HashiCorp}%
+      }
+      \strng{namehash}{474f7982a92d70902a34d05602f2f84d}
+      \strng{fullhash}{474f7982a92d70902a34d05602f2f84d}
+      \strng{bibnamehash}{474f7982a92d70902a34d05602f2f84d}
+      \strng{authorbibnamehash}{474f7982a92d70902a34d05602f2f84d}
+      \strng{authornamehash}{474f7982a92d70902a34d05602f2f84d}
+      \strng{authorfullhash}{474f7982a92d70902a34d05602f2f84d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Vagrant}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vagrantup.com/intro
+      \endverb
+      \verb{url}
+      \verb https://www.vagrantup.com/intro
+      \endverb
+    \endentry
     \entry{Kelly2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d456958fc1a8f34647371842d167772}{%

@@ -143,17 +143,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Proof of Concept}{45}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}%
+\contentsline {section}{\numberline {8.1}Omgeving}{45}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{47}{section.A.1}%
+\contentsline {section}{\numberline {8.2}Prerequisites}{45}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{48}{section.A.2}%
+\contentsline {subsection}{\numberline {8.2.1}Vagrant}{45}{subsection.8.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{48}{section.A.3}%
+\contentsline {subsection}{\numberline {8.2.2}VirtualBox}{46}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{49}{section.A.4}%
+\contentsline {subsection}{\numberline {8.2.3}Python3-pip}{47}{subsection.8.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{49}{section.A.5}%
+\contentsline {section}{\numberline {8.3}pgServer}{47}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{51}{appendix*.26}%
+\contentsline {section}{\numberline {8.4}pgNode1}{47}{section.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}pgNode2}{47}{section.8.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.6}Testing functionele requirements}{47}{section.8.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{49}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{49}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State of the art}{50}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{51}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{51}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{53}{appendix*.26}%
 \contentsfinish 
