@@ -1,15 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introductie}{1}{section.1}%
+\contentsline {section}{\numberline {1}Samenvatting}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}State of the art}{1}{section.2}%
+\contentsline {section}{\numberline {2}Introductie}{1}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Methodologie}{2}{section.3}%
+\contentsline {section}{\numberline {3}State of the art}{1}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Verwachte resultaten}{2}{section.4}%
+\contentsline {section}{\numberline {4}Methodologie}{2}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Verwachte conclusies}{2}{section.5}%
+\contentsline {section}{\numberline {5}Verwachte resultaten}{2}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referenties}{2}{section*.1}%
+\contentsline {section}{\numberline {6}Verwachte conclusies}{2}{section.6}%
 \contentsfinish 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referenties}{3}{section*.1}%
