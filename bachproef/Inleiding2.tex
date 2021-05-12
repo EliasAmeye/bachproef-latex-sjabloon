@@ -29,18 +29,26 @@ Deze vergelijkende studie kan een meerwaarde bieden aan bedrijven die werken met
 \subsection{\IfLanguageName{dutch}{Hoofdonderzoeksvraag}{Head Research question}}
 \label{subsec:Hoofdonderzoeksvraag}
 
-Dit onderzoek zal zich bezighouden rond de vraag: “Welke PostgreSQL High Availability cluster tool kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?”
+Dit onderzoek zal zich bezighouden rond de vraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?”
 
 In de conclusie (zie Hoofdstuk 7) van dit onderzoek zal worden antwoord gegeven op deze onderzoeksvraag.
 %Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 \subsection{\IfLanguageName{dutch}{Deelonderzoeksvraag}{Part Research question}}
 \label{subsec:Deelonderzoeksvraag}
 
+Naast de hoofdonderzoek vraag zijn er ook enkele ondersteunende deelonderzoeksvragen die bij dit onderzoek horen. Deze deelonderzoeksvragen zullen doorheen het onderzoek beantwoord worden. Bij de conclusie (zie Hoofdstuk 7) zal er een samenvatting van te vinden zijn.
+
+ \begin{description}
+    \item
+    \item[$\cdot$] Wat zijn de voor- en nadelen van deze oplossing?
+    \item[$\cdot$] Wanneer is High Availability nodig?
+\end{description}
+
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Het beoogde resultaat van deze bachelorproef is om uit de vergelijkende studie één oplossing voor te stellen die kan gebruikt worden voor implementatie van een High Available PostgreSQL cluster. Hieraan gekoppeld zal ook een eerste poging tot een proof-of-concept getoond waarin deze oplossing geïmplementeerd zit.
+Het beoogde resultaat van deze bachelorproef is om uit de vergelijkende studie één oplossing voor te stellen die kan gebruikt worden voor implementatie van een High Available PostgreSQL cluster. Hieraan gekoppeld wordt ook een eerste poging tot een proof of concept getoond waarin deze oplossing geïmplementeerd zit. Het belangrijkste in dit onderzoek zal zijn wanneer er een PostgreSQL High Availability cluster oplossing is die voldoet aan de gevraagde requirements. Wanneer deze oplossing gevonden is, zal dit onderzoek geslaagd zijn.
 
 %Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
 
@@ -55,8 +63,12 @@ De rest van deze bachelorproef is als volgt opgebouwd:
 
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie. Hierin zal ik mij vooral focussen op High Availability, PostgreSQL, Puppet, clustering en de reeds aanwezige oplossingen voor High Availability.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zal de schiftingsmethode die gebruikt zal worden om een oplossing te kiezen uitgelegd worden.
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zal de schiftingsmethode die gebruikt zal worden om een oplossing te kiezen kort uitgelegd worden.
 
-% TODO: Vul hier aan voor je eigen hoofdstukken, één of twee zinnen per hoofdstuk
+In Hoofdstuk~\ref{ch:schifting} worden de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd om dan met elkaar vergelijken te worden. Hierbij zal elke oplossing punten krijgen. De twee oplossingen met meeste punten worden verder besproken.
+
+In Hoofdstuk~\ref{ch:Oplossing 1: Patroni} en in Hoofdstuk~\ref{ch:Oplossing 2: PostgreSQL Automatic Failover} worden de twee verkozen oplossingen verder benaderd. Hier zal al wat specifieker worden ingegaan op hoe concreet aan de requirements kan voldaan worden.
+
+Verder zal in Hoofdstuk~\ref{ch:Proof of Concept} een proof of concept gemaakt worden met behulp van Patroni. Hierin zullen de verschillende stappen doorlopen worden en zijn code snippets in terug te vinden die gebruikt zijn geweest bij het opbouwen van de cluster.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

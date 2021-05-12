@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 20:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 21:50
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1638,15 +1638,15 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \hbox (21.15076pt too wide) in paragraph at lines 88--88
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Overfull \hbox (21.15076pt too wide) in paragraph at lines 92--92
  []|| [][]\T1/pag/db/n/12 Hoe be-ant-woor-den de ver-schil-lende op-los-sin-gen
  aan de bo-ven-staande
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
@@ -1667,85 +1667,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 \caption
-             [Tabel 1: Requirementanalyse Patroni]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \caption
-             [Tabel 2: Requirementanalyse Pgpool-II]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \caption
-             [Tabel 3: Requirementanalyse PostgreSQL Automatic Failover (PAF)]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \caption
-             [Tabel 4: Requirementanalyse Replication Manager (repmgr)]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 \caption
-             [Tabel 5: Requirementanalyse alle oplossingen]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \caption
-             [Tabel 6: Ip-adressen Cluster]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
-
- []
-
-(Inleiding2.tex [13] [14
+ (Inleiding2.tex [13]
+[14
 
 ]
 Hoofdstuk 1.
@@ -1754,12 +1677,59 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
-(standvanzaken.tex [16]
-Hoofdstuk 2.
-[17
+ [15]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 43.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 43.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 43.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 43.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+3.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+
+[16]) (standvanzaken.tex [17] [18
 
 ]
+Hoofdstuk 2.
+[19]
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
@@ -1797,32 +1767,32 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[18]
+[20]
 Overfull \hbox (6.27164pt too wide) in paragraph at lines 58--60
 \T1/ptm/m/n/12 PostgreSQL is een open source sys-teem dat zich toe-legt op het 
 be-heer van object-relationele
  []
 
-[19]
+[21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [22]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 111.
 
-[21]
+[23]
 Overfull \hbox (4.08913pt too wide) in paragraph at lines 144--145
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
  []
 
-[22] [23]
+[24] [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [26]
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
- [25]
+ [27]
 Overfull \hbox (12.04591pt too wide) in paragraph at lines 245--247
 []\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
 ou-di-ger zijn om WAL-bestanden
@@ -1831,16 +1801,16 @@ ou-di-ger zijn om WAL-bestanden
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27]) (methodologie.tex [28]
+ [28]
+[29]) (methodologie.tex [30]
 Hoofdstuk 3.
-) (Schifting.tex [29
+) (Schifting.tex [31
 
-] [30
+] [32
 
 ]
 Hoofdstuk 4.
-[31]
+[33]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1857,52 +1827,7 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 58.
- (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 58.
- (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 58.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 58.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-8.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-
-[32]
+ [34]
 Overfull \hbox (5.6487pt too wide) in paragraph at lines 101--102
 []\T1/ptm/m/n/12 Patroni heeft een zeer uit-ge-breide REST API, die ge-bruikt k
 an wor-den om failover, switcho-
@@ -1914,7 +1839,7 @@ Make it at least 27.808pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[33]
+[35]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1929,7 +1854,7 @@ Overfull \hbox (99.24855pt too wide) in paragraph at lines 134--135
 _requires_consensus of failover_when_quorum_exists. 
  []
 
-[34]
+[36]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1947,135 +1872,45 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-
-[36]
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 \caption
-              [Tabel 1: Requirementanalyse Patroni]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
-
- []
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \caption
-              [Tabel 2: Requirementanalyse Pgpool-II]{test}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
-
- []
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \caption
-              [Tabel 3: Requirementanalyse PostgreSQL Automatic Failover (PAF)]
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [37]
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
- []
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307 \caption
-              [Tabel 4: Requirementanalyse Replication Manager (repmgr)]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\T1/ptm/m/n/12 PostgreSQL Au-to-ma-tic Failover
  []
 
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.328 \caption
-              [Tabel 5: Requirementanalyse alle oplossingen]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--330
-
- []
-
-) (Oplossing1.tex [38]
+) (Oplossing1.tex [39] [40]
 Hoofdstuk 5.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[39
+[41
 
-]) (Oplossing2.tex [40]
+]) (Oplossing2.tex [42]
 Hoofdstuk 6.
-) (conclusie.tex [41
+) (conclusie.tex [43
 
-] [42
+] [44
 
 ]
 Hoofdstuk 7.
-) (POC.tex [43] [44
+) (POC.tex [45] [46
 
 ]
 Hoofdstuk 8.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[45]
+[47]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
 7.
  (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
@@ -2088,66 +1923,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-[48]
+ [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
+[50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-[51]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.373 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.389 \caption
-              [Tabel 6: Ip-adressen Cluster]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+ [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52]
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
-
- []
-
-) [53] [54
+[53]) [54] [55] [56
 
 ]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56]) [57] [58
+ [57]
+[58]) [59] [60
 
 ]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2155,7 +1956,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2164,7 +1965,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (286.95874pt too wide) in paragraph at lines 149--149
+Overfull \hbox (286.95874pt too wide) in paragraph at lines 134--134
 [][]\T1/ptm/m/n/12 Ahmad, K. S., Ah-mad, N., Tahir, H. & Khan, S. (2017). Fuzzy
 $[]\OML/ztmcm/m/it/12 oSCoW \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 AfuzzybasedM
 oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
@@ -2173,7 +1974,7 @@ oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2181,7 +1982,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2190,7 +1991,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (3.21408pt too wide) in paragraph at lines 149--149
+Overfull \hbox (3.21408pt too wide) in paragraph at lines 134--134
 [][]\T1/ptm/m/n/12 Augustine, J. (2019, juli 10). \T1/ptm/m/it/12 Post-greSQL W
 AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 12 .
@@ -2198,14 +1999,14 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[59]
-Overfull \hbox (5.6765pt too wide) in paragraph at lines 149--149
+[61]
+Overfull \hbox (5.6765pt too wide) in paragraph at lines 134--134
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
  []
 
 
-Overfull \hbox (81.4837pt too wide) in paragraph at lines 149--149
+Overfull \hbox (81.4837pt too wide) in paragraph at lines 134--134
 \T1/ptm/m/n/12 1001208 & gclid = Cj0KCQjwse -[] DBhC7ARIsAI8YcWJOxNwWfRDfjloPnA
 cswV6QsafwgHI0hqa -[]
  []
@@ -2213,7 +2014,7 @@ cswV6QsafwgHI0hqa -[]
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2222,7 +2023,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \blx@thedata.
 <to be read again> 
                    -
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2231,7 +2032,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \namepartfamily.
 <to be read again> 
                    -
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2240,7 +2041,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in horizontal mode.
 \namepartfamily ->C##
                      -Corner
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2248,14 +2049,14 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no – in font ptmr8t!
-[60]
-Overfull \hbox (7.05502pt too wide) in paragraph at lines 149--149
+[62]
+Overfull \hbox (7.05502pt too wide) in paragraph at lines 134--134
 \T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
  / searchdatacenter . techtarget .
  []
 
 
-Overfull \hbox (13.38055pt too wide) in paragraph at lines 149--149
+Overfull \hbox (13.38055pt too wide) in paragraph at lines 134--134
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
  []
@@ -2263,7 +2064,7 @@ Overfull \hbox (13.38055pt too wide) in paragraph at lines 149--149
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2271,7 +2072,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2282,7 +2083,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2290,7 +2091,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.149 \printbibliography[heading=bibintoc]
+l.134 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2299,21 +2100,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
-[61]
+[63]
 Missing character: There is no – in font ptmri8t!
 
-Overfull \hbox (8.49089pt too wide) in paragraph at lines 149--149
+Overfull \hbox (8.49089pt too wide) in paragraph at lines 134--134
 \T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
 w . techopedia . com / de^^\nition /
  []
 
 
-Overfull \hbox (13.39217pt too wide) in paragraph at lines 149--149
+Overfull \hbox (13.39217pt too wide) in paragraph at lines 134--134
 [][]\T1/ptm/m/n/12 Technopedia. (2021b, april 28). \T1/ptm/m/it/12 Object-Relat
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[62] (bachproef-tin.aux)
+[64] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2322,12 +2123,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35244 strings out of 412094
- 629852 string characters out of 2847025
- 1661923 words of memory out of 3000000
- 54288 multiletter control sequences out of 15000+200000
+ 35251 strings out of 412094
+ 630120 string characters out of 2847025
+ 1662465 words of memory out of 3000000
+ 54295 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (64 pages).
+Output written on bachproef-tin.pdf (66 pages).
