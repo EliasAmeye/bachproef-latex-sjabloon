@@ -163,15 +163,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{57}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{57}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Samenvatting}{57}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State of the art}{58}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Introductie}{58}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{58}{section.A.3}%
+\contentsline {section}{\numberline {A.3}State of the art}{58}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{59}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Methodologie}{59}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{59}{section.A.5}%
+\contentsline {section}{\numberline {A.5}Verwachte resultaten}{59}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Verwachte conclusies}{60}{section.A.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliografie}{61}{appendix*.26}%
 \contentsfinish 

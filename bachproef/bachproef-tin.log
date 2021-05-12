@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 21:50
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 22:06
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1939,16 +1939,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
+! Undefined control sequence.
+l.4 \Abstract
+             {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
-[58]) [59] [60
-
-]
+[58] [59]) [60]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1956,7 +1964,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1965,7 +1973,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (286.95874pt too wide) in paragraph at lines 134--134
+Overfull \hbox (286.95874pt too wide) in paragraph at lines 136--136
 [][]\T1/ptm/m/n/12 Ahmad, K. S., Ah-mad, N., Tahir, H. & Khan, S. (2017). Fuzzy
 $[]\OML/ztmcm/m/it/12 oSCoW \OT1/ztmcm/m/n/12 : \OML/ztmcm/m/it/12 AfuzzybasedM
 oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
@@ -1974,7 +1982,7 @@ oSCoWmethodfortheprioritizationofsoftwarerequirements$\T1/ptm/m/n/12 .
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1982,7 +1990,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1991,7 +1999,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (3.21408pt too wide) in paragraph at lines 134--134
+Overfull \hbox (3.21408pt too wide) in paragraph at lines 136--136
 [][]\T1/ptm/m/n/12 Augustine, J. (2019, juli 10). \T1/ptm/m/it/12 Post-greSQL W
 AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 12 .
@@ -1999,14 +2007,16 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[61]
-Overfull \hbox (5.6765pt too wide) in paragraph at lines 134--134
+[61
+
+]
+Overfull \hbox (5.6765pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
  []
 
 
-Overfull \hbox (81.4837pt too wide) in paragraph at lines 134--134
+Overfull \hbox (81.4837pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 1001208 & gclid = Cj0KCQjwse -[] DBhC7ARIsAI8YcWJOxNwWfRDfjloPnA
 cswV6QsafwgHI0hqa -[]
  []
@@ -2014,7 +2024,7 @@ cswV6QsafwgHI0hqa -[]
 ! Illegal parameter number in definition of \abx@name@author.
 <to be read again> 
                    -
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2023,7 +2033,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \blx@thedata.
 <to be read again> 
                    -
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2032,7 +2042,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \namepartfamily.
 <to be read again> 
                    -
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2041,7 +2051,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in horizontal mode.
 \namepartfamily ->C##
                      -Corner
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2050,13 +2060,13 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no – in font ptmr8t!
 [62]
-Overfull \hbox (7.05502pt too wide) in paragraph at lines 134--134
+Overfull \hbox (7.05502pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
  / searchdatacenter . techtarget .
  []
 
 
-Overfull \hbox (13.38055pt too wide) in paragraph at lines 134--134
+Overfull \hbox (13.38055pt too wide) in paragraph at lines 136--136
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
  []
@@ -2064,7 +2074,7 @@ Overfull \hbox (13.38055pt too wide) in paragraph at lines 134--134
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2072,7 +2082,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2083,7 +2093,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2091,7 +2101,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \printbibliography[heading=bibintoc]
+l.136 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2103,13 +2113,13 @@ Missing character: There is no – in font ptmri8t!
 [63]
 Missing character: There is no – in font ptmri8t!
 
-Overfull \hbox (8.49089pt too wide) in paragraph at lines 134--134
+Overfull \hbox (8.49089pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 Tech-no-pe-dia. Ver-kre-gen 25 maart 2021, van []$https : / / ww
 w . techopedia . com / de^^\nition /
  []
 
 
-Overfull \hbox (13.39217pt too wide) in paragraph at lines 134--134
+Overfull \hbox (13.39217pt too wide) in paragraph at lines 136--136
 [][]\T1/ptm/m/n/12 Technopedia. (2021b, april 28). \T1/ptm/m/it/12 Object-Relat
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
@@ -2118,15 +2128,19 @@ ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35251 strings out of 412094
- 630120 string characters out of 2847025
+ 35253 strings out of 412094
+ 630144 string characters out of 2847025
  1662465 words of memory out of 3000000
- 54295 multiletter control sequences out of 15000+200000
+ 54297 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s
