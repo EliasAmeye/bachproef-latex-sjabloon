@@ -143,63 +143,14 @@
       \verb https://dzone.com/articles/2019-open-source-database-report-top-databases-pub
       \endverb
     \endentry
-    \entry{Vallarapu2019}{online}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=70cbc14dfa2ed6f1eb4a88a532ea4678}{%
-           family={Augustine},
-           familyi={A\bibinitperiod},
-           given={Avinash\bibnamedelimb Vallarapu;\bibnamedelimb Fernando\bibnamedelimb Laudares\bibnamedelimb Camargos;\bibnamedelima Jobin},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=d8ecc71fce8b5ddd864cf552e87c6e2d}{%
-           family={Ihalainen},
-           familyi={I\bibinitperiod},
-           given={Nickolay},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \list{organization}{1}{%
-        {Percona}%
-      }
-      \strng{namehash}{f275dabc81d46d97a713414a9eeabcfb}
-      \strng{fullhash}{f275dabc81d46d97a713414a9eeabcfb}
-      \strng{bibnamehash}{f275dabc81d46d97a713414a9eeabcfb}
-      \strng{authorbibnamehash}{f275dabc81d46d97a713414a9eeabcfb}
-      \strng{authornamehash}{f275dabc81d46d97a713414a9eeabcfb}
-      \strng{authorfullhash}{f275dabc81d46d97a713414a9eeabcfb}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{4}
-      \field{month}{4}
-      \field{title}{Replication Between PostgreSQL Versions Using Logical Replication}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical replication in PostgreSQL allows,is not open for writes.
-      \endverb
-      \verb{url}
-      \verb https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical%20replication%20in%20PostgreSQL%20allows,is%20not%20open%20for%20writes.
-      \endverb
-    \endentry
     \entry{Augustine2019}{online}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=5da56b10df762292dc78e231c83b284a}{%
+        {{un=0,uniquepart=base,hash=5da56b10df762292dc78e231c83b284a}{%
            family={Augustine},
            familyi={A\bibinitperiod},
            given={Jobin},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \list{language}{1}{%
         {English}%
@@ -217,6 +168,7 @@
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{10}
@@ -483,37 +435,6 @@
       \verb https://docs.microsoft.com/en-us/sql/database-engine/log-shipping/about-log-shipping-sql-server?view=sql-server-ver15
       \endverb
     \endentry
-    \entry{CCorner2019}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=87386c42b00c18fa0fc82ece110c84f4}{%
-           family={C#-Corner},
-           familyi={C\bibinithyphendelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{87386c42b00c18fa0fc82ece110c84f4}
-      \strng{fullhash}{87386c42b00c18fa0fc82ece110c84f4}
-      \strng{bibnamehash}{87386c42b00c18fa0fc82ece110c84f4}
-      \strng{authorbibnamehash}{87386c42b00c18fa0fc82ece110c84f4}
-      \strng{authornamehash}{87386c42b00c18fa0fc82ece110c84f4}
-      \strng{authorfullhash}{87386c42b00c18fa0fc82ece110c84f4}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{6}
-      \field{month}{9}
-      \field{title}{What Are Object-Oriented Databases And Their Advantages}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An object-oriented database (OODBMS,object-oriented database management systems
-      \endverb
-      \verb{url}
-      \verb https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An%20object-oriented%20database%20(OODBMS,object-oriented%20database%20management%20systems
-      \endverb
-    \endentry
     \entry{CDNF2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b14fcc61aa7680ecfd43f96e48866f93}{%
@@ -583,6 +504,77 @@
       \endverb
       \verb{url}
       \verb https://www.codecademy.com/articles/what-is-rdbms-sql#:~:text=A%5C%20relational%5C%20database%5C%20is%5C%20a,database%5C%20is%5C%20organized%5C%20into%5C%20tables
+      \endverb
+    \endentry
+    \entry{CriticalCase2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ca44fbc5dcb892271018863981347dba}{%
+           family={CriticalCase},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {CriticalCase}%
+      }
+      \strng{namehash}{ca44fbc5dcb892271018863981347dba}
+      \strng{fullhash}{ca44fbc5dcb892271018863981347dba}
+      \strng{bibnamehash}{ca44fbc5dcb892271018863981347dba}
+      \strng{authorbibnamehash}{ca44fbc5dcb892271018863981347dba}
+      \strng{authornamehash}{ca44fbc5dcb892271018863981347dba}
+      \strng{authorfullhash}{ca44fbc5dcb892271018863981347dba}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{What does it mean High-Availability infrastructure (HA)?}
+      \field{title}{5 REASONS WHY YOU NEED HIGH-AVAILABILITY FOR YOUR BUSINESS}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.criticalcase.com/blog/5-reasons-why-you-need-high-availability-for-your-business.html
+      \endverb
+      \verb{url}
+      \verb https://www.criticalcase.com/blog/5-reasons-why-you-need-high-availability-for-your-business.html
+      \endverb
+    \endentry
+    \entry{CCorner2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de2daffb1f7a73ffc78e219d5249c90b}{%
+           family={CSharp-Corner},
+           familyi={C\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \strng{fullhash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \strng{bibnamehash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \strng{authorbibnamehash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \strng{authornamehash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \strng{authorfullhash}{de2daffb1f7a73ffc78e219d5249c90b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{9}
+      \field{title}{What Are Object-Oriented Databases And Their Advantages}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An object-oriented database (OODBMS,object-oriented database management systems
+      \endverb
+      \verb{url}
+      \verb https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An%20object-oriented%20database%20(OODBMS,object-oriented%20database%20management%20systems
       \endverb
     \endentry
     \entry{DBEngines2021}{online}{}
@@ -745,6 +737,50 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/support/knowledgecenter/SSANHD_7.6.1.2/com.ibm.mbs.doc/gp_highavail/c_ctr_ha_for_databases.html
+      \endverb
+    \endentry
+    \entry{Vallarapu2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23c6cc1e7a8834cfd9c01890d1b09600}{%
+           family={Ihalainen},
+           familyi={I\bibinitperiod},
+           given={Avinash\bibnamedelimb Vallarapu;\bibnamedelimb Fernando\bibnamedelimb Laudares\bibnamedelimb Camargos;\bibnamedelimb Jobin\bibnamedelimb Agustine;\bibnamedelima Nickolay},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Percona}%
+      }
+      \strng{namehash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \strng{fullhash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \strng{bibnamehash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \strng{authorbibnamehash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \strng{authornamehash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \strng{authorfullhash}{23c6cc1e7a8834cfd9c01890d1b09600}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{4}
+      \field{title}{Replication Between PostgreSQL Versions Using Logical Replication}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical replication in PostgreSQL allows,is not open for writes.
+      \endverb
+      \verb{url}
+      \verb https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical%20replication%20in%20PostgreSQL%20allows,is%20not%20open%20for%20writes.
       \endverb
     \endentry
     \entry{Insausti2019}{online}{}

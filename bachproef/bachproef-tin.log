@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 22:06
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 22:58
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1494,24 +1494,6 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
  (bachproef-tin.bbl
-! Illegal parameter number in definition of \NewValue.
-<to be read again> 
-                   -
-l.491       }
-             
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \abx@name@author.
-<to be read again> 
-                   -
-l.516     \endentry
-                   
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -1729,46 +1711,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 ]
 Hoofdstuk 2.
-[19]
-! Illegal parameter number in definition of \abx@name@author.
-<to be read again> 
-                   -
-l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \blx@thedata.
-<to be read again> 
-                   -
-l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \namepartfamily.
-<to be read again> 
-                   -
-l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in horizontal mode.
-\namepartfamily ->C##
-                     -Corner
-l.36 ...ntsystemen genoemd~\autocite{CCorner2019}.
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[20]
-Overfull \hbox (6.27164pt too wide) in paragraph at lines 58--60
+[19] [20]
+Overfull \hbox (6.27164pt too wide) in paragraph at lines 51--53
 \T1/ptm/m/n/12 PostgreSQL is een open source sys-teem dat zich toe-legt op het 
 be-heer van object-relationele
  []
@@ -1778,22 +1722,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 111.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 107.
 
-[23]
-Overfull \hbox (4.08913pt too wide) in paragraph at lines 144--145
+[23] [24]
+Overfull \hbox (4.08913pt too wide) in paragraph at lines 140--141
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
  []
 
-[24] [25]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
- [27]
-Overfull \hbox (12.04591pt too wide) in paragraph at lines 245--247
+[27]
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 241--243
 []\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
 ou-di-ger zijn om WAL-bestanden
  []
@@ -1802,15 +1747,15 @@ ou-di-ger zijn om WAL-bestanden
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-[29]) (methodologie.tex [30]
-Hoofdstuk 3.
-) (Schifting.tex [31
+[29] [30]) (methodologie.tex [31] [32
 
-] [32
+]
+Hoofdstuk 3.
+) (Schifting.tex [33] [34
 
 ]
 Hoofdstuk 4.
-[33]
+[35]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1827,7 +1772,7 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [34]
+ [36]
 Overfull \hbox (5.6487pt too wide) in paragraph at lines 101--102
 []\T1/ptm/m/n/12 Patroni heeft een zeer uit-ge-breide REST API, die ge-bruikt k
 an wor-den om failover, switcho-
@@ -1839,7 +1784,7 @@ Make it at least 27.808pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[35]
+[37]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1854,7 +1799,7 @@ Overfull \hbox (99.24855pt too wide) in paragraph at lines 134--135
 _requires_consensus of failover_when_quorum_exists. 
  []
 
-[36]
+[38]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1872,7 +1817,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1884,33 +1829,33 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-[38]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\T1/ptm/m/n/12 PostgreSQL Au-to-ma-tic Failover
  []
 
-) (Oplossing1.tex [39] [40]
+) (Oplossing1.tex [41] [42]
 Hoofdstuk 5.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[41
+[43
 
-]) (Oplossing2.tex [42]
+]) (Oplossing2.tex [44]
 Hoofdstuk 6.
-) (conclusie.tex [43
+) (conclusie.tex [45
 
-] [44
+] [46
 
 ]
 Hoofdstuk 7.
-) (POC.tex [45] [46
+) (POC.tex [47] [48
 
 ]
 Hoofdstuk 8.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[47]
+[49]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
 7.
  (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
@@ -1923,18 +1868,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
-[50]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
+[52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-[53]) [54] [55] [56
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+[55]) [56] [57] [58
 
 ]
 B\babelshorthand{"y}lage A.
@@ -1951,8 +1896,8 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
-[58] [59]) [60]
+ [59]
+[60] [61]) [62]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2007,9 +1952,7 @@ AL Re-ten-tion and Clean Up: pg$[]\OML/ztmcm/m/it/12 rchivecleanup$\T1/ptm/m/n/
 
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-[61
 
-]
 Overfull \hbox (5.6765pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 utm _ adgroupid = 48947256715 & utm _ device = c & utm _ keyword
  = &utm _ matchtype =
@@ -2021,45 +1964,11 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 136--136
 cswV6QsafwgHI0hqa -[]
  []
 
-! Illegal parameter number in definition of \abx@name@author.
-<to be read again> 
-                   -
-l.136 \printbibliography[heading=bibintoc]
-                                          
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+[63
 
-! Illegal parameter number in definition of \blx@thedata.
-<to be read again> 
-                   -
-l.136 \printbibliography[heading=bibintoc]
-                                          
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \namepartfamily.
-<to be read again> 
-                   -
-l.136 \printbibliography[heading=bibintoc]
-                                          
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in horizontal mode.
-\namepartfamily ->C##
-                     -Corner
-l.136 \printbibliography[heading=bibintoc]
-                                          
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
+]
 Missing character: There is no – in font ptmr8t!
-[62]
+ [64]
 Overfull \hbox (7.05502pt too wide) in paragraph at lines 136--136
 \T1/ptm/m/n/12 Red.). TechT-ar-get. Ver-kre-gen 25 maart 2021, van []$https : /
  / searchdatacenter . techtarget .
@@ -2110,7 +2019,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no – in font ptmri8t!
-[63]
+[65]
 Missing character: There is no – in font ptmri8t!
 
 Overfull \hbox (8.49089pt too wide) in paragraph at lines 136--136
@@ -2124,25 +2033,21 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 136--136
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[64] (bachproef-tin.aux)
+[66] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35253 strings out of 412094
- 630144 string characters out of 2847025
- 1662465 words of memory out of 3000000
- 54297 multiletter control sequences out of 15000+200000
+ 35257 strings out of 412094
+ 630265 string characters out of 2847025
+ 1662576 words of memory out of 3000000
+ 54301 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1437b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (66 pages).
+Output written on bachproef-tin.pdf (68 pages).

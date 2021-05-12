@@ -41,7 +41,7 @@
 }
 
 @Online{CCorner2019,
-  author = {C#-Corner},
+  author = {CSharp-Corner},
   date   = {2019-09-06},
   title  = {What Are Object-Oriented Databases And Their Advantages},
   url    = {https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An object-oriented database (OODBMS,object-oriented database management systems},
@@ -264,7 +264,7 @@
 }
 
 @Online{Vallarapu2019,
-  author       = {Avinash Vallarapu; Fernando Laudares Camargos; Jobin Augustine and Nickolay Ihalainen},
+  author       = {Avinash Vallarapu; Fernando Laudares Camargos; Jobin Agustine; Nickolay Ihalainen},
   date         = {2019-04-04},
   title        = {Replication Between PostgreSQL Versions Using Logical Replication},
   url          = {https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical replication in PostgreSQL allows,is not open for writes.},
@@ -459,6 +459,17 @@
   language     = {English},
   organization = {HashiCorp},
   urldate      = {2021-05-09},
+}
+
+@Online{CriticalCase2020,
+  author       = {CriticalCase},
+  date         = {2020},
+  title        = {5 REASONS WHY YOU NEED HIGH-AVAILABILITY FOR YOUR BUSINESS},
+  url          = {https://www.criticalcase.com/blog/5-reasons-why-you-need-high-availability-for-your-business.html},
+  language     = {English},
+  organization = {CriticalCase},
+  subtitle     = {What does it mean High-Availability infrastructure (HA)?},
+  urldate      = {2021-05-12},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

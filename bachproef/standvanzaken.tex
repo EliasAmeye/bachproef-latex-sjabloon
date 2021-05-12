@@ -1,7 +1,7 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}
 \label{ch:stand-van-zaken}
 
-Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. Hiermee zal worden gekeken naar de nadruk die gelegd wordt bij elke oplossing. Op deze manier kan gekeken worden naar welke requirements regelmatig terugkomen, en dus welke we kunnen gebruiken om later in het onderzoek verschillende oplossingen met elkaar te vergelijken. Aan de hand van deze requirements kan geschift worden tussen de bestaande High Availability PostgreSQL cluster oplossingen om hier dan twee oplossingen uit te halen. 
+Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. Hiermee zal worden gekeken naar de nadruk die gelegd wordt bij elke oplossing. Op deze manier kan gekeken worden naar welke requirements regelmatig terugkomen, en dus welke kunnen gebruikt worden om later in het onderzoek verschillende oplossingen met elkaar te vergelijken. Aan de hand van deze requirements kan geschift worden tussen de bestaande High Availability PostgreSQL cluster oplossingen om hier dan twee oplossingen uit te halen. 
 
 % Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
 % dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
@@ -15,33 +15,26 @@ Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oploss
 \section{\IfLanguageName{dutch}{PosgreSQL}{PosgreSQL}}
 \label{sec:PosgreSQL}
 
-
 \subsection{\IfLanguageName{dutch}{Databank}{Databank}}
 \label{subsec:Databank}
 
 \textcite{Oracle23} omschrijft een databank als een georganiseerde verzameling van gestructureerde informatie, of gegevens, die meestal elektronisch in een computersysteem wordt opgeslagen. Een database wordt gewoonlijk beheerd door een databasebeheersysteem (DBMS). Samen worden de gegevens en het DBMS, samen met de toepassingen die ermee verbonden zijn, een databasesysteem genoemd, vaak afgekort tot gewoon database~\autocite{Oracle23}.
-
-%Wikipedia omschrijft een databank als een georganiseerde collectie van data, opgeslagen in en toegankelijk vanuit een computersysteem %(https://en.wikipedia.org/wiki/Database#:~:text=A\%20database\%20is\%20an\%20organized,formal\%20design\%20and\%20modeling\%20techniques.)
-
 
 \subsection{\IfLanguageName{dutch}{Relationele Databank}{Relationele Databank}}
 \label{subsec:Relationele Databank}
 
 Een relationele databank is een type databank waarin gebruik wordt gemaakt van een structuur die het mogelijk maakt om gegevens te identificeren en te benaderen in relatie tot een ander deeltje data in diezelfde databank. Deze gegevens worden vaak georganiseerd in tabellen. Deze tabellen kunnen honderden, duizenden, miljoenen rijen en kolommen aan data hebben. Een kolom kent vaak ook een specifiek gegevenstype. Deze gegevenstypes kunnen getallen (integers), woorden (strings) of andere soorten bevatten~\autocite{Codecademy}.
 
-
 \subsection{\IfLanguageName{dutch}{Object-georiënteerde databank}{Object-georiënteerde databank}}
 \label{subsec:Object-georiënteerde databank}
 
 Een objectgeoriënteerde database (OODBMS) is een type databank die zich baseert op objectgeoriënteerd programmeren (OOP). De gegevens worden hier voorgesteld en opgeslagen in de vorm van objecten. OODBMS worden ook objectdatabases of objectgeoriënteerde databasemanagementsystemen genoemd~\autocite{CCorner2019}. 
 
-
 \subsection{\IfLanguageName{dutch}{SQL}{SQL}}
 \label{subsec:SQL}
 
-SQL (structured query language) is de eigen programmeertaal specifiek ontwikkelt voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren~\autocite{Carchedi2020}. SQL wordt door bijna alle relationele databanken gebruikt zoals MySQL, PostgreSQL, OracleDB, SQLite...~\autocite{Codecademy}. %(https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB)
+SQL (structured query language) is de eigen programmeertaal specifiek ontwikkelt voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren~\autocite{Carchedi2020}. SQL wordt door bijna alle relationele databanken gebruikt zoals MySQL, PostgreSQL, OracleDB, SQLite...~\autocite{Codecademy}. 
 
-%https://www.oracle.com/database/what-is-database/
 \subsection{\IfLanguageName{dutch}{Object-relationele databank}{Object-relationele databank}}
 \label{subsec:Object-relationele databank}
 
@@ -56,7 +49,7 @@ Klasses, Overerving, Types, Functies zijn kenmerken van de object-relationele da
 % https://books.google.be/books?hl=en&lr=&id=Xj85DwAAQBAJ&oi=fnd&pg=PT7&dq=edb+postgres&ots=lQpSIYvp9i&sig=zv5WtrgnlNVxlyzzYFirRvkUf2o#v=onepage&q&f=false
 
 PostgreSQL is een open source systeem dat zich toelegt op het beheer van object-relationele databases. Het heeft meer dan 30 jaar actieve ontwikkeling en heeft een sterke reputatie op vlak van betrouwbaarheid, robuustheid van functies en prestaties~\autocite{postgres}. PostgreSQL biedt een uitgebreide set van functionaliteiten die een hoge mate van customisatie mogelijk maakt binnen het systeem. Dit gaat van data administratie, beveiliging, tot backup en herstel . PostgreSQL wordt regelmatig bijgewerkt door de PostgreSQL Global Development Group en bijdragers uit de community. Deze community ondersteunt zichzelf en zijn gebruikers door het aanbieden van online educatieve bronnen en communicatiekanalen, zoals daar zijn PostgreSQL wiki, online forums en officiële documentatie. Er zijn ook bedrijven die commerciële support bieden aan een prijs~\autocite{Nethosting2019}. Volgens DB-Engines is PostgreSQL de vierde database die vandaag de dag het meest gebruikt wordt en de tweede meest gebruikte open source database, na MySQL~\autocite{DBEngines2021}. DB-Engines verklaarde PostgreSQL in 2017, 2018 en 2020 het DBMS (Database management system) van het jaar~\autocite{DBEngines2021a}.
-PostgreSQL biedt veel mogelijkheden om ontwikkelaars te helpen bij het bouwen van applicaties, om beheerders te helpen bij het beschermen van data-integriteit en het bouwen van fouttolerante omgevingen. Het helpt ook bij het beheren van data, hoe groot of hoe klein de dataset ook is. PostgreSQL voldoet sinds september 2020 aan 170 van de 179 verplichte functies voor SQL:2016 Core conformiteit. Schaalbaarheid valt ook toe te schrijven aan PostgreSQL, dit zowel in de hoeveelheid data die het kan beheren, als in het aantal gelijktijdige gebruikers dat het kan accomoderen. Er zijn actieve PostgreSQL clusters in productie omgevingen die terabytes aan data beheren, en gespecialiseerde systemen die petabytes beheren~\autocite{PostgreSQL2021}.
+PostgreSQL biedt veel mogelijkheden om ontwikkelaars te helpen bij het bouwen van applicaties; om beheerders te helpen bij het beschermen van data-integriteit; en bij het bouwen van fouttolerante omgevingen. Het helpt ook bij het beheren van data, hoe groot of hoe klein de dataset ook is. PostgreSQL voldoet sinds september 2020 aan 170 van de 179 verplichte functies voor SQL:2016 Core conformiteit. Schaalbaarheid valt ook toe te schrijven aan PostgreSQL, dit zowel in de hoeveelheid data die het kan beheren, als in het aantal gelijktijdige gebruikers dat het kan accomoderen. Er zijn actieve PostgreSQL clusters in productie omgevingen die terabytes aan data beheren, en gespecialiseerde systemen die zelfs petabytes beheren~\autocite{PostgreSQL2021}. Enkele voorbeelden om te tonen hoe schaalbaar PostgreSQL wel is.
 
 Postgres speelt in op de bovenvernoemde vier basisconcepten van een object-relationele databank zodat gebruikers het systeem makkelijk kunnen uitbreiden. Deze vier kenmerken, naast nog andere functies maken van Postgres een object-relationele database. Bovenstaande vermelde kenmerken zouden doen blijken dat Postgres voornamelijk een object-georiënteerde database is, maar de ondersteuning van de traditionele relationele databases, toont duidelijk aan dat, ondanks de object-georiënteerde kenmerken, Postgres stevig verankerd is in de relationele database wereld ~\autocite{PostgreSQL2021a}.
 
@@ -66,16 +59,19 @@ Postgres speelt in op de bovenvernoemde vier basisconcepten van een object-relat
 \section{\IfLanguageName{dutch}{High Availability}{High Availability}}
 \label{sec:High Availability}
 
-Het doel van High Availability architectuur is ervoor te zorgen dat een server, website of applicatie verschillende vraagbelastingen en verschillende soorten storingen kan verdragen. En dit met de minst mogelijke downtime. Door gebruik te maken van best practices die zijn ontworpen om hoge beschikbaarheid te garanderen, helpt dit volgens \textcite{Australia2017} om in een organisatie maximale productiviteit en betrouwbaarheid te bereiken~\autocite{Australia2017}. %(https://www.serversaustralia.com.au/resources/blog/what-is-high-availability-ha-and-do-i-need-it/#:~:text=The%20purpose%20of%20HA%20architecture,achieve%20maximum%20productivity%20and%20reliability.)
+Het doel van High Availability architectuur is ervoor te zorgen dat een server, website of applicatie verschillende vraagbelastingen en verschillende soorten storingen kan verdragen. En dit met de minst mogelijke downtime. Door gebruik te maken van best practices die zijn ontworpen om hoge beschikbaarheid te garanderen, helpt dit volgens \textcite{Australia2017} om in een organisatie maximale productiviteit en betrouwbaarheid te bereiken~\autocite{Australia2017}. 
 
 % niet elke situatie vereist high availability, wanneer is dit nodig dan?
 
 % Waarom is dit nodig?
 % Wat zijn de mogelijkheden om hieraan te voldoen? en Hoe implementeert postgres deze oplossingen
 
-High Availability is het vermogen van een systeem om continu operationeel te blijven te zijn gedurende een wenselijk lange tijd. Men kan Availability meten ten opzicht van 100\% operationeel, als in, nooit uitvallen. Beschikbaarheid wordt vaak uitgedrukt als een percentage van uptime in een bepaald jaar op basis van de SLA's, Service Level Agreements ~\autocite{Kumar2020}. Vaak duidt men deze norm aan als de Five 9's, namelijk 99,999\% beschikbaarheid~\autocite{Lutkevich2021}. High availability impliceert dat delen van een systeem volledig zijn getest en dat er voorzieningen zijn voor storingen/failures in de vorm van redundante componenten. Servers kunnen worden ingesteld om in geval van nood de verantwoordelijkheden over te dragen aan een externe server, in een back-up proces. Hier spreekt men dan van failover ~\autocite{Technopedia2021a}.
+High Availability is het vermogen van een systeem om continu operationeel te blijven te zijn gedurende een wenselijk lange tijd. Men kan Availability meten ten opzichte van 100\% operationeel, als in, nooit uitvallen. Beschikbaarheid wordt vaak uitgedrukt als een percentage van uptime in een bepaald jaar op basis van de SLA's, Service Level Agreements ~\autocite{Kumar2020}. Vaak duidt men deze norm aan als de Five 9's, namelijk 99,999\% beschikbaarheid~\autocite{Lutkevich2021}. High availability impliceert dat delen van een systeem volledig zijn getest en dat er voorzieningen zijn voor storingen/failures in de vorm van redundante componenten. Servers kunnen worden ingesteld om in geval van nood de verantwoordelijkheden over te dragen aan een externe server, in een back-up proces. Hier spreekt men dan van failover ~\autocite{Technopedia2021a}.
 
 % https://www.postgresql.org/docs/9.5/high-availability.html Deze link nog eens uitspitten
+Wanneer is High Availability nu eigenlijk nodig?
+High Availability is nuttig wanneer bedrijven te maken hebben met dagelijk kritisch applicatiebeheer. Of wanneer er veel traffiek is op de website, is het niet te veroorloven om downtime te hebben. Een simpele reden als gewoon goede service aanbieden, is ook een geldige reden om aan High Availability te doen~\autocite{CriticalCase2020}. 
+
 
 Belangrijke principes van High Availability zijn:
 
@@ -110,7 +106,7 @@ Schaalbaarheid is de eigenschap van een systeem om te kunnen voldoen aan een gro
 
 \subsubsection{\IfLanguageName{dutch}{Horizontaal schalen}{Horizontaal schalen}}
 \label{subsubsec:Horizontaal schalen}
-Horizontaal schalen richt zich op het toevoegen van nodes in een systeem of cluster. Hierin is het handig om meer slave nodes toe te voegen aan de cluster. Dit zal ons helpen om lees- en schrijfprestaties te verbeteren, doordat het meer gebalanceerd kan gebeuren. Hierbij is een load balancer nodig, die dit verkeer zal regelen. Eén load balancer zal niet voldoende zijn om single point of failure preventief te voorkomen. Beter hier is dan twee of meerdere load balancers toevoegen. Op deze manier kunnen we High Availability blijven garanderen~\autocite{Insausti2019}.
+Horizontaal schalen richt zich op het toevoegen van nodes in een systeem of cluster. Hierin is het handig om meer slave nodes toe te voegen aan de cluster. Dit zal helpen om lees- en schrijfprestaties te verbeteren, doordat het meer gebalanceerd kan gebeuren. Hierbij is een load balancer nodig, die dit verkeer zal regelen. Eén load balancer zal niet voldoende zijn om single point of failure preventief te voorkomen. Beter hier is dan twee of meerdere load balancers toevoegen. Op deze manier blijft High Availability een garantie~\autocite{Insausti2019}.
 
 \subsubsection{\IfLanguageName{dutch}{Verticaal schalen}{Verticaal schalen}}
 \label{subsubsec:Verticaal schalen}
@@ -256,9 +252,9 @@ Hierin wordt een standby server geprovomeerd tot een primary server en zal deze 
 \subsection{\IfLanguageName{dutch}{Raima}{Raima}}
 \label{subsec:Raima}
 
-Databasereplicatie is het proces waarin we gegevens gaan kopiëren van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
+Databasereplicatie is het proces waarin gegevens worden gekopieerd van een database naar één of meerdere replica's. Dit om de toegankelijkheid van gegevens en fouttolerantie te verbeteren.
 In de context van replicatie gebruikt men vaak ook de termen actief-actief en actief-passief. Raima Database Manager (RDM) ondersteunt beide technieken. Bij Raima wordt actieve replicatie gewoon replicatie genoemd en passieve replicatie spiegelen (mirroring). Spiegelen zal resulteren in identieke replica's zoals de originele database, terwijl replicatie zal resulteren in replica's die niet identiek zijn aan de originele database. Deze replica's zullen alle records bevatten die van de originele database zijn overgebracht, maar de fysieke organisatie van de records in de databasebestanden (of in het geheugen) kan verschillen.
-Om terug te komen op de termen actief-actief en actief-passief zullen die vaker verwijzen naar andere concepten dan dewelke we juist omschreven hebben (replicatie en spiegelen). Actieve-actieve replicatie betekent replicatie in twee richtingen van gegevens tussen twee databases die beide actief worden bijgewerkt. Actieve-passieve replicatie betekent replicatie in één richting van een actief bijgewerkte master node naar een slave node die niet wordt bijgewerkt, behalve door het replicatieproces. Hier verwijst men soms ook naar master-slave replicatie. In RDM is replicatie altijd actief-passief~\autocite{Raima2021}. %(https://raima.com/rdme-high-availability-database/).
+Om terug te komen op de termen actief-actief en actief-passief zullen die vaker verwijzen naar andere concepten dan dewelke juist omschreven (replicatie en spiegelen). Actieve-actieve replicatie betekent replicatie in twee richtingen van gegevens tussen twee databases die beide actief worden bijgewerkt. Actieve-passieve replicatie betekent replicatie in één richting van een actief bijgewerkte master node naar een slave node die niet wordt bijgewerkt, behalve door het replicatieproces. Hier verwijst men soms ook naar master-slave replicatie. In RDM is replicatie altijd actief-passief~\autocite{Raima2021}. %(https://raima.com/rdme-high-availability-database/).
 
 \subsection{\IfLanguageName{dutch}{EDB}{EDB}}
 \label{subsec:EDB}
@@ -266,7 +262,7 @@ Om terug te komen op de termen actief-actief en actief-passief zullen die vaker 
 Voor betrouwbare cross-over biedt EDB een technologie genaamd EDB Postgres Failover Manager (EFM). Dit maakt automatische failover van de Postgres master node naar een standby node mogelijk in geval van een software- of hardwarefout op de master. EFM maakt gebruik van JGroups, die een betrouwbare, gedistribueerde en redundante infrastructuur biedt zonder een single point of failure.
 EDB Postgres Failover Manager kan ook gebruikt worden voor de detectie van storingen. Het bewaakt de server continu en zal storingen op verschillende niveaus detecteren. Het is ook capabel om om failover uit te voeren van de master node naar één van de replica nodes om het systeem beschikbaar te maken voor het accepteren van databaseverbindingen en queries. Wanneer EFM goed geconfigureerd is, kan het storingen detecteren en direct failover uitvoeren.
 
-Verlies van service kunnen we in twee categoriëen opdelen. Geplande uitval of downtime en ongeplande uitval of downtime.
+Verlies van service kan in twee categoriëen opdelen. Geplande uitval of downtime en ongeplande uitval of downtime.
 Geplande downtime is vaak het gevolg van onderhoudsactiviteiten. Dit kan zijn door een softwarepatches die een herstart van het systeem of van de database vereist. In het algemeen is deze uitval niet onverwachts en zal deze uitval geen grootschalige gevolgen hebben.
 Een ongeplande downtime is vaak het resultaat van een of andere fysieke gebeurtenis, zoals hardware- of softwarestoring, of een anomalie in de omgeving. Stroomuitval, defecte CPU- of RAM-componenten (of eventueel andere hardwarecomponenten), netwerkstoringen, inbreuken op de beveiliging, of diverse defecten in toepassingen, middleware en besturingssystemen resulteren bijvoorbeeld in ongeplande uitval.
 In geval van (on)geplande downtime kan EFM helpen om de downtime zoveel mogelijk te minimaliseren. Voor een geplande downtime kan een gebruiker bijvoorbeeld eerst alle standby nodes patchen en EFM gebruiken om over te schakelen voordat de master node gepatcht wordt. Bij een ongeplande downtime kan EFM ervoor zorgen dat de storingen gedetecteerd worden en failover uitvoeren naar de juiste standby node, om dan deze node de nieuwe master node te maken. EFM zal na dit proces er ook voor zorgen dat de oude master node niet terugkomt om een split-brain situatie te voorkomen. Split-brain duidt op de inconsistenties in beschikbaarheid en data. Hierdoor ontstaan er twee afzonderlijke datasets met overlap~\autocite{Kumar2020}. %(https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean).
