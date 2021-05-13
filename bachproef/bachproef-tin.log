@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  13 MAY 2021 21:39
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  13 MAY 2021 22:11
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1869,14 +1869,18 @@ Hoofdstuk 6.
 Hoofdstuk 7.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-) (POC.tex [47] [48
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47])
+(POC.tex [48]
 Hoofdstuk 8.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[49]
+[49
+
+]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
 7.
  (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
