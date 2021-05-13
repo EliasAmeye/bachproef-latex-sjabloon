@@ -5,6 +5,9 @@
 \chapter{Oplossing 2: PostgreSQL Automatic Failover (PAF)}
 \label{ch:Oplossing 2: PostgreSQL Automatic Failover}
 
+%https://dzone.com/articles/managing-high-availability-in-postgresql-part-i
+
+
 In dit hoofdstuk worden nog eens voor PostgreSQL Automatic Failover (PAF) alle punten uit de functionele requirements overlopen. Hier kunnen al meer specifieke commando's en tools benoemd worden die gebruikt kunnen worden voor de opstelling van een PostgreSQL Automatic Failover (PAF) cluster.
 
 %https://wiki.postgresql.org/images/0/07/Ha_postgres.pdf
@@ -12,10 +15,14 @@ In dit hoofdstuk worden nog eens voor PostgreSQL Automatic Failover (PAF) alle p
 \section{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
 \label{sec:Redundantie/Replicatie}
 
+nog aan te vullen
+
 \section{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{sec:Failover}
 
-Aan de hand van Pacemaker kan er automatische failover plaatsvinden.
+Aan de hand van Pacemaker kan er automatische failover plaatsvinden. PostgreSQL Automatic Failover (PAF) communiceert continu met Pacemaker over de status van de cluster en bewaakt het functioneren van de database. In geval van storing, wordt Pacemaker hierover geïnformeerd en zal het kijken om de storing op te lossen. Is de storing onoplosbaar, dan zal Pacemaker een verkiezing starten tussen de standby nodes om een opvolger van de primary node te selecteren.
 
 \section{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{sec:Monitoring}
+
+Via de tool Pacemaker kan er bij PostgreSQL Automatic Failover (PAF) goed aan monitoring gedaan. Het zal signalen uitsturen als een node niet bereikbaar is.

@@ -141,7 +141,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Failover}{45}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Monitoring}{45}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Monitoring}{46}{section.6.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusie}{47}{chapter.7}%
 \defcounter {refsection}{0}\relax 

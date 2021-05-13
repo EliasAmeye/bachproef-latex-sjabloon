@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  13 MAY 2021 23:41
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  14 MAY 2021 00:06
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1846,7 +1846,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
 []\T1/ptm/m/n/12 PostgreSQL Au-to-ma-tic Failover
  []
 
@@ -1861,18 +1861,22 @@ Missing character: There is no ” in font ptmr8t!
 
 ]) (Oplossing2.tex [44]
 Hoofdstuk 6.
-) (conclusie.tex [45
+) (conclusie.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [46
+ [45
 
 ]
+[46]
 Hoofdstuk 7.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
+ [47
+
+])
 (POC.tex [48]
 Hoofdstuk 8.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -2075,7 +2079,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  35279 strings out of 412094
  630752 string characters out of 2847025
- 1662811 words of memory out of 3000000
+ 1662809 words of memory out of 3000000
  54321 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
