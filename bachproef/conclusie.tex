@@ -7,12 +7,14 @@
 
 In dit onderzoek wordt een antwoord gegeven op de onderzoeksvraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?” Om hierop een antwoord te vinden, is een vergelijkende studie uitgevoerd tussen de verschillende oplossingen uit dit onderzoek. Hier werd dan elke oplossing afgetoetst aan de requirements.
 
-Uit de resultaten van de requirementsanalyse blijkt dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is, die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurd.
+Uit de resultaten van de requirementsanalyse blijkt dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is, die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurd. Wat betreft failover is Patroni ook zeer ver gevorderd. Er zijn veel geavanceerde opties voor het configureren van failover in de cluster. Een handig iets is dat failover automatisch kan gebeuren en dus geen nood hoeft te hebben aan manuele interventies. Inzake monitoring kent Patroni een zeer rijke REST API die kan gebruikt worden om de cluster en de nodes te monitoren. Hierin kunnen persoonlijke voorkeuren van monitoring toegevoegd worden.
 
 Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster.
-%Hier nog wat meer uitleg
+
+Uitleg PAF: nog te schrijven
 
 %De andere tools omschrijven waarom zij niet tot winnaar zijn gekomen en 
+Uitleg andere tools: nog te schrijven
 
 Bij de aanvang van dit onderzoek had ik deze uitslag nog niet verwacht. Dit omdat ik nog geen weet had van welke oplossingen er allemaal waren. Het was pas na het lezen van Akhtar, H dat ik een idee kreeg van welke PostgreSQL oplossingen er allemaal aanwezig waren. Akhtar haalde Patroni, PostgreSQL Automatic Failover (PAF), pgPool-II en Replication Manager (repmgr) aan als gepaste oplossingen voor High Availability in een PostgreSQL omgeving. Na het schrijven van mijn voorstel en literatuurstudie had ik wel het gevoel dat Patroni een zeer goede kandidaat ging zijn als PostgreSQL High Availability oplossing. De requirementanalyse heeft dit gevoel bij mij dan ook bevestigd en verantwoord.
 
