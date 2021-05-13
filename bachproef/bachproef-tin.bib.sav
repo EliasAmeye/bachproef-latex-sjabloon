@@ -1,0 +1,507 @@
+% Encoding: UTF-8
+
+@Online{Technopedia2021,
+  author = {Technopedia},
+  date   = {2021-04-28},
+  title  = {Object-Relational Database (ORD)},
+  url    = {https://www.techopedia.com/definition/8714/object-relational-database-ord},
+}
+
+@Online{Oracle23,
+  author       = {Oracle},
+  date         = {2021},
+  title        = {Database defined},
+  url          = {https://www.oracle.com/database/what-is-database/},
+  language     = {English},
+  organization = {Oracle},
+  urldate      = {2021-04-15},
+}
+
+@Online{Oraclea,
+  author   = {Oracle},
+  title    = {What is Structured Query Language (SQL)?},
+  url      = {https://www.oracle.com/database/what-is-database/},
+  language = {English},
+}
+
+@Online{Wikipedia,
+  author   = {Wikipedia},
+  date     = {15 April 2021},
+  title    = {Database},
+  url      = {https://en.wikipedia.org/wiki/Database#:~:text=A\ database\ is\ an\ organized,formal\ design\ and\ modeling\ techniques},
+  language = {English},
+}
+
+@Article{Codecademy,
+  author   = {Codecademy},
+  date     = {2018},
+  title    = {What is a Relational Database Management System?},
+  subtitle = {Learn about RDBMS and the language used to access large datasets – SQL},
+  url      = {https://www.codecademy.com/articles/what-is-rdbms-sql#:~:text=A\ relational\ database\ is\ a,database\ is\ organized\ into\ tables},
+}
+
+@Online{CCorner2019,
+  author = {CSharp-Corner},
+  date   = {2019-09-06},
+  title  = {What Are Object-Oriented Databases And Their Advantages},
+  url    = {https://www.c-sharpcorner.com/article/what-are-object-oriented-databases-and-their-advantages2/#:~:text=An object-oriented database (OODBMS,object-oriented database management systems},
+}
+
+@Online{Carchedi2020,
+  author = {Nick Carchedi},
+  date   = {2020-10-23},
+  title  = {What is SQL?},
+  url    = {https://www.datacamp.com/community/tutorials/what-is-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=229765585183&utm_targetid=dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001208&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWJOxNwWfRDfjloPnAcswV6QsafwgHI0hqa-gQFH5fj59JLPM04NOxMaAmudEALw_wcB},
+}
+
+@Book{ReginaO.Obe2017,
+  author = {Regina O. Obe, Leo S. Hsu},
+  date   = {2017-10-10},
+  title  = {PostgreSQL: Up and Running: A Practical Guide to the Advanced Open Source Database},
+  pages  = {314},
+  url    = {https://books.google.be/books?id=Xj85DwAAQBAJ},
+}
+
+@Online{postgres,
+  author       = {postgresql},
+  date         = {2021},
+  title        = {PostgreSQL: The World's Most Advanced Open Source Relational Database},
+  url          = {https://www.postgresql.org/},
+  language     = {English},
+  organization = {PostgreSQL},
+  urldate      = {2021-03-25},
+}
+
+@Online{Nethosting2019,
+  author   = {Nethosting},
+  date     = {2019-05-13},
+  title    = {MySQL vs. PostgreSQL: 2019 Showdown},
+  url      = {https://nethosting.com/mysql-vs-postgresql-2019-showdown/},
+  language = {English},
+}
+
+@Online{DBEngines2021,
+  author       = {DB-Engines},
+  date         = {2021},
+  title        = {DB-Engines Ranking},
+  url          = {https://db-engines.com/en/ranking},
+  language     = {English},
+  organization = {DB-Engines},
+  urldate      = {2021-03-25},
+}
+
+@Online{DBEngines2021a,
+  author       = {DB-Engines},
+  date         = {2021},
+  title        = {PostgreSQL System Properties},
+  url          = {https://db-engines.com/en/system/PostgreSQL},
+  language     = {English},
+  organization = {DB-Engines},
+  urldate      = {2021-03-25},
+}
+
+@Online{PostgreSQL2021,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {About},
+  url          = {https://www.postgresql.org/about/},
+  language     = {English},
+  organization = {PostgreSQL},
+  subtitle     = {What is PostgreSQL?},
+  urldate      = {2021-03-25},
+}
+
+@Online{PostgreSQL2021a,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {What is Postgres?},
+  url          = {https://www.postgresql.org/docs/6.3/c0101.htm},
+  language     = {English},
+  organization = {PostgreSQL},
+  urldate      = {2021-03-25},
+}
+
+@WWW{2017,
+  author       = {ServersAustralia},
+  date         = {2017-10-31},
+  title        = {What is High Availability (HA) and Do I Need It?},
+  url          = {https://www.serversaustralia.com.au/resources/blog/what-is-high-availability-ha-and-do-i-need-it/#:~:text=The purpose of HA architecture,achieve maximum productivity and reliability},
+  language     = {English},
+  organization = {Servers Australia},
+  urldate      = {2021-03-25},
+}
+
+@Online{Kumar2020,
+  author       = {Vibhor Kumar},
+  date         = {2020-04-07},
+  title        = {What Does "Database High Availability" Really Mean?},
+  url          = {https://www.enterprisedb.com/blog/what-does-database-high-availability-really-mean},
+  language     = {English},
+  organization = {EDB},
+  urldate      = {2021-03-25},
+}
+
+@Online{Lutkevich2021,
+  author       = {Ben Lutkevich},
+  date         = {2021},
+  editor       = {Alexander S. Gillis},
+  title        = {high availability (HA)},
+  url          = {https://searchdatacenter.techtarget.com/definition/high-availability},
+  language     = {English},
+  organization = {TechTarget},
+  subtitle     = {What is high availability?},
+  urldate      = {2021-03-25},
+}
+
+@Online{Technopedia2021a,
+  author       = {Technopedia},
+  date         = {2021},
+  title        = {High Availability (HA)},
+  url          = {https://www.techopedia.com/definition/1021/high-availability-ha},
+  language     = {English},
+  organization = {Technopedia},
+  subtitle     = {What Does High Availability (HA) Mean?},
+  urldate      = {2021-03-25},
+}
+
+@Online{Miller2016,
+  author       = {Paula Miller; Mike Ray; Tim Sherer; MashaMSFT; cawrites; Craig Guyer; Jason Roth},
+  date         = {2016-05-17},
+  title        = {About Log Shipping (SQL Server)},
+  url          = {https://docs.microsoft.com/en-us/sql/database-engine/log-shipping/about-log-shipping-sql-server?view=sql-server-ver15},
+  language     = {English},
+  organization = {Microsoft},
+  urldate      = {2021-03-25},
+}
+
+@Online{Jevtic2018,
+  author   = {Goran Jevtic},
+  date     = {2018-06-22},
+  title    = {What is High Availability Architecture? Why is it Important?},
+  url      = {https://phoenixnap.com/blog/what-is-high-availability},
+  language = {English},
+  urldate  = {2021-03-25},
+}
+
+@Online{Insausti2019,
+  author       = {Sebastian Insausti},
+  date         = {2019-07-18},
+  title        = {Scaling PostgreSQL for Large Amounts of Data},
+  url          = {https://severalnines.com/database-blog/scaling-postgresql-large-amounts-data},
+  language     = {English},
+  organization = {Several Nines},
+  urldate      = {2021-04-01},
+}
+
+@Online{TechTarget2017,
+  author       = {TechTarget},
+  date         = {2017-11-16},
+  title        = {Cluster},
+  url          = {https://whatis.techtarget.com/definition/cluster},
+  language     = {English},
+  organization = {TechTarget},
+  urldate      = {2021-04-01},
+}
+
+@Online{AVINetworks2020,
+  author       = {AVINetworks},
+  date         = {2020-09-26},
+  title        = {Failover Definition},
+  url          = {https://avinetworks.com/glossary/failover/},
+  language     = {English},
+  organization = {AVI Networks},
+  urldate      = {2021-04-01},
+}
+
+@Online{TechTarget2020,
+  author       = {TechTarget},
+  date         = {2020},
+  title        = {Failback},
+  url          = {https://whatis.techtarget.com/definition/failback},
+  language     = {English},
+  organization = {TechTarget},
+  urldate      = {2021-04-01},
+}
+
+@Online{Markwort2018,
+  author       = {Julian Markwort},
+  date         = {2018-09-27},
+  title        = {PATRONI : SETTING UP A HIGHLY AVAILABLE POSTGRESQL CLUSTER},
+  url          = {https://www.cybertec-postgresql.com/en/patroni-setting-up-a-highly-available-postgresql-cluster/},
+  language     = {English},
+  organization = {Cybertec},
+  urldate      = {2021-04-08},
+}
+
+@Online{CDNF2020,
+  author       = {CDNF},
+  date         = {2020-07-22},
+  title        = {What is a CNF?},
+  url          = {https://cdnf.io/what_is_cnf/},
+  language     = {English},
+  organization = {cdnf},
+  urldate      = {2021-04-08},
+}
+
+@Online{2020,
+  author       = {wiki.postgresql.org},
+  date         = {2020-07-06},
+  title        = {Streaming Replication},
+  url          = {https://wiki.postgresql.org/wiki/Streaming_Replication#:~:text=Streaming Replication (SR) provides the,some out of date information},
+  language     = {English},
+  organization = {wiki.postgresql.org},
+  urldate      = {2021-04-08},
+}
+
+@Online{ScaleGrid2018,
+  author       = {ScaleGrid},
+  date         = {2018-08-22},
+  title        = {Managing High Availability in PostgreSQL – Part III: Patroni},
+  url          = {https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-3/#:~:text=Patroni ensures the end-to,be customized to your needs.},
+  language     = {English},
+  organization = {ScaleGrid},
+  urldate      = {2021-04-08},
+}
+
+@Online{Vallarapu2019,
+  author       = {Avinash Vallarapu; Fernando Laudares Camargos; Jobin Agustine; Nickolay Ihalainen},
+  date         = {2019-04-04},
+  title        = {Replication Between PostgreSQL Versions Using Logical Replication},
+  url          = {https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical replication in PostgreSQL allows,is not open for writes.},
+  language     = {English},
+  organization = {Percona},
+  urldate      = {2021-04-15},
+}
+
+@Online{2021,
+  author       = {pgpool},
+  date         = {2021},
+  title        = {What is Pgpool-II?},
+  url          = {https://www.pgpool.net/mediawiki/index.php/Main_Page},
+  language     = {English},
+  organization = {pgpool},
+  urldate      = {2021-04-15},
+}
+
+@Online{Rimbault2020,
+  author       = {Mael Rimbault; Jehan-Guillaume de Rorthais},
+  date         = {2020},
+  title        = {PostgreSQL Automatic Failover},
+  url          = {https://clusterlabs.github.io/PAF/},
+  language     = {English},
+  organization = {clusterlabs},
+  urldate      = {2021-04-15},
+}
+
+@Online{ScaleGrid2018a,
+  author       = {ScaleGrid},
+  date         = {2018-11-27},
+  title        = {Managing PostgreSQL High Availability – Part I: PostgreSQL Automatic Failover},
+  url          = {https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-1/},
+  language     = {English},
+  organization = {ScaleGrid},
+  urldate      = {2021-04-15},
+}
+
+@Online{PostgreSQL2021b,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {pg_rewind},
+  url          = {https://www.postgresql.org/docs/12/app-pgrewind.html},
+  language     = {English},
+  organization = {PostgreSQL},
+  urldate      = {2021-04-15},
+}
+
+@Online{2021a,
+  author       = {repmgr},
+  date         = {2021},
+  title        = {WHAT IS REPMGR?},
+  url          = {https://repmgr.org/},
+  language     = {English},
+  organization = {repmgr},
+  urldate      = {2021-04-15},
+}
+
+@Online{MySQL2021,
+  author       = {MySQL},
+  date         = {2021},
+  title        = {1.5 Point-in-Time (Incremental) Recovery},
+  url          = {https://dev.mysql.com/doc/mysql-backup-excerpt/8.0/en/point-in-time-recovery.html#:~:text=Point-in-time recovery refers,time the backup was made},
+  language     = {English},
+  organization = {MySQL},
+  urldate      = {2021-04-22},
+}
+
+@Online{PostgreSQL2021c,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {pg_basebackup},
+  url          = {https://www.postgresql.org/docs/10/app-pgbasebackup.html},
+  language     = {English},
+  organization = {PostgreSQL},
+  urldate      = {2021-04-22},
+}
+
+@Online{Barman2020,
+  author       = {Barman},
+  date         = {2020},
+  title        = {Bringing you the “Espresso Backup”!},
+  url          = {https://www.pgbarman.org/about/},
+  language     = {English},
+  organization = {Barman},
+  subtitle     = {About Barman},
+  urldate      = {2021-04-13},
+}
+
+@Online{Barman2020a,
+  author       = {Barman},
+  date         = {2020},
+  title        = {Barman},
+  url          = {https://www.pgbarman.org/},
+  language     = {English},
+  organization = {Barman},
+  urldate      = {2021-04-13},
+}
+
+@Online{2020a,
+  author       = {wiki.postgresql},
+  date         = {2020-12-09},
+  title        = {Repmgr},
+  url          = {https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features},
+  language     = {English},
+  organization = {wiki.postgresql},
+  urldate      = {2021-04-13},
+}
+
+@Online{Augustine2019,
+  author       = {Jobin Augustine},
+  date         = {2019-07-10},
+  title        = {PostgreSQL WAL Retention and Clean Up: pg_archivecleanup},
+  url          = {https://www.percona.com/blog/2019/07/10/wal-retention-and-clean-up-pg_archivecleanup/},
+  language     = {English},
+  organization = {Percona},
+  urldate      = {2021-04-13},
+}
+
+@Online{2021b,
+  author       = {repmgr},
+  date         = {2021},
+  title        = {repmgr standby switchover},
+  url          = {https://repmgr.org/docs/4.0/repmgr-standby-switchover.html},
+  language     = {English},
+  organization = {repmgr},
+  urldate      = {2021-04-13},
+}
+
+@Online{Raima2021,
+  author       = {Raima},
+  date         = {2021},
+  title        = {High-Availability Database (HA DB)},
+  url          = {https://raima.com/rdme-high-availability-database/},
+  language     = {English},
+  organization = {Raima},
+  urldate      = {2021-04-20},
+}
+
+@Online{Vizard2020,
+  author       = {Mike Vizard},
+  date         = {2020-07-21},
+  title        = {Puppet Brings Orchestration to IT Automation},
+  url          = {https://devops.com/puppet-brings-orchestration-to-it-automation/},
+  language     = {English},
+  organization = {DevOps.com},
+  urldate      = {2021-03-25},
+}
+
+@Online{Kelly2020,
+  author       = {Katherine Kelly},
+  date         = {2020-10-01},
+  title        = {What is Puppet and What Role Does it Play in DevOps?},
+  url          = {https://www.liquidweb.com/kb/what-is-puppet-and-what-role-does-it-play-in-devops/},
+  language     = {English},
+  organization = {Liquid Web},
+  subtitle     = {What is Puppet?},
+  urldate      = {2021-03-23},
+}
+
+@Online{Ruby,
+  author       = {Ruby},
+  title        = {About Ruby},
+  url          = {https://www.ruby-lang.org/en/about/},
+  language     = {English},
+  organization = {Ruby},
+  urldate      = {2021-03-23},
+}
+
+@Online{2021c,
+  author       = {opensource.com},
+  date         = {2021},
+  title        = {What is open source?},
+  url          = {https://opensource.com/resources/what-open-source},
+  language     = {English},
+  organization = {Red Hat Inc},
+  urldate      = {2021-04-29},
+}
+
+@InBook{Ahmad2017,
+  author    = {Ahmad, Khadija Sania and Ahmad, Nazia and Tahir, Hina and Khan, Shaista},
+  booktitle = {2017 International Conference on Intelligent Computing, Instrumentation and Control Technologies (ICICICT)},
+  date      = {2017},
+  title     = {Fuzzy_MoSCoW: A fuzzy based MoSCoW method for the prioritization of software requirements},
+}
+
+@Online{Kalow2020,
+  author       = {Bryce Kalow},
+  date         = {2020},
+  title        = {Introduction to Vagrant},
+  url          = {https://www.vagrantup.com/intro},
+  language     = {English},
+  organization = {HashiCorp},
+  urldate      = {2021-05-09},
+}
+
+@Online{CriticalCase2020,
+  author       = {CriticalCase},
+  date         = {2020},
+  title        = {5 REASONS WHY YOU NEED HIGH-AVAILABILITY FOR YOUR BUSINESS},
+  url          = {https://www.criticalcase.com/blog/5-reasons-why-you-need-high-availability-for-your-business.html},
+  language     = {English},
+  organization = {CriticalCase},
+  subtitle     = {What does it mean High-Availability infrastructure (HA)?},
+  urldate      = {2021-05-12},
+}
+
+@Online{SeveralNines2020,
+  author       = {SeveralNines},
+  date         = {2020},
+  title        = {PostgreSQL Load Balancing with HAProxy},
+  url          = {https://severalnines.com/resources/database-management-tutorials/postgresql-load-balancing-haproxy},
+  language     = {English},
+  organization = {SeveralNines},
+  subtitle     = {2. What is HAProxy?},
+  urldate      = {2021-05-12},
+}
+
+@Online{Ramachandran2019,
+  author       = {Mahadevan Ramachandran},
+  date         = {2019-03-19},
+  title        = {PostgreSQL Connection Pooling With PgBouncer},
+  url          = {https://dzone.com/articles/postgresql-connection-pooling-with-pgbouncer#:~:text=PgBouncer is an open-source,each unique user, database pair.},
+  language     = {English},
+  organization = {Database Zone},
+  subtitle     = {Learn more about using PgBouncer to pool PostgreSQL connections.},
+  urldate      = {2021-05-12},
+}
+
+@Online{PostgreSQL2021d,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {Write-Ahead Logging (WAL)},
+  url          = {https://www.postgresql.org/docs/9.0/wal-intro.html},
+  language     = {English},
+  organization = {PostgreSQL},
+  urldate      = {2021-05-12},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

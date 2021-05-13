@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  14 MAY 2021 00:06
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  14 MAY 2021 00:21
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1501,6 +1501,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PostgreSQL2021d
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 44.
 Package biblatex Info: Reference segment=0 on input line 44.
@@ -1727,6 +1734,12 @@ Underfull \vbox (badness 3907) has occurred while \output is active []
 
  [21]
 [22]
+Overfull \hbox (39.08105pt too wide) in paragraph at lines 106--107
+\T1/ptm/m/n/12 trans-ac-tie die uit-ge-voerd wordt op een da-ta-base voor-dat h
+et wordt uit-ge-voerd ([]).
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
@@ -1746,8 +1759,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-[28]
-Overfull \hbox (12.04591pt too wide) in paragraph at lines 262--264
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 261--263
 []\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
 ou-di-ger zijn om WAL-bestanden
  []
@@ -1755,8 +1773,8 @@ ou-di-ger zijn om WAL-bestanden
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-[30] [31]) (methodologie.tex [32]
+ [30]
+[31]) (methodologie.tex [32]
 Hoofdstuk 3.
 ) (Schifting.tex [33
 
@@ -2072,6 +2090,10 @@ ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
@@ -2079,7 +2101,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  35279 strings out of 412094
  630752 string characters out of 2847025
- 1662809 words of memory out of 3000000
+ 1662841 words of memory out of 3000000
  54321 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
