@@ -231,7 +231,7 @@ Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan me
 \label{subsec:RepMgr [Replication Manager]}
 %https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
 
-Repmgr is een open-source oplossing die zich bezighoudt met het beheren van replicatie en failover van servers in PostgreSQl clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover~\autocite{2021a}. %(https://repmgr.org/)
+Repmgr is een open source oplossing die zich bezighoudt met het beheren van replicatie en failover van servers in PostgreSQl clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover~\autocite{2021a}. %(https://repmgr.org/)
 
 De features die repmgr 5 aanbiedt zijn:
 
@@ -247,7 +247,7 @@ pg\_basebackup maakt een binaire kopie van de database cluster bestanden, terwij
 
 De backup wordt gemaakt over een gewone PostgreSQL verbinding maakt gebruik van het replicatieprotocol. De server moet ook worden geconfigureerd om ten minste één sessie beschikbaar te laten voor de backup~\autocite{PostgreSQL2021c}. %(https://www.postgresql.org/docs/10/app-pgbasebackup.html)
 
-Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een open-source beheertool voor disaster recovery van PostgreSQL servers. Het is geschreven in Python. Barman laat toe om van op afstand van meerdere servers in bedrijfskritische omgevingen back-ups uit te voeren. Het helpt ook database beheerders tijdens een herstelfase~\autocite{Barman2020}~\autocite{Barman2020a}. %(https://www.pgbarman.org/about/)(https://www.pgbarman.org/)
+Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een open source beheertool voor disaster recovery van PostgreSQL servers. Het is geschreven in Python. Barman laat toe om van op afstand van meerdere servers in bedrijfskritische omgevingen back-ups uit te voeren. Het helpt ook database beheerders tijdens een herstelfase~\autocite{Barman2020}~\autocite{Barman2020a}. %(https://www.pgbarman.org/about/)(https://www.pgbarman.org/)
 
 4. Standby server die kan worden gepromoveerd tot een primary server zonder herstart. Andere standby servers die verbinding kunnen maken met de nieuwe master zonder opnieuw gesynchroniseerd te worden~\autocite{2020a}.
 %https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
@@ -299,7 +299,7 @@ In geval van (on)geplande downtime kan EFM helpen om de downtime zoveel mogelijk
 
 Puppet CTO Deepak Giridharagopal zei dat in het kielzog van de economische neergang als gevolg van de COVID-19 pandemie, meer IT-teams zwaar zullen moeten vertrouwen op automatisering. De meeste IT-teams zullen ofwel even groot blijven of worden ingekrompen. De IT-omgeving zal echter steeds complexer worden. De enige manier om IT-teams in staat te stellen meer te doen met minder is het automatiseren van meer routinetaken~\autocite{Vizard2020}. %(https://devops.com/puppet-brings-orchestration-to-it-automation/).
 
-Puppet is een cross-platform client-server gebaseerde toepassing die wordt gebruikt voor configuratiebeheer. Het behandelt de software en zijn configuraties op meerdere servers. Er zijn hierbij twee versies beschikbaar. De ene is open-source, de andere is een betalende, commerciële versie. Het werkt op zowel Linux als op Windows. Het gebruikt een declaratieve aanpak om updates, installaties en andere taken te automatiseren. De software kan systemen configureren met behulp van bestanden die manifesten worden genoemd. Een manifest bevat instructies voor een groep of type server(s) die wordt/worden beheerd~\autocite{Kelly2020}. %(https://www.liquidweb.com/kb/what-is-puppet-and-what-role-does-it-play-in-devops/). 
+Puppet is een cross-platform client-server gebaseerde toepassing die wordt gebruikt voor configuratiebeheer. Het behandelt de software en zijn configuraties op meerdere servers. Er zijn hierbij twee versies beschikbaar. De ene is open source, de andere is een betalende, commerciële versie. Het werkt op zowel Linux als op Windows. Het gebruikt een declaratieve aanpak om updates, installaties en andere taken te automatiseren. De software kan systemen configureren met behulp van bestanden die manifesten worden genoemd. Een manifest bevat instructies voor een groep of type server(s) die wordt/worden beheerd~\autocite{Kelly2020}. %(https://www.liquidweb.com/kb/what-is-puppet-and-what-role-does-it-play-in-devops/). 
 
 Wat is configuratiebeheer nu juist? Configuratiebeheer onderhoudt en bepaalt productkenmerken door fysieke en functionele attributen, ontwerp, vereisten en operationele informatie op te slaan gedurende de levenscyclus van een server. 
 

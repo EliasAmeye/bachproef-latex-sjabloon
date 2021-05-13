@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  14 MAY 2021 00:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  14 MAY 2021 00:38
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1776,13 +1776,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [30]
 [31]) (methodologie.tex [32]
 Hoofdstuk 3.
-) (Schifting.tex [33
 
-] [34
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33
+
+])
+(Schifting.tex [34]
+Hoofdstuk 4.
+[35
 
 ]
-Hoofdstuk 4.
-[35]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -2090,17 +2094,13 @@ ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  35279 strings out of 412094
- 630752 string characters out of 2847025
+ 630758 string characters out of 2847025
  1662841 words of memory out of 3000000
  54321 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
