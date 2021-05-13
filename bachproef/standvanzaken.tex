@@ -40,8 +40,27 @@ SQL (structured query language) is de eigen programmeertaal specifiek ontwikkelt
 
 Een object-relationele database (ORD / ORDBMS) is een samenstelling uit zowel een relationele database (RDB / RDBMS), als een object-georiënteerde database (OOD / OODBMS). Samen ondersteunt het de basiscomponenten van elk objectgeoriënteerd databasemodel in zijn schema's en gebruikte querytaal, zoals klassen, overerving en objecten. Het bevat aspecten en kenmerken van bovenstaande genoemde modellen. Zo wordt het relationele duidelijk in de manier van opslaan van gegevens. Deze worden opgeslagen in een traditionele database en worden dan met behulp van SQL query's gemanipuleerd en benaderd. Aan de andere kant is ook het objectgeoriënteerde gedeelte merkbaar, namelijk dat de database beschouwd wordt als een objectopslag. Kort gezegd is één van de voornaamste doelstellingen van een object-relationele database, het dichten van de kloof tussen relationele en objectgeoriënteerde modelleringstechnieken en conceptuele datamodelleringstechnieken zoals daar zijn het entiteit-relatiediagram (ERD) en object-relationeel mappen (ORM)~\autocite{Technopedia2021}. %(https://www.techopedia.com/definition/8714/object-relational-database-ord).
 %Hieronder bij klasses en overerving kan er al een foto bij ter verduidelijking.
-Klasses, Overerving, Types, Functies zijn kenmerken van de object-relationele database en zullen de basisconcepten vormen voor PostgreSQL. Een klasse is een verzameling van gegevenstypes die bij eenzelfde soort iets horen. Bijvoorbeeld een klasse CD kan als kenmerken hebben: Titel, zanger, Datum uitgave, aantal liedjes... . Overerving is wanneer een klasse bepaalde kenmerken overerft, krijgt van een superklasse. Bijvoorbeeld een klasse Olifant erft van de klasse Zoogdier kenmerken. Hierin is de klasse Olifant een specialisatie van de klasse Zoogdier. Een type is hierboven al eens genoemd geweest. Dit gaat over de verschillende soorten data die er zijn. Getallen, woorden, objecten zijn hier voorbeelden van. Functies zijn een reeks SQL-statements die een specifieke taak uitvoeren. Functies bevorderen de herbruikbaarheid van code.
+Klasses, Overerving, Types, Functies zijn kenmerken van de object-relationele database en zullen de basisconcepten vormen voor PostgreSQL. Een klasse is een verzameling van gegevenstypes die bij eenzelfde soort iets horen. Bijvoorbeeld een klasse CD kan als kenmerken hebben: Titel, zanger, Datum uitgave, aantal liedjes... . Overerving is wanneer een klasse bepaalde kenmerken overerft, krijgt van een superklasse. Bijvoorbeeld een klasse Fiets erft van de klasse Vervoermiddel de nodige kenmerken. Hierin is de klasse Fiets een specialisatie van de klasse Vervoermiddel. Zo is een kenmerk van de klasse Vervoermiddel het aantal wielen. Dit datatype wordt dan overgeerfd naar de klasse Fiets, waar de invulling van dit datatype twee is. Bij de klasse Auto heeft het overgeerfde kenmerk vier wielen dan. Een type is hierboven al eens genoemd geweest. Dit gaat over de verschillende soorten data die er zijn. Getallen, woorden, objecten zijn hier voorbeelden van. Functies zijn een reeks SQL-statements die een specifieke taak uitvoeren. Functies bevorderen de herbruikbaarheid van code.
 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.25\textwidth]{CD.png}
+    \caption{Voorbeeld klasse CD}
+    \label{fig:Voorbeeld klasse CD}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{overerving.png}
+    \caption{Voorbeeld overerving}
+    \label{fig:Voorbeeld overerving}
+\end{figure}
+%\textbf{Voorbeeld klasse CD}
+%\includegraphics[width=2.5cm]{CD.png}\\[.5cm]
+
+%\textbf{Voorbeeld overerving}
+%\includegraphics[width=2.5cm]{overerving.png}\\[.5cm]
 
 \subsection{\IfLanguageName{dutch}{PostgreSQL}{PostgreSQL}}
 \label{subsec:PostgreSQL}
@@ -99,6 +118,8 @@ In geval van een volledige uitval van een systeem is geografische redundantie al
 
 Load Balancing is ook een manier om High Availability te waarborgen. Het doel van een load balancer is om toepassingen en/of netwerkverkeer te verdelen over meerdere servers en componenten. Het zal binnenkomende verzoeken routeren naar verschillende servers. Hiermeer wil het optionele prestaties en betrouwbaarheid verbeteren. Enkele voorbeelden van load balancing is Round Robin die ervoor zorgt dat de verzoeken van de load balancer naar de eerste server gaan in de rij. De verzoeken gaan deze rij af, tot hij op het einde komt, waarna hij terug van het eerste element in de rij begint. Een tweede manier van load balancing is Least Connection. Hierbij zal er gekozen worden om gebruik te maken van de server met het minst aantal actieve verbindingen. Load balancers spelen een rol bij het tot stand brengen van een infrastructuur met High Availability, maar het hebben van een load balancer staat niet garantie voor het hebben van High Availability. Door redundantie te implementeren voor de load balancer zelf, kan deze geelimineerd worden als een single point of failure~\autocite{Jevtic2018})
 
+HAProxy, High Availability Proxy, is hier een voorbeeld van. Dit is een op software gebaseerde TCP/HTTP load balancer. Het verdeelt de werklast over meerdere servers zodat het prestaties kan maximaliseren en het gebruik van resoucres kan optimaliseren~\autocite{SeveralNines2020}.
+
 \subsection{\IfLanguageName{dutch}{Schaalbaarheid}{Schaalbaarheid}}
 \label{subsec:Schaalbaarheid}
 
@@ -136,6 +157,7 @@ Failback is het proces van het herstellen van operaties naar een primaire machin
 %https://www.cybertec-postgresql.com/en/services/postgresql-replication/high-availability-patroni/
 
 Patroni is een open source cluster-technologie, geschreven in Python die zich bezighoudt met automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid~\autocite{Markwort2018}.
+
 
 Patroni biedt cloud-native netwerkfuncties en geavanceerde opties voor failback en failover. Een cloud-native netwerkfunctie is een software-implementatie van een netwerkfunctie, die wordt uitgevoerd in een linux-container, die traditioneel wordt uitgevoerd door een fysiek apparaat~\autocite{CDNF2020}.
 
@@ -204,8 +226,7 @@ De oorspronkelijke wens is om een duidelijke grens te houden tussen de Pacemaker
 
 Zodra een PostgreSQL cluster is opgebouwd met behulp van interne streaming replicatie, is PAF in staat om aan Pacemaker te laten zien wat de huidige status is van de PostgreSQL instantie op elke node: primary, standby, gestopt, etc. Mocht er dan een storing optreden op de primary node, dan zal Pacemaker standaard proberen deze te herstellen. Mocht de storing niet te herstellen zijn, dan zorgt PAF ervoor dat de standby servers de beste van hen kunnen kiezen (de dichtstbijzijnde bij de oude primary) en deze promoveren tot de nieuwe primary. Dit doet PAF dankzij Pacemaker~\autocite{Rimbault2020}. %(https://clusterlabs.github.io/PAF/)
 
-Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan met PostgreSQL High Availability. PAF gebruikt IP adres failover in plaats van het herstarten van de standby om verbinding te maken met de nieuwe master tijdens een failover event. Dit blijkt voordelig te zijn in scenario's waarbij de gebruiker de standby nodes niet opnieuw wil opstarten. PAF heeft ook zeer weinig manuele tussenkomst nodig en beheert de algemene gezondheid van alle Postgres databankbronnen. Het enige geval waarin manuele tussenkomst een vereiste is, is dan in het geval van een tijdlijn data divergentie waarbij de gebruiker kan kiezen om pg\_rewind te gebruiken~\autocite{ScaleGrid2018a}.%https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-1/
-Pg\_rewind is een tool die helpt bij het synchroniseren van een PostgreSQL cluster met een andere kopie van diezelfde cluster, met als enige verschil de tijd. Voorbeeld hierbij is een oude master node terug online brengen na failover als een standby node die de nieuwe master node volgt~\autocite{PostgreSQL2021b}. %(https://www.postgresql.org/docs/12/app-pgrewind.html)
+Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan met PostgreSQL High Availability. PAF gebruikt IP adres failover in plaats van het herstarten van de standby om verbinding te maken met de nieuwe master tijdens een failover event. Dit blijkt voordelig te zijn in scenario's waarbij de gebruiker de standby nodes niet opnieuw wil opstarten. PAF heeft ook zeer weinig manuele tussenkomst nodig en beheert de algemene gezondheid van alle Postgres databankbronnen. Het enige geval waarin manuele tussenkomst een vereiste is, is dan in het geval van een tijdlijn data divergentie waarbij de gebruiker kan kiezen om pg\_rewind te gebruiken~\autocite{ScaleGrid2018a}. Pg\_rewind is een tool die helpt bij het synchroniseren van een PostgreSQL cluster met een andere kopie van diezelfde cluster, met als enige verschil de tijd. Voorbeeld hierbij is een oude master node terug online brengen na failover als een standby node die de nieuwe master node volgt~\autocite{PostgreSQL2021b}. %(https://www.postgresql.org/docs/12/app-pgrewind.html)
 
 \subsection{\IfLanguageName{dutch}{RepMgr [Replication Manager]}{RepMgr [Replication Manager]}}
 \label{subsec:RepMgr [Replication Manager]}
@@ -245,9 +266,10 @@ Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bes
 
 Hierin wordt een standby server geprovomeerd tot een primary server en zal deze primary server degraderen naar een standby server. Wanneer andere standby servers verbonden zijn met de degradatiekandidaat, kan repmgr deze instrueren om de nieuwe primary server te volgen en niet de oude, die net gedegradeerd is~\autocite{2021b}. %(https://repmgr.org/docs/4.0/repmgr-standby-switchover.html)
 
+\subsection{\IfLanguageName{dutch}{PgBouncer}{PgBouncer}}
+\label{subsec:PgBouncer}
 
-\subsection{\IfLanguageName{dutch}{PgCluster}{PgCluster}}
-\label{subsec:PgCluster}
+PgBouncer is een open source connection-pooler die gebruikt wordt voor PostgreSQL. Het kan verbindingen naar één of meerdere databases poolen. Het onderhoudt voor een pool van verbindingen per gebruiker. Het wordt vaak geconfigureerd om één van de verbindingen uit te delen aan een nieuwe inkomende cliëntverbinding en terug te geven aan de pool wanneer de cliënt de verbinding verbreekt~\autocite{Ramachandran2019}.
 
 \subsection{\IfLanguageName{dutch}{Raima}{Raima}}
 \label{subsec:Raima}

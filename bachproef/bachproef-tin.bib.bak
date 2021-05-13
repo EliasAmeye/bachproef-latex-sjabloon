@@ -266,7 +266,6 @@
 @Online{Vallarapu2019,
   author       = {Avinash Vallarapu; Fernando Laudares Camargos; Jobin Agustine; Nickolay Ihalainen},
   date         = {2019-04-04},
-  editor       = {Avinash Vallarapu ; Fernando Laudares Camargos ;Jobin Augustine ; Nickolay Ihalainen},
   title        = {Replication Between PostgreSQL Versions Using Logical Replication},
   url          = {https://www.percona.com/blog/2019/04/04/replication-between-postgresql-versions-using-logical-replication/#:~:text=Logical replication in PostgreSQL allows,is not open for writes.},
   language     = {English},
@@ -470,6 +469,28 @@
   language     = {English},
   organization = {CriticalCase},
   subtitle     = {What does it mean High-Availability infrastructure (HA)?},
+  urldate      = {2021-05-12},
+}
+
+@Online{SeveralNines2020,
+  author       = {SeveralNines},
+  date         = {2020},
+  title        = {PostgreSQL Load Balancing with HAProxy},
+  url          = {https://severalnines.com/resources/database-management-tutorials/postgresql-load-balancing-haproxy},
+  language     = {English},
+  organization = {SeveralNines},
+  subtitle     = {2. What is HAProxy?},
+  urldate      = {2021-05-12},
+}
+
+@Online{,
+  author       = {Mahadevan Ramachandran},
+  date         = {2019-03-19},
+  title        = {PostgreSQL Connection Pooling With PgBouncer},
+  url          = {https://dzone.com/articles/postgresql-connection-pooling-with-pgbouncer#:~:text=PgBouncer is an open-source,each unique user, database pair.},
+  language     = {English},
+  organization = {Database Zone},
+  subtitle     = {Learn more about using PgBouncer to pool PostgreSQL connections.},
   urldate      = {2021-05-12},
 }
 

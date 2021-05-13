@@ -29,41 +29,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Object-relationele databank}{20}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}PostgreSQL}{21}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.6}PostgreSQL}{22}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}High Availability}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.2}High Availability}{22}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Load Balancing}{23}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Load Balancing}{24}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Schaalbaarheid}{23}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Schaalbaarheid}{24}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Horizontaal schalen}{24}{section*.6}%
+\contentsline {subsubsection}{Horizontaal schalen}{25}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verticaal schalen}{24}{section*.7}%
+\contentsline {subsubsection}{Verticaal schalen}{25}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Cluster oplossingen}{24}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Cluster oplossingen}{25}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Cluster}{24}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Cluster}{25}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Failover}{24}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Failover}{25}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Failback}{24}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Failback}{25}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Patroni}{24}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Patroni}{25}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Pgpool-II}{25}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.5}Pgpool-II}{26}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}PostgreSQL Automatic Failover (PAF)}{27}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.6}PostgreSQL Automatic Failover (PAF)}{28}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.7}RepMgr [Replication Manager]}{27}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.7}RepMgr [Replication Manager]}{28}{subsection.2.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.8}PgCluster}{29}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.8}PgBouncer}{30}{subsection.2.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.9}Raima}{29}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.9}Raima}{30}{subsection.2.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.10}EDB}{29}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2.3.10}EDB}{30}{subsection.2.3.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Puppet}{30}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Puppet}{31}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{33}{chapter.3}%
 \defcounter {refsection}{0}\relax 

@@ -1564,6 +1564,51 @@
       \verb https://raima.com/rdme-high-availability-database/
       \endverb
     \endentry
+    \entry{Ramachandran2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63b55edef92e506a0f1c6286e098e8bc}{%
+           family={Ramachandran},
+           familyi={R\bibinitperiod},
+           given={Mahadevan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Database Zone}%
+      }
+      \strng{namehash}{63b55edef92e506a0f1c6286e098e8bc}
+      \strng{fullhash}{63b55edef92e506a0f1c6286e098e8bc}
+      \strng{bibnamehash}{63b55edef92e506a0f1c6286e098e8bc}
+      \strng{authorbibnamehash}{63b55edef92e506a0f1c6286e098e8bc}
+      \strng{authornamehash}{63b55edef92e506a0f1c6286e098e8bc}
+      \strng{authorfullhash}{63b55edef92e506a0f1c6286e098e8bc}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{3}
+      \field{subtitle}{Learn more about using PgBouncer to pool PostgreSQL connections.}
+      \field{title}{PostgreSQL Connection Pooling With PgBouncer}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dzone.com/articles/postgresql-connection-pooling-with-pgbouncer#:~:text=PgBouncer is an open-source,each unique user, database pair.
+      \endverb
+      \verb{url}
+      \verb https://dzone.com/articles/postgresql-connection-pooling-with-pgbouncer#:~:text=PgBouncer%20is%20an%20open-source,each%20unique%20user,%20database%20pair.
+      \endverb
+    \endentry
     \entry{2021b}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fa370e4fe6d5b07d6a1b14f757526fee}{%
@@ -1766,6 +1811,46 @@
       \endverb
       \verb{url}
       \verb https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-1/
+      \endverb
+    \endentry
+    \entry{SeveralNines2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1780ffa266f9b9dc837aa10a423d7fd8}{%
+           family={SeveralNines},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {SeveralNines}%
+      }
+      \strng{namehash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \strng{fullhash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \strng{bibnamehash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \strng{authorbibnamehash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \strng{authornamehash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \strng{authorfullhash}{1780ffa266f9b9dc837aa10a423d7fd8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{2. What is HAProxy?}
+      \field{title}{PostgreSQL Load Balancing with HAProxy}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://severalnines.com/resources/database-management-tutorials/postgresql-load-balancing-haproxy
+      \endverb
+      \verb{url}
+      \verb https://severalnines.com/resources/database-management-tutorials/postgresql-load-balancing-haproxy
       \endverb
     \endentry
     \entry{Singer2020}{online}{}
