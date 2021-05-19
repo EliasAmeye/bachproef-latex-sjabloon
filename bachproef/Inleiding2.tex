@@ -19,7 +19,7 @@
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-Deze vergelijkende studie kan een meerwaarde bieden aan bedrijven die werken met een kleine of grote PostgreSQL cluster waarin zij High Availability willen implementeren. Het kan ook een meerwaarde zijn voor bedrijven die al High Availability implementaties hebben in hun cluster, maar die een frisse blik nodig hebben, of willen upgraden naar een meer hedendaagse oplossing. Hiermee is dus vooral de focus gericht op systeem- en netwerkbeheerders die dagelijks bezig zijn met het onderhouden en/of beheren van servers, meer specifiek database servers.
+In dit onderzoek zal ik het hebben over High Availability oplossingen en het belang ervan in PostgreSQL clusters. Met de Coronapandemie die nog overal aanwezig is, is er een grote stijging in het digitale gebruik. Online winkelen heeft een enorme groei gekend. Koerierbedrijven hebben overuren moeten draaien om pakjes en post te brengen bij de mensen thuis. Technologie bedrijven kennen een extra druk omdat er meer beroep wordt gedaan op IT-services. Deze digitale (r)evolutie toont ons dat beschikbaarheid van diensten zeker heel relevant is. Stel je voor dat een server van Zalando, door software problemen, uitvalt. Alle aankopen van het laatste uur zijn niet doorgekomen. Een financieel drama. De oplossing? Een standby server die inspringt in geval van downtime. Resultaat? Geen downtime, geen financieel drama, geen geknoei met corrupte data. Met dit voorbeeld wil ik op een simpele manier het belang aantonen van High Availability in clusters. Stel, er loopt iets mis, kan het probleem snel opgelost worden, zonder dat de klant of het bedrijf er iets van nadelige ervaringen aan overhoudt.
 
 %Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
@@ -29,9 +29,9 @@ Deze vergelijkende studie kan een meerwaarde bieden aan bedrijven die werken met
 \subsection{\IfLanguageName{dutch}{Hoofdonderzoeksvraag}{Head Research question}}
 \label{subsec:Hoofdonderzoeksvraag}
 
-Dit onderzoek zal zich bezighouden rond de vraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?”
+Dit onderzoek zal zich richten rond de vraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, heden ten dage, gebruiken om garantie te hebben op monitoring, redundantie en failover?”
 
-In de conclusie (zie Hoofdstuk 7) van dit onderzoek zal worden antwoord gegeven op deze onderzoeksvraag.
+%In de conclusie (zie Hoofdstuk 7) van dit onderzoek zal worden antwoord gegeven op deze onderzoeksvraag.
 %Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 \subsection{\IfLanguageName{dutch}{Deelonderzoeksvraag}{Part Research question}}
 \label{subsec:Deelonderzoeksvraag}
@@ -63,9 +63,9 @@ De rest van deze bachelorproef is als volgt opgebouwd:
 
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie. Hierin zal ik mij vooral focussen op High Availability, PostgreSQL, Puppet, clustering en de reeds aanwezige oplossingen voor High Availability.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zal de schiftingsmethode die gebruikt zal worden om een oplossing te kiezen kort uitgelegd worden.
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zullen de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd om dan met elkaar vergelijken te worden. Hierbij zal elke oplossing punten krijgen. De twee oplossingen met meeste punten worden verder besproken.
 
-In Hoofdstuk~\ref{ch:schifting} worden de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd om dan met elkaar vergelijken te worden. Hierbij zal elke oplossing punten krijgen. De twee oplossingen met meeste punten worden verder besproken.
+%In Hoofdstuk~\ref{ch:schifting} worden de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd om dan met elkaar vergelijken te worden. Hierbij zal elke oplossing punten krijgen. De twee oplossingen met meeste punten worden verder besproken.
 
 In Hoofdstuk~\ref{ch:Oplossing 1: Patroni} en in Hoofdstuk~\ref{ch:Oplossing 2: PostgreSQL Automatic Failover (PAF)} worden de twee verkozen oplossingen verder benaderd. Hier zal al wat specifieker worden ingegaan op hoe concreet aan de requirements kan voldaan worden.
 

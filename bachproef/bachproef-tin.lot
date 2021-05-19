@@ -9,16 +9,6 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Requirementanalyse Patroni}}{41}{table.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Requirementanalyse Pgpool-II}}{41}{table.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Requirementanalyse PostgreSQL Automatic Failover (PAF)}}{42}{table.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Requirementanalyse Replication Manager (repmgr)}}{42}{table.4.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Requirementanalyse alle oplossingen}}{42}{table.4.5}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
@@ -27,7 +17,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Ip-adressen Cluster}}{57}{table.8.1}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Requirementanalyse Patroni}}{52}{table.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.2}{\ignorespaces Requirementanalyse Pgpool-II}}{52}{table.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.3}{\ignorespaces Requirementanalyse PostgreSQL Automatic Failover (PAF)}}{52}{table.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.4}{\ignorespaces Requirementanalyse Replication Manager (repmgr)}}{53}{table.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.5}{\ignorespaces Requirementanalyse alle oplossingen}}{53}{table.8.5}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Ip-adressen Cluster}}{63}{table.9.1}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

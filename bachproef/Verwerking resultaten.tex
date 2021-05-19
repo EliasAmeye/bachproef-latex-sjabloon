@@ -1,0 +1,162 @@
+%%=============================================================================
+%% Verwerking resultaten
+%%=============================================================================
+
+\chapter{Verwerking resultaten}
+\label{ch:Verwerking resultaten}
+
+%inleiding tot hoofdstuk
+
+
+\section{\IfLanguageName{dutch}{Resultaten requirements}{Resultaten requirements}}
+\label{sec:Resultaten requirements}
+
+%Tabel met gemiddelde/Mediaan/Modus/Standaardafwijking/variatiecoefficientie
+%En dan verwerking resultaten gelik bij Thomas zijn BAP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{\IfLanguageName{dutch}{Resultatenanalyse}{Resultatenanalyse}}
+\label{sec:Resultatenanalyse}
+
+\subsection{\IfLanguageName{dutch}{Resultaten requirements}{Resultaten requirements}}
+\label{subsec:Resultaten requirements}
+
+In onderstaande tabellen wordt de onderverdeling van de punten van de verschillende oplossingen duidelijk gemaakt. Bij “Must have” zijn er 3 items waar per item 5 punten te verdienen zijn. “Should have” kent 2 items, die samen voor 5 punten meetellen (2 x 2.5). De “Could have” items worden niet meegerekend omdat deze van geen belang zijn geweest in de keuze naar een oplossing. Het totaal van de punten staat op 20. De twee oplossingen met de hoogste score zullen gebruikt worden voor een nog meer verdiepende studie die meer in detail gaat bij deze twee oplossingen. De oplossing met de hoogste score zal ook gebruikt worden bij het opzetten van de proof-of-concept.
+
+\begin{table}[!h]
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Requirementanalyse Patroni} \\
+        \hline
+        Must have & \\
+        \hline
+        Ondersteuning van redundancy/replication  & 4 \\
+        Ondersteuning van failover &  4 \\
+        Ondersteuning van monitoring & 4 \\
+        \hline
+        Should have & \\
+        \hline
+        Open Source &  2.5 \\
+        Ondersteuning in 2020-2021 & 2.5 \\
+        \hline
+        \hline
+        Totaal & 17/20 \\
+        \hline
+    \end{tabular}
+    \caption{Requirementanalyse Patroni}
+    \label{table:Requirementanalyse Patroni}
+\end{table}
+
+
+\begin{table}[!h]
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Requirementanalyse Pgpool-II} \\
+        \hline
+        Must have & \\
+        \hline
+        Ondersteuning van redundancy/replication  & 3 \\
+        Ondersteuning van failover &  4 \\
+        Ondersteuning van monitoring & 3 \\
+        \hline
+        Should have & \\
+        \hline
+        Open Source &  2.5 \\
+        Ondersteuning in 2020-2021 & 1.5 \\
+        \hline
+        \hline
+        Totaal & 14/20 \\
+        \hline
+    \end{tabular}
+    \caption{Requirementanalyse Pgpool-II}
+    \label{table:Requirementanalyse Pgpool-II}
+\end{table}
+
+\begin{table}[!h]
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Requirementanalyse PostgreSQL Automatic Failover (PAF)} \\
+        \hline
+        Must have & \\
+        \hline
+        Ondersteuning van redundancy/replication  & 4 \\
+        Ondersteuning van failover &  4 \\
+        Ondersteuning van monitoring & 4 \\
+        \hline
+        Should have & \\
+        \hline
+        Open Source &  2.5 \\
+        Ondersteuning in 2020-2021 & 1.5 \\
+        \hline
+        \hline
+        Totaal & 16/20 \\
+        \hline    
+    \end{tabular}
+    \caption{Requirementanalyse PostgreSQL Automatic Failover (PAF)}
+    \label{table:Requirementanalyse PostgreSQL Automatic Failover (PAF)}
+\end{table}
+
+
+\begin{table}[!h]
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Requirementanalyse Replication Manager (repmgr)} \\
+        \hline
+        Must have & \\
+        \hline
+        Ondersteuning van redundancy/replication  & 4 \\
+        Ondersteuning van failover &  4 \\
+        Ondersteuning van monitoring & 3 \\
+        \hline
+        Should have & \\
+        \hline
+        Open Source &  2.5 \\
+        Ondersteuning in 2020-2021 & 1.5 \\
+        \hline
+        \hline
+        Totaal & 15/20 \\
+        \hline
+    \end{tabular}
+    \caption{Requirementanalyse Replication Manager (repmgr)}
+    \label{table:Requirementanalyse Replication Manager (repmgr)}
+\end{table}
+
+
+\begin{table}[!h]
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Requirementanalyse Alle Oplossingen} \\
+        \hline
+        Patroni & 17/20 \\
+        \hline
+        Pgpool-II & 14/20 \\
+        \hline
+        PostgreSQL Automatic Failover (PAF) & 16/20 \\
+        \hline
+        Replication Manager (repmgr) & 15/20 \\
+        \hline
+    \end{tabular}
+    \caption{Requirementanalyse alle oplossingen}
+    \label{table:Requirementanalyse alle oplossingen}
+    In de laatste tabel is er een duidelijke onderverdeling in score van de oplossingen. In dit onderzoek zal verder verdiept worden in Patroni en PostgreSQL Automatic Failover en bijhorende tools. Voor proof of concept zal gebruik worden gemaakt van Patroni.
+\end{table}
+
+
