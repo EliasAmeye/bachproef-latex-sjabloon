@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  20 MAY 2021 00:47
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  20 MAY 2021 01:04
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1963,9 +1963,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [56]
 [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1978,10 +1975,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62])
-(conclusie.tex [63] [64
+[62]) (conclusie.tex [63] [64
 
 ]
 Hoofdstuk 10.
@@ -2196,7 +2190,7 @@ Overfull \hbox (537.58676pt too wide) in paragraph at lines 244--142
 Here is how much of TeX's memory you used:
  35336 strings out of 412094
  631816 string characters out of 2847025
- 1666927 words of memory out of 3000000
+ 1657928 words of memory out of 3000000
  54368 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191

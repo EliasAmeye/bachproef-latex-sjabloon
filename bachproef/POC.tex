@@ -92,6 +92,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 \end{lstlisting}
 
+Bij het gebruik van Vagrant, komen er ook een paar vaak voorkomende commando's bij kijken. Zo is 'vagrant up' het commando dat gebruikt wordt om alle virtuele machines aan te zetten. Wanneer er één server alleen moet worden aangezet, kan er ook specifiek een virtuele machine aangeroepen worden: 'vagrant up pgnode1'. Dit zal enkel de virtuele machine met als naam pgnode1 opstarten. Een volgend veelgebruikt commando is 'vagrant provision'. Dit commando zal worden gebruikt wanneer er in de configuratiebestanden wijzigingen zijn toegebracht. Dit laat toe om deze wijzigingen uit te voeren op alle virtuele machines. Ook hier kan er specifiek één virtuele machine aangeroepen worden, dit is net zoals hierboven, door een specifieke naam mee te geven als parameter. 'vagrant halt' zal alle virtuele machines uitzetten. 'vagrant ssh pgnode1' zal ssh-connectie maken met de meegegeven virtuele machine als parameter.
+
+Na het opzetten van onze Vagrantfile zullen we 'vagrant up' uitvoeren in een command line. Dit kan in Windows Powershell, maar ook in een Linux terminal of een andere soort terminal.
+
+Vagrant is niet standaard geïnstalleerd op een Ubuntu machine. Via 'sudo apt-get install vagrant' wordt Vagrant geïnstalleerd.
+
 \subsection{\IfLanguageName{dutch}{VirtualBox}{VirtualBox}}
 \label{subsec:VirtualBox}
 In deze proof of concept zal gebruik gemaakt worden van virtuele machines via VirtualBox. VirtualBox is een open source virtualisatiesoftware. Het werkt als een hypervisor en kan op deze manier virtuele machines aanmaken, waarin de gebruiker naar eigen keuze verschillende besturingssytemen kan emuleren. Bij de configuratie van een virtuele machine kunnen de specificaties zoals RAM-geheugen, schijfruimte, etc. bepaald worden.
