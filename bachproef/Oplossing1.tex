@@ -1,10 +1,10 @@
 %%=============================================================================
 %% Patroni
 %%=============================================================================
-
 \chapter{Patroni}
-\label{Patroni}
+\label{ch:Patroni}
 
+In dit hoofdstuk wordt meer informatie verschaft over Patroni als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder geanalyseerd zullen worden.
 %In dit hoofdstuk worden nog eens voor Patroni alle punten uit de functionele requirements overlopen. Hier kunnen al meer specifieke commando's en tools benoemd worden die gebruikt kunnen worden voor de opstelling van de proof of concept.
 
 \section{\IfLanguageName{dutch}{Inleiding tot Patroni}{Inleiding tot Patroni}}
@@ -17,8 +17,8 @@
 \label{subsec:Must have}
 
 %https://patroni.readthedocs.io/en/latest/
-\subsubsection{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
-\label{subsubsec:Redundantie/Replicatie}
+\subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
+\label{subsubsec:Replicatie}
 
 Voor het kopiëren van bestanden of databases, of replicatie genaamd maakt Patroni gebruikt van streaming replicatie. Standaard maakt Patroni gebruik van asynchrone replicatie. Hierbij worden gegevens eerst geschreven naar een primaire opslagarray en committeert dan de te repliceren gegevens naar het geheugen. Vervolgens worden deze gegevens in real-time of met geplande tussenpozen naar de replicatiedoelen gekopieerd.
 Wanneer gewerkt wordt met asynchrone replicatie, kan de cluster het zich permitteren om een aantal gecommitteerde transacties te verliezen, om High Availability te garanderen. Wanneer de primary node faalt, en Patroni een standby node regelt, zullen alle transacties die niet naar de standby node zijn gerepliceerd, verloren gaan. Het aantal transacties dat verloren mag gaan, kan geregeld worden aan de hand van “maximum\_lag\_on\_failover”. Dit zal bij failover het aantal verloren transacties beperken.
@@ -50,21 +50,28 @@ Patroni is ontwikkeld door Zalando en is volledig open source. De volledige sour
 
 Patroni voldoet door zijn open source en recente relevante updates aan de “Should have” requirements. Hierdoor krijgt Patroni 5/5 punten bij “Should have”.
 
-\subsubsection{\IfLanguageName{dutch}{Ondersteuning in 2020-2021}{Ondersteuning in 2020-2021}}
-\label{subsubsec:Ondersteuning in 2020-2021}
+\subsubsection{\IfLanguageName{dutch}{Actieve ondersteuning in 2020-2021}{Actieve ondersteuning in 2020-2021}}
+\label{subsubsec:Actieve ondersteuning in 2020-2021}
 
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
 
+Patroni is volledig open source. De source code is online te vinden op github.com en wordt nog tot op vandaag geüpdate.
+
 \subsection{\IfLanguageName{dutch}{Could have}{Could have}}
 \label{subsec:Could have}
 
-Patroni kent ook grafische interfaces die gebruikt kunnen worden bij het opzetten van een Patroni PostgreSQL High Availability cluster. Een voorbeeld hiervan is Patroni Environment Setup (PES). Hiermee kan je op Windows eenvoudig, snel en gebruikersvriendelijk een Patroni cluster opzetten.
 
-Patroni kan opgesteld worden op een manier waarbij niet veel manuele interventie nodig is.
+
+
 
 \subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
 \label{subsubsec:Grafische interface}
 
-\subsubsection{\IfLanguageName{dutch}{Manuele interventie}{Manuele interventie}}
-\label{subsubsec:Manuele interventie}
+Patroni kent ook grafische interfaces die gebruikt kunnen worden bij het opzetten van een Patroni PostgreSQL High Availability cluster. Een voorbeeld hiervan is Patroni Environment Setup (PES). Hiermee kan je op Windows eenvoudig, snel en gebruikersvriendelijk een Patroni cluster opzetten.
+
+
+\subsubsection{\IfLanguageName{dutch}{Beperkte manuele interventie}{Beperkte manuele interventie}}
+\label{subsubsec:Beperkte manuele interventie}
+
+Patroni kan opgesteld worden op een manier waarbij niet veel manuele interventie nodig is.

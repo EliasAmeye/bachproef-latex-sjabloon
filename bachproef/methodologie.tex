@@ -13,8 +13,8 @@
 
 Zoals in vele andere onderzoeken ook het geval is, is dit onderzoek gestart met een diepgaande en extensieve literatuurstudie over PostgreSQL, High Availability, Puppet en de reeds bestaande High Available PostgreSQL cluster oplossingen. Deze literatuurstudie is terug te vinden in Hoofdstuk~\ref{ch:stand-van-zaken} Stand van zaken.
 
-Na de literatuurstudie zal worden geduid hoe de verschillende High Available PostgreSQL cluster oplossingen geschift zullen worden. In deze schifting zullen verschillende requirements opgezet worden waaraan de verschillende oplossingen zullen afgetoetst worden. Dit zal gebeuren aan de hand van een requirementsanalyse waarin de verschillende requirements aan bod zullen komen. Deze requirements zullen dan aan de hand van de MoSCoW-methode geprioriteerd worden om zo het belang van elke requirement in te schatten. Deze analyse zal van groot belang zijn in dit onderzoek aangezien ze de basis zullen vormen waarop we een High Available PostgreSQL cluster oplossing zullen beoordelen en kiezen.
-Uit deze schifting, aan de hand van de requirements worden dan de beste twee kandidaten verkozen die in Hoofdstuk~\ref{ch:Oplossing 1: Patroni} Oplossing 1: Patroni en in Hoofdstuk~\ref{ch:Oplossing 2: PostgreSQL Automatic Failover (PAF)} Oplossing 2: PostgreSQL Automatic Failover (PAF) verder verdiept zullen worden. In deze twee hoofdstukken worden de functionele requirements of de must have's nog eens doorlopen en kan er al in detail getreden worden over het gebruik van bepaalde tools of code.
+Na de literatuurstudie zal worden geduid hoe de verschillende High Available PostgreSQL cluster oplossingen geschift zullen worden. In deze schifting zullen verschillende requirements opgezet worden waaraan de verschillende oplossingen zullen afgetoetst worden. Dit zal gebeuren aan de hand van een requirementsanalyse waarin de verschillende requirements aan bod zullen komen. Deze requirements zullen dan aan de hand van de MoSCoW-methode geprioriteerd worden om zo het belang van elke requirement in te schatten. Deze analyse zal van groot belang zijn in dit onderzoek aangezien ze de basis zullen vormen waarop er een High Available PostgreSQL cluster oplossing zullen beoordelen en kiezen.
+%Uit deze schifting, aan de hand van de requirements worden dan de beste twee kandidaten verkozen die in Hoofdstuk~\ref{ch:Oplossing 1: Patroni} Oplossing 1: Patroni en in Hoofdstuk~\ref{ch:Oplossing 2: PostgreSQL Automatic Failover (PAF)} Oplossing 2: PostgreSQL Automatic Failover (PAF) verder verdiept zullen worden. In deze twee hoofdstukken worden de functionele requirements of de must have's nog eens doorlopen en kan er al in detail getreden worden over het gebruik van bepaalde tools of code.
 
 
 Na de verwerking van de resultaten zal er in dit onderzoek één oplossing gebruikt worden waar een proof of concept mee gemaakt zal worden. Hier zal dan gekeken worden om de verschillende functionele requirements te implementeren in de cluster. Op deze manier zal dan worden aangetoond dat deze oplossing een volwaardig PostgreSQL High Availability cluster oplossing is voor bedrijven om te gebruiken.%, door gebruik te maken van Puppet de reproduceerbaarheid van de High Available PostgreSQL cluster zeer eenvoudig en snel moeten verlopen.
@@ -23,68 +23,62 @@ Na de verwerking van de resultaten zal er in dit onderzoek één oplossing gebru
 \label{sec:Requirementsanalyse}
 
 Elk van deze High Available PostgreSQL cluster oplossingen zal worden afgetoetst aan de requirements om ze op deze manier te evalueren. In samenspraak met Ruben Demey zijn er drie functionele requirements. Bij elke oplossing worden de requirements afgetoetst en krijgen ze een score van 1 (slecht) tot 5 (uitstekend).
-% Aan de hand van MosCOW mss wel
 
 
 \subsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
 \label{subsec:Functionele Requirements}
 Een functionele requirement beschrijft hoe het systeem moet werken en wat het moet kunnen.
 
-\subsubsection{\IfLanguageName{dutch}{Redundancy}{Redundancy}}
-\label{subsubsec:Redundancy}
-Om High Availability te bereiken moeten clusters aan bepaalde eisen voldoen. Het moet over redundantie beschikken om single points of failure te vermijden. 
-
-
-\subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
-\label{subsubsec:Failover}
-Het opzetten van failover (replicatie) biedt de nodige redundantie om High Availability mogelijk te maken door ervoor te zorgen dat standby nodes beschikbaar zijn als de master of primary node ooit uitvalt. 
-
-\subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
-\label{subsubsec:Monitoring}
-Monitoring is belangrijk omdat het op deze manier actief storingen kan opmerken en opsporen. Monitoring checkt de algemene gezondheid en beschikbaarheid van een systeem.
+\begin{itemize}
+    \item Replicatie
+    \item Failover
+    \item Monitoring
+\end{itemize}
 
 
 \subsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
 \label{subsec:Niet-functionele Requirements}
 Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat dan meer over voorkeuren.
 
-\subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
-\label{subsubsec:Open source}
-Open source verwijst naar source code die publiekelijk toegankelijk is en die door iedereen gebruikt mag worden zonder nodige licentie~\autocite{2021c}. %(https://opensource.com/resources/what-open-source)
-
-\subsubsection{\IfLanguageName{dutch}{Anno 2020-2021}{Anno 2020-2021}}
-\label{subsubsec:Anno 2020-2021}
-Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de tool futureproof kan zijn en zeker nog jaren kan meegaan.
-
-\subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
-\label{subsubsec:Grafische interface}
-Een gemakkelijk te gebruiken interface is zeker een meerwaarde bij het monitoren en beheren van een cluster. Als er geen specialist aanwezig is, kan de grafische interface soms voor wat extra duidelijkheid zorgen.
+\begin{itemize}
+    \item Open source
+    \item Actieve ondersteuning in 2020-2021
+    \newline
+    Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de tool futureproof kan zijn en zeker nog jaren kan meegaan.
+    \item Grafische interface
+    \newline
+    Een gemakkelijk te gebruiken interface is zeker een meerwaarde bij het monitoren en beheren van een cluster. Als er geen specialist aanwezig is, kan de grafische interface soms voor wat extra duidelijkheid zorgen.
+    \item Beperkte manuele interventie
+    \newline
+    Een cluster opzetten die nadien niet veel manuele interventie nodig heeft, is ideaal in situaties waar er weinig tot geen kennis is over de cluster. Tijdens en na downtime zal de server automatisch acties uitvoeren die het verdere bestaan van de cluster garandeert.
+    
+\end{itemize}
 
 
 \section{\IfLanguageName{dutch}{Indelen requirements volgens MoSCoW-techniek}{Indelen requirements volgens MoSCoW-techniek}}
 \label{sec:Indelen requirements volgens MoSCoW-techniek}
 
-Na het opstellen van de verschillende requirements kunnen we deze nog eens indelen volgens de MoSCoW-techniek~\autocite{Ahmad2017}. Hierin worden de requirements geprioritiseerd in 4 categorieën. “Must have”, “Should have”, “Could have”, ”Won't have” Hierin zijn de “Must have”-requirements verplicht aanwezig. De “Should have”-requirements zijn geen verplichting, maar zijn het liefst wel aanwezig in de keuze van een oplossing. De “Could have”-requirements zijn volledig optioneel en zijn dus niet geheel relevant bij het kiezen van de oplossing. Het “Won't have” aspect laten we hier achterwege, omdat dit geen invloed zal hebben op de keuze van een oplossing.
+Na het opstellen van de verschillende requirements kunnen deze nog eens ingedeeld worden volgens de MoSCoW-techniek~\autocite{Ahmad2017}. Hierin worden de requirements geprioritiseerd in 4 categorieën. “Must have”, “Should have”, “Could have”, ”Won't have” Hierin zijn de “Must have”-requirements verplicht aanwezig. De “Should have”-requirements zijn geen verplichting, maar zijn het liefst wel aanwezig in de keuze van een oplossing. De “Could have”-requirements zijn volledig optioneel en zijn dus niet geheel relevant bij het kiezen van de oplossing. Het “Won't have” aspect wordt hier achterwege gelaten, omdat dit geen invloed zal hebben op de keuze van een oplossing.
 
 \begin{description}
     \item[$\bullet$ Must have] 
     \begin{description}
         \item
-        \item[$\cdot$] Ondersteuning van redundancy
+        \item[$\cdot$] Ondersteuning van replicatie
         \item[$\cdot$] Ondersteuning van failover
         \item[$\cdot$] Ondersteuning van monitoring
     \end{description}
     \item[$\bullet$ Should have]
     \begin{description}
         \item
-        \item[$\cdot$] Ondersteuning in 2020-2021
+        \item[$\cdot$] Actieve ondersteuning in 2020-2021
         \item[$\cdot$] Open source
     \end{description}
     \item[$\bullet$ Could have]
     \begin{description}
         \item
         \item[$\cdot$] Grafische interface
-        \item[$\cdot$] Zo weinig mogelijk manuele interventie
+        \item[$\cdot$] Beperkte manuele interventie
         
     \end{description}
 \end{description}

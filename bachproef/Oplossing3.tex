@@ -5,8 +5,7 @@
 \chapter{Pgpool-II}
 \label{ch:Pgpool-II}
 
-%inleiding
-
+In dit hoofdstuk wordt meer informatie verschaft over Pgpool-II als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder geanalyseerd zullen worden.
 
 \section{\IfLanguageName{dutch}{Inleiding tot Pgpool-II}{Inleiding tot Pgpool-II}}
 \label{sec:Inleiding tot Pgpool-II}
@@ -17,51 +16,50 @@
 \subsection{\IfLanguageName{dutch}{Must have}{Must have}}
 \label{subsec:Must have}
 
+%Pgpool-II kan aan de hand van Watchdog aan de vooropgestelde “Must haves” voldoen. Pgpool-II krijgt hierdoor 10/15 punten.
+
+\subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
+\label{subsubsec:Replicatie}
+
 Pgpool-II beschikt over een tool, genaamd Watchdog, die een subproces is van Pgpool-II dat dient om High Availability toe te voegen. Watchdog wordt gebruikt om single points of failure op te lossen door meerdere Pgpool-II nodes te coördineren. Het coördineert meerdere Pgpool-II nodes door informatie met elkaar uit te wisselen. Op die manier kan het zeker zijn dat de database service onaangetast blijft.
-
-Watchdog kan ook remote de gezondheid controleren van de node waarop het is geïnstalleerd door de verbinding met upstream nodes te monitoren. Als de monitoring faalt, behandelt watchdog dit als het falen van een lokale Pgpool-II node en zal het de nodige acties ondernemen.
-
-Pgpool-II kan meerdere nodes beheren en hierin replicatie opzetten om High Availability te verkrijgen.
-
-Pgpool-II voorziet ook automatische failover binnenin Watchdog. Pgpool-II kan ook andere soorten van failover configuraties aan zoals failover\_requires\_consensus of failover\_when\_quorum\_exists. 
-
-Pgpool-II kan aan de hand van Watchdog aan de vooropgestelde “Must haves” voldoen. Pgpool-II krijgt hierdoor 10/15 punten.
-
-\subsubsection{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
-\label{subsubsec:Redundantie/Replicatie}
 
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
 
+Pgpool-II voorziet ook automatische failover binnenin Watchdog. Pgpool-II kan ook andere soorten van failover configuraties aan zoals failover\_requires\_consensus of failover\_when\_quorum\_exists. 
+
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
+
+Watchdog kan ook remote de gezondheid controleren van de node waarop het is geïnstalleerd door de verbinding met upstream nodes te monitoren. Als de monitoring faalt, behandelt watchdog dit als het falen van een lokale Pgpool-II node en zal het de nodige acties ondernemen.
+
+Pgpool-II kan meerdere nodes beheren en hierin replicatie opzetten om High Availability te verkrijgen
 
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
 
-Pgpool-II is een open source project. De source code wordt onderhouden door hun git-repository.
+%Aan de hand hiervan krijgt Pgpool-II 4/5 punten voor “Should have”. Geen 5/5 omdat er (nog) geen update in 2021 is geweest.
+
+\subsubsection{\IfLanguageName{dutch}{Actieve ondersteuning in 2020-2021}{Actieve ondersteuning in 2020-2021}}
+\label{subsubsec:Actieve ondersteuning in 2020-2021}
+
 De laatste release van pgpool-II was op 26 november 2020. Hieruit kunnen we ook zeggen dat Pgpool-II nog een geldige, bruikbare oplossing.
-
-Aan de hand hiervan krijgt Pgpool-II 4/5 punten voor “Should have”. Geen 5/5 omdat er (nog) geen update in 2021 is geweest.
-
-\subsubsection{\IfLanguageName{dutch}{Ondersteuning in 2020-2021}{Ondersteuning in 2020-2021}}
-\label{subsubsec:Ondersteuning in 2020-2021}
 
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
 
+Pgpool-II is een open source project. De source code wordt onderhouden door hun git-repository.
+
 \subsection{\IfLanguageName{dutch}{Could have}{Could have}}
 \label{subsec:Could have}
-
-Op eerste zicht is er niet direct een alomgekende grafische interface aanwezig voor Pgpool-II.
-
-Via de tool Watchdog is het mogelijk om bepaalde elementen in Pgpool-II te automatiseren. Automatische failover is hier een voorbeeld van. Doch andere elementen zijn wel nog manueel te configureren.
 
 
 \subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
 \label{subsubsec:Grafische interface}
 
-\subsubsection{\IfLanguageName{dutch}{Manuele interventie}{Manuele interventie}}
-\label{subsubsec:Manuele interventie}
+Op eerste zicht is er niet direct een alomgekende grafische interface aanwezig voor Pgpool-II.
 
+\subsubsection{\IfLanguageName{dutch}{Beperkte manuele interventie}{Beperkte manuele interventie}}
+\label{subsubsec:Beperkte manuele interventie}
 
+Via de tool Watchdog is het mogelijk om bepaalde elementen in Pgpool-II te automatiseren. Automatische failover is hier een voorbeeld van. Doch andere elementen zijn wel nog manueel te configureren.

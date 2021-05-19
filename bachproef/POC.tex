@@ -14,6 +14,23 @@ De cluster zal bestaan uit drie virtuele machines die zullen draaien op Ubuntu X
 
 De cluster zal dus zo geconfigueerd worden dat er één primary node is met een standby node die asynchrone streaming replicatie verricht.
 
+\begin{table}
+    \centering
+    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+        \hline
+        \multicolumn{2}{|c|}{Ip-adressen} \\
+        \hline
+        pgServer & 172.16.0.11 \\
+        \hline
+        pgNode1 & 172.16.0.22 \\
+        \hline
+        pgNode2 & 172.16.0.33 \\
+        \hline
+    \end{tabular}
+    \caption{Ip-adressen Cluster}
+    \label{table:Ip-adressen Cluster}
+\end{table}
+
 \section{\IfLanguageName{dutch}{Prerequisites}{Prerequisites}}
 \label{sec:Prerequisites}
 
@@ -371,21 +388,7 @@ Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstart
     }
 \end{lstlisting}
 
-\begin{table}
-\begin{tabular}{ |p{6cm}||p{6cm}|  }
-    \hline
-    \multicolumn{2}{|c|}{Ip-adressen} \\
-    \hline
-    pgServer & 172.16.0.11 \\
-    \hline
-    pgNode1 & 172.16.0.22 \\
-    \hline
-    pgNode2 & 172.16.0.33 \\
-    \hline
-\end{tabular}
-\caption{Ip-adressen Cluster}
-\label{table:Ip-adressen Cluster}
-\end{table}
+
 
 
 %\section{\IfLanguageName{dutch}{Testing functionele requirements}{Testing functionele requirements}}

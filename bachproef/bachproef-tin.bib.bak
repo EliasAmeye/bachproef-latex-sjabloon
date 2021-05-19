@@ -165,7 +165,7 @@
 }
 
 @Online{Miller2016,
-  author       = {Paula Miller; Mike Ray; Tim Sherer; MashaMSFT; cawrites; Craig Guyer; Jason Roth},
+  author       = {Paula Miller; Mike Ray; Tim Sherer; Craig Guyer; Jason Roth},
   date         = {2016-05-17},
   title        = {About Log Shipping (SQL Server)},
   url          = {https://docs.microsoft.com/en-us/sql/database-engine/log-shipping/about-log-shipping-sql-server?view=sql-server-ver15},
@@ -491,6 +491,16 @@
   language     = {English},
   organization = {Database Zone},
   subtitle     = {Learn more about using PgBouncer to pool PostgreSQL connections.},
+  urldate      = {2021-05-12},
+}
+
+@Online{PostgreSQL2021d,
+  author       = {PostgreSQL},
+  date         = {2021},
+  title        = {Write-Ahead Logging (WAL)},
+  url          = {https://www.postgresql.org/docs/9.0/wal-intro.html},
+  language     = {English},
+  organization = {PostgreSQL},
   urldate      = {2021-05-12},
 }
 
