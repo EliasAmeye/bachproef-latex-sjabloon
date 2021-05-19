@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  20 MAY 2021 01:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  20 MAY 2021 01:15
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1898,13 +1898,7 @@ Overfull \hbox (99.24855pt too wide) in paragraph at lines 29--30
 _requires_consensus of failover_when_quorum_exists. 
  []
 
-[47]
-Overfull \hbox (0.24852pt too wide) in paragraph at lines 60--61
-\T1/ptm/m/n/12 Op eer-ste zicht is er niet di-rect een al-om-ge-kende gra-fi-sc
-he in-ter-face aan-we-zig voor Pgpool-
- []
-
-) (Oplossing4.tex [48]
+[47]) (Oplossing4.tex [48]
 Hoofdstuk 7.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!

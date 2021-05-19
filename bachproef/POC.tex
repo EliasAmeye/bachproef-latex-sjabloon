@@ -59,7 +59,7 @@ Bij de opzet van cluster zal gebruik worden gemaakt van Vagrant. Vagrant is een 
     tabsize=3
 }
 
-In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een file meegegeven die zal worden uitgevoerd in de server. Deze file bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
+In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een bestand meegegeven die zal worden uitgevoerd in de server. Dit bestand bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
 
 \begin{lstlisting}
 # -*- mode: ruby -*-
@@ -94,7 +94,7 @@ end
 
 Bij het gebruik van Vagrant, komen er ook een paar vaak voorkomende commando's bij kijken. Zo is 'vagrant up' het commando dat gebruikt wordt om alle virtuele machines aan te zetten. Wanneer er één server alleen moet worden aangezet, kan er ook specifiek een virtuele machine aangeroepen worden: 'vagrant up pgnode1'. Dit zal enkel de virtuele machine met als naam pgnode1 opstarten. Een volgend veelgebruikt commando is 'vagrant provision'. Dit commando zal worden gebruikt wanneer er in de configuratiebestanden wijzigingen zijn toegebracht. Dit laat toe om deze wijzigingen uit te voeren op alle virtuele machines. Ook hier kan er specifiek één virtuele machine aangeroepen worden, dit is net zoals hierboven, door een specifieke naam mee te geven als parameter. 'vagrant halt' zal alle virtuele machines uitzetten. 'vagrant ssh pgnode1' zal ssh-connectie maken met de meegegeven virtuele machine als parameter.
 
-Na het opzetten van onze Vagrantfile zullen we 'vagrant up' uitvoeren in een command line. Dit kan in Windows Powershell, maar ook in een Linux terminal of een andere soort terminal.
+Na het opzetten van onze Vagrantfile wordt deze via 'vagrant up' geactiveerd in een command line. Dit kan in Windows Powershell, maar ook in een Linux terminal of een andere soort terminal.
 
 Vagrant is niet standaard geïnstalleerd op een Ubuntu machine. Via 'sudo apt-get install vagrant' wordt Vagrant geïnstalleerd.
 
@@ -111,7 +111,7 @@ Tijdens de configuratie van de cluster zal pgServer '172.16.0.11' als ip adres h
 
 Als eerste stap moeten de juiste packages geïnstalleerd worden op pgServer. Hier gaat het over Python, Consul, pgBouncer en HAProxy.
 
-Hierna zullen we voor Consul een service toevoegen die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul server. Deze ziet er als volgt uit.
+Hierna zal voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul server. Deze ziet er als volgt uit.
 
 \begin{lstlisting}
     {
@@ -136,7 +136,7 @@ Hierna zullen we voor Consul een service toevoegen die bij het opstarten van de 
     
  \end{lstlisting}
 
-Bij het installeren van de HAProxy wordt doorverwezen naar een configuratiefile waarin de verschillende opties worden meegegeven.
+Bij het installeren van de HAProxy wordt doorverwezen naar een configuratiebestand waarin de verschillende opties worden meegegeven.
 
 \begin{lstlisting}
 global
@@ -166,7 +166,7 @@ listen postgres
     server postgresql_pgNode2_172.0.16.33 172.16.0.33:5432 maxconn 100 check port 8008
 \end{lstlisting}
 
-De pgBouncer.ini file ziet er als volgt uit:
+Het pgBouncer.ini bestand ziet er als volgt uit:
 
 \begin{lstlisting}
 [databases]
@@ -317,7 +317,7 @@ watchdog:
     mode: off
 \end{lstlisting}
 
-Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
+Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
 \begin{lstlisting}
     {
@@ -378,7 +378,7 @@ postgresql:
 
 
 
-Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service verwijzen we naar de config file voor de Consul agent (cliënt). Deze ziet er als volgt uit.
+Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
 \begin{lstlisting}
     {
