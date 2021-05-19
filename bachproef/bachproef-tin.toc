@@ -61,8 +61,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.10}EDB}{33}{subsection.2.4.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Puppet}{33}{section.2.5}%
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{35}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Requirementsanalyse}{36}{section.3.1}%
@@ -93,23 +91,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Must have}{39}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Redundantie/Replicatie}{39}{section.4.3}%
+\contentsline {subsubsection}{Redundantie/Replicatie}{39}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Failover}{40}{section.4.4}%
+\contentsline {subsubsection}{Failover}{40}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Monitoring}{40}{section.4.5}%
+\contentsline {subsubsection}{Monitoring}{40}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Should have}{41}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.2.2}Should have}{40}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Could have}{41}{subsection.4.5.2}%
+\contentsline {subsubsection}{Ondersteuning in 2020-2021}{41}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Oplossing 1: Patroni}{41}{subsection.4.5.3}%
+\contentsline {subsubsection}{Open source}{41}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Must have}{41}{section*.14}%
+\contentsline {subsection}{\numberline {4.2.3}Could have}{41}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Should have}{41}{section*.15}%
+\contentsline {subsubsection}{Grafische interface}{41}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Could have}{42}{section*.16}%
+\contentsline {subsubsection}{Manuele interventie}{41}{section*.20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}PostgreSQL Automatic Failover (PAF)}{43}{chapter.5}%
 \defcounter {refsection}{0}\relax 
@@ -119,75 +117,75 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}Must have}{43}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Redundantie/Replicatie}{43}{section*.17}%
+\contentsline {subsubsection}{Redundantie/Replicatie}{43}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Failover}{43}{section*.18}%
+\contentsline {subsubsection}{Failover}{44}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Monitoring}{44}{section*.19}%
+\contentsline {subsubsection}{Monitoring}{44}{section*.23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.2}Should have}{44}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Could have}{44}{subsection.5.2.3}%
+\contentsline {subsubsection}{Ondersteuning in 2020-2021}{45}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Oplossing 3: PostgreSQL Automatic Failover (PAF)}{44}{subsection.5.2.4}%
+\contentsline {subsubsection}{Open source}{45}{section*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Must have}{44}{section*.20}%
+\contentsline {subsection}{\numberline {5.2.3}Could have}{45}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Should have}{45}{section*.21}%
+\contentsline {subsubsection}{Grafische interface}{45}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Could have}{45}{section*.22}%
+\contentsline {subsubsection}{Manuele interventie}{45}{section*.27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Pgpool-II}{47}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Inleiding tot Patroni}{47}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Inleiding tot Pgpool-II}{47}{section.6.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Requirements}{47}{section.6.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}Must have}{47}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Redundantie/Replicatie}{47}{section*.23}%
+\contentsline {subsubsection}{Redundantie/Replicatie}{48}{section*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Failover}{47}{section*.24}%
+\contentsline {subsubsection}{Failover}{48}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Monitoring}{47}{section*.25}%
+\contentsline {subsubsection}{Monitoring}{48}{section*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Should have}{47}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.2}Should have}{48}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Could have}{47}{subsection.6.2.3}%
+\contentsline {subsubsection}{Ondersteuning in 2020-2021}{48}{section*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.4}Oplossing 2: Pgpool-II}{47}{subsection.6.2.4}%
+\contentsline {subsubsection}{Open source}{48}{section*.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Must have}{47}{section*.26}%
+\contentsline {subsection}{\numberline {6.2.3}Could have}{48}{subsection.6.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Should have}{48}{section*.27}%
+\contentsline {subsubsection}{Grafische interface}{48}{section*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Could have}{48}{section*.28}%
+\contentsline {subsubsection}{Manuele interventie}{48}{section*.34}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Replication Manager (repmgr)}{49}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Inleiding tot Patroni}{49}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Inleiding tot Replication Manager (repmgr)}{49}{section.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Requirements}{49}{section.7.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}Must have}{49}{subsection.7.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Redundantie/Replicatie}{49}{section*.29}%
+\contentsline {subsubsection}{Redundantie/Replicatie}{50}{section*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Failover}{49}{section*.30}%
+\contentsline {subsubsection}{Failover}{50}{section*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Monitoring}{49}{section*.31}%
+\contentsline {subsubsection}{Monitoring}{50}{section*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Should have}{49}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.2}Should have}{50}{subsection.7.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Could have}{49}{subsection.7.2.3}%
+\contentsline {subsubsection}{Ondersteuning in 2020-2021}{50}{section*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Oplossing 4: Replication Manager (RepMgr)}{49}{subsection.7.2.4}%
+\contentsline {subsubsection}{Open source}{50}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Must have}{49}{section*.32}%
+\contentsline {subsection}{\numberline {7.2.3}Could have}{50}{subsection.7.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Should have}{50}{section*.33}%
+\contentsline {subsubsection}{Grafische interface}{50}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Could have}{50}{section*.34}%
+\contentsline {subsubsection}{Manuele interventie}{50}{section*.41}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Verwerking resultaten}{51}{chapter.8}%
 \defcounter {refsection}{0}\relax 
@@ -231,5 +229,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.6}Verwachte conclusies}{70}{section.A.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{71}{appendix*.35}%
+\contentsline {chapter}{Bibliografie}{71}{appendix*.42}%
 \contentsfinish 

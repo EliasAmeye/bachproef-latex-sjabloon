@@ -17,82 +17,54 @@
 \label{subsec:Must have}
 
 %https://patroni.readthedocs.io/en/latest/
-\section{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
-\label{sec:Redundantie/Replicatie}
+\subsubsection{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
+\label{subsubsec:Redundantie/Replicatie}
 
 Voor het kopiëren van bestanden of databases, of replicatie genaamd maakt Patroni gebruikt van streaming replicatie. Standaard maakt Patroni gebruik van asynchrone replicatie. Hierbij worden gegevens eerst geschreven naar een primaire opslagarray en committeert dan de te repliceren gegevens naar het geheugen. Vervolgens worden deze gegevens in real-time of met geplande tussenpozen naar de replicatiedoelen gekopieerd.
 Wanneer gewerkt wordt met asynchrone replicatie, kan de cluster het zich permitteren om een aantal gecommitteerde transacties te verliezen, om High Availability te garanderen. Wanneer de primary node faalt, en Patroni een standby node regelt, zullen alle transacties die niet naar de standby node zijn gerepliceerd, verloren gaan. Het aantal transacties dat verloren mag gaan, kan geregeld worden aan de hand van “maximum\_lag\_on\_failover”. Dit zal bij failover het aantal verloren transacties beperken.
 
 PostgreSQL synchrone replicatie is ook mogelijk bij Patroni. Synchrone replicatie zorgt voor meer consistentie van data in een cluster door te bevestigen dat schrijfacties naar een secundary node worden geschreven voordat ze naar de verbindende client terugkeren met een succes. De nadelen van synchrone replicatie houden in dat er een verminderde verwerkingscapaciteit is voor schrijfacties. Deze verwerkingscapaciteit is volledig gebaseerd op netwerkprestaties. Het gebruik van PostgreSQL synchrone replicatie garandeert niet dat er onder alle omstandigheden geen transacties verloren zullen gaan. Wanneer de primary node en de secundary node die op dat moment synchrone replicatie draaien, gelijktijdig falen, zal een derde node, die mogelijk niet alle transacties bevat, worden gepromoveerd tot primary node.
 
+Voor replicatie opties bestaan er verschillende tools zoals barman, Wal-E, die zullen helpen om nodes toe te voegen aan de cluster. Er kan ook gekozen worden van waar sommige nodes hun data zullen halen.
 % https://patroni.readthedocs.io/en/latest/replication_modes.html
 
 
-\section{\IfLanguageName{dutch}{Failover}{Failover}}
-\label{sec:Failover}
+\subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
+\label{subsubsec:Failover}
 
 Patroni clusters kennen een automatische failover wanneer de primary node (onverwachts) niet beschikbaar is. De failover opties kunnen zeer geavanceerd aangepast worden naar de wensen van de cluster. Wanneer, na failover, een primary node terug online komt, kan deze aan de hand van pg\_rewind terug toegevoegd worden aan de cluster als standby node. Patroni werkt aan de hand van endpoints. Dit kunnen switchover of failover endpoints zijn. Een failover endpoint laat toe om een manuele failover uit te voeren wanneer er in de cluster geen 'gezonde' nodes meer aanwezig zijn. Deze endpoint wordt gebruikt door patronictl failover.
 Aan de hand van dynamische configuratie instellingen, opgeslagen in het Distributed Configuration Store (DCS), die geldig zijn voor alle nodes, worden parameters zoals ttl, maximum\_lag\_on\_failover, retry\_timeout, etc. ingesteld. Bij ttl wordt dan de tijd ingesteld die nodig is om de leader lock in te nemen als standby node. Normaal bevat de primary node altijd deze lock, maar als er iets misloopt en de primary node door één of andere reden deze lock misloopt, kan een standby node deze leader lock overpakken en op deze manier zichzelf promoten tot primary node en zo failover initiëren. Patroni kan bijvoorbeeld worden verteld om nooit een standby node te promoten die meer dan een configureerbare hoeveelheid log achterloopt op de primary node.
 
 
 
-\section{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
-\label{sec:Monitoring}
+\subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
+\label{subsubsec:Monitoring}
 
 Patroni kent een zeer uitgebreide REST API die gebruikt kan worden om de cluster en zijn nodes te monitoren en voor applicaties om te selecteren met welke PostgreSQL instantie verbinding moet worden gemaakt. Aan de hand van Consul kan je monitoring aanzetten in de cluster. Dit moet dan wel op elke node aangezet worden.
 Er zijn ook tools beschikbaar waarbij monitoring de enige functionaliteit is. PGWatch/PGWatch2 zijn hier voorbeelden van. PGWatch maakt gebruik van data die al verzameld wordt in PostgreSQL queries. Dus toevoegen of wijzigen van deze queries kan zeer eenvoudig gebeuren.
 
-
-
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
-
-\subsection{\IfLanguageName{dutch}{Could have}{Could have}}
-\label{subsec:Could have}
-
-
-
-
-
-
-
-
-
-
-
-
-
-\newline\newline\newline\newline\newline\newline\newline\newline\newline\newline\newline
-%Onderstaand gedeelte implementeren in bovenste gedeelte. Best ook per requirement punten geven.
-
-
-\subsection{\IfLanguageName{dutch}{Oplossing 1: Patroni}{Oplossing 1: Patroni}}
-\label{subsec: Oplossing 1: Patroni}
-
-\subsubsection{\IfLanguageName{dutch}{Must have}{Must have}}
-\label{subsubsec:Must have}
-
-Voor replicatie opties bestaan er verschillende tools zoals barman, Wal-E, die zullen helpen om nodes toe te voegen aan de cluster. Er kan ook gekozen worden van waar sommige nodes hun data zullen halen. Patroni Patroni gebruikt PostgreSQL streaming replicatie en ondersteunt zowel synchrone als asynchrone replicatie. Standaard wordt asynchrone replicatie geconfigureerd, maar dit kan gewijzigd worden naar de noden van de cluster.
-
-Patroni heeft een automatische failover-functie. Hierbij wordt automatisch gekeken welke node de te vervangen node zal vervangen. Na failover zal ook automatisch de gefaalde node terug in de cluster komen.
-
-Patroni heeft een zeer uitgebreide REST API, die gebruikt kan worden om failover, switchover, reloads, restarts, health checks, etc. uit te voeren. Patroni heeft een tool genaamd, ETCD waarmee de gezondheid van een PostgreSQL cluster, de status van knooppunten en andere informatie van de cluster wordt bijgehouden. Tools die hiervoor ook gebruikt worden en semi-gelijkaardige functionaliteiten hebben zijn o.a. Consul en Zookeeper. Er zijn ook tools die uitsluitend als doel monitoring hebben. Hiervan is PGWatch een goed voorbeeld van. PGWatch geeft op een visuele manier informatie weer over de Postgres nodes.
-
-Patroni bevat veel antwoorden op de verschillende 'Must haves'. Redundantie/replicatie kan hier vele vormen aannemen, aangepast aan de noden van de cluster. Failover kan op een automatische manier gebeuren en hoeft niet manueel gedaan te worden. Ook voor monitoring zijn er verschillende tools beschikbaar. Hierbij zijn ETCD, Consul en Zookeeper goed omschreven voorbeelden.
-Op basis hiervan krijgt Patroni 12/15 (3 x 4) punten.
-
-\subsubsection{\IfLanguageName{dutch}{Should have}{Should have}}
-\label{subsubsec:Should have}
 
 Patroni is ontwikkeld door Zalando en is volledig open source. De volledige source code is online te vinden op github.com en wordt nog steeds geüpdate. Dit is ook een belangrijke vereiste waaraan de oplossing moet doen. Er worden  nog steeds releases gedaan. De laatste release was, tijdens dit schrijven, op 22 februari 2021. Deze release bevatte sommige nieuwe features zoals toegevoegde support voor de REST API bij “TLS keys” en “cipher suite limitations”, maar ook door stabiliteitsverbetering en bugfixes.
 
 Patroni voldoet door zijn open source en recente relevante updates aan de “Should have” requirements. Hierdoor krijgt Patroni 5/5 punten bij “Should have”.
 
-\subsubsection{\IfLanguageName{dutch}{Could have}{Could have}}
-\label{subsubsec:Could have}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning in 2020-2021}{Ondersteuning in 2020-2021}}
+\label{subsubsec:Ondersteuning in 2020-2021}
+
+\subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
+\label{subsubsec:Open source}
+
+\subsection{\IfLanguageName{dutch}{Could have}{Could have}}
+\label{subsec:Could have}
 
 Patroni kent ook grafische interfaces die gebruikt kunnen worden bij het opzetten van een Patroni PostgreSQL High Availability cluster. Een voorbeeld hiervan is Patroni Environment Setup (PES). Hiermee kan je op Windows eenvoudig, snel en gebruikersvriendelijk een Patroni cluster opzetten.
 
 Patroni kan opgesteld worden op een manier waarbij niet veel manuele interventie nodig is.
 
+\subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
+\label{subsubsec:Grafische interface}
 
+\subsubsection{\IfLanguageName{dutch}{Manuele interventie}{Manuele interventie}}
+\label{subsubsec:Manuele interventie}

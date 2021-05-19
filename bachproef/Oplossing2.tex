@@ -20,6 +20,14 @@
 \subsection{\IfLanguageName{dutch}{Must have}{Must have}}
 \label{subsec:Must have}
 
+PostgreSQL Automatic Failover (PAF) werkt nauw samen met de tool Pacemaker. PAF is in staat om aan Pacemaker te laten zien wat de huidige status is van een node. Bij het optreden van een storing zal Pacemaker automatisch proberen dit te herstellen.
+Als de storing niet te herstellen valt, dan zal PAF zorgen voor automatische failover. PAF maakt gebruik van ip-adres failover in plaats van het herstarten van de standby node om verbinding te maken met de nieuwe master tijdens een failover event, wat voordelig is in scenario's waar een gebruiker de standby nodes niet wil herstarten.
+
+PostgreSQL Automatic Failover (PAF) maakt gebruik van synchrone replicatie om te garanderen dat er geen data verloren gaat tijdens een failover.
+
+PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker met de tool Pacemaker is er heel veel mogelijk qua monitoring, failover en replicatie. De score hierbij voor “Must have” is 13/15 punten.
+
+
 \subsubsection{\IfLanguageName{dutch}{Redundantie/Replicatie}{Redundantie/Replicatie}}
 \label{subsubsec:Redundantie/Replicatie}
 
@@ -48,59 +56,26 @@ Het toevoegen van Watchdog als tool is hier mogelijk om monitoring te doen.
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
 
-\subsection{\IfLanguageName{dutch}{Could have}{Could have}}
-\label{subsec:Could have}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsection{\IfLanguageName{dutch}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}{Oplossing 3: PostgreSQL Automatic Failover (PAF)}}
-\label{subsec:Oplossing 3: PostgreSQL Automatic Failover (PAF)}
-
-\subsubsection{\IfLanguageName{dutch}{Must have}{Must have}}
-\label{subsubsec:Must have}
-
-PostgreSQL Automatic Failover (PAF) werkt nauw samen met de tool Pacemaker. PAF is in staat om aan Pacemaker te laten zien wat de huidige status is van een node. Bij het optreden van een storing zal Pacemaker automatisch proberen dit te herstellen.
-Als de storing niet te herstellen valt, dan zal PAF zorgen voor automatische failover. PAF maakt gebruik van ip-adres failover in plaats van het herstarten van de standby node om verbinding te maken met de nieuwe master tijdens een failover event, wat voordelig is in scenario's waar een gebruiker de standby nodes niet wil herstarten.
-
-PostgreSQL Automatic Failover (PAF) maakt gebruik van synchrone replicatie om te garanderen dat er geen data verloren gaat tijdens een failover.
-
-PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker met de tool Pacemaker is er heel veel mogelijk qua monitoring, failover en replicatie. De score hierbij voor “Must have” is 13/15 punten.
-
-\subsubsection{\IfLanguageName{dutch}{Should have}{Should have}}
-\label{subsubsec:Should have}
-
 Ook PostgreSQL Automatic Failover (PAF) is open source.
 De laatste release was op 10 maart 2020. Hieruit kunnen we concluderen dat ook deze oplossing nog up-to-date is en bruikbaar voor dit onderzoek. 
 Doordat er (nog) geen nieuwe release is in 2021, krijgt PostgreSQL Automatic Failover (PAF) ook 4/5 punten voor “Should have”, en geen 5/5.
 
-\subsubsection{\IfLanguageName{dutch}{Could have}{Could have}}
-\label{subsubsec:Could have}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning in 2020-2021}{Ondersteuning in 2020-2021}}
+\label{subsubsec:Ondersteuning in 2020-2021}
+
+\subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
+\label{subsubsec:Open source}
+
+\subsection{\IfLanguageName{dutch}{Could have}{Could have}}
+\label{subsec:Could have}
 
 Op eerste zicht lijkt er niet direct een alomgekende grafische interface aanwezig te zijn voor PostgreSQL Automatic Failover (PAF).
 
 PostgreSQL Automatic Failover (PAF) kan zo geconfigureerd worden dat het weinig tot geen manuele interventie vereist. Aan de hand van bijvoorbeld Pacemaker is dit mogelijk.
+
+\subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
+\label{subsubsec:Grafische interface}
+
+\subsubsection{\IfLanguageName{dutch}{Manuele interventie}{Manuele interventie}}
+\label{subsubsec:Manuele interventie}
+

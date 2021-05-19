@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  19 MAY 2021 22:44
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  19 MAY 2021 23:02
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1312,10 +1312,25 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (bachproef-tin.aux
 
+LaTeX Warning: Label `subsubsec:Failover' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Open source' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
+
+
 LaTeX Warning: Label `sec:Requirements' multiply defined.
 
 
 LaTeX Warning: Label `subsec:Must have' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Redundantie/Replicatie' multiply defined.
 
 
 LaTeX Warning: Label `subsubsec:Failover' multiply defined.
@@ -1327,16 +1342,19 @@ LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
 LaTeX Warning: Label `subsec:Should have' multiply defined.
 
 
+LaTeX Warning: Label `subsubsec:Ondersteuning in 2020-2021' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Open source' multiply defined.
+
+
 LaTeX Warning: Label `subsec:Could have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Must have' multiply defined.
+LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Should have' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec:Could have' multiply defined.
+LaTeX Warning: Label `subsubsec:Manuele interventie' multiply defined.
 
 
 LaTeX Warning: Label `sec:Inleiding tot Patroni' multiply defined.
@@ -1360,16 +1378,19 @@ LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
 LaTeX Warning: Label `subsec:Should have' multiply defined.
 
 
+LaTeX Warning: Label `subsubsec:Ondersteuning in 2020-2021' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Open source' multiply defined.
+
+
 LaTeX Warning: Label `subsec:Could have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Must have' multiply defined.
+LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Should have' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec:Could have' multiply defined.
+LaTeX Warning: Label `subsubsec:Manuele interventie' multiply defined.
 
 
 LaTeX Warning: Label `sec:Inleiding tot Patroni' multiply defined.
@@ -1393,16 +1414,19 @@ LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
 LaTeX Warning: Label `subsec:Should have' multiply defined.
 
 
+LaTeX Warning: Label `subsubsec:Ondersteuning in 2020-2021' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec:Open source' multiply defined.
+
+
 LaTeX Warning: Label `subsec:Could have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Must have' multiply defined.
+LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Should have' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec:Could have' multiply defined.
+LaTeX Warning: Label `subsubsec:Manuele interventie' multiply defined.
 
 )
 \openout1 = `bachproef-tin.aux'.
@@ -1677,14 +1701,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Underfull \vbox (badness 5548) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-[10])
+ [9])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
- [11] [12
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11] [12
 
 ] (bachproef-tin.lof)
 \tf@lof=\write7
@@ -1698,8 +1725,8 @@ Underfull \vbox (badness 5548) has occurred while \output is active []
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
-
-(Inleiding2.tex [15] [16
+ (Inleiding2.tex
+[15] [16
 
 ]
 Hoofdstuk 1.
@@ -1811,8 +1838,10 @@ ou-di-ger zijn om WAL-bestanden
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33]) (methodologie.tex [34]
+ [32])
+(methodologie.tex [33] [34
+
+]
 Hoofdstuk 3.
 
 LaTeX Warning: Reference `ch:Oplossing 1: Patroni' on page 35 undefined on inpu
@@ -1825,9 +1854,7 @@ on page 35 undefined on input line 17.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
-
-]
+ [35]
 [36]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -1851,185 +1878,27 @@ Missing character: There is no ” in font ptmr8t!
 Hoofdstuk 4.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[39]
 
-! LaTeX Error: There's no line here to end.
+Underfull \vbox (badness 1112) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \newline
-             \newline\newline\newline\newline\newline\newline\newline\newlin...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \newline\newline
-                     \newline\newline\newline\newline\newline\newline\newlin...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \newline\newline\newline
-                             \newline\newline\newline\newline\newline\newlin...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \newline\newline\newline\newline
-                                     \newline\newline\newline\newline\newlin...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \newline\newline\newline\newline\newline
-                                             \newline\newline\newline\newlin...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  \newline\newline\newline\n...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  \newline\newline\newline\n...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  \newline\newline\newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  \newline\newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  \newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...ne\newline\newline\newline\newline\newline
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Overfull \hbox (5.6487pt too wide) in paragraph at lines 79--80
-[]\T1/ptm/m/n/12 Patroni heeft een zeer uit-ge-breide REST API, die ge-bruikt k
-an wor-den om failover, switcho-
- []
-
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
+ [39]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41])
-(Oplossing2.tex [42]
-Hoofdstuk 5.
-[43
+[40]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+) (Oplossing2.tex [41] [42
 
 ]
+Hoofdstuk 5.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+[43]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
@@ -2040,32 +1909,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Hoofdstuk 6.
-[47]
-Overfull \hbox (99.24855pt too wide) in paragraph at lines 62--63
+
+Overfull \hbox (99.24855pt too wide) in paragraph at lines 26--27
 \T1/ptm/m/n/12 dere soor-ten van failover con-fi-gu-ra-ties aan zo-als failover
 _requires_consensus of failover_when_quorum_exists. 
  []
 
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-Overfull \hbox (0.24852pt too wide) in paragraph at lines 76--77
+Overfull \hbox (0.24852pt too wide) in paragraph at lines 56--57
 \T1/ptm/m/n/12 Op eer-ste zicht is er niet di-rect een al-om-ge-kende gra-fi-sc
 he in-ter-face aan-we-zig voor Pgpool-
  []
 
 ) (Oplossing4.tex [48]
 Hoofdstuk 7.
-[49
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49
 
 ]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-) ("Verwerking resultaten.tex" [50]
+)
+("Verwerking resultaten.tex" [50]
 Hoofdstuk 8.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -2303,15 +2180,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                bachproef-tin
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35333 strings out of 412094
- 631603 string characters out of 2847025
- 1663621 words of memory out of 3000000
- 54366 multiletter control sequences out of 15000+200000
+ 35314 strings out of 412094
+ 631348 string characters out of 2847025
+ 1662869 words of memory out of 3000000
+ 54347 multiletter control sequences out of 15000+200000
  442598 words of font info for 70 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1453b,5305s stack positions out of 5000i,500n,10000p,200000b,50000s

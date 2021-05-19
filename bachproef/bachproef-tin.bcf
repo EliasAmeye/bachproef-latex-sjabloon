@@ -2868,20 +2868,16 @@
     <bcf:citekey order="49">Ramachandran2019</bcf:citekey>
     <bcf:citekey order="50">Raima2021</bcf:citekey>
     <bcf:citekey order="51">Kumar2020</bcf:citekey>
-    <bcf:citekey order="52">Vizard2020</bcf:citekey>
-    <bcf:citekey order="53">Kelly2020</bcf:citekey>
-    <bcf:citekey order="54">Ruby</bcf:citekey>
-    <bcf:citekey order="55">Kelly2020</bcf:citekey>
-    <bcf:citekey order="56">2021c</bcf:citekey>
-    <bcf:citekey order="57">Ahmad2017</bcf:citekey>
-    <bcf:citekey order="58">Kalow2020</bcf:citekey>
-    <bcf:citekey order="59">IBM1</bcf:citekey>
-    <bcf:citekey order="60">BDQ</bcf:citekey>
-    <bcf:citekey order="61">Singer2020</bcf:citekey>
-    <bcf:citekey order="62">Jevtic2018</bcf:citekey>
-    <bcf:citekey order="63">Akhtar2020</bcf:citekey>
-    <bcf:citekey order="64">Anderson2020</bcf:citekey>
-    <bcf:citekey order="65">PostgreSQL2020</bcf:citekey>
+    <bcf:citekey order="52">2021c</bcf:citekey>
+    <bcf:citekey order="53">Ahmad2017</bcf:citekey>
+    <bcf:citekey order="54">Kalow2020</bcf:citekey>
+    <bcf:citekey order="55">IBM1</bcf:citekey>
+    <bcf:citekey order="56">BDQ</bcf:citekey>
+    <bcf:citekey order="57">Singer2020</bcf:citekey>
+    <bcf:citekey order="58">Jevtic2018</bcf:citekey>
+    <bcf:citekey order="59">Akhtar2020</bcf:citekey>
+    <bcf:citekey order="60">Anderson2020</bcf:citekey>
+    <bcf:citekey order="61">PostgreSQL2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
