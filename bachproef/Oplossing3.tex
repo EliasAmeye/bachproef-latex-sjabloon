@@ -23,10 +23,14 @@ In dit hoofdstuk wordt meer informatie verschaft over Pgpool-II als een PostgreS
 
 Pgpool-II beschikt over een tool, genaamd Watchdog, die een subproces is van Pgpool-II dat dient om High Availability toe te voegen. Watchdog wordt gebruikt om single points of failure op te lossen door meerdere Pgpool-II nodes te coördineren. Het coördineert meerdere Pgpool-II nodes door informatie met elkaar uit te wisselen. Op die manier kan het zeker zijn dat de database service onaangetast blijft.
 
+Standaard zal er opnieuw gebruik worden gemaakt van streaming replication bij Pgpool-II.
+
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
 
-Pgpool-II voorziet ook automatische failover binnenin Watchdog. Pgpool-II kan ook andere soorten van failover configuraties aan zoals failover\_requires\_consensus of failover\_when\_quorum\_exists. 
+Pgpool-II voorziet ook automatische failover binnenin Watchdog. Pgpool-II kan ook andere soorten van failover configuraties aan zoals failover\_requires\_consensus of \newline failover\_when\_quorum\_exists. 
+
+Bij Pgpool-II, wanneer het failover\_command geconfigureerd is, zal deze automatisch tijdens een failover worden uitgevoerd. Hierin zal een nieuwe primary node uit de bestaande standby nodes gekozen worden. Ook kan dit commando signalen uitsturen, zoals een mail om te laten weten dat er failover plaatsvindt binnen de cluster.
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
