@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  23 MAY 2021 23:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  23 MAY 2021 23:31
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1957,11 +1957,6 @@ Missing character: There is no ” in font ptmr8t!
 
 ]
 Hoofdstuk 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/ptm/m/n/12 PostgreSQL Au-to-ma-tic Failover
- []
-
 ) (POC.tex [55] [56
 
 ]
@@ -2208,8 +2203,8 @@ Overfull \hbox (528.46664pt too wide) in paragraph at lines 244--142
  ) 
 Here is how much of TeX's memory you used:
  35332 strings out of 412094
- 631737 string characters out of 2847025
- 1657750 words of memory out of 3000000
+ 631727 string characters out of 2847025
+ 1657740 words of memory out of 3000000
  54364 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191

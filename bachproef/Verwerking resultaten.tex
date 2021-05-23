@@ -16,28 +16,50 @@ In dit hoofdstuk zullen de verschillende resultaten van de requirementanalyse va
 
 %In onderstaande tabellen wordt de onderverdeling van de punten van de verschillende oplossingen duidelijk gemaakt. Bij “Must have” zijn er 3 items waar per item 5 punten te verdienen zijn. “Should have” kent 2 items, die samen voor 5 punten meetellen (2 x 2.5). De “Could have” items worden niet meegerekend omdat deze van geen belang zijn geweest in de keuze naar een oplossing. Het totaal van de punten staat op 20. De twee oplossingen met de hoogste score zullen gebruikt worden voor een nog meer verdiepende studie die meer in detail gaat bij deze twee oplossingen. De oplossing met de hoogste score zal ook gebruikt worden bij het opzetten van de proof-of-concept.
 
-Hieronder
+Hieronder vindt u per PostgreSQL High Availability cluster oplossing een overzicht van het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt van alle scores gegeven op de requirements.
+
+
+
 
 
 
 \begin{table}[!h]
     \centering
-    \begin{tabular}{ |p{6cm}||p{6cm}|  }
-        \hline
-        \multicolumn{2}{|c|}{Requirementanalyse Alle Oplossingen} \\
-        \hline
-        Patroni & 17/20 \\
-        \hline
-        Pgpool-II & 14/20 \\
-        \hline
-        PostgreSQL Automatic Failover (PAF) & 16/20 \\
-        \hline
-        Replication Manager (repmgr) & 15/20 \\
-        \hline
-    \end{tabular}
-    \caption{Requirementanalyse alle oplossingen}
-    \label{table:Requirementanalyse alle oplossingen}
-    In de laatste tabel is er een duidelijke onderverdeling in score van de oplossingen. In dit onderzoek zal verder verdiept worden in Patroni en PostgreSQL Automatic Failover en bijhorende tools. Voor proof of concept zal gebruik worden gemaakt van Patroni.
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|l|c|c|c|c|}
+            \hline
+            \multicolumn{1}{|r|}{} & Patroni & PostgreSQL Automatic Failover (PAF) & Pgpool-II & Replication Manager (repmgr) \\ \hline
+            Gemiddelde          & / & / & / & / \\ \hline
+            Mediaan             & / & / & / & / \\ \hline
+            Modus               & / & / & / & / \\ \hline
+            Standaardafwijking  & / & / & / & / \\ \hline
+            Variatiecoëfficiënt & / & / & / & / \\ \hline
+        \end{tabular}%
+    }
+    \caption{Statistieken requirements}
+    \label{table:Statistieken requirements}
 \end{table}
+
+
+%\begin{table}[!h]
+%    \centering
+%    \begin{tabular}{ |p{6cm}||p{6cm}|  }
+%        \hline
+%        \multicolumn{2}{|c|}{Requirementanalyse Alle Oplossingen} \\
+%        \hline
+%        Patroni & 17/20 \\
+%        \hline
+%        Pgpool-II & 14/20 \\
+%        \hline
+%        PostgreSQL Automatic Failover (PAF) & 16/20 \\
+%        \hline
+%        Replication Manager (repmgr) & 15/20 \\
+%        \hline
+%    \end{tabular}
+%    \caption{Requirementanalyse alle oplossingen}
+%    \label{table:Requirementanalyse alle oplossingen}
+%    In de laatste tabel is er een duidelijke onderverdeling in score van de oplossingen. In dit onderzoek zal verder verdiept worden in Patroni en PostgreSQL Automatic Failover en bijhorende tools. Voor proof of concept zal gebruik worden gemaakt van Patroni.
+%\end{table}
+
 
 
