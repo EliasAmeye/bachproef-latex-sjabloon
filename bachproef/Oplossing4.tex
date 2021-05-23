@@ -10,7 +10,9 @@ In dit hoofdstuk wordt meer informatie verschaft over Replication Manager (repmg
 \section{\IfLanguageName{dutch}{Inleiding tot Replication Manager (repmgr)}{Inleiding tot Replication Manager (repmgr)}}
 \label{sec:Inleiding tot Replication Manager (repmgr)}
 
-repmgr is an open-source toolset from 2ndQuadrant, a leading specialist in PostgreSQL-related technologies and services. The product is used to automate, enhance, and manage PostgreSQL streaming replication.
+Replication Manager (repmgr) is een open source oplossing ontwikkeld door 2ndQuadrant. Het is ontwikkeld voor het beheer van replicatie en failover in een PostgreSQL cluster.
+
+Replication Manager (repmgr) biedt de tools om PostgreSQL replicatie op te zetten, te configureren, te beheren en te monitoren. Het stelt de gebruiker in staat om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een open source tool die PostgreSQL's ingebouwde streaming replicatie ondersteunt en verbetert.
 
 \section{\IfLanguageName{dutch}{Requirements}{Requirements}}
 \label{sec:Requirements}
@@ -18,16 +20,16 @@ repmgr is an open-source toolset from 2ndQuadrant, a leading specialist in Postg
 \subsection{\IfLanguageName{dutch}{Must have}{Must have}}
 \label{subsec:Must have}
 
+%Voorbeelden van tools zijn repmgr en repmgrd.
+%Replication Manager (RepMgr) biedt ook de tools om primary en standby nodes op te zetten, en om in geval van faalscenario automatische failover te doen.
 
-Voorbeelden van tools zijn repmgr en repmgrd.
-Replication Manager (RepMgr) biedt ook de tools om primary en standby nodes op te zetten, en om in geval van faalscenario automatische failover te doen.
-
-De functionaliteiten van Replication Manager (RepMgr) sluiten voldoende aan op de vooropgestelde “Must haves” en krijgt hiervoor 12/15 punten.
+%De functionaliteiten van Replication Manager (RepMgr) sluiten voldoende aan op de vooropgestelde “Must haves” en krijgt hiervoor 12/15 punten.
 
 \subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
 \label{subsubsec:Replicatie}
 
-Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
+%Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
+Replication Manager (RepMgr) maakt standaard gebruik van streaming replicatie in zijn clusters.
 
 Deze streaming replicatie moet vaak manueel geconfigureerd worden in zowel de primary als de standby node. Het zal ook gebruik maken van pg\_basebackup zodat alle standby nodes kunnen invallen wanneer de primary node uitvalt.
 
@@ -41,6 +43,9 @@ Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel
 Aan de hand van de tool repmgrd zal er automatische failover in gang worden gezet wanneer de primary node op down komt te staan. Hier wordt er dan een nieuwe standby node kozen die komt invallen voor de voormalige primary node.  
 
 Het zal in geval van failover of andere situaties ook de nodige notificaties uitsturen om te laten weten wat er aan de hand is. Deze situaties worden dan door de gebruiker zelf geregistreerd.
+
+Om repmgrd te laten werken zal in het repmgr.conf bestand, bij failover 'automatic' worden ingegeven. Hierna zal de repmgrd daemon de cluster actief beginnen te monitoren. Als er een fout optreedt in de primary node, zal het meerdere keren proberen opnieuw verbinding te maken. Als alle pogingen om verbinding te maken met de primary node mislukken, wordt de meest geschikte standby gekozen als de nieuwe primary node door repmgrd.
+
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
