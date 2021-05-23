@@ -35,6 +35,8 @@ Deze streaming replicatie moet vaak manueel geconfigureerd worden in zowel de pr
 
 Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel tijd en mankracht kan sparen.
 
+Voor replicatie krijgt Replication Manager (repmgr) een score van 4.
+
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
 
@@ -46,19 +48,22 @@ Het zal in geval van failover of andere situaties ook de nodige notificaties uit
 
 Om repmgrd te laten werken zal in het repmgr.conf bestand, bij failover 'automatic' worden ingegeven. Hierna zal de repmgrd daemon de cluster actief beginnen te monitoren. Als er een fout optreedt in de primary node, zal het meerdere keren proberen opnieuw verbinding te maken. Als alle pogingen om verbinding te maken met de primary node mislukken, wordt de meest geschikte standby gekozen als de nieuwe primary node door repmgrd.
 
+Door de hierboven genoemde redenen, krijgt Replication Manager (repmgr) een score van 4 voor failover.
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
 
 Over Monitoring is er bij Replication Manager (repmgr) niet veel te vinden. De tools repmgrd zal wel actief de cluster monitoren, en op basis hiervan de nodige acties uitvoeren, naargelang de staat van de cluster.
 
+Voor monitoring krijgt Replication Manager (repmgr) een score van 3.
+
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
 
-Replication Manager (RepMgr) is open source, ontwikkeld door 2ndQuadrant.
-De laatste release was op 22 oktober 2020.
+%Replication Manager (RepMgr) is open source, ontwikkeld door 2ndQuadrant.
+%De laatste release was op 22 oktober 2020.
 
-Replication Manager (RepMgr) krijgt hierdoor een score van 4/5 voor “Should have”. Doordat er (nog) geen release is in 2021, krijgt het geen 5/5.
+%Replication Manager (RepMgr) krijgt hierdoor een score van 4/5 voor “Should have”. Doordat er (nog) geen release is in 2021, krijgt het geen 5/5.
 
 \subsubsection{\IfLanguageName{dutch}{Actieve ondersteuning in 2020-2021}{Actieve ondersteuning in 2020-2021}}
 \label{subsubsec:Actieve ondersteuning in 2020-2021}

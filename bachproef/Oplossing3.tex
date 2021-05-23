@@ -23,7 +23,9 @@ In dit hoofdstuk wordt meer informatie verschaft over Pgpool-II als een PostgreS
 
 Pgpool-II beschikt over een tool, genaamd Watchdog, die een subproces is van Pgpool-II dat dient om High Availability toe te voegen. Watchdog wordt gebruikt om single points of failure op te lossen door meerdere Pgpool-II nodes te coördineren. Het coördineert meerdere Pgpool-II nodes door informatie met elkaar uit te wisselen. Op die manier kan het zeker zijn dat de database service onaangetast blijft.
 
-Standaard zal er opnieuw gebruik worden gemaakt van streaming replication bij Pgpool-II.
+Standaard voor PostgreSQL zal er gebruik worden gemaakt van streaming replication bij Pgpool-II.
+
+Voor deze redenen krijgt Pgpool-II een score van 3 voor replicatie.
 
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
@@ -32,12 +34,16 @@ Pgpool-II voorziet ook automatische failover binnenin Watchdog. Pgpool-II kan oo
 
 Bij Pgpool-II, wanneer het failover\_command geconfigureerd is, zal deze automatisch tijdens een failover worden uitgevoerd. Hierin zal een nieuwe primary node uit de bestaande standby nodes gekozen worden. Ook kan dit commando signalen uitsturen, zoals een mail om te laten weten dat er failover plaatsvindt binnen de cluster.
 
+Pgpool-II krijgt voor deze requirement een score van 4.
+
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
 
 Watchdog kan ook remote de gezondheid controleren van de node waarop het is geïnstalleerd door de verbinding met upstream nodes te monitoren. Als de monitoring faalt, behandelt watchdog dit als het falen van een lokale Pgpool-II node en zal het de nodige acties ondernemen.
 
 Pgpool-II kan meerdere nodes beheren en hierin replicatie opzetten om High Availability te verkrijgen
+
+Voor monitoring krijgt Pgpool-II een score van 3.
 
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
@@ -49,10 +55,14 @@ Pgpool-II kan meerdere nodes beheren en hierin replicatie opzetten om High Avail
 
 De laatste release van pgpool-II was op 26 november 2020. Hieruit kan worden besloten dat Pgpool-II nog een geldige, bruikbare oplossing is.
 
+Voor deze requirement krijgt Pgpool-II een score van 4. Een score van 5 zou zijn wanneer Pgpool-II in 2021 een release zou gehad hebben.
+
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
 
 Pgpool-II is een open source project. De source code wordt onderhouden door hun git-repository.
+
+Pgpool-II krijgt voor deze requirement een score van 5.
 
 \subsection{\IfLanguageName{dutch}{Could have}{Could have}}
 \label{subsec:Could have}

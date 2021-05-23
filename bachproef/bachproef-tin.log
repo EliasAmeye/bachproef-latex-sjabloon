@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  20 MAY 2021 01:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  23 MAY 2021 22:21
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1864,28 +1864,24 @@ Missing character: There is no ” in font ptmr8t!
 Hoofdstuk 4.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[39]
+[39] [40]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+) (Oplossing2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42]
+Hoofdstuk 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-)
-(Oplossing2.tex [41] [42
+ [43
 
 ]
-Hoofdstuk 5.
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-[43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [44])
 (Oplossing3.tex [45] [46
@@ -1893,21 +1889,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Hoofdstuk 6.
 
-Overfull \hbox (99.24855pt too wide) in paragraph at lines 29--30
-\T1/ptm/m/n/12 dere soor-ten van failover con-fi-gu-ra-ties aan zo-als failover
-_requires_consensus of failover_when_quorum_exists. 
- []
+Underfull \vbox (badness 1163) has occurred while \output is active []
 
-[47]) (Oplossing4.tex [48]
-Hoofdstuk 7.
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-[49
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48])
+(Oplossing4.tex [49] [50
 
 ]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-) ("Verwerking resultaten.tex" [50]
+Hoofdstuk 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52])
+("Verwerking resultaten.tex" [53] [54
+
+]
 Hoofdstuk 8.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -1935,9 +1936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--157
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (POC.tex [51
-
-] [52] [53] [54
+) (POC.tex [55] [56] [57] [58
 
 ]
 Hoofdstuk 9.
@@ -1946,7 +1945,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [59]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 4.
 
@@ -1957,19 +1956,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [56]
-[57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
-[59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [60]
+[61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-[62]) (conclusie.tex [63] [64
+ [62]
+[63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+[66]) (conclusie.tex [67] [68
 
 ]
 Hoofdstuk 10.
@@ -1978,8 +1977,8 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65])
-[66]
+ [69])
+[70]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -1994,10 +1993,10 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [71
 
 ]
-[68] [69]) [70]
+[72] [73]) [74]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2064,7 +2063,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[71
+[75
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2074,7 +2073,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[72]
+[76]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2124,7 +2123,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[73]
+[77]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2139,7 +2138,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[74] (bachproef-tin.aux
+[78] (bachproef-tin.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
@@ -2184,10 +2183,10 @@ Overfull \hbox (537.58676pt too wide) in paragraph at lines 244--142
 Here is how much of TeX's memory you used:
  35336 strings out of 412094
  631816 string characters out of 2847025
- 1657928 words of memory out of 3000000
+ 1657929 words of memory out of 3000000
  54368 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1453b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (76 pages).
+Output written on bachproef-tin.pdf (80 pages).
