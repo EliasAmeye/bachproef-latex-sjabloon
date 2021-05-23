@@ -29,16 +29,91 @@ Hieronder vindt u per PostgreSQL High Availability cluster oplossing een overzic
         \begin{tabular}{|l|c|c|c|c|}
             \hline
             \multicolumn{1}{|r|}{} & Patroni & PostgreSQL Automatic Failover (PAF) & Pgpool-II & Replication Manager (repmgr) \\ \hline
-            Gemiddelde          & / & / & / & / \\ \hline
-            Mediaan             & / & / & / & / \\ \hline
-            Modus               & / & / & / & / \\ \hline
-            Standaardafwijking  & / & / & / & / \\ \hline
-            Variatiecoëfficiënt & / & / & / & / \\ \hline
+            Gemiddelde          & 4.4 & 4,2 & 3,8 & /4 \\ \hline
+            Mediaan             & 4 & 4 & 4 & 4 \\ \hline
+            Modus               & 4 & 4 & 3 \& 4 & 4 \\ \hline
+            Standaardafwijking  & 0,55 & 0,45 & 0,84 & 0,71 \\ \hline
+            Variatiecoëfficiënt & 0,12 & 0,11 & 0,22 & 0,18 \\ \hline
         \end{tabular}%
     }
     \caption{Statistieken requirements}
     \label{table:Statistieken requirements}
 \end{table}
+
+
+
+Bovenstaande resultaten werden behaald met onderstaande code in R. Hierin werd telkens het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt berekend.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniR.png}
+    \caption{R berekening voor Patroni}
+    \label{fig:R berekening voor Patroni}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PAFR.png}
+    \caption{R berekening voor PostgreSQL Automatic Failover (PAF)}
+    \label{fig:R berekening voor PostgreSQL Automatic Failover (PAF)}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PoolR.png}
+    \caption{R berekening voor Pgpool-II}
+    \label{fig:R berekening voor Pgpool-II}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{RepR.png}
+    \caption{R berekening voor Replication Manager (repmgr)}
+    \label{fig:R berekening voor Replication Manager (repmgr)}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSPAF.png}
+    \caption{R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
+    \label{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSPool.png}
+    \caption{R berekening Patroni en Pgpool-II}
+    \label{fig:R berekening Patroni en Pgpool-II}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSRep.png}
+    \caption{R berekening Patroni en Replication Manager (repmgr)}
+    \label{fig:R berekening Patroni en Replication Manager (repmgr)}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PAFVSPool.png}
+    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
+    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PAFVSRep.png}
+    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
+    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{RepVSPool.png}
+    \caption{R berekening Replication Manager (repmgr) en Pgpool-II}
+    \label{fig:R berekening Replication Manager (repmgr) en Pgpool-II}
+\end{figure}
+
 
 
 %\begin{table}[!h]

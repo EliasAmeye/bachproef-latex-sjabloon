@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  23 MAY 2021 23:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  24 MAY 2021 00:20
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1432,6 +1432,18 @@ LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
 LaTeX Warning: Label `subsubsec:Beperkte manuele interventie' multiply defined.
 
 
+
+LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
+ply defined.
+
+
+LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
+ply defined.
+
+
+LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
+ply defined.
+
 )
 \openout1 = `bachproef-tin.aux'.
 
@@ -1957,7 +1969,57 @@ Missing character: There is no ” in font ptmr8t!
 
 ]
 Hoofdstuk 8.
-) (POC.tex [55] [56
+File: img//PatroniR.png Graphic file (type bmp)
+<img//PatroniR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PAFR.png Graphic file (type bmp)
+<img//PAFR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PoolR.png Graphic file (type bmp)
+<img//PoolR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//RepR.png Graphic file (type bmp)
+<img//RepR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PatroniVSPAF.png Graphic file (type bmp)
+<img//PatroniVSPAF.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PatroniVSPool.png Graphic file (type bmp)
+<img//PatroniVSPool.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PatroniVSRep.png Graphic file (type bmp)
+<img//PatroniVSRep.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PAFVSPool.png Graphic file (type bmp)
+<img//PAFVSPool.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//PAFVSRep.png Graphic file (type bmp)
+<img//PAFVSRep.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img//RepVSPool.png Graphic file (type bmp)
+<img//RepVSPool.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (POC.tex [55] [56] [57] [58] [59] [60
 
 ]
 Hoofdstuk 9.
@@ -1966,7 +2028,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [61]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 4.
 
@@ -1977,19 +2039,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [58]
-[59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-[61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [62]
+[63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
-[64]) (conclusie.tex [65] [66
+ [64]
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+[68]) (conclusie.tex [69] [70
 
 ]
 Hoofdstuk 10.
@@ -1998,8 +2060,8 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67])
-[68]
+ [71])
+[72]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -2014,10 +2076,10 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69
+ [73
 
 ]
-[70] [71]) [72]
+[74] [75]) [76]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2084,7 +2146,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[73
+[77
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2094,7 +2156,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[74]
+[78]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2144,7 +2206,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[75]
+[79]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2159,7 +2221,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[76] (bachproef-tin.aux
+[80] (bachproef-tin.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
@@ -2191,23 +2253,23 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
 
-Overfull \hbox (528.46664pt too wide) in paragraph at lines 244--142
+Overfull \hbox (574.06723pt too wide) in paragraph at lines 244--142
 []\T1/ptm/m/n/12 _basebackup of Bar-man                                        
                                                                                
                                                                                
                                                                                
                                                                                
-              
+                                  
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 35332 strings out of 412094
- 631727 string characters out of 2847025
- 1657740 words of memory out of 3000000
- 54364 multiletter control sequences out of 15000+200000
+ 35402 strings out of 412094
+ 633391 string characters out of 2847025
+ 1658224 words of memory out of 3000000
+ 54424 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1453b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (78 pages).
+Output written on bachproef-tin.pdf (82 pages).
