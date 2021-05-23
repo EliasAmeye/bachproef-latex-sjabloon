@@ -16,18 +16,27 @@ In dit hoofdstuk wordt meer informatie verschaft over PostgreSQL Automatic Failo
 \section{\IfLanguageName{dutch}{Inleiding tot PostgreSQL Automatic Failover (PAF)}{Inleiding tot PostgreSQL Automatic Failover (PAF)}}
 \label{sec:Inleiding tot PostgreSQL Automatic Failover (PAF)}
 
+PostgreSQL Automatic Failover (PAF) is een High Availability oplossing ontwikkeld door ClusterLabs die zich bezighoudt met het beheer van High Availability in PostgreSQL clusters. Het maakt vooral gebruik van Postgres synchrone replicatie om te garanderen dat er geen gegevens verloren gaan op het moment van de failover operatie. 
+
+PostgreSQL Automatic Failover (PAF) werkt nauw samen met de tool Pacemaker. PAF is in staat om aan Pacemaker te laten zien wat de huidige status is van een node. Bij het optreden van een storing zal Pacemaker automatisch proberen dit te herstellen.
+Als de storing niet te herstellen valt, dan zal PAF zorgen voor automatische failover
+
+Pacemaker is een service die in staat is om veel resources te beheren, en doet dit met de hulp van hun resource agents. Resource agents hebben dan de verantwoordelijkheid om een specifieke resource af te handelen, hoe ze zich moeten gedragen, en Pacemaker te informeren over deze resultaten.
+
+%Bronvermelding nog bijzetten
+
+
 \section{\IfLanguageName{dutch}{Requirements}{Requirements}}
 \label{sec:Requirements}
 
 \subsection{\IfLanguageName{dutch}{Must have}{Must have}}
 \label{subsec:Must have}
 
-PostgreSQL Automatic Failover (PAF) werkt nauw samen met de tool Pacemaker. PAF is in staat om aan Pacemaker te laten zien wat de huidige status is van een node. Bij het optreden van een storing zal Pacemaker automatisch proberen dit te herstellen.
-Als de storing niet te herstellen valt, dan zal PAF zorgen voor automatische failover. PAF maakt gebruik van ip-adres failover in plaats van het herstarten van de standby node om verbinding te maken met de nieuwe master tijdens een failover event, wat voordelig is in scenario's waar een gebruiker de standby nodes niet wil herstarten.
+. 
 
-PostgreSQL Automatic Failover (PAF) maakt gebruik van synchrone replicatie om te garanderen dat er geen data verloren gaat tijdens een failover.
 
-PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker met de tool Pacemaker is er heel veel mogelijk qua monitoring, failover en replicatie. De score hierbij voor “Must have” is 13/15 punten.
+
+%PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker met de tool Pacemaker is er heel veel mogelijk qua monitoring, failover en replicatie. De score hierbij voor “Must have” is 13/15 punten.
 
 
 \subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
@@ -35,6 +44,7 @@ PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker me
 
 PostgreSQL Automatic Failover (PAF) zal niet 100\% kunnen beschermen tegen gegevensverlies. De replicatie wordt geconfigureerd met PostgreSQL. Bij asynchrone replicatie, wat de standaard is voor PostgreSQL, zullen de transacties eerst op primary node gecommitteerd worden voordat ze op de standby nodes zullen worden toegepast. In het geval van failover, zal de meest up-to-date standby node gepromoot worden door PostgreSQL Automatic Failover (PAF). Hierdoor zal gegevensverlies geminimaliseerd worden, maar er zal nog iets van verlies zijn. 
 
+Voornamelijk zal PostgreSQL Automatic Failover (PAF) gebruik maken van synchrone replicatie om te garanderen dat er geen data verloren gaat tijdens een failover.
 
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
@@ -47,6 +57,8 @@ Bij het configureren van de cluster wordt elke node geconfigureerd als standby n
 Bij 'clone-max' staat de ingestelde parameter gelijk aan het aantal nodes dat PostgreSQL kunnen draaien, primary of standby. Deze parameter staat normaal gelijk aan het aantal nodes die aanwezig zijn in de cluster.
 
 'notify=true' laat toe om te signaleren wanneer er bepaalde acties gebeuren op de node. Dit zal in contact staan met Pacemaker. Deze staat standaard op inactief, dus moet de parameter liefst expliciet nog eens vermeld worden op 'true'.
+
+PAF maakt gebruik van ip-adres failover in plaats van het herstarten van de standby node om verbinding te maken met de nieuwe master tijdens een failover event, wat voordelig is in scenario's waar een gebruiker de standby nodes niet wil herstarten.
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
