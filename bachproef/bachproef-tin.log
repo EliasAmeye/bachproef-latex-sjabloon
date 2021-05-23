@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  24 MAY 2021 00:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  24 MAY 2021 00:30
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1432,18 +1432,6 @@ LaTeX Warning: Label `subsubsec:Grafische interface' multiply defined.
 LaTeX Warning: Label `subsubsec:Beperkte manuele interventie' multiply defined.
 
 
-
-LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
-ply defined.
-
-
-LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
-ply defined.
-
-
-LaTeX Warning: Label `fig:R berekening voor Replication Manager (repmgr)' multi
-ply defined.
-
 )
 \openout1 = `bachproef-tin.aux'.
 
@@ -2266,7 +2254,7 @@ Overfull \hbox (574.06723pt too wide) in paragraph at lines 244--142
 Here is how much of TeX's memory you used:
  35402 strings out of 412094
  633391 string characters out of 2847025
- 1658224 words of memory out of 3000000
+ 1658500 words of memory out of 3000000
  54424 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
