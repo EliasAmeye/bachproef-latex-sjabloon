@@ -195,43 +195,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Resultaten requirements}{55}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Resultatenanalyse}{55}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Proof of Concept}{57}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Resultaten requirements}{55}{subsection.8.2.1}%
+\contentsline {section}{\numberline {9.1}Omgeving}{57}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Proof of Concept}{59}{chapter.9}%
+\contentsline {section}{\numberline {9.2}Prerequisites}{58}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Omgeving}{59}{section.9.1}%
+\contentsline {subsection}{\numberline {9.2.1}Vagrant}{58}{subsection.9.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Prerequisites}{60}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.2}VirtualBox}{59}{subsection.9.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}Vagrant}{60}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}pgServer}{59}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}VirtualBox}{61}{subsection.9.2.2}%
+\contentsline {section}{\numberline {9.4}pgNode1}{61}{section.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}pgServer}{61}{section.9.3}%
+\contentsline {section}{\numberline {9.5}pgNode2}{64}{section.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}pgNode1}{63}{section.9.4}%
+\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{65}{section.9.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}pgNode2}{66}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Conclusie}{67}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{67}{section.9.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusie}{69}{chapter.10}%
+\contentsline {section}{\numberline {A.1}Samenvatting}{69}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{71}{appendix.A}%
+\contentsline {section}{\numberline {A.2}Introductie}{70}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Samenvatting}{71}{section.A.1}%
+\contentsline {section}{\numberline {A.3}State of the art}{70}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Introductie}{72}{section.A.2}%
+\contentsline {section}{\numberline {A.4}Methodologie}{71}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}State of the art}{72}{section.A.3}%
+\contentsline {section}{\numberline {A.5}Verwachte resultaten}{71}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Methodologie}{73}{section.A.4}%
+\contentsline {section}{\numberline {A.6}Verwachte conclusies}{72}{section.A.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte resultaten}{73}{section.A.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Verwachte conclusies}{74}{section.A.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{75}{appendix*.43}%
+\contentsline {chapter}{Bibliografie}{73}{appendix*.43}%
 \contentsfinish 
