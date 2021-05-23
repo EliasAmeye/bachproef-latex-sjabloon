@@ -38,10 +38,14 @@ Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel
 
 %https://www.2ndquadrant.com/en/blog/how-to-automate-postgresql-12-replication-and-failover-with-repmgr-part-2/
 
+Aan de hand van de tool repmgrd zal er automatische failover in gang worden gezet wanneer de primary node op down komt te staan. Hier wordt er dan een nieuwe standby node kozen die komt invallen voor de voormalige primary node.  
 
+Het zal in geval van failover of andere situaties ook de nodige notificaties uitsturen om te laten weten wat er aan de hand is. Deze situaties worden dan door de gebruiker zelf geregistreerd.
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
+
+Over Monitoring is er bij Replication Manager (repmgr) niet veel te vinden. De tools repmgrd zal wel actief de cluster monitoren, en op basis hiervan de nodige acties uitvoeren, naargelang de staat van de cluster.
 
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
@@ -57,15 +61,17 @@ Replication Manager (RepMgr) krijgt hierdoor een score van 4/5 voor “Should ha
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
 
+Replication Manager (repmgr) is een open source High Availability tool voor PostgreSQL clustering.
+
 \subsection{\IfLanguageName{dutch}{Could have}{Could have}}
 \label{subsec:Could have}
-
-Op eerste zicht lijkt er niet direct een alomgekende grafische interface aanwezig te zijn voor Replication Manager (repmgr).
-
-Bij Replication Manager (repmgr) is er nog veel dat manueel moet gedaan worden.
 
 \subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
 \label{subsubsec:Grafische interface}
 
+Op eerste zicht lijkt er niet direct een alomgekende grafische interface aanwezig te zijn voor Replication Manager (repmgr).
+
 \subsubsection{\IfLanguageName{dutch}{Beperkte manuele interventie}{Beperkte manuele interventie}}
 \label{subsubsec:Beperkte manuele interventie}
+
+Bij Replication Manager (repmgr) is er nog veel dat manueel moet gedaan worden.
