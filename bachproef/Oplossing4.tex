@@ -10,13 +10,15 @@ In dit hoofdstuk wordt meer informatie verschaft over Replication Manager (repmg
 \section{\IfLanguageName{dutch}{Inleiding tot Replication Manager (repmgr)}{Inleiding tot Replication Manager (repmgr)}}
 \label{sec:Inleiding tot Replication Manager (repmgr)}
 
+repmgr is an open-source toolset from 2ndQuadrant, a leading specialist in PostgreSQL-related technologies and services. The product is used to automate, enhance, and manage PostgreSQL streaming replication.
+
 \section{\IfLanguageName{dutch}{Requirements}{Requirements}}
 \label{sec:Requirements}
 
 \subsection{\IfLanguageName{dutch}{Must have}{Must have}}
 \label{subsec:Must have}
 
-Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
+
 Voorbeelden van tools zijn repmgr en repmgrd.
 Replication Manager (RepMgr) biedt ook de tools om primary en standby nodes op te zetten, en om in geval van faalscenario automatische failover te doen.
 
@@ -25,8 +27,18 @@ De functionaliteiten van Replication Manager (RepMgr) sluiten voldoende aan op d
 \subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
 \label{subsubsec:Replicatie}
 
+Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
+
+Deze streaming replicatie moet vaak manueel geconfigureerd worden in zowel de primary als de standby node. Het zal ook gebruik maken van pg\_basebackup zodat alle standby nodes kunnen invallen wanneer de primary node uitvalt.
+
+Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel tijd en mankracht kan sparen.
+
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
+
+%https://www.2ndquadrant.com/en/blog/how-to-automate-postgresql-12-replication-and-failover-with-repmgr-part-2/
+
+
 
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
