@@ -486,7 +486,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{subtitle}{What does it mean High-Availability infrastructure (HA)?}
-      \field{title}{5 REASONS WHY YOU NEED HIGH-AVAILABILITY FOR YOUR BUSINESS}
+      \field{title}{5 reasons why you need high-availability for your business}
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2021}
@@ -991,7 +991,7 @@
       \field{labeltitlesource}{title}
       \field{day}{27}
       \field{month}{9}
-      \field{title}{PATRONI : SETTING UP A HIGHLY AVAILABLE POSTGRESQL CLUSTER}
+      \field{title}{Patroni: Setting up a highly available PostgreSQL cluster}
       \field{urlday}{8}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
@@ -1076,45 +1076,6 @@
       \endverb
       \verb{url}
       \verb https://nethosting.com/mysql-vs-postgresql-2019-showdown/
-      \endverb
-    \endentry
-    \entry{2021c}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=93a1762c444699e15a66038f7f36e30b}{%
-           family={opensource.com},
-           familyi={o\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \list{organization}{1}{%
-        {Red Hat Inc}%
-      }
-      \strng{namehash}{93a1762c444699e15a66038f7f36e30b}
-      \strng{fullhash}{93a1762c444699e15a66038f7f36e30b}
-      \strng{bibnamehash}{93a1762c444699e15a66038f7f36e30b}
-      \strng{authorbibnamehash}{93a1762c444699e15a66038f7f36e30b}
-      \strng{authornamehash}{93a1762c444699e15a66038f7f36e30b}
-      \strng{authorfullhash}{93a1762c444699e15a66038f7f36e30b}
-      \field{sortinit}{o}
-      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is open source?}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://opensource.com/resources/what-open-source
-      \endverb
-      \verb{url}
-      \verb https://opensource.com/resources/what-open-source
       \endverb
     \endentry
     \entry{Oracle23}{online}{}
@@ -1627,7 +1588,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{WHAT IS REPMGR?}
+      \field{title}{What is repmgr?}
       \field{urlday}{15}
       \field{urlmonth}{4}
       \field{urlyear}{2021}

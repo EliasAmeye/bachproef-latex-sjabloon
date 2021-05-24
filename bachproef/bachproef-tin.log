@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  24 MAY 2021 00:30
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  24 MAY 2021 13:34
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2194,8 +2194,8 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[79]
 Missing character: There is no – in font ptmri8t!
+[79]
 Missing character: There is no – in font ptmri8t!
 
 Overfull \hbox (8.49089pt too wide) in paragraph at lines 140--140
@@ -2227,35 +2227,31 @@ I'm ignoring this, since I wasn't doing a \csname.
 
 )
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
 
-Overfull \hbox (574.06723pt too wide) in paragraph at lines 244--142
+Overfull \hbox (567.22714pt too wide) in paragraph at lines 244--142
 []\T1/ptm/m/n/12 _basebackup of Bar-man                                        
                                                                                
                                                                                
                                                                                
                                                                                
-                                  
+                               
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 35402 strings out of 412094
- 633391 string characters out of 2847025
- 1658500 words of memory out of 3000000
- 54424 multiletter control sequences out of 15000+200000
+ 35401 strings out of 412094
+ 633349 string characters out of 2847025
+ 1658502 words of memory out of 3000000
+ 54423 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1453b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
