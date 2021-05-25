@@ -5,7 +5,7 @@
 \chapter{Replication Manager (repmgr)}
 \label{ch:Replication Manager (repmgr)}
 
-In dit hoofdstuk wordt meer informatie verschaft over Replication Manager (repmgr) als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder geanalyseerd zullen worden.
+In dit hoofdstuk wordt meer informatie verleend over Replication Manager (repmgr) als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder geanalyseerd zal worden.
 
 \section{\IfLanguageName{dutch}{Inleiding tot Replication Manager (repmgr)}{Inleiding tot Replication Manager (repmgr)}}
 \label{sec:Inleiding tot Replication Manager (repmgr)}
@@ -33,7 +33,7 @@ Replication Manager (RepMgr) maakt standaard gebruik van streaming replicatie in
 
 Deze streaming replicatie moet vaak manueel geconfigureerd worden in zowel de primary als de standby node. Het zal ook gebruik maken van pg\_basebackup zodat alle standby nodes kunnen invallen wanneer de primary node uitvalt.
 
-Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel tijd en mankracht kan sparen.
+Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel tijd en resources kan sparen.
 
 Voor replicatie krijgt Replication Manager (repmgr) een score van 4.
 
@@ -42,7 +42,7 @@ Voor replicatie krijgt Replication Manager (repmgr) een score van 4.
 
 %https://www.2ndquadrant.com/en/blog/how-to-automate-postgresql-12-replication-and-failover-with-repmgr-part-2/
 
-Aan de hand van de tool repmgrd zal er automatische failover in gang worden gezet wanneer de primary node op down komt te staan. Hier wordt er dan een nieuwe standby node kozen die komt invallen voor de voormalige primary node.  
+Aan de hand van de tool repmgrd zal er automatische failover in gang worden gezet wanneer de primary node op down komt te staan. Hier wordt er dan een nieuwe standby node gekozen invalt voor de voormalige primary node.  
 
 Het zal in geval van failover of andere situaties ook de nodige notificaties uitsturen om te laten weten wat er aan de hand is. Deze situaties worden dan door de gebruiker zelf geregistreerd.
 
@@ -79,12 +79,12 @@ Replication Manager (repmgr) is een open source High Availability tool voor Post
 \subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
 \label{subsubsec:Grafische interface}
 
-Op eerste zicht lijkt er niet direct een alomgekende grafische interface aanwezig te zijn voor Replication Manager (repmgr).
+Op eerste zicht lijkt er niet direct een bekende grafische interface aanwezig te zijn voor Replication Manager (repmgr).
 
 \subsubsection{\IfLanguageName{dutch}{Beperkte manuele interventie}{Beperkte manuele interventie}}
 \label{subsubsec:Beperkte manuele interventie}
 
-Bij Replication Manager (repmgr) is er nog veel dat manueel moet gedaan worden.
+Bij Replication Manager (repmgr) is er nog veel dat manueel moet uitegevoerd worden.
 
 
 Dit was de laatste requirement waarop Replication Manager (repmgr) geëvalueerd zou worden. In onderstaande tabel~\ref{table:Overzicht score Replication Manager (repmgr)} is het overzicht terug te vinden van de scores per requirement. Dit zal enkel gaan over de requirements \colorbox{teal}{“must have”} en \colorbox{cyan}{“should have”}. De “could have” requirements hebben geen invloed op de eindscore.

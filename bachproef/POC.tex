@@ -59,7 +59,7 @@ Bij de opzet van cluster zal gebruik worden gemaakt van Vagrant. Vagrant is een 
     tabsize=3
 }
 
-In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een bestand meegegeven die zal worden uitgevoerd in de server. Dit bestand bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
+In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een bestand meegegeven dat zal worden uitgevoerd in de server. Dit bestand bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
 
 \begin{lstlisting}
 # -*- mode: ruby -*-
@@ -100,7 +100,7 @@ Vagrant is niet standaard geïnstalleerd op een Ubuntu machine. Via 'sudo apt-ge
 
 \subsection{\IfLanguageName{dutch}{VirtualBox}{VirtualBox}}
 \label{subsec:VirtualBox}
-In deze proof of concept zal gebruik gemaakt worden van virtuele machines via VirtualBox. VirtualBox is een open source virtualisatiesoftware. Het werkt als een hypervisor en kan op deze manier virtuele machines aanmaken, waarin de gebruiker naar eigen keuze verschillende besturingssytemen kan emuleren. Bij de configuratie van een virtuele machine kunnen de specificaties zoals RAM-geheugen, schijfruimte, etc. bepaald worden.
+In deze proof of concept zal gebruik gemaakt worden van virtuele machines via VirtualBox. VirtualBox is een open source virtualisatiesoftware. Het werkt als een hypervisor en kan op deze manier virtuele machines aanmaken, waarin de gebruiker naar eigen keuze verschillende besturingssytemen kan emuleren. Bij de configuratie van een virtuele machine kunnen de specificaties zoals RAM-geheugen en schijfruimte bepaald worden.
 
 %Hier nog wat tekst bij.
 
@@ -204,7 +204,7 @@ Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres he
 
 Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard.
 
-Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind, maximum\_lag\_on\_failover, etc.:
+Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind en  maximum\_lag\_on\_failover.
 
 \begin{lstlisting}
 scope: PatroniCluster

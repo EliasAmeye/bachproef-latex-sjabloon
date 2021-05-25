@@ -21,7 +21,7 @@ PostgreSQL Automatic Failover (PAF) is een High Availability oplossing ontwikkel
 PostgreSQL Automatic Failover (PAF) werkt nauw samen met de tool Pacemaker. PAF is in staat om aan Pacemaker te laten zien wat de huidige status is van een node. Bij het optreden van een storing zal Pacemaker automatisch proberen dit te herstellen.
 Als de storing niet te herstellen valt, dan zal PAF zorgen voor automatische failover
 
-Pacemaker is een service die in staat is om veel resources te beheren, en doet dit met de hulp van hun resource agents. Resource agents hebben dan de verantwoordelijkheid om een specifieke resource af te handelen, hoe ze zich moeten gedragen, en Pacemaker te informeren over deze resultaten.
+Pacemaker is een service die in staat is om veel resources te beheren, en doet dit met de hulp van hun resource agents. Resource agents hebben de verantwoordelijkheid om een specifieke resource af te handelen en Pacemaker te informeren over deze resultaten.
 
 %Bronvermelding nog bijzetten
 
@@ -33,11 +33,10 @@ Pacemaker is een service die in staat is om veel resources te beheren, en doet d
 
 %PostgreSQL Automatic Failover (PAF) voldoet aan de nodige requirements, zeker met de tool Pacemaker is er heel veel mogelijk qua monitoring, failover en replicatie. De score hierbij voor “Must have” is 13/15 punten.
 
-
 \subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
 \label{subsubsec:Replicatie}
 
-PostgreSQL Automatic Failover (PAF) zal niet 100\% kunnen beschermen tegen gegevensverlies. De replicatie wordt geconfigureerd met PostgreSQL. Bij asynchrone replicatie, wat de standaard is voor PostgreSQL, zullen de transacties eerst op primary node gecommitteerd worden voordat ze op de standby nodes zullen worden toegepast. In het geval van failover, zal de meest up-to-date standby node gepromoot worden door PostgreSQL Automatic Failover (PAF). Hierdoor zal gegevensverlies geminimaliseerd worden, maar er zal nog iets van verlies zijn. 
+PostgreSQL Automatic Failover (PAF) zal niet 100\% kunnen beschermen tegen gegevensverlies. De replicatie wordt geconfigureerd met PostgreSQL. Bij asynchrone replicatie, wat de standaard is voor PostgreSQL, zullen de transacties eerst op primary node gecommitteerd worden voordat ze op de standby nodes zullen worden toegepast. In het geval van failover, zal de meest up-to-date standby node gepromoot worden door PostgreSQL Automatic Failover (PAF). Hierdoor zal gegevensverlies geminimaliseerd worden, maar niet onbestaande zijn. 
 
 Voornamelijk zal PostgreSQL Automatic Failover (PAF) gebruik maken van synchrone replicatie om te garanderen dat er geen data verloren gaat tijdens een failover.
 
@@ -46,14 +45,14 @@ Hierdoor krijgt PostgreSQL Automatic Failover (PAF) voor deze requirement  een s
 \subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
 \label{subsubsec:Failover}
 
-Aan de hand van Pacemaker kan er automatische failover plaatsvinden. PostgreSQL Automatic Failover (PAF) communiceert continu met Pacemaker over de status van de cluster en bewaakt het functioneren van de database. In geval van storing, wordt Pacemaker hierover geïnformeerd en zal het kijken om de storing op te lossen. Is de storing onoplosbaar, dan zal Pacemaker een verkiezing starten tussen de standby nodes om een opvolger van de primary node te selecteren.
-Bij het configureren van de cluster wordt elke node geconfigureerd als standby node voor Pacemaker een keuze maakt van welke node de primay wordt. Dit zorgt er ook voor dat elke node weet hoe hij moet functioneren als een standby node.
+Aan de hand van Pacemaker kan er een automatische failover plaatsvinden. PostgreSQL Automatic Failover (PAF) communiceert continu met Pacemaker over de status van de cluster en bewaakt het functioneren van de database. In geval van storing, wordt Pacemaker hierover geïnformeerd en zal het kijken om de storing op te lossen. Is de storing onoplosbaar, dan zal Pacemaker een verkiezing starten tussen de standby nodes om een opvolger van de primary node te selecteren.
+Bij het configureren van de cluster wordt elke node geconfigureerd als standby node vooraleer Pacemaker bepaalt welke node de primary wordt. Dit zorgt er ook voor dat elke node weet hoe hij moet functioneren als een standby node.
 
-'master-max' krijgt bij de configuratie van Pacemaker het aantal PostgreSQL nodes dat als primary zullen dienen op een gegeven moment. Default staat deze ingesteld op 1.
+“master-max” krijgt bij de configuratie van Pacemaker het aantal PostgreSQL nodes dat als primary zullen dienen op een gegeven moment. Default staat deze ingesteld op 1.
 
-Bij 'clone-max' staat de ingestelde parameter gelijk aan het aantal nodes dat PostgreSQL kunnen draaien, primary of standby. Deze parameter staat normaal gelijk aan het aantal nodes die aanwezig zijn in de cluster.
+Bij “clone-max” staat de ingestelde parameter gelijk aan het aantal nodes dat PostgreSQL kunnen draaien, primary of standby. Deze parameter staat normaal gelijk aan het aantal nodes die aanwezig zijn in de cluster.
 
-'notify=true' laat toe om te signaleren wanneer er bepaalde acties gebeuren op de node. Dit zal in contact staan met Pacemaker. Deze staat standaard op inactief, dus moet de parameter liefst expliciet nog eens vermeld worden op 'true'.
+“notify=true” laat toe om te signaleren wanneer er bepaalde acties gebeuren op de node. Dit zal in contact staan met Pacemaker. Deze staat standaard op inactief, dus moet de parameter liefst expliciet nog eens vermeld worden op 'true'.
 
 PAF maakt gebruik van ip-adres failover in plaats van het herstarten van de standby node om verbinding te maken met de nieuwe master tijdens een failover event, wat voordelig is in scenario's waar een gebruiker de standby nodes niet wil herstarten.
 
@@ -62,22 +61,20 @@ Door de hierboven genoemde redenen krijgt PostgreSQL Automatic Failover (PAF) ee
 \subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
 \label{subsubsec:Monitoring}
 
-Via de tool Pacemaker kan er bij PostgreSQL Automatic Failover (PAF) goed aan monitoring gedaan. Het zal signaleren wanneer een node niet bereikbaar is.
-Het toevoegen van Watchdog als tool is hier mogelijk om ook aan monitoring te doen.
+Via de tool Pacemaker kan er bij PostgreSQL Automatic Failover (PAF) goed aan monitoring gedaan worden. Het zal signaleren wanneer een node niet bereikbaar is.
+Het toevoegen van Watchdog als tool is hier mogelijk om ook monitoring te doen.
 
 Hierdoor krijgt PostgreSQL Automatic Failover (PAF) voor monitoring een score van 4.
 
-
 \subsection{\IfLanguageName{dutch}{Should have}{Should have}}
 \label{subsec:Should have}
-
 
 %Doordat er (nog) geen nieuwe release is in 2021, krijgt PostgreSQL Automatic Failover (PAF) ook 4/5 punten voor “Should have”, en geen 5/5.
 
 \subsubsection{\IfLanguageName{dutch}{Actieve ondersteuning in 2020-2021}{Actieve ondersteuning in 2020-2021}}
 \label{subsubsec:Actieve ondersteuning in 2020-2021}
 
-De laatste release was op 10 maart 2020. Hieruit kan worden geconcludeerd dat ook deze oplossing nog up-to-date is en bruikbaar voor dit onderzoek. 
+De laatste release dateert van 10 maart 2020. Hieruit kan worden geconcludeerd dat ook deze oplossing nog up-to-date is en bruikbaar voor dit onderzoek. 
 
 Hier krijgt PostgreSQL Automatic Failover (PAF) een score van 4. Een score van 5 ging behaald worden moest de laatste release in 2021 zijn.
 
@@ -94,7 +91,7 @@ Voor deze requirement krijgt PostgreSQL Automatic Failover (PAF) een score van 5
 \subsubsection{\IfLanguageName{dutch}{Grafische interface}{Grafische interface}}
 \label{subsubsec:Grafische interface}
 
-Op eerste zicht is er geen algemeen gekende grafische interface aanwezig te zijn voor PostgreSQL Automatic Failover (PAF).
+Op eerste zicht lijkt er geen algemeen gekende grafische interface aanwezig te zijn voor PostgreSQL Automatic Failover (PAF).
 
 \subsubsection{\IfLanguageName{dutch}{Beperkte manuele interventie}{Beperkte manuele interventie}}
 \label{subsubsec:Beperkte manuele interventie}
