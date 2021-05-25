@@ -19,7 +19,7 @@
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-In dit onderzoek zal ik het hebben over High Availability oplossingen en het belang ervan in PostgreSQL clusters. Met de Coronapandemie die nog overal aanwezig is, is er een grote stijging in het digitale gebruik. Online winkelen heeft een enorme groei gekend. Koerierbedrijven hebben overuren moeten draaien om pakjes en post te brengen bij de mensen thuis. Technologie bedrijven kennen een extra druk omdat er meer beroep wordt gedaan op IT-services. Deze digitale (r)evolutie toont ons dat beschikbaarheid van diensten zeker heel relevant is. Stel je voor dat een server van Zalando, door software problemen, uitvalt. Alle aankopen van het laatste uur zijn niet doorgekomen. Een financieel drama. De oplossing? Een standby server die inspringt in geval van downtime. Resultaat? Geen downtime, geen financieel drama, geen geknoei met corrupte data. Met dit voorbeeld wil ik op een simpele manier het belang aantonen van High Availability in clusters. Stel, er loopt iets mis, kan het probleem snel opgelost worden, zonder dat de klant of het bedrijf er iets van nadelige ervaringen aan overhoudt.
+In dit onderzoek zal de focus liggen op High Availability oplossingen en het belang ervan in PostgreSQL clusters. Met de Coronapandemie die nog overal aanwezig is, is er een grote stijging in het digitale gebruik. Online winkelen heeft een enorme groei gekend. Koerierbedrijven hebben overuren moeten draaien om pakjes en post te brengen bij de mensen thuis. Technologie bedrijven kennen een extra druk omdat er meer beroep wordt gedaan op IT-services. Deze digitale (r)evolutie toont ons dat beschikbaarheid van diensten zeker heel relevant is. Stel je voor dat een server van Zalando, door software problemen, uitvalt. Alle aankopen van het laatste uur zijn niet doorgekomen. Een financieel drama. De oplossing? Een standby server die inspringt in geval van downtime. Resultaat? Geen downtime, geen financieel drama, geen geknoei met corrupte data. Met dit voorbeeld wordt op een simpele manier het belang aangetoond van High Availability in clusters. Stel, er loopt iets mis, kan het probleem snel opgelost worden, zonder dat de klant of het bedrijf er iets van nadelige ervaringen aan overhoudt.
 
 %Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
@@ -29,26 +29,26 @@ In dit onderzoek zal ik het hebben over High Availability oplossingen en het bel
 \subsection{\IfLanguageName{dutch}{Hoofdonderzoeksvraag}{Head Research question}}
 \label{subsec:Hoofdonderzoeksvraag}
 
-Dit onderzoek zal zich richten rond de vraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, heden ten dage, gebruiken om garantie te hebben op monitoring, redundantie en failover?”
+Dit onderzoek focust op de vraag: “Welke PostgreSQL High Availability cluster oplossing(en) kunnen bedrijven gebruiken om garantie te hebben op monitoring, replicatie en failover?”
 
 %In de conclusie (zie Hoofdstuk 7) van dit onderzoek zal worden antwoord gegeven op deze onderzoeksvraag.
 %Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 \subsection{\IfLanguageName{dutch}{Deelonderzoeksvraag}{Part Research question}}
 \label{subsec:Deelonderzoeksvraag}
 
-Naast de hoofdonderzoek vraag zijn er ook enkele ondersteunende deelonderzoeksvragen die bij dit onderzoek horen. Deze deelonderzoeksvragen zullen doorheen het onderzoek beantwoord worden. Bij de conclusie (zie Hoofdstuk 7) zal er een samenvatting van te vinden zijn.
+Naast de hoofdonderzoeksvraag zijn er ook enkele ondersteunende deelonderzoeksvragen die bij dit onderzoek horen. Deze deelonderzoeksvragen zullen doorheen het onderzoek beantwoord worden. %Bij de conclusie (zie Hoofdstuk 7) zal er een samenvatting van te vinden zijn.
 
  \begin{description}
     \item
     \item[$\cdot$] Wat zijn de voor- en nadelen van deze oplossing?
-    \item[$\cdot$] Wanneer is High Availability nodig?
+    \item[$\cdot$] Wanneer zullen we welke oplossing kiezen?
 \end{description}
 
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Het beoogde resultaat van deze bachelorproef is om uit de vergelijkende studie één oplossing voor te stellen die kan gebruikt worden voor implementatie van een High Available PostgreSQL cluster. Hieraan gekoppeld wordt ook een eerste poging tot een proof of concept getoond waarin deze oplossing geïmplementeerd zit. Het belangrijkste in dit onderzoek zal zijn wanneer er een PostgreSQL High Availability cluster oplossing is die voldoet aan de gevraagde requirements. Wanneer deze oplossing gevonden is, zal dit onderzoek geslaagd zijn.
+Het beoogde resultaat van deze bachelorproef is om uit de vergelijkende studie één oplossing voor te stellen die kan gebruikt worden voor de implementatie van een High Available PostgreSQL cluster. Hieraan gekoppeld wordt ook een eerste poging tot een proof of concept getoond waarin deze oplossing geïmplementeerd zit. Het belangrijkste in dit onderzoek zal zijn wanneer er een PostgreSQL High Availability cluster oplossing is die voldoet aan de gevraagde requirements. Wanneer deze oplossing gevonden is, zal dit onderzoek geslaagd zijn.
 
 %Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
 
@@ -61,13 +61,12 @@ Het beoogde resultaat van deze bachelorproef is om uit de vergelijkende studie �
 
 De rest van deze bachelorproef is als volgt opgebouwd:
 
-In Hoofdstuk~\ref{ch:stand-van-zaken}: Stand van zaken wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie. Hierin zal ik mij vooral focussen op High Availability, PostgreSQL, Puppet, clustering en de reeds aanwezige oplossingen voor High Availability.
+In Hoofdstuk~\ref{ch:stand-van-zaken}: Stand van zaken wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie. Hierbij ligt de focus op High Availability, PostgreSQL, clustering en de reeds aanwezige oplossingen voor High Availability.
 
-In Hoofdstuk~\ref{ch:methodologie}: Methodologie wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zullen de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd om dan met elkaar vergelijken te worden. Hierbij zal elke oplossing aan de hand van deze requirements punten krijgen. De oplossing met de meeste punten zal gebruikt worden bij het opstellen van de proof of concept.
+In Hoofdstuk~\ref{ch:methodologie}: Methodologie wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen. Hierin zullen de functionele en niet-functionele requirements aan de hand van de MoSCoW-methode geprioriteerd worden om dan met elkaar vergeleken te worden. Hierbij zal elke oplossing aan de hand van deze requirements punten krijgen. De oplossing met de meeste punten zal gebruikt worden bij het opstellen van de proof of concept.
 
 In Hoofdstuk~\ref{ch:Patroni}: Patroni, Hoofdstuk~\ref{ch:PostgreSQL Automatic Failover (PAF)}: PostgreSQL Automatic Failover (PAF), Hoofdstuk~\ref{ch:Pgpool-II}: Pgpool-II en Hoofdstuk~\ref{ch:Replication Manager (repmgr)}: Replication Manager (repmgr) worden de vier oplossingen besproken en wordt gekeken of deze oplossingen aan de verschillende requirements voldoen.
 
-In Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten zullen de resultaten van de oplossingen, afgetoetst aan de hand van de requirements, verder onderzocht worden. Hieruit wordt dan één oplossing gekozen die gebruikt zal worden voor de opzet van de proof of cluster, te vinden in Hoofdstuk~\ref{ch:Proof of Concept}: Proof of Concept. Hierin zullen de verschillende stappen doorlopen worden en zijn code snippets in terug te vinden die gebruikt zijn geweest bij het opbouwen van de cluster. Hierbij zal ook een persoonlijke conclusie te vinden zijn over eigen ervaringen bij het opzetten van deze PostgreSQL High Availability cluster.
-
+In Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten zullen de resultaten van de oplossingen, afgetoetst aan de hand van de requirements, verder onderzocht worden. Hieruit wordt dan één oplossing gekozen die gebruikt zal worden voor de opzet van de proof of concept, te vinden in Hoofdstuk~\ref{ch:Proof of Concept}: Proof of Concept. Hierin zullen de verschillende stappen doorlopen worden en zijn code snippets terug te vinden die gebruikt zijn geweest bij het opbouwen van de cluster. Hierbij zal ook een persoonlijke conclusie te vinden zijn over eigen ervaringen bij het opzetten van deze PostgreSQL High Availability cluster.
 
 Tot slot wordt in Hoofdstuk~\ref{ch:conclusie}: Conclusie de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
