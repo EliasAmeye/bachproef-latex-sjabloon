@@ -11,23 +11,22 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-Zoals in vele andere onderzoeken ook het geval is, is dit onderzoek gestart met een diepgaande en extensieve literatuurstudie over PostgreSQL, High Availability, Puppet en de reeds bestaande High Available PostgreSQL cluster oplossingen. Deze literatuurstudie is terug te vinden in Hoofdstuk~\ref{ch:stand-van-zaken} Stand van zaken.
+Dit onderzoek start met een diepgaande en extensieve literatuurstudie over PostgreSQL, High Availability en de reeds bestaande High Available PostgreSQL cluster oplossingen. Deze literatuurstudie is terug te vinden in Hoofdstuk~\ref{ch:stand-van-zaken} Stand van zaken.
 
-Na de literatuurstudie zal worden geduid hoe de verschillende High Available PostgreSQL cluster oplossingen geschift zullen worden. In deze schifting zullen verschillende requirements opgezet worden waaraan de verschillende oplossingen zullen afgetoetst worden. Dit zal gebeuren aan de hand van een requirementsanalyse waarin de verschillende requirements aan bod zullen komen. Deze requirements zullen dan aan de hand van de MoSCoW-methode geprioriteerd worden om zo het belang van elke requirement in te schatten. Deze analyse zal van groot belang zijn in dit onderzoek aangezien ze de basis zullen vormen waarop er een High Available PostgreSQL cluster oplossing zullen beoordelen en kiezen.
+Na de literatuurstudie zal worden geduid hoe de verschillende High Available PostgreSQL cluster oplossingen geschift zullen worden. In deze schifting zullen verschillende requirements opgezet worden waaraan de verschillende oplossingen zullen afgetoetst worden. Dit zal gebeuren aan de hand van een requirementsanalyse waarin de verschillende requirements aan bod zullen komen. Deze requirements zullen dan aan de hand van de MoSCoW-methode geprioriteerd worden om zo het belang van elke requirement in te schatten. Deze analyse zal van groot belang zijn in dit onderzoek aangezien ze de basis zal vormen waarop er een High Available PostgreSQL cluster oplossing zal beoordeeld en gekozen worden.
 %Uit deze schifting, aan de hand van de requirements worden dan de beste twee kandidaten verkozen die in Hoofdstuk~\ref{ch:Oplossing 1: Patroni} Oplossing 1: Patroni en in Hoofdstuk~\ref{ch:Oplossing 2: PostgreSQL Automatic Failover (PAF)} Oplossing 2: PostgreSQL Automatic Failover (PAF) verder verdiept zullen worden. In deze twee hoofdstukken worden de functionele requirements of de must have's nog eens doorlopen en kan er al in detail getreden worden over het gebruik van bepaalde tools of code.
 
-
-Na de verwerking van de resultaten zal er in dit onderzoek één oplossing gebruikt worden waar een proof of concept mee gemaakt zal worden. Hier zal dan gekeken worden om de verschillende functionele requirements te implementeren in de cluster. Op deze manier zal dan worden aangetoond dat deze oplossing een volwaardig PostgreSQL High Availability cluster oplossing is voor bedrijven om te gebruiken.%, door gebruik te maken van Puppet de reproduceerbaarheid van de High Available PostgreSQL cluster zeer eenvoudig en snel moeten verlopen.
+Na de verwerking van de resultaten zal er in dit onderzoek één oplossing gebruikt worden om een proof of concept uit te werken. Hier zal dan gekeken worden om de verschillende functionele requirements te implementeren in de cluster. Op deze manier zal dan worden aangetoond dat deze oplossing een volwaardig PostgreSQL High Availability cluster oplossing is voor bedrijven.%, door gebruik te maken van Puppet de reproduceerbaarheid van de High Available PostgreSQL cluster zeer eenvoudig en snel moeten verlopen.
 
 \section{\IfLanguageName{dutch}{Requirementsanalyse}{Requirementsanalyse}}
 \label{sec:Requirementsanalyse}
 
-Elk van deze High Available PostgreSQL cluster oplossingen zal worden afgetoetst aan de requirements om ze op deze manier te evalueren. In samenspraak met Ruben Demey zijn er drie functionele requirements. Bij elke oplossing worden de requirements afgetoetst en krijgen ze een score van 1 (slecht) tot 5 (uitstekend).
+Elk van deze High Available PostgreSQL cluster oplossingen zal worden afgetoetst aan de requirements om ze op deze manier te evalueren. In samenspraak met Ruben Demey, Global IT Operations Manager bij ST Engineering iDirect, zijn er drie functionele requirements bepaald. Bij elke oplossing worden de requirements afgetoetst en krijgen ze een score van 1 (slecht) tot 5 (uitstekend).
 
 
 \subsection{\IfLanguageName{dutch}{Functionele Requirements}{Functionele Requirements}}
 \label{subsec:Functionele Requirements}
-Een functionele requirement beschrijft hoe het systeem moet werken en wat het moet kunnen.
+Een functionele requirement beschrijft hoe het systeem moet werken en wat het moet kunnen. Het gaat om de volgende elementen:
 
 \begin{itemize}
     \item Replicatie
@@ -38,19 +37,19 @@ Een functionele requirement beschrijft hoe het systeem moet werken en wat het mo
 
 \subsection{\IfLanguageName{dutch}{Niet-functionele Requirements}{Niet-functionele Requirements}}
 \label{subsec:Niet-functionele Requirements}
-Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat dan meer over voorkeuren.
+Een niet-functionele requirement is een kwaliteitseis voor het systeem. Hier worden vooral voorkeuren mee bedoeld. Hier gaat het om volgende elementen:
 
 \begin{itemize}
     \item Open source
     \item Actieve ondersteuning in 2020-2021
     \newline
-    Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de tool futureproof kan zijn en zeker nog jaren kan meegaan.
+    Een belangrijke requirement is dat de oplossing up-to-date moet zijn. In dit onderzoek zal er geen gebruik gemaakt worden van achterhaalde, oude tools. Het is belangrijk dat de oplossing futureproof is.
     \item Grafische interface
     \newline
     Een gemakkelijk te gebruiken interface is zeker een meerwaarde bij het monitoren en beheren van een cluster. Als er geen specialist aanwezig is, kan de grafische interface soms voor wat extra duidelijkheid zorgen.
     \item Beperkte manuele interventie
     \newline
-    Een cluster opzetten die nadien niet veel manuele interventie nodig heeft, is ideaal in situaties waar er weinig tot geen kennis is over de cluster. Tijdens en na downtime zal de server automatisch acties uitvoeren die het verdere bestaan van de cluster garandeert.
+    Een cluster opzetten die nadien niet veel manuele interventie nodig heeft, is ideaal in situaties waar er weinig tot geen kennis is over de cluster. Tijdens en na downtime zal de server automatisch acties uitvoeren die het verdere bestaan van de cluster garanderen.
     
 \end{itemize}
 
@@ -58,7 +57,7 @@ Een niet-functionele requirement is een kwaliteitseis voor het systeem. Dit gaat
 \section{\IfLanguageName{dutch}{Indelen requirements volgens MoSCoW-techniek}{Indelen requirements volgens MoSCoW-techniek}}
 \label{sec:Indelen requirements volgens MoSCoW-techniek}
 
-Na het opstellen van de verschillende requirements kunnen deze nog eens ingedeeld worden volgens de MoSCoW-techniek~\autocite{Ahmad2017}. Hierin worden de requirements geprioritiseerd in 4 categorieën. “Must have”, “Should have”, “Could have”, ”Won't have” Hierin zijn de “Must have”-requirements verplicht aanwezig. De “Should have”-requirements zijn geen verplichting, maar zijn het liefst wel aanwezig in de keuze van een oplossing. De “Could have”-requirements zijn volledig optioneel en zijn dus niet geheel relevant bij het kiezen van de oplossing. Het “Won't have” aspect wordt hier achterwege gelaten, omdat dit geen invloed zal hebben op de keuze van een oplossing.
+Na het opstellen van de verschillende requirements kunnen deze nog eens ingedeeld worden volgens de MoSCoW-techniek~\autocite{Ahmad2017}. Hierin worden de requirements geprioriteerd in 4 categorieën. “Must have”, “Should have”, “Could have”, ”Won't have”. “Must have”-requirements zijn verplicht aanwezig. “Should have”-requirements zijn geen verplichting, maar zijn het liefst wel aanwezig in de keuze van een oplossing. “Could have”-requirements zijn volledig optioneel en zijn dus niet geheel relevant bij het kiezen van de oplossing. Het “Won't have” aspect wordt hier achterwege gelaten, omdat dit geen invloed zal hebben op de keuze van een oplossing. “Wont have”-requirements zijn diegene met de laagste prioriteit. De onderverdeling verloopt als volgt:
 
 \begin{description}
     \item[$\bullet$ Must have] 
