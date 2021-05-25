@@ -12,6 +12,6 @@
 \contentsline {section}{\numberline {5}Verwachte resultaten}{2}{section.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Verwachte conclusies}{2}{section.6}%
-\contentsfinish 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referenties}{3}{section*.1}%
+\contentsline {section}{Referenties}{2}{section*.1}%
+\contentsfinish 

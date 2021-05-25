@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  12 MAY 2021 22:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  25 MAY 2021 16:56
 entering extended mode
 **./Ameye_Elias_voorstel.tex
 (Ameye_Elias_voorstel.tex
@@ -1117,15 +1117,7 @@ Overfull \hbox (24.6111pt too wide) in paragraph at lines 97--97
 ][][][] [][] [][][][][][][][][][][][] [][]
  []
 
-File: HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<HOGENT_Logo_Pos_rgb.png>
 
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
-Make it at least 34.89824pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2]
 Overfull \hbox (16.76112pt too wide) in paragraph at lines 97--97
 [][][][] [][] [][][][] [][] [][][][][][] [][] [][][][][][][][] [][] [][][][][][
 ] [][] [][][] [][] [][][][][][][][][] [][]
@@ -1142,7 +1134,15 @@ Overfull \hbox (3.26111pt too wide) in paragraph at lines 97--97
 ][][][][][] []
  []
 
+File: HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<HOGENT_Logo_Pos_rgb.png>
 
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+Make it at least 34.89824pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
 Overfull \hbox (13.29875pt too wide) in paragraph at lines 97--97
 \TU/ptm/m/it/10 Architecture? Why is it Important? PhoenixNAP.
  []
@@ -1171,6 +1171,10 @@ Package rerunfilecheck Info: File `Ameye_Elias_voorstel.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'Ameye_Elias_voorstel.run.xml'.
 \openout1 = `Ameye_Elias_voorstel.run.xml'.
 
@@ -1178,7 +1182,7 @@ Package logreq Info: Writing requests to 'Ameye_Elias_voorstel.run.xml'.
 Here is how much of TeX's memory you used:
  23540 strings out of 412094
  392148 string characters out of 2847025
- 1396308 words of memory out of 3000000
+ 1399212 words of memory out of 3000000
  42857 multiletter control sequences out of 15000+200000
  428798 words of font info for 100 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
