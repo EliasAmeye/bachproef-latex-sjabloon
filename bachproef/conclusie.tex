@@ -5,24 +5,22 @@
 \chapter{Conclusie}
 \label{ch:conclusie}
 
-In dit onderzoek wordt een antwoord gegeven op de onderzoeksvraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?” Om hierop een antwoord te vinden, is een vergelijkende studie uitgevoerd tussen de verschillende oplossingen uit dit onderzoek. Hier werd dan elke oplossing afgetoetst aan de requirements.
+In dit onderzoek wordt een antwoord gegeven op de onderzoeksvraag: “Welke PostgreSQL High Availability cluster oplossing kunnen bedrijven, de dag van vandaag, gebruiken om garantie te hebben op monitoring, redundantie en failover?” Om hierop een antwoord te vinden, is een vergelijkende studie uitgevoerd tussen de verschillende oplossingen uit dit onderzoek. Hierbij werd elke oplossing afgetoetst aan de requirements.
 
-Uit de resultaten van de requirementsanalyse blijkt dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is, die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurd. Wat betreft failover is Patroni ook zeer ver gevorderd. Er zijn veel geavanceerde opties voor het configureren van failover in de cluster. Een handig iets is dat failover automatisch kan gebeuren en dus geen nood hoeft te hebben aan manuele interventies. Inzake monitoring kent Patroni een zeer rijke REST API die kan gebruikt worden om de cluster en de nodes te monitoren. Hierin kunnen persoonlijke voorkeuren van monitoring toegevoegd worden.
+Uit de resultaten van de requirementsanalyse blijkt dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is, die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurt. Wat betreft failover is Patroni een oplossing met een uitgebreide configuratie. Er zijn veel geavanceerde opties voor het configureren van failover in de cluster. Een handig iets is dat failover automatisch kan gebeuren en dus geen nood hoeft te hebben aan manuele interventies. Inzake monitoring kent Patroni een zeer rijke REST API die kan gebruikt worden om de cluster en de nodes te monitoren. Hierin kunnen persoonlijke voorkeuren van monitoring toegevoegd worden.
 
-Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster.
-
-Uitleg PAF: nog te schrijven
+Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster. Het voldoet voldoende aan de verschillende (functionele) requirements om als alternatief gezien te worden van Patroni als oplossing. Aan de hand van de tool Pacemaker kan PostgreSQL Automatic Failover (PAF) zodanig geconfigureerd worden dat er failover en monitoring gedaan kan worden.
 
 %De andere tools omschrijven waarom zij niet tot winnaar zijn gekomen en 
-Uitleg andere tools: nog te schrijven
+De overige twee tools: Pgpool-II en Replication Manager (repmgr) zijn zeker ook waardevolle oplossingen bij het opzetten van PostgreSQL High Availability cluster. Echter voldoen deze twee oplossingen minder aan Patroni en PostgreSQL Automatic Failover (PAF). 
 
-Bij de aanvang van dit onderzoek had ik deze uitslag nog niet verwacht. Dit omdat ik nog geen weet had van welke oplossingen er allemaal waren. Het was pas na het lezen van Akhtar, H dat ik een idee kreeg van welke PostgreSQL oplossingen er allemaal aanwezig waren. Akhtar haalde Patroni, PostgreSQL Automatic Failover (PAF), pgPool-II en Replication Manager (repmgr) aan als gepaste oplossingen voor High Availability in een PostgreSQL omgeving. Na het schrijven van mijn voorstel en literatuurstudie had ik wel het gevoel dat Patroni een zeer goede kandidaat ging zijn als PostgreSQL High Availability oplossing. De requirementanalyse heeft dit gevoel bij mij dan ook bevestigd en verantwoord.
-
+Bij de aanvang van dit onderzoek had ik deze resultaten nog niet verwacht. Dit omdat de verschillende oplossingen nog onvoldoende aan bod waren gekomen om de resultaten te voorspellen. Het was pas na het lezen van het artikel van Akhtar, H: “PostgreSQL High Availability: The Considerations and Candidates” dat ik een idee kreeg van welke PostgreSQL oplossingen er allemaal aanwezig waren. Akhtar haalde Patroni, PostgreSQL Automatic Failover (PAF), pgPool-II en Replication Manager (repmgr) aan als gepaste oplossingen voor High Availability in een PostgreSQL omgeving. Uit de literatuurstudie bleek dat Patroni een erg sterke PostgreSQL High Availability oplossing bood. De requirementanalyse bevestigde en beargumenteerde dit. 
 %meerwaarde
-Dit onderzoek biedt gegarandeerd een meerwaarde voor bedrijven die zich willen inwerken in PostgreSQL High Availability. Er wordt hier een duidelijk beeld gegeven van de verschillende oplossingen en de manier waarop deze oplossingen voldoen aan bepaalde requirements. Deze requirements zijn gekomen uit de bedrijfswereld en zullen zeker voldoen aan de noden van andere bedrijven. 
+Dit onderzoek kan een basis vormen voor bedrijven die zich willen inwerken in PostgreSQL High Availability. Er wordt hier een duidelijk beeld gegeven van de verschillende oplossingen en de manier waarop deze oplossingen voldoen aan bepaalde requirements. Deze requirements zijn gekomen uit de bedrijfswereld en voldoen hierbij aan de noden van andere bedrijven. 
 
 %vervolgonderzoek
-Dit onderzoek vraagt zeker naar een vervolgonderzoek voor de toekomst. Hoe wordt High Availability binnen tien jaar geïmplementeerd in PostgreSQL clusters. Welke nieuwe noden in een cluster zijn er dan van belang.
+Dit onderzoek vraagt zeker naar een vervolgonderzoek voor de toekomst. Hoe wordt High Availability binnen tien jaar geïmplementeerd in PostgreSQL clusters? Welke nieuwe noden in een cluster zijn er dan van belang?
+Vervolgonderzoek zal zeker een meerwaarde bieden aan bedrijven die belang hechten aan de duurzaamheid van hun clusters.
 
 
 %1. Antwoord op Hoofdonderzoeksvraag
