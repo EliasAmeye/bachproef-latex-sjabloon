@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  25 MAY 2021 22:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  26 MAY 2021 17:30
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1314,7 +1314,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.244 ...g\_basebackup of Barman}}{section*.10}{}}
+l.240 ...g\_basebackup of Barman}}{section*.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1322,7 +1322,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.244 ...g\_basebackup of Barman}}{section*.10}{}}
+l.240 ...g\_basebackup of Barman}}{section*.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1708,81 +1708,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout6 = `bachproef-tin.toc'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-[11] [12
-
-] (bachproef-tin.lof)
+[10] (bachproef-tin.lof)
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
- [13
+ [11
 
-] [14
+
+] [12
 
 ] (bachproef-tin.lot)
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
- (Inleiding2.tex
-[15] [16
+ (Inleiding2.tex [13]
+[14
 
 ]
 Hoofdstuk 1.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[17]
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 43.
- (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 43.
- (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 43.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 43.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-3.
-
-(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-
-[18]) (standvanzaken.tex [19] [20
+[15]) (standvanzaken.tex [16] [17] [18
 
 ]
 Hoofdstuk 2.
-[21] [22]
+[19] [20]
 File: img//CD.png Graphic file (type bmp)
 <img//CD.png>
 File: img//overerving.png Graphic file (type bmp)
@@ -1793,19 +1743,19 @@ Overfull \hbox (6.27164pt too wide) in paragraph at lines 71--72
 be-heer van object-relationele
  []
 
-[23] [24]
+[21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [23]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 121.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [24]
 Underfull \vbox (badness 5077) has occurred while \output is active []
 
- [27]
+ [25]
 Overfull \hbox (4.08913pt too wide) in paragraph at lines 171--172
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
@@ -1814,10 +1764,10 @@ de op-ties voor fail-back en failover.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [27]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 24.
 
@@ -1826,7 +1776,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [28]
 Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
@@ -1834,17 +1784,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
 Underfull \vbox (badness 2245) has occurred while \output is active []
 
- [31]
+ [29]
 Overfull \hbox (12.04591pt too wide) in paragraph at lines 285--288
 \T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-vou
 -di-ger zijn om WAL-bestanden
  []
 
-[32]) (methodologie.tex [33] [34
+[30]) (methodologie.tex [31] [32
 
 ]
 Hoofdstuk 3.
-[35]
+[33]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1863,16 +1813,64 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [36]) (Oplossing1.tex [37] [38
+ [34]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 63.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 63.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 63.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 63.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+3.
+
+(C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+)
+(Oplossing1.tex [35] [36
 
 ]
 Hoofdstuk 4.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[39]
+[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [38]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1880,7 +1878,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [39]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1892,12 +1890,12 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-(Oplossing2.tex [42]
+(Oplossing2.tex [40]
 Hoofdstuk 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [41
 
 ]
 Missing character: There is no “ in font ptmr8t!
@@ -1909,7 +1907,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
- [44]
+ [42]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1924,17 +1922,17 @@ Missing character: There is no ” in font ptmr8t!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Oplossing3.tex [45] [46]
+) (Oplossing3.tex [43] [44]
 Hoofdstuk 6.
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [47
+ [45
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [46]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1946,17 +1944,17 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-(Oplossing4.tex [49] [50
+(Oplossing4.tex [47] [48
 
 ]
 Hoofdstuk 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [50]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1968,10 +1966,14 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-("Verwerking resultaten.tex" [53] [54
+("Verwerking resultaten.tex" [51] [52
 
 ]
 Hoofdstuk 8.
+
+LaTeX Warning: Reference `subsec:Hoofdonderzoeksvraag' on page 53 undefined on 
+input line 9.
+
 File: img//PatroniR.png Graphic file (type bmp)
 <img//PatroniR.png>
 
@@ -2022,7 +2024,7 @@ File: img//RepVSPool.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (POC.tex [55] [56] [57] [58] [59] [60
+) (POC.tex [53] [54] [55] [56] [57] [58
 
 ]
 Hoofdstuk 9.
@@ -2031,9 +2033,11 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [59]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-4.
+6.
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2042,19 +2046,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+[61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [62]
 [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-[65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-[68]) (conclusie.tex [69] [70
+ [65]
+[66]) (conclusie.tex [67] [68
 
 ]
 Hoofdstuk 10.
@@ -2063,11 +2070,11 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [69]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-[72]
+[70]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -2082,14 +2089,14 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73
+ [71
 
 ]
-[74]
+[72]
 Underfull \vbox (badness 5175) has occurred while \output is active []
 
- [75])
-[76]
+ [73])
+[74]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2156,7 +2163,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[77
+[75
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2166,7 +2173,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[78]
+[76]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2216,7 +2223,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[79]
+[77]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2231,11 +2238,11 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[80] (bachproef-tin.aux
+[78] (bachproef-tin.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.244 ...g\_basebackup of Barman}}{section*.10}{}}
+l.240 ...g\_basebackup of Barman}}{section*.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2243,11 +2250,14 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.244 ...g\_basebackup of Barman}}{section*.10}{}}
+l.240 ...g\_basebackup of Barman}}{section*.10}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2255,7 +2265,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
 
-Overfull \hbox (578.62729pt too wide) in paragraph at lines 244--142
+Overfull \hbox (578.62729pt too wide) in paragraph at lines 240--142
 []\T1/ptm/m/n/12 _basebackup of Bar-man                                        
                                                                                
                                                                                
@@ -2266,12 +2276,12 @@ Overfull \hbox (578.62729pt too wide) in paragraph at lines 244--142
 
  ) 
 Here is how much of TeX's memory you used:
- 35403 strings out of 412094
- 633423 string characters out of 2847025
- 1658505 words of memory out of 3000000
- 54425 multiletter control sequences out of 15000+200000
+ 35400 strings out of 412094
+ 633383 string characters out of 2847025
+ 1659328 words of memory out of 3000000
+ 54422 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1365b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (82 pages).
+Output written on bachproef-tin.pdf (80 pages).

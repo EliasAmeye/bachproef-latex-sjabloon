@@ -19,30 +19,29 @@
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-In dit onderzoek zal de focus liggen op High Availability oplossingen en het belang ervan in PostgreSQL clusters. Met de Coronapandemie die nog overal aanwezig is, is er een grote stijging in het digitale gebruik. Online winkelen heeft een enorme groei gekend. Koerierbedrijven hebben overuren moeten draaien om pakjes en post te brengen bij de mensen thuis. Technologie bedrijven kennen een extra druk omdat er meer beroep wordt gedaan op IT-services. Deze digitale (r)evolutie toont ons dat beschikbaarheid van diensten zeker heel relevant is. Stel je voor dat een server van Zalando, door software problemen, uitvalt. Alle aankopen van het laatste uur zijn niet doorgekomen. Een financieel drama. De oplossing? Een standby server die inspringt in geval van downtime. Resultaat? Geen downtime, geen financieel drama, geen geknoei met corrupte data. Met dit voorbeeld wordt op een simpele manier het belang aangetoond van High Availability in clusters. Stel, er loopt iets mis, kan het probleem snel opgelost worden, zonder dat de klant of het bedrijf er iets van nadelige ervaringen aan overhoudt.
+In dit onderzoek zal de focus liggen op High Availability oplossingen en het belang ervan in PostgreSQL clusters. Met de Coronapandemie die nog overal aanwezig is, is er een grote stijging in het digitale gebruik bij klanten en bedrijven. Online winkelen heeft een enorme groei gekend. Koerierbedrijven hebben overuren moeten draaien om pakjes en post te brengen bij de mensen thuis. Technologie bedrijven kennen een extra druk omdat er meer beroep wordt gedaan op IT-services. Deze digitale (r)evolutie toont ons dat beschikbaarheid van diensten zeker heel relevant is. Stel je voor dat een server van Zalando, door software problemen, uitvalt. Alle aankopen van het laatste uur zijn niet doorgekomen. Een financieel drama. De oplossing? Een standby server die inspringt in geval van downtime. Resultaat? Geen downtime, geen financieel drama, geen geknoei met corrupte data. Met dit voorbeeld wordt op een eenvoudige manier het belang aangetoond van High Availability in database clusters. Stel, er loopt iets mis, kan het probleem snel opgelost worden, zonder dat de klant of het bedrijf er iets van nadelige ervaringen aan overhoudt.
 
 %Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
 \label{sec:onderzoeksvraag}
 
-\subsection{\IfLanguageName{dutch}{Hoofdonderzoeksvraag}{Head Research question}}
-\label{subsec:Hoofdonderzoeksvraag}
-
 Dit onderzoek focust op de vraag: “Welke PostgreSQL High Availability cluster oplossing(en) kunnen bedrijven gebruiken om garantie te hebben op monitoring, replicatie en failover?”
+
+In dit onderzoek zullen vier verschillende PostgreSQL High Availability cluster oplossingen vergeleken worden met elkaar om een antwoord te kunnen geven op deze onderzoeksvraag. In Hoofdstuk~\ref{ch:conclusie} zal dit onderzoek een antwoord geven op deze onderzoeksvraag.
 
 %In de conclusie (zie Hoofdstuk 7) van dit onderzoek zal worden antwoord gegeven op deze onderzoeksvraag.
 %Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
-\subsection{\IfLanguageName{dutch}{Deelonderzoeksvraag}{Part Research question}}
-\label{subsec:Deelonderzoeksvraag}
+%\subsection{\IfLanguageName{dutch}{Deelonderzoeksvraag}{Part Research question}}
+%\label{subsec:Deelonderzoeksvraag}
 
-Naast de hoofdonderzoeksvraag zijn er ook enkele ondersteunende deelonderzoeksvragen die bij dit onderzoek horen. Deze deelonderzoeksvragen zullen doorheen het onderzoek beantwoord worden. %Bij de conclusie (zie Hoofdstuk 7) zal er een samenvatting van te vinden zijn.
+%Naast de hoofdonderzoeksvraag zijn er ook enkele ondersteunende deelonderzoeksvragen die bij dit onderzoek horen. Deze deelonderzoeksvragen zullen doorheen het onderzoek beantwoord worden. %Bij de conclusie (zie Hoofdstuk 7) zal er een samenvatting van te vinden zijn.
 
- \begin{description}
-    \item
-    \item[$\cdot$] Wat zijn de voor- en nadelen van deze oplossing?
-    \item[$\cdot$] Wanneer wordt welke oplossing gekozen?
-\end{description}
+% \begin{description}
+%    \item
+%    \item[$\cdot$] Wat zijn de voor- en nadelen van deze oplossing?
+%    \item[$\cdot$] Wanneer wordt welke oplossing gekozen?
+%\end{description}
 
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}

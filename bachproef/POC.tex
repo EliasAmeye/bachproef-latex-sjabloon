@@ -61,6 +61,8 @@ Bij de opzet van cluster zal gebruik worden gemaakt van Vagrant. Vagrant is een 
 
 In onderstaande code snippet is de code voor de Vagrantfile zichtbaar. Hierin wordt bepaald welke servers aangemaakt worden en welke opties zij bezitten. Zo zal elke node een RAM-geheugen hebben van 1 GB (1024 MB). Ook het ip-adres zal hierin worden toegewezen per node. Er wordt ook een bestand meegegeven dat zal worden uitgevoerd in de server. Dit bestand bevat de opbouw van de cluster, zoals het installeren van Consul, het configureren van Patroni op de nodes, en de setup van HAProxy en pgBouncer.
 
+Bij de drie virtuele machines wordt telkens verwezen naar een Linux bash-script, namelijk “postgresql-cluster-setup.sh”. Dit is het bestand waarin wordt gekeken met welke virtuele machine er gewerkt wordt, zodat, op basis daarvan, de juiste packages geïnstalleerd kunnen worden. Zo zal bijvoorbeeld bij pgNode1 Python, Consul Agent, Patroni en PostgreSQL geïnstalleerd worden als packages.
+
 \begin{lstlisting}
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
