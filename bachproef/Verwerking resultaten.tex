@@ -6,7 +6,7 @@
 \label{ch:Verwerking resultaten}
 
 %inleiding tot hoofdstuk
-In dit hoofdstuk zullen de verschillende resultaten van de requirementanalyse van de oplossingen verwerkt worden om zo tot een statistisch correct antwoord te komen op de hoofdonderzoeksvraag uit Sectie~\ref{subsec:Hoofdonderzoeksvraag}.
+In dit hoofdstuk zullen de verschillende resultaten van de requirementanalyse van de oplossingen verwerkt worden om zo tot een statistisch correct antwoord te komen op de hoofdonderzoeksvraag uit Sectie~\ref{sec:onderzoeksvraag}.
 
 \section{\IfLanguageName{dutch}{Resultaten requirements}{Resultaten requirements}}
 \label{sec:Resultaten requirements}
@@ -24,7 +24,7 @@ Hieronder vindt u per PostgreSQL High Availability cluster oplossing een overzic
         \begin{tabular}{|l|c|c|c|c|}
             \hline
             \multicolumn{1}{|r|}{} & Patroni & PostgreSQL Automatic Failover (PAF) & Pgpool-II & Replication Manager (repmgr) \\ \hline
-            Gemiddelde          & 4.4 & 4,2 & 3,8 & /4 \\ \hline
+            Gemiddelde          & 4.4 & 4,2 & 3,8 & 4 \\ \hline
             Mediaan             & 4 & 4 & 4 & 4 \\ \hline
             Modus               & 4 & 4 & 3 \& 4 & 4 \\ \hline
             Standaardafwijking  & 0,55 & 0,45 & 0,84 & 0,71 \\ \hline
@@ -35,9 +35,19 @@ Hieronder vindt u per PostgreSQL High Availability cluster oplossing een overzic
     \label{table:Statistieken requirements}
 \end{table}
 
-Om deze resultaten met elkaar te vergelijken, wordt er gebruik gemaakt van niet-gepaarde t-testen.
+Om deze resultaten met elkaar te vergelijken, wordt er gebruik gemaakt van niet-gepaarde t-testen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van Patroni en 𝜇\index{2} aan het populatiegemiddelde van PostgreSQL Automatic Failover (PAF). Op deze manier willen we aantonen dat Patroni beter scoort dan PostgreSQL Automatic Failover (PAF). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.2727 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan PostgreSQL Automatic Failover (PAF). 
+
+Wanneer we kijken naar Patroni en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van Patroni en 𝜇\index{2} aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Patroni beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Pgpool-II} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.1111 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan Pgpool-II.
 
 
+
+%\array{fx|a\index{1}||b\index{1}|↗|a\index{2}|↙|b\index{2}} 
+
+%$\frac{num}{den}$
 
 
 
