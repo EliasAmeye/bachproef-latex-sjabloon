@@ -441,8 +441,6 @@ postgresql:
 \end{lstlisting}
 
 
-
-
 Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
 \begin{lstlisting}
@@ -461,7 +459,7 @@ Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstart
 
 
 
-Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tomàs Montserrat. Zijn opstelling is de basis geweest voor het opzetten van deze Patroni cluster.
+Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tomàs Montserrat. Zijn opstelling is de basis geweest voor het opzetten van deze Patroni cluster. De opzet van deze cluster omvatten de drie functionaliteiten die nodig waren om te voldoen aan de functionele requirements, namelijk replicatie, monitoring en failover.
 %\section{\IfLanguageName{dutch}{Testing functionele requirements}{Testing functionele requirements}}
 %\label{sec:Testing functionele requirements}
 
@@ -477,6 +475,7 @@ Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tom�
 \label{sec:Persoonlijke conclusie}
 
 Het opzetten van de Patroni cluster verliep voor mij redelijk moeizaam. Het is de eerste keer dat ik een cluster opgezet heb zonder te weten wat er concreet allemaal in moet zitten. Het was een proces van trial and error.
+
 
 %Hierin persoonlijke ervaring over Patroni schrijven als oplossing. Is het aan te raden, is het een eenvoudige oplossing...
 
