@@ -187,7 +187,7 @@ listen postgres
 
 “mode” zal bepalen op welke manier HAProxy werkt. Aan de ene kant kan het werken als een eenvoudige TCP proxy. Aan de andere kant is het ook in staat om HTTP-berichten van binnenkomend verkeer te inspecteren.
 
-De “timeout” commando's zullen na een bepaalde timeout van client of server de verbinding verbreken.
+De “timeout” commando's zullen na een bepaalde time-out van client of server de verbinding verbreken.
 
 “bind” zal een listener toewijzen aan een bepaald IP-adres en poort.
 
@@ -362,6 +362,19 @@ tags:
 watchdog:
     mode: off
 \end{lstlisting}
+
+“ttl” geeft de tijd, in seconden, mee voor de primary node om het leader lock te verwerven. Wanneer deze ttl gepasseerd is, zal failover plaatsvinden. Standaard staat deze waarde op 30 seconden.
+
+Bij “retry\_timeout” wordt de tijd meegegeven die na overschrijden, de primary node zal degraderen, in geval van time-out. Standaard staat deze waarde op 10 seconden.
+
+“maximum\_lag\_on\_failover” geeft het maximaal aantal bytes mee dat een standby node mag vertragen (lag) om deel te nemen aan een verkiezing van nieuwe primary node, in geval van failover. 
+
+Bij “master\_start\_timeout” wordt de tijd meegegeven waarop een primary node de tijd krijgt om te herstellen van een fout voordat failover ingeschakeld wordt. Standaard staat deze parameter op 300 seconden. Als deze parameter op 0 staat, zal direct failover worden gedaan.
+
+“use\_pg\_rewind” zal hier op true staan, omdat we dit ingeschakeld willen. Standaard staat dit op false.
+
+Bij “parameters” vinden we een lijst terug van commando's die gebruikt worden om Postgres te configureren.
+
 
 Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
