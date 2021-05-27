@@ -207,23 +207,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.5}pgNode2}{65}{section.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{66}{section.9.6}%
+\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{67}{section.9.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusie}{67}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Conclusie}{69}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{71}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Samenvatting}{69}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Samenvatting}{71}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Introductie}{70}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Introductie}{72}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}State of the art}{70}{section.A.3}%
+\contentsline {section}{\numberline {A.3}State of the art}{72}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Methodologie}{71}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Methodologie}{73}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte resultaten}{71}{section.A.5}%
+\contentsline {section}{\numberline {A.5}Verwachte resultaten}{73}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Verwachte conclusies}{72}{section.A.6}%
+\contentsline {section}{\numberline {A.6}Verwachte conclusies}{74}{section.A.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{73}{appendix*.43}%
+\contentsline {chapter}{Bibliografie}{75}{appendix*.43}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 17:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 18:01
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2092,6 +2092,17 @@ Missing character: There is no ” in font ptmr8t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
 [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2099,20 +2110,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-[65]) (conclusie.tex [66]
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66])
+(conclusie.tex [67] [68
+
+]
 Hoofdstuk 10.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
-
-]
+ [69]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-[68]
+[70]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -2127,14 +2142,14 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69
+ [71
 
 ]
-[70]
+[72]
 Underfull \vbox (badness 5175) has occurred while \output is active []
 
- [71])
-[72]
+ [73])
+[74]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2201,7 +2216,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[73
+[75
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2211,7 +2226,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[74]
+[76]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2261,7 +2276,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[75]
+[77]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2276,7 +2291,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[76] (bachproef-tin.aux
+[78] (bachproef-tin.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
@@ -2296,6 +2311,10 @@ I'm ignoring this, since I wasn't doing a \csname.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
@@ -2313,10 +2332,10 @@ Overfull \hbox (578.62729pt too wide) in paragraph at lines 240--142
 Here is how much of TeX's memory you used:
  35399 strings out of 412094
  633354 string characters out of 2847025
- 1657347 words of memory out of 3000000
+ 1660347 words of memory out of 3000000
  54421 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1365b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (78 pages).
+Output written on bachproef-tin.pdf (80 pages).

@@ -230,9 +230,16 @@ log_disconnections = 1
 log_pooler_errors = 1  
 \end{lstlisting}
 
+%https://www.pgbouncer.org/config.html
+
+“listen\_addr” specificeert het aantal IP-adressen waar naar geluisterd moet worden. Een * zal duiden dat naar alle adressen geluisterd zal worden. “listen\_port” zal de poort meegeven waarnaar geluisterd moet worden.
+
+“auth\_type” zal bepalen hoe gebruikers geauthenticeerd worden. Bij de parameter trust zal er geen authenticatie plaatsvinden.
+
+Bij “admin\_users” zal worden bepaald welke gebruikers volledige controle hebben.
 
 
-
+“server\_check\_query” controleert of de server connection aanwezig is.
 
 
 \section{\IfLanguageName{dutch}{pgNode1}{pgNode1}}
