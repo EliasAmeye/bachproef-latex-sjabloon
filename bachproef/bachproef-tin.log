@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 01:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 02:15
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1972,16 +1972,47 @@ Missing character: There is no ” in font ptmr8t!
 Hoofdstuk 8.
 Missing character: There is no 𝜇 in font ptmr8t!
 Missing character: There is no 𝜇 in font ptmr8t!
+File: img//PatroniVSPAF.png Graphic file (type bmp)
+<img//PatroniVSPAF.png>
 [53]
 Missing character: There is no 𝜇 in font ptmr8t!
 Missing character: There is no 𝜇 in font ptmr8t!
+File: img//PatroniVSPool.png Graphic file (type bmp)
+<img//PatroniVSPool.png>
+Missing character: There is no 𝜇 in font ptmr8t!
+Missing character: There is no 𝜇 in font ptmr8t!
+ [54]
+File: img//PatroniVSRep.png Graphic file (type bmp)
+<img//PatroniVSRep.png>
+Missing character: There is no 𝜇 in font ptmr8t!
+Missing character: There is no 𝜇 in font ptmr8t!
+File: img//PAFVSPool.png Graphic file (type bmp)
+<img//PAFVSPool.png>
+Missing character: There is no 𝜇 in font ptmr8t!
+Missing character: There is no 𝜇 in font ptmr8t!
+ [55]
+File: img//PAFVSRep.png Graphic file (type bmp)
+<img//PAFVSRep.png>
+Missing character: There is no 𝜇 in font ptmr8t!
+Missing character: There is no 𝜇 in font ptmr8t!
+File: img//RepVSPool.png Graphic file (type bmp)
+<img//RepVSPool.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: img//PatroniR.png Graphic file (type bmp)
 <img//PatroniR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: img//PAFR.png Graphic file (type bmp)
 <img//PAFR.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: img//PoolR.png Graphic file (type bmp)
 <img//PoolR.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1990,46 +2021,16 @@ File: img//RepR.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: img//PatroniVSPAF.png Graphic file (type bmp)
-<img//PatroniVSPAF.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img//PatroniVSPool.png Graphic file (type bmp)
-<img//PatroniVSPool.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img//PatroniVSRep.png Graphic file (type bmp)
-<img//PatroniVSRep.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img//PAFVSPool.png Graphic file (type bmp)
-<img//PAFVSPool.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img//PAFVSRep.png Graphic file (type bmp)
-<img//PAFVSRep.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img//RepVSPool.png Graphic file (type bmp)
-<img//RepVSPool.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (POC.tex [54] [55] [56] [57] [58
-
-]
+) (POC.tex [56] [57] [58]
 Hoofdstuk 9.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [59
+
+]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6

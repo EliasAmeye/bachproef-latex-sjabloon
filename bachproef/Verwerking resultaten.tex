@@ -39,19 +39,70 @@ Om deze resultaten met elkaar te vergelijken, wordt er gebruik gemaakt van niet-
 
 Uit deze t-test komt een p-waarde van 0.2727 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan PostgreSQL Automatic Failover (PAF). 
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSPAF.png}
+    \caption{R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
+    \label{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
+\end{figure}
+
 Wanneer we kijken naar Patroni en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van Patroni en 𝜇\index{2} aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Patroni beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Pgpool-II} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.1111 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan Pgpool-II.
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSPool.png}
+    \caption{R berekening Patroni en Pgpool-II}
+    \label{fig:R berekening Patroni en Pgpool-II}
+\end{figure}
+
+Wanneer we kijken naar Patroni en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van Patroni en 𝜇\index{2} aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat Patroni beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.1742 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan Replication Manager (repmgr).
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PatroniVSRep.png}
+    \caption{R berekening Patroni en Replication Manager (repmgr)}
+    \label{fig:R berekening Patroni en Replication Manager (repmgr)}
+\end{figure}
+
+Wanneer we verder kijken naar PostgreSQL Automatic Failover (PAF) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en 𝜇\index{2} aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.1908 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat PostgreSQL Automatic Failover (PAF) opnieuw niet significant beter scoort dan Pgpool-II.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PAFVSPool.png}
+    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
+    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
+\end{figure}
+
+Kijken we naar PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en 𝜇\index{2} aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.3051 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat PostgreSQL Automatic Failover (PAF) opnieuw niet significant beter scoort dan Replication Manager (repmgr).
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{PAFVSRep.png}
+    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
+    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
+\end{figure}
+
+Wanneer we verder kijken naar Replication Manager (repmgr) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we 𝜇\index{1} gelijk aan het populatiegemiddelde van de scores van Replication Manager (repmgr) en 𝜇\index{2} aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Replication Manager (repmgr) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Replication Manager (repmgr) en Pgpool-II} wordt deze hypothese berekend in R.
+
+Uit deze t-test komt een p-waarde van 0.653 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Replication Manager (repmgr) opnieuw niet significant beter scoort dan Pgpool-II.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{RepVSPool.png}
+    \caption{R berekening Replication Manager (repmgr) en Pgpool-II}
+    \label{fig:R berekening Replication Manager (repmgr) en Pgpool-II}
+\end{figure}
 
 
-%\array{fx|a\index{1}||b\index{1}|↗|a\index{2}|↙|b\index{2}} 
-
-%$\frac{num}{den}$
-
-
-
-Bovenstaande resultaten werden behaald met onderstaande code in R. Hierin werd telkens het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt berekend.
+Bovenstaande resultaten werden behaald met onderstaande code in R die te zijn op Figuur~\ref{fig:R berekening voor Patroni}, Figuur~\ref{fig:R berekening voor PostgreSQL Automatic Failover (PAF)}, Figuur~\ref{fig:R berekening voor Pgpool-II} en Figuur~\ref{fig:R berekening voor Replication Manager (repmgr)}. Hierin werd telkens het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt berekend per oplossing.
 
 \begin{figure}[!h]
     \centering
@@ -80,49 +131,6 @@ Bovenstaande resultaten werden behaald met onderstaande code in R. Hierin werd t
     \caption{R berekening voor Replication Manager (repmgr)}
     \label{fig:R berekening voor Replication Manager (repmgr)}
 \end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{PatroniVSPAF.png}
-    \caption{R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
-    \label{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
-\end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{PatroniVSPool.png}
-    \caption{R berekening Patroni en Pgpool-II}
-    \label{fig:R berekening Patroni en Pgpool-II}
-\end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{PatroniVSRep.png}
-    \caption{R berekening Patroni en Replication Manager (repmgr)}
-    \label{fig:R berekening Patroni en Replication Manager (repmgr)}
-\end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{PAFVSPool.png}
-    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
-    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
-\end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{PAFVSRep.png}
-    \caption{R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
-    \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
-\end{figure}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=\linewidth]{RepVSPool.png}
-    \caption{R berekening Replication Manager (repmgr) en Pgpool-II}
-    \label{fig:R berekening Replication Manager (repmgr) en Pgpool-II}
-\end{figure}
-
 
 
 %\begin{table}[!h]
