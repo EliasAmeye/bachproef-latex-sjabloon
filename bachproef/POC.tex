@@ -187,11 +187,16 @@ listen postgres
 
 “mode” zal bepalen op welke manier HAProxy werkt. Aan de ene kant kan het werken als een eenvoudige TCP proxy. Aan de andere kant is het ook in staat om HTTP-berichten van binnenkomend verkeer te inspecteren.
 
-de “timeout” commando's zullen na een bepaalde timeout van client of server de verbinding verbreken.
+De “timeout” commando's zullen na een bepaalde timeout van client of server de verbinding verbreken.
 
 “bind” zal een listener toewijzen aan een bepaald IP-adres en poort.
 
 “option httpchk” zal gezondheidscontroles uitvoeren op HTTP. Servers die hier niet op reageren, zullen niet meer bediend worden.
+
+De “default-server” configureert voor alle serverregels de standaardinstellingen, zoals het activeren van de gezondheidscontroles en maximale verbindingen.
+
+Bij “server” staat voor elke aanwezig node het IP-adres, de poort en het maximum aantal connecties.
+%https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
 
 
 
@@ -224,6 +229,10 @@ log_connections = 1
 log_disconnections = 1
 log_pooler_errors = 1  
 \end{lstlisting}
+
+
+
+
 
 
 \section{\IfLanguageName{dutch}{pgNode1}{pgNode1}}
