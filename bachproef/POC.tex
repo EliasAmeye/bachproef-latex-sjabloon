@@ -375,6 +375,12 @@ Bij “master\_start\_timeout” wordt de tijd meegegeven waarop een primary nod
 
 Bij “parameters” vinden we een lijst terug van commando's die gebruikt worden om Postgres te configureren.
 
+“pg\_hba” zorgt voor client authenticatie tussen de PostgreSQL server en de client applicatie.
+
+Bij tags zal “nofailover” aan de hand van de meegegeven parameter kijken of de node mag deelnemen aan de verkiezing om nieuwe primary node te worden. “clonefrom” zal dienen, wanneer true, voor de andere nodes om deze node te gebruiken voor bootstrap.
+“nosync” zal indien true nooit geselecteerd worden voor synchrone replica.
+
+
 
 Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul agent (cliënt). Deze ziet er als volgt uit.
 
