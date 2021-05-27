@@ -203,11 +203,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.3}pgServer}{61}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}pgNode1}{63}{section.9.4}%
+\contentsline {section}{\numberline {9.4}pgNode1}{64}{section.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}pgNode2}{66}{section.9.5}%
+\contentsline {section}{\numberline {9.5}pgNode2}{67}{section.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{67}{section.9.6}%
+\contentsline {section}{\numberline {9.6}Persoonlijke conclusie}{68}{section.9.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Conclusie}{69}{chapter.10}%
 \defcounter {refsection}{0}\relax 

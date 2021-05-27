@@ -122,7 +122,7 @@ Hierna zal voor Consul een service toegevoegd worden die bij het opstarten van d
         "bootstrap": false,
         "bootstrap_expect": 1,
         "server": true,
-        "client_addr": "0.0.0.0",
+        "client_addr": "127.0.0.1",
         "node_name": "pgServer",
         "datacenter": "dc1",
         "data_dir": "/var/consul/server",
@@ -137,6 +137,19 @@ Hierna zal voor Consul een service toegevoegd worden die bij het opstarten van d
     }
     
  \end{lstlisting}
+
+Het “advertise\_addr” of het adverteer adres wordt gebruikt om het IP-adres te wijzigen dat geadverteerd wordt naar de andere nodes. Standaard wordt voor advertising het “bind\_addr” geadverteerd.
+
+De “bootstrap” parameter toont aan of de server in “bootstrap” modus staat.
+“bootstrap\_expect” geeft het aantal verwachte servers mee in de cluster als parameter. Consul zal wachten tot dit aantal beschikbaar is om de cluster te bootstrappen.
+
+Het “client\_addr” geeft het adres mee waaraan Consul client interfaces zal binden, zoals de HTTP en DNS servers. Standaard staat dit op “127.0.0.1”.
+
+“datacenter” controleert het datacenter waarin de Consul agent draait. Standaard staat deze ingesteld op “dc1”.
+
+Consul zal aan de hand van “rejoin\_after\_leave” er altijd voor proberen zorgen dat de node bij opstart de cluster zal proberen te joinen. Standaard beschouwd Consul een vertrek van een node uit de cluster, als permanent. Met de parameter hier op “true” te zetten, zal dit niet het geval zijn en zal de node proberen de cluster terug te joinen.
+
+“leave\_on\_terminate” zal, indien “true”, wanneer de node een signaal krijgt om af te sluiten, de node de cluster verlaten. Voor Consul clients staat dit standaard op “true”, maar bij Consul servers staat dit standaard op “false”. “skip\_leave\_on\_interrupt” is zeer vergelijkbaar met “leave\_on\_terminate”.
 
 Bij het installeren van de HAProxy wordt doorverwezen naar een configuratiebestand waarin de verschillende opties worden meegegeven.
 
