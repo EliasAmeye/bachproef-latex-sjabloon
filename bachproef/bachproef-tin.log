@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 14:50
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 16:45
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1728,11 +1728,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Hoofdstuk 1.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[15]) (standvanzaken.tex [16] [17] [18
-
-]
+[15]) (standvanzaken.tex [16]
 Hoofdstuk 2.
-[19] [20]
+[17
+
+] [18]
 File: img//CD.png Graphic file (type bmp)
 <img//CD.png>
 File: img//overerving.png Graphic file (type bmp)
@@ -1743,19 +1743,19 @@ Overfull \hbox (6.27164pt too wide) in paragraph at lines 71--72
 be-heer van object-relationele
  []
 
-[21] [22]
+[19] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [21]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 121.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [22]
 Underfull \vbox (badness 5077) has occurred while \output is active []
 
- [25]
+ [23]
 Overfull \hbox (4.08913pt too wide) in paragraph at lines 171--172
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
@@ -1764,10 +1764,10 @@ de op-ties voor fail-back en failover.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [25]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 24.
 
@@ -1776,7 +1776,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
@@ -1784,17 +1784,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
 Underfull \vbox (badness 2245) has occurred while \output is active []
 
- [29]
+ [27]
 Overfull \hbox (12.04591pt too wide) in paragraph at lines 285--288
 \T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-vou
 -di-ger zijn om WAL-bestanden
  []
 
-[30]) (methodologie.tex [31] [32
+[28]) (methodologie.tex [29] [30
 
 ]
 Hoofdstuk 3.
-[33]
+[31]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1813,7 +1813,7 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [34]
+ [32]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  63.
 
@@ -1861,16 +1861,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 )
-(Oplossing1.tex [35] [36
+(Oplossing1.tex [33] [34
 
 ]
 Hoofdstuk 4.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[37]
+[35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [36]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1878,7 +1878,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [37]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1890,12 +1890,12 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-(Oplossing2.tex [40]
+(Oplossing2.tex [38]
 Hoofdstuk 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41
+ [39
 
 ]
 Missing character: There is no “ in font ptmr8t!
@@ -1907,7 +1907,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
- [42]
+ [40]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1922,17 +1922,17 @@ Missing character: There is no ” in font ptmr8t!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Oplossing3.tex [43] [44]
+) (Oplossing3.tex [41] [42]
 Hoofdstuk 6.
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [45
+ [43
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [44]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1944,17 +1944,17 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-(Oplossing4.tex [47] [48
+(Oplossing4.tex [45] [46
 
 ]
 Hoofdstuk 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [48]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1966,35 +1966,23 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-("Verwerking resultaten.tex" [51] [52
+("Verwerking resultaten.tex" [49] [50
 
 ]
 Hoofdstuk 8.
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
 File: img//PatroniVSPAF.png Graphic file (type bmp)
 <img//PatroniVSPAF.png>
-[53]
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
+[51]
 File: img//PatroniVSPool.png Graphic file (type bmp)
 <img//PatroniVSPool.png>
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
- [54]
+ [52]
 File: img//PatroniVSRep.png Graphic file (type bmp)
 <img//PatroniVSRep.png>
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
 File: img//PAFVSPool.png Graphic file (type bmp)
 <img//PAFVSPool.png>
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
- [55]
+ [53]
 File: img//PAFVSRep.png Graphic file (type bmp)
 <img//PAFVSRep.png>
-Missing character: There is no 𝜇 in font ptmr8t!
-Missing character: There is no 𝜇 in font ptmr8t!
 File: img//RepVSPool.png Graphic file (type bmp)
 <img//RepVSPool.png>
 
@@ -2021,14 +2009,14 @@ File: img//RepR.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (POC.tex [56] [57] [58]
+) (POC.tex [54] [55] [56]
 Hoofdstuk 9.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59
+ [57
 
 ]
 Missing character: There is no “ in font ptmr8t!
@@ -2046,8 +2034,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-[61]
+ [58]
+[59]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -2085,34 +2073,42 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [60]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+[62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
-[64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67])
-(conclusie.tex [68]
+ [64]
+[65]) (conclusie.tex [66]
 Hoofdstuk 10.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69
+ [67
 
 ]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-[70]
+[68]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -2127,14 +2123,14 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71
+ [69
 
 ]
-[72]
+[70]
 Underfull \vbox (badness 5175) has occurred while \output is active []
 
- [73])
-[74]
+ [71])
+[72]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2201,7 +2197,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[75
+[73
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2211,7 +2207,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[76]
+[74]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2261,7 +2257,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[77]
+[75]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2276,7 +2272,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[78] (bachproef-tin.aux
+[76] (bachproef-tin.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
@@ -2313,10 +2309,10 @@ Overfull \hbox (578.62729pt too wide) in paragraph at lines 240--142
 Here is how much of TeX's memory you used:
  35399 strings out of 412094
  633354 string characters out of 2847025
- 1667347 words of memory out of 3000000
+ 1658347 words of memory out of 3000000
  54421 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1365b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (80 pages).
+Output written on bachproef-tin.pdf (78 pages).

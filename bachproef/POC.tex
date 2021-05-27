@@ -151,6 +151,8 @@ Consul zal aan de hand van “rejoin\_after\_leave” er altijd voor proberen zo
 
 “leave\_on\_terminate” zal, indien “true”, wanneer de node een signaal krijgt om af te sluiten, de node de cluster verlaten. Voor Consul clients staat dit standaard op “true”, maar bij Consul servers staat dit standaard op “false”. “skip\_leave\_on\_interrupt” is zeer vergelijkbaar met “leave\_on\_terminate”.
 
+%https://www.consul.io/docs/agent/options
+
 Bij het installeren van de HAProxy wordt doorverwezen naar een configuratiebestand waarin de verschillende opties worden meegegeven.
 
 \begin{lstlisting}
@@ -181,9 +183,15 @@ listen postgres
     server postgresql_pgNode2_172.0.16.33 172.16.0.33:5432 maxconn 100 check port 8008
 \end{lstlisting}
 
+“maxconn” zal eeen limiet zetten op het aantal verbindingen dat HAProxy zal aanvaarden.
 
+“mode” zal bepalen op welke manier HAProxy werkt. Aan de ene kant kan het werken als een eenvoudige TCP proxy. Aan de andere kant is het ook in staat om HTTP-berichten van binnenkomend verkeer te inspecteren.
 
+de “timeout” commando's zullen na een bepaalde timeout van client of server de verbinding verbreken.
 
+“bind” zal een listener toewijzen aan een bepaald IP-adres en poort.
+
+“option httpchk” zal gezondheidscontroles uitvoeren op HTTP. Servers die hier niet op reageren, zullen niet meer bediend worden.
 
 
 
