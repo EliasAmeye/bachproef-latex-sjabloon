@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 18:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 18:11
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2102,8 +2102,16 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-[62]
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
@@ -2311,10 +2319,6 @@ I'm ignoring this, since I wasn't doing a \csname.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
@@ -2332,7 +2336,7 @@ Overfull \hbox (578.62729pt too wide) in paragraph at lines 240--142
 Here is how much of TeX's memory you used:
  35399 strings out of 412094
  633354 string characters out of 2847025
- 1660347 words of memory out of 3000000
+ 1663347 words of memory out of 3000000
  54421 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
