@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 MAY 2021 12:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 MAY 2021 13:31
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2003,7 +2003,7 @@ Hoofdstuk 9.
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7326) has occurred while \output is active []
 
  [57
 
@@ -2011,7 +2011,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-6.
+7.
 
 (C:\Users\elias\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2137,20 +2137,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-[66]) (conclusie.tex [67] [68
+[66]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Overfull \hbox (186.47769pt too wide) in paragraph at lines 509--510
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71])
+(conclusie.tex [72]
 Hoofdstuk 10.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [73
+
+]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 )
-[70]
+[74]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 ! Undefined control sequence.
@@ -2165,14 +2190,14 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71
+ [75
 
 ]
-[72]
+[76]
 Underfull \vbox (badness 5175) has occurred while \output is active []
 
- [73])
-[74]
+ [77])
+[78]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2239,7 +2264,7 @@ Overfull \hbox (81.4837pt too wide) in paragraph at lines 140--140
 cswV6QsafwgHI0hqa -[]
  []
 
-[75
+[79
 
 ]
 Missing character: There is no – in font ptmr8t!
@@ -2249,7 +2274,7 @@ Overfull \hbox (7.05502pt too wide) in paragraph at lines 140--140
  / searchdatacenter . techtarget .
  []
 
-[76]
+[80]
 Overfull \hbox (13.38055pt too wide) in paragraph at lines 140--140
 [][]\T1/ptm/m/n/12 PostgreSQL. (2020). Post-greSQL. Ver-kre-gen 31 de-cem-ber 2
 020, van []$https : / / www . postgresql .
@@ -2299,7 +2324,7 @@ Overfull \hbox (9.82631pt too wide) in paragraph at lines 140--140
 articles / postgresql -[] connection -[]
  []
 
-[77]
+[81]
 Missing character: There is no – in font ptmri8t!
 Missing character: There is no – in font ptmri8t!
 
@@ -2314,7 +2339,7 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[78] (bachproef-tin.aux)
+[82] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2323,12 +2348,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35392 strings out of 412094
- 633016 string characters out of 2847025
- 1663482 words of memory out of 3000000
- 54414 multiletter control sequences out of 15000+200000
+ 35522 strings out of 412094
+ 634558 string characters out of 2847025
+ 1682549 words of memory out of 3000000
+ 54544 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1365b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bachproef-tin.pdf (80 pages).
+Output written on bachproef-tin.pdf (84 pages).

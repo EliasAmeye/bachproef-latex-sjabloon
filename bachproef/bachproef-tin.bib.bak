@@ -504,12 +504,15 @@
   urldate      = {2021-05-12},
 }
 
-@Online{,
-  author   = {Sridhar Ranganathan},
-  date     = {2020-12-09},
-  title    = {Logische decodering},
-  url      = {https://docs.microsoft.com/nl-nl/azure/postgresql/concepts-logical},
-  subtitle = {Logische decodering starten},
+@Online{Ranganathan2020,
+  author       = {Sridhar Ranganathan},
+  date         = {2020-12-09},
+  title        = {Logische decodering},
+  url          = {https://docs.microsoft.com/nl-nl/azure/postgresql/concepts-logical},
+  language     = {English},
+  organization = {Microsoft},
+  subtitle     = {Logische decodering starten},
+  urldate      = {2021-05-25},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -35,7 +35,7 @@ Hieronder vindt u per PostgreSQL High Availability cluster oplossing een overzic
     \label{table:Statistieken requirements}
 \end{table}
 
-Om deze resultaten met elkaar te vergelijken, wordt er gebruik gemaakt van niet-gepaarde t-testen. Hierin stellen we $\mu\index{1}$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu\index{2}$ aan het populatiegemiddelde van PostgreSQL Automatic Failover (PAF). Op deze manier willen we aantonen dat Patroni beter scoort dan PostgreSQL Automatic Failover (PAF). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)} wordt deze hypothese berekend in R.
+Om deze resultaten met elkaar te vergelijken, wordt er gebruik gemaakt van niet-gepaarde t-testen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu_2$ aan het populatiegemiddelde van PostgreSQL Automatic Failover (PAF). Op deze manier willen we aantonen dat Patroni beter scoort dan PostgreSQL Automatic Failover (PAF). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.2727 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan PostgreSQL Automatic Failover (PAF). 
 
@@ -46,7 +46,7 @@ Uit deze t-test komt een p-waarde van 0.2727 wat hoger ligt dan het significatie
     \label{fig:R berekening Patroni en PostgreSQL Automatic Failover (PAF)}
 \end{figure}
 
-Wanneer we kijken naar Patroni en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu\index{1}$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu\index{2}$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Patroni beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Pgpool-II} wordt deze hypothese berekend in R.
+Wanneer we kijken naar Patroni en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu_2$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Patroni beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Pgpool-II} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.1111 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan Pgpool-II.
 
@@ -57,7 +57,7 @@ Uit deze t-test komt een p-waarde van 0.1111 wat hoger ligt dan het significatie
     \label{fig:R berekening Patroni en Pgpool-II}
 \end{figure}
 
-Wanneer we kijken naar Patroni en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu\index{1}$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu\index{2}$ aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat Patroni beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
+Wanneer we kijken naar Patroni en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van Patroni en $\mu_2$ aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat Patroni beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Patroni en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.1742 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Patroni niet significant beter scoort dan Replication Manager (repmgr).
 
@@ -68,7 +68,7 @@ Uit deze t-test komt een p-waarde van 0.1742 wat hoger ligt dan het significatie
     \label{fig:R berekening Patroni en Replication Manager (repmgr)}
 \end{figure}
 
-Wanneer we verder kijken naar PostgreSQL Automatic Failover (PAF) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu1 \index{1}$ gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en $\mu2 \index{2}$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II} wordt deze hypothese berekend in R.
+Wanneer we verder kijken naar PostgreSQL Automatic Failover (PAF) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en $\mu_2$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.1908 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat PostgreSQL Automatic Failover (PAF) opnieuw niet significant beter scoort dan Pgpool-II.
 
@@ -79,7 +79,7 @@ Uit deze t-test komt een p-waarde van 0.1908 wat hoger ligt dan het significatie
     \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Pgpool-II}
 \end{figure}
 
-Kijken we naar PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu\index{1}$ gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en $\mu\index{2}$ aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
+Kijken we naar PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr), dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van PostgreSQL Automatic Failover (PAF) en $\mu_2$ aan het populatiegemiddelde van Replication Manager (repmgr). Op deze manier willen we aantonen dat PostgreSQL Automatic Failover (PAF) beter scoort dan Replication Manager (repmgr). We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.3051 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat PostgreSQL Automatic Failover (PAF) opnieuw niet significant beter scoort dan Replication Manager (repmgr).
 
@@ -90,7 +90,7 @@ Uit deze t-test komt een p-waarde van 0.3051 wat hoger ligt dan het significatie
     \label{fig:R berekening PostgreSQL Automatic Failover (PAF) en Replication Manager (repmgr)}
 \end{figure}
 
-Wanneer we verder kijken naar Replication Manager (repmgr) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu\index{1}$ gelijk aan het populatiegemiddelde van de scores van Replication Manager (repmgr) en $\mu\index{2}$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Replication Manager (repmgr) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Replication Manager (repmgr) en Pgpool-II} wordt deze hypothese berekend in R.
+Wanneer we verder kijken naar Replication Manager (repmgr) en Pgpool-II, dan kunnen we opnieuw een niet-gepaarde t-test opstellen. Hierin stellen we $\mu_1$ gelijk aan het populatiegemiddelde van de scores van Replication Manager (repmgr) en $\mu_2$ aan het populatiegemiddelde van Pgpool-II. Op deze manier willen we aantonen dat Replication Manager (repmgr) beter scoort dan Pgpool-II. We nemen als $\alpha = 5\%$. In Figuur~\ref{fig:R berekening Replication Manager (repmgr) en Pgpool-II} wordt deze hypothese berekend in R.
 
 Uit deze t-test komt een p-waarde van 0.653 wat hoger ligt dan het significatieniveau van 0,05. Hierdoor moeten we onze nulhypothese aanvaarden en stellen dat Replication Manager (repmgr) opnieuw niet significant beter scoort dan Pgpool-II.
 
@@ -102,7 +102,7 @@ Uit deze t-test komt een p-waarde van 0.653 wat hoger ligt dan het significatien
 \end{figure}
 
 
-Bovenstaande resultaten werden behaald met onderstaande code in R die te zijn op Figuur~\ref{fig:R berekening voor Patroni}, Figuur~\ref{fig:R berekening voor PostgreSQL Automatic Failover (PAF)}, Figuur~\ref{fig:R berekening voor Pgpool-II} en Figuur~\ref{fig:R berekening voor Replication Manager (repmgr)}. Hierin werd telkens het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt berekend per oplossing.
+Bovenstaande resultaten werden behaald met onderstaande code in R die te zijn op Figuur~\ref{fig:R berekening voor Patroni}, Figuur~\ref{fig:R berekening voor PostgreSQL Automatic Failover (PAF)}, Figuur~\ref{fig:R berekening voor Pgpool-II} en Figuur~\ref{fig:R berekening voor Replication Manager (repmgr)}. Hierin wordt telkens het gemiddelde, de mediaan, de modus, de standaardafwijking en de variatiecoëfficiënt berekend per oplossing.
 
 \begin{figure}[!h]
     \centering

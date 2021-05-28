@@ -6,6 +6,7 @@
 \label{ch:Proof of Concept}
 
 In dit hoofdstuk wordt de opbouw van de Patroni cluster uitgelegd. Hierin zal worden gekeken hoe de cluster voldoet aan de functionele requirements, namelijk replicatie, failover en monitoring.
+Als proof of concept is gekozen voor Patroni omdat uit de requirementanalyse deze oplossing het sterkst voldeed aan de requirements.
 
 \section{\IfLanguageName{dutch}{Omgeving}{Environment}}
 \label{sec:Omgeving}
@@ -198,9 +199,7 @@ De “default-server” configureert voor alle serverregels de standaardinstelli
 Bij “server” staat voor elke aanwezig node het IP-adres, de poort en het maximum aantal connecties.
 %https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
 
-
-
-Het pgBouncer.ini bestand ziet er als volgt uit:
+Bij het configureren van pgBouncer wordt gebruik gemaakt van een .ini file. Deze ziet er als volgt uit:
 
 \begin{lstlisting}
 [databases]
@@ -247,7 +246,7 @@ Bij “admin\_users” zal worden bepaald welke gebruikers volledige controle he
 \label{sec:pgNode1}
 Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres hebben.
 
-Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard. Dit zal opnieuw gebeuren aan de hand van het “postgresql-cluster-setup.sh” bestand die wordt aangeroepen in de Vagrantfile.
+Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard. Dit zal opnieuw gebeuren aan de hand van het “postgresql-cluster-setup.sh” bestand die wordt aangeroepen in de Vagrantfile. Deze file is te vinden onderaan dit hoofdstuk in 
 
 Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind en maximum\_lag\_on\_failover. Hieronder de configuratie:
 
@@ -370,9 +369,9 @@ Bij “retry\_timeout” wordt de tijd meegegeven die na overschrijden, de prima
 
 Bij “master\_start\_timeout” wordt de tijd meegegeven waarop een primary node de tijd krijgt om te herstellen van een fout voordat failover ingeschakeld wordt. Standaard staat deze parameter op 300 seconden. Als deze parameter op 0 staat, zal direct failover worden gedaan.
 
-“use\_pg\_rewind” zal hier op true staan, omdat we dit ingeschakeld willen. Standaard staat dit op false.
+“use\_pg\_rewind” zal hier op true staan, omdat deze optie gebruikt zal worden. Standaard staat dit op false.
 
-Bij “parameters” vinden we een lijst terug van commando's die gebruikt worden om Postgres te configureren.
+Bij “parameters” is er een lijst terug te vinden van commando's die gebruikt worden om Postgres te configureren.
 
 “pg\_hba” zorgt voor client authenticatie tussen de PostgreSQL server en de client applicatie.
 
@@ -456,26 +455,246 @@ Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstart
     }
 \end{lstlisting}
 
+In onderstaande blok code staat het “postgresql-setup-cluster.sh” bestand die door Vagrant zal aangeroepen worden. Hierin zullen de twee nodes en server mee geconfigureerd worden.
 
+\begin{lstlisting}  
+    #!/bin/bash
+    
+    POSTGRESQL_VERSION=12
+    PGBOUNCER_VERSION=1.15.0-1.pgdg16.04+1
+    CONSUL_VERSION=1.9.5
+    PATRONI_VERSION=2.0.2
+    PSYCOPG2_VERSION=2.8.6
+    PYCONSUL_VERSION=1.2.3
+    
+    PG_PATH="/etc/postgresql/${POSTGRESQL_VERSION}/main"
+    
+    function setup_packages() {
+        apt-get update
+        apt-get -y install wget unzip curl libpq-dev ca-certificates ntp tree
+    }
+    
+    function setup_python() {
+        #installl pip
+        apt-get -y install python python-pip
+    }
+    
+    function setup_patroni() {
+        # Install
+        pip install -U pip
+        pip install psycopg2-binary==${PSYCOPG2_VERSION}
+        pip install python-consul==${PYCONSUL_VERSION}
+        pip install -U flake8 configparser zipp
+        pip install patroni[consul]==${PATRONI_VERSION}
+        mkdir -p /etc/patroni
+        mkdir -p /var/lib/postgresql/patroni
+        chmod 700 /var/lib/postgresql/patroni
+        mkdir -p /var/log/patroni
+        chmod 777 /var/log/patroni
+        
+        # Configure Patroni on nodes
+        if [ "$(hostname)" == "pgNode1" ]; then
+        cp -p /vagrant/pgNode1Patroni01.yml /etc/patroni/patroni.yml
+        elif [ "$(hostname)" == "pgNode2" ]; then # consul server and client
+        cp -p /vagrant/pgNode1Patroni02.yml /etc/patroni/patroni.yml
+        fi
+        cp -p /vagrant/patroni.service /etc/systemd/system/
+        echo "export PATRONICTL_CONFIG_FILE=/etc/patroni/patroni.yml" >> /etc/environment
+        source /etc/environment
+        systemctl daemon-reload
+    }
+    
+    function setup_consul() {
+        # Install consul on 2 nodes en 1 server
+        curl -s -O https://releases.hashicorp.com/consul/${CONSUL_VERSION}/consul_${CONSUL_VERSION}_linux_amd64.zip
+        unzip consul_${CONSUL_VERSION}_linux_amd64.zip
+        mv consul /usr/local/bin/
+        rm -f consul_${CONSUL_VERSION}_linux_amd64.zip
+        mkdir -p /etc/consul.d/{server,client}
+        
+        if [ "$(hostname)" == "pgNode1" ]; then
+        cp -p /vagrant/consul.d/client/pgNode1.json /etc/consul.d/client/pgNode1.json
+        fi
+        if [ "$(hostname)" == "pgNode2" ]; then
+        cp -p /vagrant/consul.d/client/pgNode2.json /etc/consul.d/client/pgNode2.json
+        fi
+        if [ "$(hostname)" == "pgServer" ]; then
+        cp -rp /vagrant/consul.d/server/ /etc/consul.d
+        fi
+        mkdir -p /var/consul/ui
+        useradd -M -d /var/consul -s /bin/bash consul
+        
+        # Configure consul service
+        mkdir -p /var/consul/{server,client}
+        if [ "$(hostname)" == "pgNode1" ]; then # consul client
+        cp -p /vagrant/consul-client.service /etc/systemd/system/
+        fi
+        if [ "$(hostname)" == "pgNode2" ]; then # consul client
+        cp -p /vagrant/consul-client.service /etc/systemd/system/
+        fi
+        if [ "$(hostname)" == "pgServer" ]; then # consul server
+        cp -p /vagrant/consul-server.service /etc/systemd/system/
+        fi
+        systemctl daemon-reload
+        
+        chown -R consul:consul /var/consul/
+        
+        #start consul service
+        if [ "$(hostname)" == "pgNode1" ]; then
+        systemctl start consul-client
+        systemctl enable consul-client
+        fi
+        if [ "$(hostname)" == "pgNode2" ]; then
+        systemctl start consul-client
+        systemctl enable consul-client
+        fi
+        if [ "$(hostname)" == "pgServer" ]; then
+        systemctl start consul-server
+        systemctl enable consul-server
+        fi
+    }
+    
+    function setup_haproxy() {
+        # Install haproxy
+        apt-get install haproxy -y
+        
+        # Configure
+        cp -p /vagrant/haproxy.cfg /etc/haproxy/haproxy.cfg
+        
+        # start haproxy.service
+        systemctl restart haproxy
+        systemctl enable haproxy
+    }
+    
+    function setup_pgbouncer() {
+        # Install psycopg2 zodat python scripts kunnen runnen
+        pip install psycopg2-binary==${PSYCOPG2_VERSION}
+        
+        # Install the version that comes with the official apt postgresql repository
+        apt-get -y install pgbouncer=${PGBOUNCER_VERSION} postgresql-client-${POSTGRESQL_VERSION}
+        
+        cat > /etc/pgbouncer/pgbouncer.ini <<EOF
+        [databases]
+        postgres = host=172.16.0.11 port=5000 pool_size=6
+        template1 = host=172.16.0.11 port=5000 pool_size=6
+        test = host=172.16.0.11 port=5000 pool_size=6
+        
+        [pgbouncer]
+        logfile = /var/log/postgresql/pgbouncer.log
+        pidfile = /var/run/postgresql/pgbouncer.pid
+        listen_addr = *
+        listen_port = 6432
+        unix_socket_dir = /var/run/postgresql
+        auth_type = trust
+        auth_file = /etc/pgbouncer/userlist.txt
+        admin_users = postgres
+        stats_users =
+        pool_mode = transaction
+        server_reset_query =
+        server_check_query = select 1
+        server_check_delay = 10
+        max_client_conn = 1000
+        default_pool_size = 12
+        reserve_pool_size = 5
+        log_connections = 1
+        log_disconnections = 1
+        log_pooler_errors = 1
+        EOF
+        
+        cat > /etc/pgbouncer/userlist.txt <<EOF
+        "postgres" "password"
+        EOF
+        
+        cat > /etc/default/pgbouncer <<EOF
+        START=1
+        EOF
+        systemctl restart pgbouncer
+        systemctl enable pgbouncer
+    }
+    
+    function setup_postgresql_repo() {
+        # Setup postgresql repo
+        echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list
+        
+        # Setup postgresql repo key
+        wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+        
+        apt-get update
+    }
+    
+    function setup_postgresql() {
+        # Install postgresql
+        apt-get -y install postgresql-${POSTGRESQL_VERSION}
+        
+        #Stop service
+        systemctl stop postgresql
+        systemctl disable postgresql
+        
+        chown -R postgres:postgres /var/lib/postgresql/patroni
+        chown -R postgres:postgres /etc/patroni
+        
+        
+        # Patroni binaries check
+        ln -f -s /usr/lib/postgresql/${POSTGRESQL_VERSION}/bin/ * /usr/bin/
+        
+        # Start patroni.service
+        systemctl start patroni
+        systemctl enable patroni
+    }
+    
+    # Timezone
+    timedatectl set-timezone Europe/Brussels
+    
+    setup_packages
+    
+    if [ ! -f /usr/bin/pip ]; then
+    setup_python
+    fi
+    
+    if [ "$(hostname)" != "pgServer" ]; then
+    if [ ! -f /usr/local/bin/patroni ]; then
+    setup_patroni
+    fi
+    fi
+    
+    if [ ! -f /usr/local/bin/consul ]; then
+    setup_consul
+    fi
+    
+    # Install HAProxy in pgServer
+    if [ "$(hostname)" == "pgServer" ]; then
+    if [ ! -f /etc/haproxy/haproxy.cfg ]; then
+    setup_haproxy
+    fi
+    fi
+    
+    if [ ! -f /etc/apt/sources.list.d/pgdg.list ]; then
+    setup_postgresql_repo
+    fi
+    
+    if [ "$(hostname)" != "pgServer" ]; then
+    if [ ! -f ${PG_PATH}/postgresql.conf ]; then
+    setup_postgresql
+    fi
+    fi
+    
+    if [ "$(hostname)" == "pgServer" ]; then
+    if [ ! -f /etc/pgbouncer/pgbouncer.ini ]; then
+    setup_pgbouncer
+    fi
+    fi
+\end{lstlisting}
 
-Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tomàs Montserrat. Zijn opstelling is de basis geweest voor het opzetten van deze Patroni cluster. De opzet van deze cluster omvatten de drie functionaliteiten die nodig waren om te voldoen aan de functionele requirements, namelijk replicatie, monitoring en failover.
+Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tomàs Montserrat~\textcite{Montserrat2020}. Zijn opstelling is de basis geweest voor het opzetten van deze Patroni cluster. De opzet van deze cluster omvatten de drie functionaliteiten die nodig waren om te voldoen aan de functionele requirements, namelijk replicatie, monitoring en failover.
 %\section{\IfLanguageName{dutch}{Testing functionele requirements}{Testing functionele requirements}}
 %\label{sec:Testing functionele requirements}
-
-%De cluster is op drie zaken gecontroleerd geweest:
-%Is er replicatie aanwezig?
-
-%Is er failover aanwezig?
-
-%Is er monitoring aanwezig?
 
 
 \section{\IfLanguageName{dutch}{Persoonlijke conclusie}{Persoonlijke conclusie}}
 \label{sec:Persoonlijke conclusie}
 
-Het opzetten van de Patroni cluster verliep voor mij redelijk moeizaam. Het is de eerste keer dat ik een cluster opgezet heb zonder te weten wat er concreet allemaal in moet zitten. Het was een proces van trial and error.
-Wat mij wel direct opviel, is dat alles te configureren valt in de verschillende configuratie bestanden. De cluster kan naar geconfigureerd worden naar de verschillende noden van gebruikers.
+Het opzetten van de Patroni cluster verliep voor mij redelijk moeizaam. Het was een proces van trial and error. Het was niet direct duidelijk welke configuraties en tools er precies nodig waren voor de opzet van de cluster.
+Wat mij wel direct opviel, is dat alles te configureren valt in de verschillende configuratiebestanden. De cluster kan naar believen geconfigureerd worden volgens de verschillende noden van gebruikers.
 
 
 %Hierin persoonlijke ervaring over Patroni schrijven als oplossing. Is het aan te raden, is het een eenvoudige oplossing...
-

@@ -1005,6 +1005,47 @@
       \verb https://www.cybertec-postgresql.com/en/patroni-setting-up-a-highly-available-postgresql-cluster/
       \endverb
     \endentry
+    \entry{Montserrat2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=334397b484e5707cb59690f3bdb29444}{%
+           family={Montserrat},
+           familyi={M\bibinitperiod},
+           given={Vicenç\bibnamedelimb Juan\bibnamedelima Tomàs},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{334397b484e5707cb59690f3bdb29444}
+      \strng{fullhash}{334397b484e5707cb59690f3bdb29444}
+      \strng{bibnamehash}{334397b484e5707cb59690f3bdb29444}
+      \strng{authorbibnamehash}{334397b484e5707cb59690f3bdb29444}
+      \strng{authornamehash}{334397b484e5707cb59690f3bdb29444}
+      \strng{authorfullhash}{334397b484e5707cb59690f3bdb29444}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{6}
+      \field{title}{postgresql-patroni-setup}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/vtomasr5/postgresql-patroni-setup
+      \endverb
+      \verb{url}
+      \verb https://github.com/vtomasr5/postgresql-patroni-setup
+      \endverb
+    \endentry
     \entry{MySQL2021}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62a004b95946bb97541afa471dcca73a}{%
