@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 MAY 2021 13:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 MAY 2021 14:11
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1671,10 +1671,10 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 )
 (samenvatting.tex [3] [4
 
-]
+])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
+ [5]
 [6] (bachproef-tin.toc
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
