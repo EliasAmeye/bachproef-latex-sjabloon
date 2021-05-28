@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  27 MAY 2021 21:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.4.28)  28 MAY 2021 12:45
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1311,22 +1311,6 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 44
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (bachproef-tin.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.240 ...g\_basebackup of Barman}}{section*.10}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.240 ...g\_basebackup of Barman}}{section*.10}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
 
 LaTeX Warning: Label `sec:Requirements' multiply defined.
 
@@ -1334,13 +1318,15 @@ LaTeX Warning: Label `sec:Requirements' multiply defined.
 LaTeX Warning: Label `subsec:Must have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Replicatie' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van replicatie' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Failover' multiply defined.
+
+LaTeX Warning: Label `subsubsec:Ondersteuning van failover' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van monitoring' multiply defined.
+
 
 
 LaTeX Warning: Label `subsec:Should have' multiply defined.
@@ -1369,13 +1355,15 @@ LaTeX Warning: Label `sec:Requirements' multiply defined.
 LaTeX Warning: Label `subsec:Must have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Replicatie' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van replicatie' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Failover' multiply defined.
+
+LaTeX Warning: Label `subsubsec:Ondersteuning van failover' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van monitoring' multiply defined.
+
 
 
 LaTeX Warning: Label `subsec:Should have' multiply defined.
@@ -1404,13 +1392,15 @@ LaTeX Warning: Label `sec:Requirements' multiply defined.
 LaTeX Warning: Label `subsec:Must have' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Replicatie' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van replicatie' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Failover' multiply defined.
+
+LaTeX Warning: Label `subsubsec:Ondersteuning van failover' multiply defined.
 
 
-LaTeX Warning: Label `subsubsec:Monitoring' multiply defined.
+LaTeX Warning: Label `subsubsec:Ondersteuning van monitoring' multiply defined.
+
 
 
 LaTeX Warning: Label `subsec:Should have' multiply defined.
@@ -1732,17 +1722,28 @@ Missing character: There is no ” in font ptmr8t!
 Hoofdstuk 2.
 [17
 
-] [18]
+]
 File: img//CD.png Graphic file (type bmp)
 <img//CD.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: img//overerving.png Graphic file (type bmp)
 <img//overerving.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Overfull \hbox (6.27164pt too wide) in paragraph at lines 71--72
 \T1/ptm/m/n/12 PostgreSQL is een open source sys-teem dat zich toe-legt op het 
 be-heer van object-relationele
  []
 
+
+Underfull \vbox (badness 1571) has occurred while \output is active []
+
+ [18]
 [19] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1750,21 +1751,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 121.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5681) has occurred while \output is active []
 
  [22]
-Underfull \vbox (badness 5077) has occurred while \output is active []
-
- [23]
 Overfull \hbox (4.08913pt too wide) in paragraph at lines 171--172
 []\T1/ptm/m/n/12 Patroni biedt cloud-native net-werk-func-ties en ge-a-van-ceer
 de op-ties voor fail-back en failover.
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
+[23] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
@@ -1782,14 +1777,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--266
  []
 
 
-Underfull \vbox (badness 2245) has occurred while \output is active []
-
- [27]
-Overfull \hbox (12.04591pt too wide) in paragraph at lines 285--288
-\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-vou
--di-ger zijn om WAL-bestanden
+Overfull \hbox (12.04591pt too wide) in paragraph at lines 287--290
+[]\T1/ptm/m/n/12 Door de ver-een-vou-di-ging van WAL-retentie zal het dus een-v
+ou-di-ger zijn om WAL-bestanden
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
 [28]) (methodologie.tex [29] [30
 
 ]
@@ -1924,15 +1920,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (Oplossing3.tex [41] [42]
 Hoofdstuk 6.
+[43
 
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
- [43
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
+] [44]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1943,8 +1933,7 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-)
-(Oplossing4.tex [45] [46
+) (Oplossing4.tex [45] [46
 
 ]
 Hoofdstuk 7.
@@ -2035,6 +2024,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
 [59]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -2108,10 +2100,10 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
 
-Underfull \vbox (badness 3861) has occurred while \output is active []
-
- [62]
+[62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
@@ -2142,6 +2134,9 @@ Missing character: There is no ” in font ptmr8t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
 [66]) (conclusie.tex [67] [68
 
 ]
@@ -2319,45 +2314,19 @@ Overfull \hbox (13.39217pt too wide) in paragraph at lines 140--140
 ional Da-ta-base (ORD)\T1/ptm/m/n/12 . []$https : / / www . techopedia .
  []
 
-[78] (bachproef-tin.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.240 ...g\_basebackup of Barman}}{section*.10}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.240 ...g\_basebackup of Barman}}{section*.10}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-)
+[78] (bachproef-tin.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
-
-Overfull \hbox (578.62729pt too wide) in paragraph at lines 240--142
-[]\T1/ptm/m/n/12 _basebackup of Bar-man                                        
-                                                                               
-                                                                               
-                                                                               
-                                                                               
-                                    
- []
-
  ) 
 Here is how much of TeX's memory you used:
- 35399 strings out of 412094
- 633354 string characters out of 2847025
- 1663347 words of memory out of 3000000
- 54421 multiletter control sequences out of 15000+200000
+ 35392 strings out of 412094
+ 633016 string characters out of 2847025
+ 1663482 words of memory out of 3000000
+ 54414 multiletter control sequences out of 15000+200000
  442912 words of font info for 71 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,99p,1365b,5396s stack positions out of 5000i,500n,10000p,200000b,50000s

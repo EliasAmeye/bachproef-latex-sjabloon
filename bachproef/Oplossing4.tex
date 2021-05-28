@@ -5,7 +5,7 @@
 \chapter{Replication Manager (repmgr)}
 \label{ch:Replication Manager (repmgr)}
 
-In dit hoofdstuk wordt meer informatie verleend over Replication Manager (repmgr) als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder geanalyseerd zal worden.
+In dit hoofdstuk wordt meer informatie verleend over Replication Manager (repmgr) als een PostgreSQL High Availability cluster oplossing. Er zal worden ingegaan op de verschillende requirements, waaraan voldaan moet worden. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten} verder geanalyseerd zal worden.
 
 \section{\IfLanguageName{dutch}{Inleiding tot Replication Manager (repmgr)}{Inleiding tot Replication Manager (repmgr)}}
 \label{sec:Inleiding tot Replication Manager (repmgr)}
@@ -25,8 +25,8 @@ Replication Manager (repmgr) biedt de tools om PostgreSQL replicatie op te zette
 
 %De functionaliteiten van Replication Manager (RepMgr) sluiten voldoende aan op de vooropgestelde “Must haves” en krijgt hiervoor 12/15 punten.
 
-\subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
-\label{subsubsec:Replicatie}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van replicatie}{Ondersteuning van replicatie}}
+\label{subsubsec:Ondersteuning van replicatie}
 
 %Replication Manager (RepMgr) is een oplossing ontwikkeld voor het beheren van replicatie en failover van PostgreSQL clusters. Het biedt de tools aan om replicatie van PostgreSQL op te zetten, te configureren, te beheren en te monitoren. Het laat ook toe om handmatige omschakeling en failover taken uit te voeren met behulp van repmgr utility. Dit is een gratis tool die ondersteuning en verbetering biedt van PostgreSQL's ingebouwde streaming replicatie.
 Replication Manager (RepMgr) maakt standaard gebruik van streaming replicatie in zijn clusters.
@@ -37,8 +37,8 @@ Met repmgr is het mogelijk om deze taken geautomatiseerd uit te voeren, wat veel
 
 Voor replicatie krijgt Replication Manager (repmgr) een score van 4.
 
-\subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
-\label{subsubsec:Failover}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van failover}{Ondersteuning van failover}}
+\label{subsubsec:Ondersteuning van failover}
 
 %https://www.2ndquadrant.com/en/blog/how-to-automate-postgresql-12-replication-and-failover-with-repmgr-part-2/
 
@@ -50,8 +50,8 @@ Om repmgrd te laten werken zal in het repmgr.conf bestand, bij failover 'automat
 
 Door de hierboven genoemde redenen, krijgt Replication Manager (repmgr) een score van 4 voor failover.
 
-\subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
-\label{subsubsec:Monitoring}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van monitoring}{Ondersteuning van monitoring}}
+\label{subsubsec:Ondersteuning van monitoring}
 
 Over Monitoring is er bij Replication Manager (repmgr) niet veel te vinden. De tools repmgrd zal wel actief de cluster monitoren, en op basis hiervan de nodige acties uitvoeren, naargelang de staat van de cluster.
 

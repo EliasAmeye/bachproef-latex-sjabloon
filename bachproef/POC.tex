@@ -111,7 +111,7 @@ In deze proof of concept zal gebruik gemaakt worden van virtuele machines via Vi
 \label{sec:pgServer}
 Tijdens de configuratie van de cluster zal pgServer '172.16.0.11' als ip adres hebben.
 
-Als eerste stap moeten de juiste packages geïnstalleerd worden op pgServer. Hier gaat het over Python, Consul, pgBouncer en HAProxy.
+Als eerste stap moeten de juiste packages geïnstalleerd worden op pgServer. Hier gaat het over Python, Consul, pgBouncer en HAProxy. Dit zal gebeuren aan de hand van het “postgresql-cluster-setup.sh” bestand die wordt aangeroepen in de Vagrantfile.
 
 Hierna zal voor Consul een service toegevoegd worden die bij het opstarten van de server wordt uitgevoerd. Belangrijk is dat bij het aanmaken van deze service, de service gestart en ge-enabled moet zijn. In deze service wordt verwezen naar het config bestand voor de Consul server. Deze ziet er als volgt uit.
 
@@ -247,10 +247,9 @@ Bij “admin\_users” zal worden bepaald welke gebruikers volledige controle he
 \label{sec:pgNode1}
 Tijdens de configuratie van de cluster zal pgNode1 '172.16.0.22' als ip adres hebben.
 
+Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard. Dit zal opnieuw gebeuren aan de hand van het “postgresql-cluster-setup.sh” bestand die wordt aangeroepen in de Vagrantfile.
 
-Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard.
-
-Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind en  maximum\_lag\_on\_failover.
+Bij het configureren van Patroni zal verwezen worden naar pgNode1Patroni.yml waarin de configuratie te vinden is. Zoals eerder al vermeld is geweest, is de configuratie van Patroni te vinden in het DCS, het Distributed Configuration Store. Hierin staat onder andere de configuratie voor pg\_rewind en maximum\_lag\_on\_failover. Hieronder de configuratie:
 
 \begin{lstlisting}
 scope: PatroniCluster
@@ -403,7 +402,7 @@ Hierna zal opnieuw voor Consul een service toegevoegd worden die bij het opstart
 \label{sec:pgNode2}
 Tijdens de configuratie van de cluster zal pgNode2 '172.16.0.33' als ip adres hebben.
 
-Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard.
+Idem als bij pgServer is de eerste stap het installeren van de juiste packages. Hier gaat het over Python, Consul Agent, Patroni en PostgreSQL uiteraard. Dit zal opnieuw gebeuren aan de hand van het “postgresql-cluster-setup.sh” bestand die wordt aangeroepen in de Vagrantfile.
 
 Bij het configureren van Patroni zal verwezen worden naar pgNode2Patroni.yml waarin de configuratie te vinden is. Dit bestand is zeer gelijkend aan wat er bij pgNode1 staat, maar kent toch een paar kleine wijzigingen, maar enkel in ip-adressen:
 
@@ -475,6 +474,7 @@ Deze proof of concept is gebaseerd op een cluster gemaakt door Vicenç Juan Tom�
 \label{sec:Persoonlijke conclusie}
 
 Het opzetten van de Patroni cluster verliep voor mij redelijk moeizaam. Het is de eerste keer dat ik een cluster opgezet heb zonder te weten wat er concreet allemaal in moet zitten. Het was een proces van trial and error.
+Wat mij wel direct opviel, is dat alles te configureren valt in de verschillende configuratie bestanden. De cluster kan naar geconfigureerd worden naar de verschillende noden van gebruikers.
 
 
 %Hierin persoonlijke ervaring over Patroni schrijven als oplossing. Is het aan te raden, is het een eenvoudige oplossing...

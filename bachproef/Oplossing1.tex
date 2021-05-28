@@ -4,7 +4,7 @@
 \chapter{Patroni}
 \label{ch:Patroni}
 
-In dit hoofdstuk wordt dieper ingegaan op Patroni als een PostgreSQL High Availability cluster oplossing. De verschillende requirements, waaraan voldaan moet worden, worden geanalyseerd. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten}: Verwerking resultaten verder belicht zullen worden.
+In dit hoofdstuk wordt dieper ingegaan op Patroni als een PostgreSQL High Availability cluster oplossing. De verschillende requirements, waaraan voldaan moet worden, worden geanalyseerd. Hierbij wordt dan telkens ook een score gegeven die in Hoofdstuk~\ref{ch:Verwerking resultaten} verder belicht zullen worden.
 %In dit hoofdstuk worden nog eens voor Patroni alle punten uit de functionele requirements overlopen. Hier kunnen al meer specifieke commando's en tools benoemd worden die gebruikt kunnen worden voor de opstelling van de proof of concept.
 
 \section{\IfLanguageName{dutch}{Inleiding tot Patroni}{Inleiding tot Patroni}}
@@ -19,8 +19,8 @@ Patroni, als oplossing, is ontstaan uit een fork van Governor, een project van C
 \label{subsec:Must have}
 
 %https://patroni.readthedocs.io/en/latest/
-\subsubsection{\IfLanguageName{dutch}{Replicatie}{Replicatie}}
-\label{subsubsec:Replicatie}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van replicatie}{Ondersteuning van replicatie}}
+\label{subsubsec:Ondersteuning van replicatie}
 
 Voor het kopiëren van bestanden of databases, of replicatie genaamd maakt Patroni gebruikt van streaming replicatie. Standaard maakt Patroni gebruik van asynchrone replicatie. Hierbij worden gegevens eerst geschreven naar een primaire opslagarray. Vervolgens worden de te repliceren gegevens gecommitteerd naar het geheugen. Daarna worden deze gegevens in real-time of met geplande tussenpozen naar de replicatiedoelen gekopieerd.
 Wanneer gewerkt wordt met asynchrone replicatie, kan de cluster het zich permitteren om een aantal gecommitteerde transacties te verliezen, om High Availability te garanderen. Wanneer de primary node faalt, en Patroni een standby node regelt, zullen alle transacties die niet naar de standby node zijn gerepliceerd, verloren gaan. Het aantal transacties dat verloren mag gaan, kan geregeld worden aan de hand van “maximum\_lag\_on\_failover”. Dit zal bij failover het aantal verloren transacties beperken.
@@ -32,16 +32,16 @@ Voor replicatie opties bestaan er verschillende tools zoals barman en Wal-E, die
 
 Hieruit blijk dat Patroni zeer flexibel en eenvoudig te gebruiken is bij het configureren van replicatie in een High Availability cluster. Op basis hiervan krijgt deze requirement een score van 4.
 
-\subsubsection{\IfLanguageName{dutch}{Failover}{Failover}}
-\label{subsubsec:Failover}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van failover}{Ondersteuning van failover}}
+\label{subsubsec:Ondersteuning van failover}
 
 Patroni clusters kennen een automatische failover wanneer de primary node (onverwachts) niet beschikbaar is. De failover opties kunnen zeer geavanceerd aangepast worden naar de wensen van de cluster. Wanneer, na failover, een primary node terug online komt, kan deze aan de hand van pg\_rewind terug toegevoegd worden aan de cluster als standby node. Patroni werkt aan de hand van endpoints. Dit kunnen switchover of failover endpoints zijn. Een failover endpoint laat toe om een manuele failover uit te voeren wanneer er in de cluster geen 'gezonde' nodes meer aanwezig zijn. Deze endpoint wordt gebruikt door patronictl failover.
 Aan de hand van dynamische configuratie instellingen, opgeslagen in het Distributed Configuration Store (DCS), die geldig zijn voor alle nodes, worden parameters zoals ttl, maximum\_lag\_on\_failover en retry\_timeout. ingesteld. Bij ttl wordt dan de tijd ingesteld die nodig is om de leader lock in te nemen als standby node. Normaal bevat de primary node altijd deze lock, maar als er iets misloopt en de primary node door één of andere reden deze lock misloopt, kan een standby node deze leader lock overpakken en op deze manier zichzelf promoten tot primary node en zo failover initiëren. Patroni kan bijvoorbeeld worden verteld om nooit een standby node te promoten die meer dan een configureerbare hoeveelheid log achterloopt op de primary node.
 
 Op deze requirement doet Patroni het zeer goed. Door de hierboven genoemde redenen krijgt Patroni voor failover een 4.
 
-\subsubsection{\IfLanguageName{dutch}{Monitoring}{Monitoring}}
-\label{subsubsec:Monitoring}
+\subsubsection{\IfLanguageName{dutch}{Ondersteuning van monitoring}{Ondersteuning van monitoring}}
+\label{subsubsec:Ondersteuning van monitoring}
 
 Patroni kent een zeer uitgebreide REST API die gebruikt kan worden om de cluster en zijn nodes te monitoren en voor applicaties om te selecteren met welke PostgreSQL instantie verbinding moet worden gemaakt. Aan de hand van Consul kan je monitoring aanzetten in de cluster. Dit moet dan wel op elke node aangezet worden.
 Er zijn ook tools beschikbaar waarbij monitoring de enige functionaliteit is. PGWatch/PGWatch2 zijn hier voorbeelden van. PGWatch maakt gebruik van data die al verzameld wordt in PostgreSQL queries. Dus toevoegen of wijzigen van deze queries kan zeer eenvoudig gebeuren.
@@ -65,7 +65,7 @@ Op basis hiervan krijgt Patroni voor deze requirement een score van 5.
 \subsubsection{\IfLanguageName{dutch}{Open source}{Open source}}
 \label{subsubsec:Open source}
 
-Patroni is volledig open source. De source code is online te vinden op github.com en wordt nog tot op vandaag geüpdate.
+Patroni is volledig open source. De source code is online te vinden op github.com en wordt nog tot op vandaag geüpdatet.
 
 Patroni is een open source oplossing, dus voldoet zeker ook aan deze requirement. Hierbij krijgt het ook een score van 5.
 

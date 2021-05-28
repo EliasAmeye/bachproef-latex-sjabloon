@@ -1,7 +1,7 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}
 \label{ch:stand-van-zaken}
 
-Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. De bedoeling van dit hoofdstuk is een inleiding in de verschillende termen en methodes die in dit onderzoek zullen gebruikt worden. Op deze manier wordt u, de lezer, al wat meer vertrouwd met het onderwerp.
+Dit onderzoek is een vergelijkende studie tussen verschillende PostgreSQL oplossingen. In dit hoofdstuk zullen al verschillende oplossingen aan bod komen. De bedoeling van dit hoofdstuk is een inleiding in de verschillende termen en methodes die in dit onderzoek zullen gebruikt worden.
 
 
 %Hiermee zal worden gekeken naar de nadruk die gelegd wordt bij elke oplossing. Op deze manier kan gekeken worden naar welke requirements regelmatig terugkomen, en dus welke kunnen gebruikt worden om later in het onderzoek verschillende oplossingen met elkaar te vergelijken. Aan de hand van deze requirements kan geschift worden tussen de bestaande High Availability PostgreSQL cluster oplossingen om hier dan twee oplossingen uit te halen. 
@@ -33,15 +33,15 @@ Een objectgeoriënteerde database (OODBMS) is een type databank die zich baseert
 \subsection{\IfLanguageName{dutch}{SQL}{SQL}}
 \label{subsec:SQL}
 
-SQL (structured query language) is de eigen programmeertaal specifiek ontwikkeld voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren~\autocite{Carchedi2020}. SQL wordt door alle relationele databanken gebruikt zoals MySQL, PostgreSQL, OracleDB, SQLite...~\autocite{Codecademy}. 
+SQL (structured query language) is de eigen taal specifiek ontwikkeld voor interactie met databanken. Een databank modelleert entiteiten uit het echte leven en slaat deze op in tabellen. Via SQL is het mogelijk om de gegevens in deze tabellen te manipuleren~\autocite{Carchedi2020}. SQL wordt door alle relationele databanken gebruikt zoals MySQL, PostgreSQL, OracleDB, SQLite...~\autocite{Codecademy}. 
 
 \subsection{\IfLanguageName{dutch}{Object-relationele databank}{Object-relationele databank}}
 \label{subsec:Object-relationele databank}
 
 Een object-relationele database (ORD / ORDBMS) is een samenstelling uit zowel een relationele database (RDB / RDBMS), als een object-georiënteerde database (OOD / OODBMS). Samen ondersteunt het de basiscomponenten van elk objectgeoriënteerd databasemodel in zijn schema's en gebruikte querytaal, zoals klassen, overerving en objecten. Het bevat aspecten en kenmerken van bovenstaande genoemde modellen. Zo wordt het relationele duidelijk in de manier van opslaan van gegevens. Deze worden opgeslagen in een traditionele database en worden dan met behulp van SQL query's gemanipuleerd en benaderd. Aan de andere kant is ook het objectgeoriënteerde gedeelte merkbaar, namelijk dat de database beschouwd wordt als een objectopslag. Kort gezegd is één van de voornaamste doelstellingen van een object-relationele database, het dichten van de kloof tussen relationele en objectgeoriënteerde modelleringstechnieken en conceptuele datamodelleringstechnieken zoals daar zijn het entiteit-relatiediagram (ERD) en object-relationeel mappen (ORM)~\autocite{Technopedia2021}. %(https://www.techopedia.com/definition/8714/object-relational-database-ord).
 %Hieronder bij klasses en overerving kan er al een foto bij ter verduidelijking.
-Klasses, Overerving, Types, Functies zijn kenmerken van de object-relationele database en zullen de basisconcepten vormen voor PostgreSQL. Een klasse is een verzameling van gegevenstypes die bij eenzelfde soort iets horen. Bijvoorbeeld een klasse CD kan als kenmerken hebben: titel, zanger, datum uitgave, aantal liedjes... . 
-Overerving is wanneer een klasse bepaalde kenmerken overerft of krijgt van een superklasse. Dit wordt geïllustreerd in onderstaande figuur~\ref{fig:Voorbeeld overerving}: Voorbeeld overerving. Hierbij wordt als voorbeeld een klasse Fiets gebruikt, die overerving doet klasse Vervoermiddel. Hierbij krijgt de klasse Fiets de nodige kenmerken, overgeërfd, van de klasse Vervoermiddel. Hierin is de klasse Fiets een specialisatie van de klasse Vervoermiddel. Zo is een kenmerk van de klasse Vervoermiddel het aantal wielen. Dit datatype wordt dan overgeërfd naar de klasse Fiets, waar de invulling van dit datatype twee is. Bij de klasse Auto heeft het overgeërfde kenmerk vier wielen. Een type is hierboven al vermeld. Dit gaat over de verschillende soorten data die er zijn. Getallen, woorden, objecten zijn hier voorbeelden van. Functies zijn een reeks SQL-statements die een specifieke taak uitvoeren. Functies bevorderen de herbruikbaarheid van code.
+Klasses, overerving, types en functies zijn kenmerken van de object-relationele database en zullen de basisconcepten vormen voor PostgreSQL. Een klasse is een verzameling van gegevenstypes die bij eenzelfde soort iets horen. Bijvoorbeeld een klasse CD kan als kenmerken hebben: titel, zanger, datum uitgave, aantal liedjes... . 
+Overerving is wanneer een klasse bepaalde kenmerken overerft of krijgt van een superklasse. Dit wordt geïllustreerd in onderstaande figuur~\ref{fig:Voorbeeld overerving}. Hierbij wordt als voorbeeld een klasse Fiets gebruikt, die overerving doet klasse Vervoermiddel. Hierbij krijgt de klasse Fiets de nodige kenmerken, overgeërfd, van de klasse Vervoermiddel. Hierin is de klasse Fiets een specialisatie van de klasse Vervoermiddel. Zo is een kenmerk van de klasse Vervoermiddel het aantal wielen. Dit datatype wordt dan overgeërfd naar de klasse Fiets, waar de invulling van dit datatype twee is. Bij de klasse Auto heeft het overgeërfde kenmerk vier wielen. Een type is hierboven al vermeld. Dit gaat over de verschillende soorten data die er zijn. Getallen, woorden, objecten zijn hier voorbeelden van. Functies zijn een reeks SQL-statements die een specifieke taak uitvoeren. Functies bevorderen de herbruikbaarheid van code.
 
 
 \begin{figure}[!h]
@@ -71,7 +71,7 @@ Overerving is wanneer een klasse bepaalde kenmerken overerft of krijgt van een s
 PostgreSQL is een open source systeem dat zich toelegt op het beheer van object-relationele databases. Het heeft meer dan 30 jaar actieve ontwikkeling en heeft een sterke reputatie op vlak van betrouwbaarheid, robuustheid van functies en prestaties~\autocite{postgres}. PostgreSQL biedt een uitgebreide set van functionaliteiten die een hoge mate van customisatie mogelijk maakt binnen het systeem. Dit gaat van data administratie, beveiliging, tot back-up en herstel . PostgreSQL wordt regelmatig bijgewerkt door de PostgreSQL Global Development Group en bijdragers uit de community. Deze community ondersteunt zichzelf en zijn gebruikers door het aanbieden van online educatieve bronnen en communicatiekanalen, zoals daar zijn PostgreSQL wiki, online forums en officiële documentatie. Er zijn ook bedrijven die commerciële support bieden aan een prijs~\autocite{Nethosting2019}. 
 
 Volgens DB-Engines is PostgreSQL de vierde database die vandaag de dag het meest gebruikt wordt en de tweede meest gebruikte open source database, na MySQL~\autocite{DBEngines2021}. DB-Engines verklaarde PostgreSQL in 2017, 2018 en 2020 het DBMS (Database management system) van het jaar~\autocite{DBEngines2021a}.
-PostgreSQL biedt veel mogelijkheden om ontwikkelaars te helpen bij het bouwen van applicaties; om beheerders te helpen bij het beschermen van data-integriteit; en bij het bouwen van fouttolerante omgevingen. Het helpt ook bij het beheren van data, hoe groot of hoe klein de dataset ook is. PostgreSQL voldoet sinds september 2020 aan 170 van de 179 verplichte functies voor SQL:2016 Core conformiteit. Schaalbaarheid valt ook toe te schrijven aan PostgreSQL, dit zowel in de hoeveelheid data die het kan beheren, als in het aantal gelijktijdige gebruikers dat het kan accomoderen. Er zijn actieve PostgreSQL clusters in productie omgevingen die terabytes aan data beheren, en gespecialiseerde systemen die zelfs petabytes beheren~\autocite{PostgreSQL2021}. Deze laatste twee voorbeelden tonen hoe schaalbaar PostgreSQL wel is en kan zijn.
+PostgreSQL biedt veel mogelijkheden om ontwikkelaars te helpen bij het bouwen van applicaties; om beheerders te helpen bij het beschermen van data-integriteit; en bij het bouwen van fouttolerante omgevingen. Het helpt ook bij het beheren van data, hoe groot of hoe klein de dataset ook is. PostgreSQL voldoet sinds september 2020 aan 170 van de 179 verplichte functies voor SQL:2016 Core conformiteit. Schaalbaarheid valt ook toe te schrijven aan PostgreSQL, dit zowel in de hoeveelheid data die het kan beheren, als in het aantal gelijktijdige gebruikers dat het kan accomoderen. Er zijn actieve PostgreSQL-clusters in productie omgevingen die terabytes aan data beheren, en gespecialiseerde systemen die zelfs petabytes beheren~\autocite{PostgreSQL2021}. Deze laatste twee voorbeelden tonen hoe schaalbaar PostgreSQL wel is en kan zijn.
 
 Postgres speelt in op de bovenvernoemde vier basisconcepten van een object-relationele databank zodat gebruikers het systeem makkelijk kunnen uitbreiden. Deze vier kenmerken, naast nog andere functies maken van Postgres een object-relationele database. Bovenstaande vermelde kenmerken zouden doen blijken dat Postgres voornamelijk een object-georiënteerde database is, maar de ondersteuning van de traditionele relationele databases, toont duidelijk aan dat, ondanks de object-georiënteerde kenmerken, Postgres stevig verankerd is in de relationele database wereld ~\autocite{PostgreSQL2021a}.
 
@@ -165,13 +165,13 @@ Bovenstaande voorbeelden zijn mogelijkheden die kunnen helpen bij het elimineren
 
 %https://www.cybertec-postgresql.com/en/services/postgresql-replication/high-availability-patroni/
 
-Patroni is een open source cluster-technologie, geschreven in Python die zich focust op automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid~\autocite{Markwort2018}.
+Patroni is een open source cluster-technologie, geschreven in Python die zich focust op automatische failover en High Availability voor een PostgreSQL databank. Het dient als een soort cluster manager die de implementatie en het onderhoud van High Availability in PostgreSQl-clusters zal aanpassen en automatiseren. Het maakt gebruik van gedistribueerde configuratieopslagplaatsen zoals etcd, Consul, ZooKeeper of Kubernetes voor maximale toegankelijkheid~\autocite{Markwort2018}.
 
 
 Patroni biedt cloud-native netwerkfuncties en geavanceerde opties voor failback en failover. Een cloud-native netwerkfunctie is een software-implementatie van een netwerkfunctie, die wordt uitgevoerd in een linux-container, die traditioneel wordt uitgevoerd door een fysiek apparaat~\autocite{CDNF2020}.
 
-Als oplossing zorgt Patroni voor een end-to-end setup van High Available PostgreSQL clusters, inclusief streaming replicatie. Streaming replicatie biedt de mogelijkheid om continu WAL logs naar standby servers te sturen en deze toe te passen om de servers op deze manier up to date te houden~\autocite{2020}. %(https://wiki.postgresql.org/wiki/Streaming_Replication#:~:text=Streaming%20Replication%20(SR)%20provides%20the,some%20out%20of%20date%20information) 
-Het biedt verschillende manieren waarop een standby node kan aangemaakt worden, en dient als sjabloon dat kan worden aangepast naar wat gewenst word.
+Als oplossing zorgt Patroni voor een end-to-end setup van High Available PostgreSQL-clusters, inclusief streaming replicatie. Streaming replicatie biedt de mogelijkheid om continu WAL logs naar standby servers te sturen en deze toe te passen om de servers op deze manier up to date te houden~\autocite{2020}. %(https://wiki.postgresql.org/wiki/Streaming_Replication#:~:text=Streaming%20Replication%20(SR)%20provides%20the,some%20out%20of%20date%20information) 
+Het biedt verschillende manieren waarop een standby node kan aangemaakt worden, en dient als sjabloon dat kan worden aangepast naar wat gewenst wordt.
 
 Bij het aanmaken van een standby node maakt Patroni gebruik van pg\_basebackup en ondersteunt het ook methodes zoals Barman en pgBackRest. die gebruikt worden voor het aanmaken van standby nodes.
 
@@ -230,31 +230,31 @@ PostgreSQL Automatic Failover (PAF) is een nieuwe resource agent, speciaal voor 
 
 De oorspronkelijke wens is om een duidelijke grens te houden tussen de Pacemaker administratie en de PostgreSQL administratie, om de cluster eenvoudig, gedocumenteerd en toch krachtig te houden.
 
-Zodra een PostgreSQL cluster is opgebouwd met behulp van interne streaming replicatie, is PAF in staat om aan Pacemaker te laten zien wat de huidige status is van de PostgreSQL instantie op elke node: primary, standby, gestopt, etc. Mocht dan een storing optreden op de primary node, dan zal Pacemaker standaard proberen deze te herstellen. Mocht de storing niet te herstellen zijn, dan zorgt PAF ervoor dat de standby servers de beste van hen kunnen kiezen (de dichtstbijzijnde bij de oude primary) en deze promoveren tot de nieuwe primary. Dit doet PAF dankzij Pacemaker~\autocite{Rimbault2020}. %(https://clusterlabs.github.io/PAF/)
+Zodra een PostgreSQL-cluster is opgebouwd met behulp van interne streaming replicatie, is PAF in staat om aan Pacemaker te laten zien wat de huidige status is van de PostgreSQL instantie op elke node: primary, standby, gestopt, etc. Mocht dan een storing optreden op de primary node, dan zal Pacemaker standaard proberen deze te herstellen. Mocht de storing niet te herstellen zijn, dan zorgt PAF ervoor dat de standby servers de beste van hen kunnen kiezen (de dichtstbijzijnde bij de oude primary) en deze promoveren tot de nieuwe primary. Dit doet PAF dankzij Pacemaker~\autocite{Rimbault2020}. %(https://clusterlabs.github.io/PAF/)
 
-Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan met PostgreSQL High Availability. PAF gebruikt IP adres failover in plaats van het herstarten van de standby om verbinding te maken met de nieuwe master tijdens een failover event. Dit blijkt voordelig te zijn in scenario's waarbij de gebruiker de standby nodes niet automatisch terug wilt toevoegen aan de cluster. PAF heeft ook zeer weinig manuele tussenkomst nodig en beheert de algemene gezondheid van alle Postgres databankbronnen. Het enige geval waarin manuele tussenkomst een vereiste is, is dan in het geval van een tijdlijn data divergentie waarbij de gebruiker kan kiezen om pg\_rewind te gebruiken~\autocite{ScaleGrid2018a}. Pg\_rewind is een tool die helpt bij het synchroniseren van een PostgreSQL cluster met een andere kopie van diezelfde cluster, met als enige verschil de tijd. Voorbeeld hierbij is een oude master node terug online brengen na failover als een standby node die de nieuwe master node volgt~\autocite{PostgreSQL2021b}. %(https://www.postgresql.org/docs/12/app-pgrewind.html)
+Postgres Automatic Failover (PAF) biedt verschillende voordelen in het omgaan met PostgreSQL High Availability. PAF gebruikt IP adres failover in plaats van het herstarten van de standby om verbinding te maken met de nieuwe master tijdens een failover event. Dit blijkt voordelig te zijn in scenario's waarbij de gebruiker de standby nodes niet automatisch terug wilt toevoegen aan de cluster. PAF heeft ook zeer weinig manuele tussenkomst nodig en beheert de algemene gezondheid van alle Postgres databankbronnen. Het enige geval waarin manuele tussenkomst een vereiste is, is dan in het geval van een tijdlijn data divergentie waarbij de gebruiker kan kiezen om pg\_rewind te gebruiken~\autocite{ScaleGrid2018a}. Pg\_rewind is een tool die helpt bij het synchroniseren van een PostgreSQL-cluster met een andere kopie van diezelfde cluster, met als enige verschil de tijd. Voorbeeld hierbij is een oude master node terug online brengen na failover als een standby node die de nieuwe master node volgt~\autocite{PostgreSQL2021b}. %(https://www.postgresql.org/docs/12/app-pgrewind.html)
 
 \subsection{\IfLanguageName{dutch}{Replication Manager (repmgr)}{Replication Manager (repmgr)}}
 \label{subsec:Replication Manager (repmgr)}
 %https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
 
-Repmgr is een open source oplossing die zich focust op het beheren van replicatie en failover van servers in PostgreSQl clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover~\autocite{2021a}. %(https://repmgr.org/)
+Repmgr is een open source oplossing die zich focust op het beheren van replicatie en failover van servers in PostgreSQl-clusters. Het verbetert de ingebouwde hot-standby opties van PostgreSQL met extra features zoals tools om standby servers op te zetten, replicatie te monitoren en administratieve taken uit te voeren, zoals failover~\autocite{2021a}. %(https://repmgr.org/)
 
 De features die repmgr 5 aanbiedt zijn:
 
-\subsubsection{\IfLanguageName{dutch}{De implementatie als een PostgreSQL extentie}{De implementatie als een PostgreSQL extentie}}
-\label{subsubsec:De implementatie als een PostgreSQL extentie}
-%1. De implementatie als een PostgreSQL extentie.
+%\subsubsection{\IfLanguageName{dutch}{De implementatie als een PostgreSQL extentie}{De implementatie als een PostgreSQL extentie}}
+%\label{subsubsec:De implementatie als een PostgreSQL extentie}
+1. De implementatie als een PostgreSQL extentie.
 
 
-\subsubsection{\IfLanguageName{dutch}{Replicatie cluster monitoring}{Replicatie cluster monitoring}}
-\label{subsubsec:Replicatie cluster monitoring}
-%2. Replicatie cluster monitoring.
+%\subsubsection{\IfLanguageName{dutch}{Replicatie cluster monitoring}{Replicatie cluster monitoring}}
+%\label{subsubsec:Replicatie cluster monitoring}
+2. Replicatie cluster monitoring.
 
 
-\subsubsection{\IfLanguageName{dutch}{Standby klonen aan de hand van pg\_basebackup of Barman}{Standby klonen aan de hand van pg\_basebackup of Barman}}
-\label{subsubsec:Standby klonen aan de hand van pg\_basebackup of Barman}
-%3. Standby klonen aan de hand van pg\_basebackup of Barman
+%\subsubsection{\IfLanguageName{dutch}{Standby klonen aan de hand van pg\_basebackup of Barman}{Standby klonen aan de hand van pg\_basebackup of Barman}}
+%\label{subsubsec:Standby klonen aan de hand van pg\_basebackup of Barman}
+3. Standby klonen aan de hand van pg\_basebackup of Barman
 
 \begin{itemize}
     \item pg\_basebackup: pg\_basebackup wordt gebruikt om basisback-ups te maken van een draaiende PostgreSQL databank cluster. Deze back-ups worden gemaakt zonder de aanwezige clients, die in verbinding staan met de databank, te beïnvloeden. Deze back-ups kunnen gebruikt worden voor zowel point-in-time recovery, maar ook als een startpunt voor log shipping of streaming replicatie standby servers. Bij point-in-time recovery wordt verwezen naar herstel van dataveranderingen tot een bepaald punt in de tijd~\autocite{MySQL2021}. %(https://dev.mysql.com/doc/mysql-backup-excerpt/8.0/en/point-in-time-recovery.html#:~:text=Point%2Din%2Dtime%20recovery%20refers,time%20the%20backup%20was%20made.)
@@ -263,32 +263,34 @@ De features die repmgr 5 aanbiedt zijn:
     
     De back-up wordt gemaakt over een gewone PostgreSQL verbinding maakt gebruik van het replicatieprotocol. De server moet ook worden geconfigureerd om ten minste één sessie beschikbaar te laten voor de back-up~\autocite{PostgreSQL2021c}. %(https://www.postgresql.org/docs/10/app-pgbasebackup.html)
     \newline
-    \item Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een open source beheertool voor disaster recovery van PostgreSQL servers. Het is geschreven in Python. Barman laat toe om van op afstand van meerdere servers in bedrijfskritische omgevingen back-ups uit te voeren. Het helpt ook database beheerders tijdens een herstelfase~\autocite{Barman2020}~\autocite{Barman2020a}. %(https://www.pgbarman.org/about/)(https://www.pgbarman.org/)
+    \item Barman: Barman of pgbarman staat voor Backup en Recovery Manager. Het is een open source beheertool voor disaster recovery van PostgreSQL servers. Het is geschreven in Python. Barman laat toe om op afstand van meerdere servers in bedrijfskritische omgevingen back-ups uit te voeren. Het helpt ook database beheerders tijdens een herstelfase~\autocite{Barman2020}~\autocite{Barman2020a}. %(https://www.pgbarman.org/about/)(https://www.pgbarman.org/)
 \end{itemize}
 
 
-\subsubsection{\IfLanguageName{dutch}{Promotie standby server}{Promotie standby server}}
-\label{subsubsec:Promotie standby server}
+%\subsubsection{\IfLanguageName{dutch}{Promotie standby server}{Promotie standby server}}
+%\label{subsubsec:Promotie standby server}
+4. Promotie standby server
+
 Standby server die kan worden gepromoveerd tot een primary server zonder herstart. Andere standby servers die verbinding kunnen maken met de nieuwe master zonder opnieuw gesynchroniseerd te worden~\autocite{2020a}.
 %https://wiki.postgresql.org/wiki/Repmgr#repmgr_5_Features
 
-\subsubsection{\IfLanguageName{dutch}{Cascading Standby Support}{Cascading Standby Support}}
-\label{subsubsec:Cascading Standby Support}
-%5.Cascading Standby Support
+%\subsubsection{\IfLanguageName{dutch}{Cascading Standby Support}{Cascading Standby Support}}
+%\label{subsubsec:Cascading Standby Support}
+5.Cascading Standby Support
 
 Standby servers die niet direct verbonden zijn met de master node worden niet beïnvloed tijdens failover van de primary naar een andere standby mode.
 
-\subsubsection{\IfLanguageName{dutch}{Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}{Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}}
-\label{subsubsec:Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}
-%6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven
+%\subsubsection{\IfLanguageName{dutch}{Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}{Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}}
+%\label{subsubsec:Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven}
+6. Vereenvoudigen van het beheer van WAL-retentie en ondersteuning voor replicatiesleuven
 
 Door de vereenvoudiging van WAL-retentie zal het dus eenvoudiger zijn om WAL-bestanden op te ruimen vanaf elke bestandssysteemlocatie. Ook in standby servers kan het gebruikt worden om bestanden die niet meer nodig zijn, te verwijderen uit de standby server~\autocite{Augustine2019}.
 Een sleuf vertegenwoordigt een stroom van wijzigingen ten opzichte van één database~\autocite{Ranganathan2020}.
 %(https://www.percona.com/blog/2019/07/10/wal-retention-and-clean-up-pg_archivecleanup/)
 
-\subsubsection{\IfLanguageName{dutch}{Switchover ondersteuning voor rolswitching tussen primary en standby}{Switchover ondersteuning voor rolswitching tussen primary en standby}}
-\label{subsubsec:Switchover ondersteuning voor rolswitching tussen primary en standby}
-%7. Switchover ondersteuning voor rolswitching tussen primary en standby
+%\subsubsection{\IfLanguageName{dutch}{Switchover ondersteuning voor rolswitching tussen primary en standby}{Switchover ondersteuning voor rolswitching tussen primary en standby}}
+%\label{subsubsec:Switchover ondersteuning voor rolswitching tussen primary en standby}
+7. Switchover ondersteuning voor rolswitching tussen primary en standby
 
 Hierin wordt een standby server gepromoveerd tot een primary server en zal deze primary server degraderen naar een standby server. Wanneer andere standby servers verbonden zijn met de degradatiekandidaat, kan repmgr deze instrueren om de nieuwe primary server te volgen en niet de oude, die net gedegradeerd is~\autocite{2021b}. %(https://repmgr.org/docs/4.0/repmgr-standby-switchover.html)
 
