@@ -51,11 +51,11 @@
 % The widths of these boxes can be easily edited to accommodate your content as you see fit
 
 \begin{minipage}[t]{0.75\linewidth}
-\VeryHuge \color{HoGentAccent1} \textbf{Titel van uw bachelorproef} \color{Black}\\ % Title
-\Huge\textit{Ondertitel (eventueel)}\\[2.4cm] % Subtitle
-\huge \textbf{Naam Voornaam, co-promotor, promotor}\\[0.5cm] % Author(s)
+\VeryHuge \color{HoGentAccent1} \textbf{High Availability oplossingen voor PostgreSQL: een vergelijkende studie en proof of concept} \color{Black}\\ % Title
+%\Huge\textit{Ondertitel (eventueel)}\\[2.4cm] % Subtitle
+\huge \textbf{Ameye Elias, Demey Ruben, Aelbrecht Thomas}\\[0.5cm] % Author(s)
 \huge Hogeschool Gent, Valentin Vaerwyckweg 1, 9000 Gent\\[0.4cm] % University/organization
-\Large \texttt{voornaam.naam@hogent.be} \\
+\Large \texttt{elias.ameye@hogent.be} \\
 \end{minipage}
 %
 \begin{minipage}[t]{0.25\linewidth}
@@ -76,9 +76,7 @@
 \color{HoGentAccent1} % Navy color for the abstract
 
 \begin{abstract}
-It's only a model.
-You don't vote for kings. Who's that then? We found them. Ni! Ni! Ni! Ni!
-The nose? On second thoughts, let's not go there. It is a silly place. Bloody Peasant! And the hat. She's a witch! Where'd you get the coconuts?
+
 \end{abstract}
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
@@ -88,15 +86,10 @@ The nose? On second thoughts, let's not go there. It is a silly place. Bloody Pe
 \section*{Introductie}
 \color{black}
 \color{black}
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+High Availability staat voor de garantie van het behouden van gegevens in geval er zich een defect of storing voordoet aan de database server. Een storing aan een databank server kan te wijten zijn aan verschillende factoren. Voorbeelden hiervan zijn het verlies van netwerkconnectie en een defect in de software of hardware van de databaseserver. Ook menselijke factoren en omgevingsfactoren moeten in rekening genomen worden. Voorbeelden hiervan zijn een menselijke vergissing en een wijziging in temperatuur. Investeren in High Availability geeft meer zekerheid over de beschikbaarheid van data en biedt verschillende mogelijkheden voor failover en systeembescherming. 
+Met behulp van clustering kan er één actieve en een of meerdere standby nodes van de database server aanwezig zijn. Een cluster is een groep van servers en computers die samenwerken met elkaar alsof het één systeem is. Via deze manier zullen de standby nodes, in het ideale geval, dezelfde gegevens bevatten als de actieve node. Wanneer dan een actieve node faalt, kan een standby node inspringen waardoor dataverlies en server downtime gereduceerd worden.
 
-Well, what do you want? It's only a model. Camelot! We found them. We shall say 'Ni' again to you, if you do not appease us.
 
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
-
-You can't expect to wield supreme power just 'cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
 %----------------------------------------------------------------------------------------
 %	GEOLOGY
 %----------------------------------------------------------------------------------------
@@ -105,13 +98,6 @@ Why do you think that she is a witch? We want a shrubbery!! I don't want to talk
 \color{HoGentAccent1} 
 \section*{Experimenten}
 \color{black}
-A newt? Camelot! Why? No, no, no! Yes, yes. A bit. But she's got a wart.
-
-Shut up! I dunno. Must be a king. Who's that then? Look, my liege! On second thoughts, let's not go there. It is a silly place.
-
-Shut up! Will you shut up?! No, no, no! Yes, yes. A bit. But she's got a wart. He hasn't got shit all over him. It's only a model. It's only a model.
-
-Bring her forward! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave 
 
 
 
@@ -130,19 +116,22 @@ Bring her forward! I don't want to talk to you no more, you empty-headed animal 
 
 
 \color{HoGentAccent1} 
-\section*{Conclusies}
+\section*{Conclusie}
 \color{black}
-on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+
+Uit de resultaten van de requirementsanalyse bleek dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurt. Wat betreft failover is Patroni een oplossing met een uitgebreide configuratie. Er zijn veel geavanceerde opties voor het configureren van failover in de cluster. Een nuttige optie is dat failover automatisch kan gebeuren en dus geen nood hoeft te hebben aan manuele interventies. Inzake monitoring kent Patroni een zeer rijke REST API die kan gebruikt worden om de cluster en de nodes te monitoren. Hierin kunnen persoonlijke voorkeuren van monitoring toegevoegd worden.
+
+Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster. Het voldoet voldoende aan de verschillende (functionele) requirements om als alternatief gezien te worden van Patroni als oplossing. Aan de hand van de tool Pacemaker kan PostgreSQL Automatic Failover (PAF) zodanig geconfigureerd worden dat er failover en monitoring gedaan kan worden.
+
+
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
 \color{HoGentAccent1} 
 \section*{Toekomstig onderzoek}
 \color{black}
-
-I care. So, what do you think of her, Han? No! Alderaan is peaceful. We have no weapons. You can't possibly… I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
-
-Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. You are a part of the Rebel Alliance and a traitor! Take her away! 
+Bijkomend onderzoek zal zeker interessant zijn voor in de toekomst. Hoe wordt High Availability binnen tien jaar geïmplementeerd in PostgreSQL clusters? Welke nieuwe noden in een cluster zijn er dan van belang? Vervolgonderzoek zal zeker een meerwaarde bieden aan bedrijven die belang hechten aan de duurzaamheid van hun clusters.
+Dit omdat de specifieke (bedrijfs)noden van High Availability kunnen veranderen en omdat er binnen tien jaar een nieuwe PostgreSQL High Availability cluster oplossing kan aanwezig zijn die misschien beter is.
 
 
 %----------------------------------------------------------------------------------------
