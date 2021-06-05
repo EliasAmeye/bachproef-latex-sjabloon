@@ -99,8 +99,8 @@ Met behulp van clustering kunnen één actieve en één of meerdere standby node
 \color{HoGentAccent1} 
 \section*{Experimenten}
 \color{black}
-In kader van dit onderzoek werd er ter ondersteuning van de gekozen PostgreSQL High Availability cluster oplossingen een proof of concept opgezet. Deze proof of concept had als doel om te bewijzen dat de verkozen PostgreSQL High Availability cluster oplossing: Patroni voldeed aan de beschreven requirements uit het onderzoek.
-Hier werd dan uitbundig geschreven welke stappen er ondernomen moesten worden om deze cluster op te zetten.
+In kader van dit onderzoek werd er ter ondersteuning van de gekozen PostgreSQL High Availability cluster oplossingen een proof of concept opgezet. Deze proof of concept had als doel om te bewijzen dat de verkozen PostgreSQL High Availability cluster oplossing, Patroni, voldeed aan de beschreven requirements uit het onderzoek.
+Hier werd dan uitbundig beschreven welke stappen er ondernomen moesten worden om deze cluster op te zetten.
 
 
 %\color{HoGentAccent1} 
@@ -123,7 +123,7 @@ Hier werd dan uitbundig geschreven welke stappen er ondernomen moesten worden om
 
 Uit de resultaten van de requirementsanalyse bleek dat Patroni momenteel de PostgreSQL High Availability cluster oplossing is die het meest aansluit aan de vooropgestelde requirements. De proof of concept beaamt ook deze vaststelling. Het gebruik van Patroni geeft een garantie op High Availability in een PostgreSQL cluster. Patroni zelf is op het vlak van replicatie zeer flexibel. Het werkt standaard met asynchrone replicatie, maar kan ook zo geconfigureerd worden dat het synchroon gebeurt. Wat betreft failover is Patroni een oplossing met een uitgebreide configuratie. Er zijn veel geavanceerde opties voor het configureren van failover in de cluster. Een nuttige optie is dat failover automatisch kan gebeuren en dus geen nood hoeft te hebben aan manuele interventies. Inzake monitoring kent Patroni een zeer rijke REST API die kan gebruikt worden om de cluster en de nodes te monitoren. Hierin kunnen persoonlijke voorkeuren van monitoring toegevoegd worden.
 
-Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster. Het voldoet voldoende aan de verschillende (functionele) requirements om als alternatief gezien te worden van Patroni als oplossing. Aan de hand van de tool Pacemaker kan PostgreSQL Automatic Failover (PAF) zodanig geconfigureerd worden dat er failover en monitoring gedaan kan worden.
+Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten van een PostgreSQL High Availability cluster. Het voldoet voldoende aan de verschillende (functionele) requirements om als alternatief gezien te worden van Patroni als oplossing. Aan de hand van de tool Pacemaker kan PostgreSQL Automatic Failover (PAF) zodanig geconfigureerd worden dat er aan failover en monitoring gedaan kan worden.
 
 
 %----------------------------------------------------------------------------------------
@@ -132,7 +132,7 @@ Ook PostgreSQL Automatic Failover (PAF) is een goed alternatief bij het opzetten
 \color{HoGentAccent1} 
 \section*{Toekomstig onderzoek}
 \color{black}
-Bijkomend onderzoek zal zeker interessant zijn voor in de toekomst. Hoe wordt High Availability binnen tien jaar geïmplementeerd in PostgreSQL clusters? Welke nieuwe noden in een cluster zijn er dan van belang? Vervolgonderzoek zal zeker een meerwaarde bieden aan bedrijven die belang hechten aan de duurzaamheid van hun clusters.
+Bijkomend onderzoek is zeker interessant zijn voor in de toekomst. Hoe wordt High Availability binnen tien jaar geïmplementeerd in PostgreSQL clusters? Welke nieuwe noden in een cluster zijn er dan van belang? Vervolgonderzoek zal zeker een meerwaarde bieden aan bedrijven die belang hechten aan de duurzaamheid van hun clusters.
 Dit omdat de specifieke (bedrijfs)noden van High Availability kunnen veranderen en omdat er binnen tien jaar een nieuwe PostgreSQL High Availability cluster oplossing kan aanwezig zijn die misschien beter is.
 
 
